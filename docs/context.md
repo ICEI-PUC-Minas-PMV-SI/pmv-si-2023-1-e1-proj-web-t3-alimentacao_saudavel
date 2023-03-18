@@ -14,7 +14,7 @@ Homens e mulheres tem um número personalizado de calorias que devem comer diari
 
 É difícil controlar a ingestão de calorias, embora seja fácil esquecer tudo o que você come durante um dia agitado.
 
-Registrar suas calorias de cada refeição ingerida fornece vários benefícios, como obter uma imagem clara das calorias que você está consumindo e aumentar sua consciência sobre os valores dos alimentos e os níveis de nutrientes que você está ingerindo. Por fim, o objetivo desse projeto é auxiliá-lo na escolha de quais são os alimentos e a quantidade ideal de calorias que você deve ingerir em cada refeição, com objetivo de aderir a uma ter uma alimentação mais saudável.
+Registrar suas calorias de cada refeição ingerida fornece vários benefícios, como obter uma imagem clara das calorias que você está consumindo e aumentar sua consciência sobre os valores dos alimentos e os níveis de nutrientes que você está ingerindo. Por fim, o objetivo desse projeto é auxiliá-lo na escolha de quais são os alimentos e a quantidade ideal de calorias que você deve ingerir em cada refeição, com objetivo de aderir a uma alimentação mais saudável.
 
 
 ## Problema
