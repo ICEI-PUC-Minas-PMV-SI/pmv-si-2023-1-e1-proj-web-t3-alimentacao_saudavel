@@ -1,15 +1,15 @@
 # Introdução
 
-A relação dos humanos com o alimento vem se modificando a milhares de anos, passando por sua escassez e consumo dos alimentos na sua forma bruta para abundância e consumo de alimentos acompanhados novos métodos de conservação e meios de preparo. Além disso, com o passar do tempo, foram aderidos ao nosso dia a dia as comidas processadas. Com a chegada da pandemia em 2019 a escolha desse tipo de alimento cresceu em 8 meses 7% segundo a reportagem **[Agencia Brasil] (https://agenciabrasil.ebc.com.br/saude/noticia/2020-11/consumo-de-alimentos-ultraprocessados-cresce-na-pandemia)**.
+A relação dos humanos com o alimento vem se modificando a milhares de anos, passando por sua escassez e consumo dos alimentos na sua forma bruta para abundância e consumo de alimentos acompanhados novos métodos de conservação e meios de preparo. Além disso, com o passar do tempo, foram aderidos ao nosso dia a dia as comidas processadas. Com a chegada da pandemia em 2019 a escolha desse tipo de alimento cresceu em 8 meses 7% segundo a reportagem **[Agencia Brasil](https://agenciabrasil.ebc.com.br/saude/noticia/2020-11/consumo-de-alimentos-ultraprocessados-cresce-na-pandemia)**.
 
-Em decorrência de aumento do consumo de alimentos e processados geraram-se também uma serie de problemas de saúde. Sendo que um dos mais graves problemas mundo atual é a  obesidade. No Brasil essa doença crônica aumentou 72% nos últimos 13 anos segundo **[IBGE] (https://abeso.org.br/obesidade-e-sindrome-metabolica/mapa-da-obesidade/)** . A estimativa é de que no ano de 2025 serão 2,3 bilhões de adultos ao redor do mundo acima do peso. 
+Em decorrência de aumento do consumo de alimentos e processados geraram-se também uma serie de problemas de saúde. Sendo que um dos mais graves problemas mundo atual é a  obesidade. No Brasil essa doença crônica aumentou 72% nos últimos 13 anos segundo **[IBGE](https://abeso.org.br/obesidade-e-sindrome-metabolica/mapa-da-obesidade/)** . A estimativa é de que no ano de 2025 serão 2,3 bilhões de adultos ao redor do mundo acima do peso. 
 No mundo atual, muitos têm uma vida ocupada e não possuem tempo ou não são capazes de cozinhar um prato saudável. Alguns não sabem nem mesmo por onde começar a ter hábitos saudáveis. 
 
  **Alimentação Saudável** tem a proposta de trazer receitas saudáveis e fáceis, além de fornecer uma maneira rápida de contar, acompanhar e contabilizar as calorias ingeridas durante o dia.
 
 **Por que contar calorias?**
 
-Homens e mulheres tem um número personalizado de calorias que devem comer diariamente, como sugerido por **[OPAS] (https://www.paho.org/pt/topicos/alimentacao-saudavel)** Fatores como o peso, a altura, frequência e intensidade das atividades físicas e metas de ganho e manutenção de peso são fatores  importantes na consideração da quantidade de caloria que cada individuo deve ingerir diariamente. 
+Homens e mulheres tem um número personalizado de calorias que devem comer diariamente, como sugerido por **[OPAS](https://www.paho.org/pt/topicos/alimentacao-saudavel)** Fatores como o peso, a altura, frequência e intensidade das atividades físicas e metas de ganho e manutenção de peso são fatores  importantes na consideração da quantidade de caloria que cada individuo deve ingerir diariamente. 
 
 É difícil controlar a ingestão de calorias, embora seja fácil esquecer tudo o que você come durante um dia agitado.
 
