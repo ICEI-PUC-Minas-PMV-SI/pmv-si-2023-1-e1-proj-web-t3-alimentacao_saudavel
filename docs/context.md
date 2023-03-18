@@ -1,13 +1,21 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+A relação dos humanos com o alimento vem se modificando a milhares de anos, passando por sua escassez e consumo dos alimentos na sua forma bruta para abundância e consumo de alimentos acompanhados novos métodos de conservação e meios de preparo. Além disso, com o passar do tempo, foram aderidos ao nosso dia a dia as comidas processadas. Com a chegada da pandemia em 2019 a escolha desse tipo de alimento cresceu em 8 meses 7% segundo a reportagem **[Agencia Brasil] (https://agenciabrasil.ebc.com.br/saude/noticia/2020-11/consumo-de-alimentos-ultraprocessados-cresce-na-pandemia)**.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+Em decorrência de aumento do consumo de alimentos e processados geraram-se também uma serie de problemas de saúde. Sendo que um dos mais graves problemas mundo atual é a  obesidade. No Brasil essa doença crônica aumentou 72% nos últimos 13 anos segundo **[IBGE] (https://abeso.org.br/obesidade-e-sindrome-metabolica/mapa-da-obesidade/)** . A estimativa é de que no ano de 2025 serão 2,3 bilhões de adultos ao redor do mundo acima do peso. 
+No mundo atual, muitos têm uma vida ocupada e não possuem tempo ou não são capazes de cozinhar um prato saudável. Alguns não sabem nem mesmo por onde começar a ter hábitos saudáveis. 
 
+ **Alimentação Saudável** tem a proposta de trazer receitas saudáveis e fáceis, além de fornecer uma maneira rápida de contar, acompanhar e contabilizar as calorias ingeridas durante o dia.
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
+**Por que contar calorias?**
 
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Homens e mulheres tem um número personalizado de calorias que devem comer diariamente, como sugerido por **[OPAS] (https://www.paho.org/pt/topicos/alimentacao-saudavel)** Fatores como o peso, a altura, frequência e intensidade das atividades físicas e metas de ganho e manutenção de peso são fatores  importantes na consideração da quantidade de caloria que cada individuo deve ingerir diariamente. 
+
+É difícil controlar a ingestão de calorias, embora seja fácil esquecer tudo o que você come durante um dia agitado.
+
+Registrar suas calorias de cada refeição ingerida fornece vários benefícios, como obter uma imagem clara das calorias que você está consumindo e aumentar sua consciência sobre os valores dos alimentos e os níveis de nutrientes que você está ingerindo. Por fim, o objetivo desse projeto é auxiliá-lo na escolha de quais são os alimentos e a quantidade ideal de calorias que você deve ingerir em cada refeição, com objetivo de aderir a uma ter uma alimentação mais saudável.
+![image](https://user-images.githubusercontent.com/125522668/226136747-2c26e4bf-edb0-4945-9ab8-681c4cb97fe0.png)
+
 
 ## Problema
 
