@@ -34,7 +34,7 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivo geral
 
-Desenvolver um software que atendam usuários que precisam inserir uma alimentação mais saudável a sua rotina.
+Desenvolver um software que atenda usuários que precisam inserir uma alimentação mais saudável a sua rotina.
 
 ## Objetivos específicos
 
