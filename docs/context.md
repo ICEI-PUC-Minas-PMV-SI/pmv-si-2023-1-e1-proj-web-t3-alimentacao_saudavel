@@ -30,14 +30,23 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
-## Objetivos
+# Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+## Objetivo geral
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Desenvolver um software que atendam usuários que precisam inserir uma alimentação mais saudável a sua rotina.
+
+## Objetivos específicos
+
+-   Organizar um software que cuja interface seja atrativa e funcional para todas as idades.
+-   Inserir um contador de calorias com bases nos alimentos consumidos pelo o usuário.
+-   Promover sugestões de rotinas com alimentos mais saudáveis e dicas de como organizar o tempo para o perda das calorias recomendáveis ou desejáveis para cada tipo de pessoa(sexo, idade, peso e altura).
+-   Adicionar ao software receitas mais saudáveis com a utilização de produtos orgânicos.
+-   Sugerir quantidade de água para o peso e altura do usuário.
+-   Indicar alimentos que devem ser consumidos durante o dia.
+-   Inserir um medidor de **Índice de massa corporal (IMC).**
+-   Mostrar ao usuário a importância de práticas saudáveis e com isso como ele se previne de doenças cardiovasculares, cancêr, AVC, diabetes etc.
+-   Fazer com que o usuário não se esqueça de registrar seus alimentos consumidos.
 
 ## Justificativa
 
