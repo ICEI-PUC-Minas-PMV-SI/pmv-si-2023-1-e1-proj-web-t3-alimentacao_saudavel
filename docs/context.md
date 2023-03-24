@@ -63,7 +63,6 @@ A crescente procura por alimentação mais saudável também pode ser medida nos
 
 ![](https://www.euromonitor.com/globalassets/imported_images/gct-br-2.png?format=Jpeg&bgcolor=white&quality=100&width=&height=&alt=)
 
-https://www.euromonitor.com/article/de-volta-ao-basico-uma-tendencia-de-consumo-em-alimentos-e-bebidas-no-brasil
 
 
 
