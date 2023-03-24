@@ -4,6 +4,22 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
+--**Abaixo**--
+
+Tendo em vista o aumento no consumo de alimentos e processados junto com o crescimento no grau de obesidade no país ao longo desses últimos anos, diversas pessoas se encontram com dificuldade para organizar seus hábitos alimentares. 
+
+Considerando o problema acima, a partir de técnicas como:
+
+   	1.  Definição de publico alvo para busca de impacto do projeto
+    
+    2.  Mapa Mental para ramificação e criação de ideias
+    
+    3.  Personas para direcionamento de soluções e histórias de usuários
+    
+    4.  Mapeamento de requisitos para definição de prioridade e orientação do desenvolvimento do sistema
+
+Temos como solução uma aplicação com o objetivo de auxiliar os usuários a ter uma alimentação mais saudável a partir de receitas, mapa de gasto calórico e outros serviços práticos para o dia-a-dia.
+
 ## Personas
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
