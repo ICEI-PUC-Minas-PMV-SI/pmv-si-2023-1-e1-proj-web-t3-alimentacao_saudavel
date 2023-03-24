@@ -38,15 +38,12 @@ Desenvolver um software que atenda usuários que precisam inserir uma alimentaç
 
 ## Objetivos específicos
 
--   Organizar um software que cuja interface seja atrativa e funcional para todas as idades.
--   Inserir um contador de calorias com bases nos alimentos consumidos pelo o usuário.
+-   Calcular as calorias do usuário com bases nos alimentos consumidos por ele o usuário.
 -   Promover sugestões de rotinas com alimentos mais saudáveis e dicas de como organizar o tempo para o perda das calorias recomendáveis ou desejáveis para cada tipo de pessoa(sexo, idade, peso e altura).
 -   Adicionar ao software receitas mais saudáveis com a utilização de produtos orgânicos.
 -   Sugerir quantidade de água para o peso e altura do usuário.
 -   Indicar alimentos que devem ser consumidos durante o dia.
 -   Inserir um medidor de **Índice de massa corporal (IMC).**
--   Mostrar ao usuário a importância de práticas saudáveis e com isso como ele se previne de doenças cardiovasculares, cancêr, AVC, diabetes etc.
--   Fazer com que o usuário não se esqueça de registrar seus alimentos consumidos.
 
 ## Justificativa
 
