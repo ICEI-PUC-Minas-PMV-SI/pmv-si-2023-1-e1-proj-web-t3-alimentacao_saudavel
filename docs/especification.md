@@ -23,19 +23,21 @@ Alimentação saudável abrange as seguintes ferramentas para auxiliar no objeti
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-Tendo em vista o aumento no consumo de alimentos e processados junto com o crescimento no grau de obesidade no país ao longo desses últimos anos, diversas pessoas se encontram com dificuldade para organizar seus hábitos alimentares. 
+Tendo em vista o aumento no consumo de alimentos e processados junto com o crescimento no grau de obesidade no país ao longo desses últimos anos, diversas pessoas se encontram com dificuldade para organizar seus hábitos alimentares.
 
-Considerando o problema acima, a partir de técnicas como:
+No processo de ideação do nosso projeto, foram considerados os índices de crescimento das doenças relacionadas à alimentação e a necessidade de otimização do tempo.
 
-   	1.  Definição de publico alvo para busca de impacto do projeto
-    
-    2.  Mapa Mental para ramificação e criação de ideias
-    
-    3.  Personas para direcionamento de soluções e histórias de usuários
-    
-    4.  Mapeamento de requisitos para definição de prioridade e orientação do desenvolvimento do sistema
+Utilizando as técnicas abaixo:
 
-Temos como solução uma aplicação com o objetivo de auxiliar os usuários a ter uma alimentação mais saudável a partir de receitas, mapa de gasto calórico e outros serviços práticos para o dia-a-dia.
+      1.  Definição de publico alvo para busca de impacto do projeto
+
+      2.  Mapa Mental para ramificação e criação de ideias
+
+      3.  Personas para direcionamento de soluções e histórias de usuários
+
+      4.  Mapeamento de requisitos para definição de prioridade e orientação do desenvolvimento do sistema
+
+Desenvolvemos um projeto com o intuito de de permitir que nossos usuários façam escolhas alimentares mais saudáveis para o dia a dia. Por isso, além de permitir o registro de todas as refeições e realizar os cálculos das calorias, é gerado uma análise do consumo, ajudando o usuário a entender como adequar as escolhas dos alimentos de forma mais inteligente, além de fornecer receitas para facilitar a nova rotina de alimentação.
 
 ## Personas
 
