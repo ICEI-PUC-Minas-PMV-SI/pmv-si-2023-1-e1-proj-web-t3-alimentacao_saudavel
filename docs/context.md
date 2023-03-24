@@ -44,6 +44,7 @@ Desenvolver um software que atenda usuários que precisam inserir uma alimentaç
 -   Sugerir quantidade de água para o peso e altura do usuário.
 -   Indicar alimentos que devem ser consumidos durante o dia.
 -   Inserir um medidor de **Índice de massa corporal (IMC).**
+-   Relatório semanal das metas atingidas   
 
 ## Justificativa
 
