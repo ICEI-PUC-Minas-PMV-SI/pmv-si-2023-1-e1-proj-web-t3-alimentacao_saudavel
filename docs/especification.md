@@ -23,9 +23,9 @@ Alimentação saudável abrange as seguintes ferramentas para auxiliar no objeti
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-Tendo em vista o aumento no consumo de alimentos e processados junto com o crescimento no grau de obesidade no país ao longo desses últimos anos, diversas pessoas se encontram com dificuldade para organizar seus hábitos alimentares.
+Considerando o aumento no consumo de alimentos e processados junto com o crescimento no grau de obesidade no país ao longo desses últimos anos, diversas pessoas se encontram com dificuldade para organizar seus hábitos alimentares.
 
-No processo de ideação do nosso projeto, foram considerados os índices de crescimento das doenças relacionadas à alimentação e a necessidade de otimização do tempo.
+No processo de ideação do nosso projeto, foram dados a importância aos índices de crescimento das doenças relacionadas à alimentação e a necessidade de otimização do tempo.
 
 Utilizando as técnicas abaixo:
 
