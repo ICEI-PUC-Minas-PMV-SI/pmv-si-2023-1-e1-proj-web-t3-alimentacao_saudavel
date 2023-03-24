@@ -61,8 +61,7 @@ Nosso projeto provem de usúarios que almejam mudar sua hábitos e adquirir uma 
 A crescente procura por alimentação mais saudável também pode ser medida nos mecanismos de busca na internet. E preocupação com a alimentação saudável não é novidade. De acordo com dados da Euromonitor Internacional, em 2019, o Brasil ocupava o quarto lugar no ranking mundial de alimentos e bebidas saudáveis. Este número deve crescer, este ano. Segundo o Instituto Mapa, só no estado de Santa Catarina, 48% da população pretende aumentar o consumo de produtos orgânicos em 2021.
 
 
-
-https://www.euromonitor.com/globalassets/imported_images/gct-br-2.png?format=Jpeg&bgcolor=white&quality=100&width=&height=&alt=
+![](https://www.euromonitor.com/globalassets/imported_images/gct-br-2.png?format=Jpeg&bgcolor=white&quality=100&width=&height=&alt=)
 
 https://www.euromonitor.com/article/de-volta-ao-basico-uma-tendencia-de-consumo-em-alimentos-e-bebidas-no-brasil
 
