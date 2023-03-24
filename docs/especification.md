@@ -6,22 +6,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 --**Abaixo**--
 
---**Sugestao**--
-
-O foco da **Alimentação Saudável**  é permitir que nossos usuários façam escolhas alimentares mais saudáveis para o dia a dia. Por isso, além de permitir o registro de todas as refeições e realizar os cálculos das calorias, é gerado uma análise do consumo, ajudando o usuário a entender como adequar as escolhas dos alimentos de forma mais inteligente, além de fornecer receitas para facilitar a nova rotina de alimentação. 
-
-No desenvolvimento do nosso projeto, foram considerados os índices de crescimento das doenças relacionadas à alimentação e a necessidade de otimização do tempo.  
-
-Após realizar o cadastro na plataforma, informando dados pessoais , o programa mostra uma média de quantas calorias diárias o usuário deve ingerir, permitindo registrar todas as refeições no diário para saber se está caminhando na direção correta. 
-
-Alimentação saudável abrange as seguintes ferramentas para auxiliar no objetivo do usuário:
-
-> - Registro prático diário do alimento consumido.
-> - Cálculo de calorias ingeridas.
-> - Receitas práticas para o dia a dia.
-> - Relatório semanal dos seus resultados.
-
-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Considerando o aumento no consumo de alimentos e processados junto com o crescimento no grau de obesidade no país ao longo desses últimos anos, diversas pessoas se encontram com dificuldade para organizar seus hábitos alimentares.
 
