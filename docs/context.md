@@ -56,6 +56,8 @@ Além disso, convém lembrar que a [Organização das Nações Unidas (ONU)](htt
 
 Portanto, é nítida que a situação de saúde e bem-estar confere uma responsabilidade compartilhada entre a sociedade, uma vez que em contexto globalizado, a comunidade está conectada em rede, como apresentado por Manuel Castells no livro A Sociedade em Rede. Dessa maneira, a divulgação de boas práticas referentes à alimentação saudável, são essenciais para o processo de combate de possíveis agravantes de doenças e outros problemas envolvidos. Logo, o projeto se alinha com as metas propostas pela ONU, e atenuar os índices de problemas relacionados à má alimentação. 
 
+#teste teste
+
 ## Público-Alvo
 
 Nosso projeto provem de usúarios que almejam mudar sua hábitos e adquirir uma alimentação saudável, que fortaleça o organismo e que ajude a prevenir doenças. Pesquisas mostram que a boa alimentação passou a fazer parte dos protocolos contra a Covid-19 de muita gente, além das medidas de higiene e segurança sanitária
