@@ -22,7 +22,7 @@ No sistema iremos entregar formas de ajudar sobre os pontos acima de maneira pra
 * Italo Fideles Vieira
 * Jully Anne Roman Palhano Dutra
 * Mariana Wandermurem
-* Vinicius Pedeira Coelho
+* Vinicius Pereira Coelho
 
 ## Orientador
 
