@@ -61,9 +61,27 @@ Nosso projeto provem de usúarios que almejam mudar sua hábitos e adquirir uma 
 
 A crescente procura por alimentação mais saudável também pode ser medida nos mecanismos de busca na internet. E preocupação com a alimentação saudável não é novidade. De acordo com dados da **[Euromonitor Internacional](https://www.euromonitor.com/article/de-volta-ao-basico-uma-tendencia-de-consumo-em-alimentos-e-bebidas-no-brasil)**, em 2019, o Brasil ocupava o quarto lugar no ranking mundial de alimentos e bebidas saudáveis. Este número deve crescer, este ano. Segundo o Instituto Mapa, só no estado de Santa Catarina, 48% da população pretende aumentar o consumo de produtos orgânicos em 2021.
 
+A tendência de aumento do número de consumidores de alimentos orgânicos no Brasil continuou  mesmo ante todos os desafios impostos pelo Covid-19, logísticos e de renda.  As pessoas passaram  a comprar  produtos livres de agrotóxicos, e a maior parte ou manteve ou elevou as compras nesses últimos  dois anos. É o que mostra a pesquisa  “Panorama do consumo de orgânicos no Brasil 2021,  realizada pela Associação de Promoção dos Orgânicos (Organis) em parceria com a consultoria Brain e com a iniciativa UnirOrgânicos. 
+
+A saude, o principal atributo associado aos alimentos orgânicos, foi uma das razoes indicadas pelos entrevistados para consumir estes produtos. A pesquisa mostra que novos consumidores cresceram de 19% a 31%, em relação a pesquisa realizada 2019. 
+
+Embora esse mercado mostre que está sólido durante a pandemia, a pesquisa, também indica que há desafios para que o ritmo de consumo continue a aumentar. “As pessoas declaram consumir produtos orgânicos por motivos individuais, não aparecendo de forma significativa a dimensão do coletivo”, indicaram os organizadores. O  numero de produtores orgânicos cadastrados no Ministério da Agricultura, também cresceu durante os dois últimos anos, possível resposta a demanda por este tipo de alimentos. Os orgânicos estão associados com o consumo de frutas, verduras e legumes, existindo desconhecimento de outro tipo de produtos.
+
+Os resultados do trabalho foram compilados a partir de 987 entrevistas realizadas em todo o país entre 15 de setembro e 5 de outubro de 2021, e confirmam relatos de produtores, varejistas e canais online.  
+
+Entre as pessoas que haviam consumido orgânicos nos 30 dias anteriores à pesquisa, 66% afirmaram que mantiveram o mesmo nível de consumo durante a pandemia, enquanto 23% aumentaram e apenas 11% reduziram as compras. Do universo total, 45% já consumiam esses produtos há mais de cinco anos e 19% entre três e cinco anos. Mas 25% começaram a explorar esse mercado entre um e dois anos antes, e 12% em um período menor que um ano.  
+
+Sempre segundo a pesquisa, os produtos orgânicos mais consumidos são os hortifrútis (75%), seguidos por grãos (12%), cereais (10%), açúcar (8%) e biscoitos (6%). Para 47% dos entrevistados, os orgânicos são importantes para melhorar a saúde e 26% os consideram mais saudáveis. O fato de os orgânicos serem produzidos sem agrotóxicos é a principal motivação para 13% dos consumidores, e para 24% deles esses produtos têm melhor qualidade.  
+
+
+
+![](https://www.cdn.ciorganicos.com.br/wp-content/uploads/2022/01/Organis-766x430.png)
+
 
 ![](https://www.euromonitor.com/globalassets/imported_images/gct-br-2.png?format=Jpeg&bgcolor=white&quality=100&width=&height=&alt=)
 
+
+Fontes: Valor, Forbes e CI Orgânicos. Leia mais: Forbes
 
 
 
