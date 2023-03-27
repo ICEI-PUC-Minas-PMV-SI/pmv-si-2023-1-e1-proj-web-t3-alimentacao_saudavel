@@ -39,7 +39,7 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 >
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
-## Histórias de Usuários
+# Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
@@ -50,12 +50,31 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
+--**Em processo**--
+
+## Contexto
+
+Um software para levar o usuário em uma jornada de alimentação saudável e ajudá-lo a saber controlar suas calorias e manter sua saúde. Os usuários que precisam ou querem adquirir uma melhor alimentação que não sabem por onde nem como começar.
+
+## História de usuário 1
+
+Como uma pessoa acima do peso para minha altura de idade, eu quero aderir uma rotina mais saudável comendo alimentos naturais e com altos níveis de proteínas e vitaminas, eu quero saber de refeições pouco calóricas que possa consumir, mas ainda sim proteícas que eu possa ingerir antes de fazer exercícios físicos, gostaria de saber de receitas saudáveis que sejam mais gostosas. Para que eu possa emagrecer sem sentir muita falta dos produtos industrializados. 
+
+### Critérios de Aceite 
+
+Lista exibida no software com as informações de:
+- Alimetos saúdaveis e suas quantidade de nutrientes
+- Receitas fitness saborosas
+
+
+
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
 > - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 > - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
 > - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+> - [Guia definitivo para Histórias de Usuário - Product Management](https://www.youtube.com/watch?v=pLJ3LxR292w)
 
 ## Requisitos
 
