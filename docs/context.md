@@ -52,7 +52,7 @@ Dado que a obesidade é influenciada por fatores biológicos e contextuais, são
 
 ## Objetivo geral
 
-Desenvolver um software que atenda usuários que precisam inserir uma alimentação mais saudável a sua rotina.
+Desenvolver um site que atenda os usuários que precisam mudar seus hábitos, interpor uma alimentação mais saudável e ter um controle de calorias ingeridas diariamnete.
 
 ## Objetivos específicos
 
