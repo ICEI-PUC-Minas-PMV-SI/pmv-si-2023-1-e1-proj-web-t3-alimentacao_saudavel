@@ -6,7 +6,7 @@ Em decorrência do aumento do consumo de alimentos e processados geraram-se tamb
 
 No mundo atual, muitos têm uma vida ocupada e não possuem tempo ou não são capazes de cozinhar um prato saudável. Alguns não sabem nem mesmo por onde começar a ter hábitos saudáveis. 
 
- **Alimentação Saudável** tem a proposta de trazer receitas saudáveis e fáceis, além de fornecer uma maneira rápida de contar, acompanhar e contabilizar as calorias ingeridas durante o dia.
+ **NutriSchedule** tem a proposta de trazer receitas saudáveis e fáceis, além de fornecer uma maneira rápida de contar, acompanhar e contabilizar as calorias ingeridas durante o dia.
 
 **Por que contar calorias?**
 
