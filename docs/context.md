@@ -76,7 +76,7 @@ Portanto, é nítida que a situação de saúde e bem-estar confere uma responsa
 
 ## Público-Alvo
 
-Nosso projeto provem de usúarios de todos os generos e idades que almejam mudar seus hábitos adquirindo uma alimentação saudável, que fortaleça o organismo e que ajude a prevenir doenças. Tendo o foco principal em pessoal com obesidade crônica que necessitam de registrar suas refeições e contabilizar as calorias ingeridas.
+Nosso projeto provem de usúarios de todos os generos e idades que almejam mudar seus hábitos adquirindo uma alimentação saudável, que fortaleça o organismo e que ajude a prevenir doenças. Tendo como foco principal em pessoas com obesidade crônica que necessitam de registrar suas refeições e contabilizar as calorias ingeridas.
 
 
 ___________________________________________________________________________________________________________________________________________________
