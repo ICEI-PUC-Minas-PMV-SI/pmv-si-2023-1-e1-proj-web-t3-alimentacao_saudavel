@@ -51,6 +51,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
+|Usuário que deseja saber a quantidade de calorias que necessita para o dia a dia. | Registrar informações no sistema. | Obter a informação de quantas calorias necessita diariamente.  
+| Usuário que necessita perder peso. | Mudar hábitos alimentares. | Ter acesso a informações de alimentos saudáveis. |
+| Usuário que necessida ter um acompanhamento dos alimentos que ingere. | Registrar os alimentos ingeridos. | Obter um relatório dos alimentos ingeridos. |
+| Usuário veganos ou vegetarianos. | Receitas restritivas.  | Dicas de receitas para pessoas que seguem a alimentação vegana ou vegetariana.    |
+| Usuários com déficit nutricional. | Necessitam de relaizar uma alimentação rica em nutrientes.| Ter acesso a lista de alimentos ricos em nutrientes.  |
+|                    |             |                 |
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
