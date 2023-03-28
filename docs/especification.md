@@ -29,6 +29,8 @@ Desenvolvemos um projeto com o intuito de de permitir que nossos usuários faça
  2.	Paulo Henrique tem 25 anos, é mecânico e mora em São Paulo, ele trabalha em uma oficina renomada de carros próximo à sua casa e pratica atividades físicas regularmente. Todos os dias, ao amanhecer ele realiza uma caminhada de 20 minutos logo antes de ir para o trabalho e ao final do dia vai para a academia.
 Paulo joga futebol as terças e as quintas e aos sábados realiza pedaladas de media distância em uma avenida próximo a sua moradia. Alinhado com a rotina de atividade fisica, paulo está em busca de formas de se alimentar melhor para que ele consiga manter essa rotina a longo prazo e para que ele tenha energia e disposição suficiente para jogar futebol com um rendimento melhor e pedalar distâncias maiores aos sabados.
 
+
+3.    Luísa tem 19 anos, é uma estudante de biomedicina em uma faculdade em Brasília, ela se considera sedentária, mas em algumas tardes frescas ela constuma caminhar pelo seu bairro, passa maior parte do seu dia na faculdade e quando chega de tarde em sua casa a primeira coisa que gosta de fazer é meditar e sua mãe a acompanha quase todas as vezes. Ela também se considera com vegetariana, nenhum tipo de carne entra em sua casa, para ela é uma tradição que seus pais a ensinaram, além de que colide totalmente com seus princípios.
 _________________________________________________________________________________________________
 
 
