@@ -52,7 +52,7 @@ Dado que a obesidade é influenciada por fatores biológicos e contextuais, são
 
 ## Objetivo geral
 
-Desenvolver um site que atenda os usuários que precisam mudar seus hábitos, interpor uma alimentação mais saudável e ter um controle de calorias ingeridas diariamnete.
+Desenvolver um site que atenda os usuários que precisam mudar seus hábitos, interpor uma alimentação mais saudável e ter um controle de calorias ingeridas diariamente.
 
 ## Objetivos específicos
 
