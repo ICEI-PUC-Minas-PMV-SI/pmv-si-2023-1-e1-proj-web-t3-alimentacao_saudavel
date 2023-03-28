@@ -25,6 +25,11 @@ Desenvolvemos um projeto com o intuito de de permitir que nossos usuários faça
 
 ## Personas
 
+1- 1.	Tatiana tem 38 anos, é professora universitária, tem uma rotina muito ocupada e as vezes não tem tempo de se alimentar nos horários adequados, faz prática de atividade física regularmente e acabou de se mudar para os Estados Unidos. Ao começar a ingerir os alimentos a mesma identificou uma mudança de comportamento do seu sistema digestivo tendo assim dificuldades de digestão. Tatiana realizou consultas médicas descobrindo uma inflamação no seu sistema digestivo. Tatiana precisa de um diário alimentar para descobrir qual alimento está causando a inflamação.
+
+
+
+
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
