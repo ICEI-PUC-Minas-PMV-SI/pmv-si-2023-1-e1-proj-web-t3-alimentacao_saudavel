@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-O Projeto de sistemas web **Alimentação Saudavel** foi desenvolvido com a proposta de ajudar qualquer pessoa interessada em melhorar a sua alimentação ou obter um conhecimento maior sobre sobre os alimentos que acaba ingerindo. Atualmente mais 60% da população brasileira acima de 18 anos se encontra no quadro de obesidade, **[IBGE](https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2020/10/pesquisa-do-ibge-mostra-aumento-da-obesidade-entre-adultos)** e diversas outras não tem noção do que é necessário ingerir diariamente para que o corpo funcione adequadamente.
+O Projeto de sistemas web **NutriSchedule** foi desenvolvido com a proposta de ajudar qualquer pessoa interessada em melhorar a sua alimentação ou obter um conhecimento maior sobre sobre os alimentos que acaba ingerindo. Atualmente mais 60% da população brasileira acima de 18 anos se encontra no quadro de obesidade, **[IBGE](https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2020/10/pesquisa-do-ibge-mostra-aumento-da-obesidade-entre-adultos)** e diversas outras não tem noção do que é necessário ingerir diariamente para que o corpo funcione adequadamente.
 
 No sistema iremos entregar formas de ajudar sobre os pontos acima de maneira pratica a partir de:
 
