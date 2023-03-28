@@ -24,10 +24,10 @@ Desenvolvemos um projeto com o intuito de de permitir que nossos usuários faça
  1.	Tatiana tem 38 anos, é professora universitária, tem uma rotina muito ocupada e as vezes não tem tempo de se alimentar nos horários adequados, faz prática de atividade física regularmente e acabou de se mudar para os Estados Unidos. Ao começar a ingerir os alimentos no novo país a mesma identificou uma mudança de comportamento do seu sistema digestivo tendo assim dificuldades de digestão. Tatiana realizou consultas médicas descobrindo uma inflamação no seu sistema digestivo. Tatiana precisa de um diário alimentar para descobrir qual alimento está causando a inflamação.
 
 
-![Manual da persona apresentação (2)](https://user-images.githubusercontent.com/125522668/228357631-8e00689b-d65c-4b73-9b95-46fc75d31901.jpg)
+![Manual da persona apresentação (1)](https://user-images.githubusercontent.com/125522668/228359001-4b8d5b71-c23a-4b4b-8108-fba9e863f95a.jpg)
 
  2.	Paulo Henrique tem 25 anos, é mecânico e mora em São Paulo, ele trabalha em uma oficina renomada de carros próximo à sua casa e pratica atividades físicas regularmente. Todos os dias, ao amanhecer ele realiza uma caminhada de 20 minutos logo antes de ir para o trabalho e ao final do dia vai para a academia.
-Paulo joga futebol as terças e as quintas e aos sabados realiza pedaladas de media distancia em uma avenida próximo a sua moradia. Alinhado com a rotina de atividade fisica, paulo está em busca de formas de se alimentar melhor para que ele consiga manter essa rotina a longo prazo e para que ele tenha energia e disposição suficiente para jogar futebol com um rendimento melhor e pedalar distãncias maiores aos sabados.
+Paulo joga futebol as terças e as quintas e aos sábados realiza pedaladas de media distância em uma avenida próximo a sua moradia. Alinhado com a rotina de atividade fisica, paulo está em busca de formas de se alimentar melhor para que ele consiga manter essa rotina a longo prazo e para que ele tenha energia e disposição suficiente para jogar futebol com um rendimento melhor e pedalar distâncias maiores aos sabados.
 
 _________________________________________________________________________________________________
 
