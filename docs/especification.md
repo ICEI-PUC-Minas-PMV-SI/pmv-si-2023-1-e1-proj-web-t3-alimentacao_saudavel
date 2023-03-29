@@ -33,12 +33,16 @@ Paulo joga futebol as terças e as quintas e aos sábados realiza pedaladas de m
 
 3.    Luísa tem 19 anos, é uma estudante de biomedicina em uma faculdade em Brasília, ela se considera sedentária, mas em algumas tardes frescas ela constuma caminhar pelo seu bairro, passa maior parte do seu dia na faculdade e quando chega de tarde em sua casa a primeira coisa que gosta de fazer é meditar e sua mãe a acompanha quase todas as vezes. Ela também se considera com vegetariana, nenhum tipo de carne entra em sua casa, para ela é uma tradição que seus pais a ensinaram, além de que colide totalmente com seus princípios.
 
+![Manual da persona apresentação](https://user-images.githubusercontent.com/125522668/228673217-ba3e7981-64e8-4ce4-98fd-3e4ab097fe2b.jpg)
+
 5. Paulo Fernandes 17 anos, estudante, morador da cidade Campo Bom – RS, pesava 120 kg e era considerado uma criança obesa. Além de afetar a sua autoestima, ele já estava começando até ter dificuldade de caminhar e se movimentar. A única certeza que ele tinha era de que precisava mudar a sua vida. Então a motivação gerada neste núcleo nascia da partilha de histórias, receitas, novos truques e conquistas. Paulo Fernandes investigou muito. Testou muitas receitas. Procurou os melhores substitutos para cozinhar. Entrou em fóruns. Pesquisou muito e foi decorando as novas e simples regras. E mudou os seus hábitos alimentareis. Após aprender a ter uma relação também saudável com a comida, Paulo lê os rótulos dos alimentos, escolhe aqueles que se encaixam em seus objetivos, preocupa-se com o tamanho das porções e busca parar de comer quando já está cheio
 
 Nome: Paulo Fernandes
 Idade:17
 Mora em: Campo Bom – RS
 Profissão:Estudante
+
+![Manual da persona apresentação (1)](https://user-images.githubusercontent.com/125522668/228673332-b896d026-23b7-4e42-a6e0-d0fd920a9ca1.jpg)
 
 6. Francisco é um adolescente de 15 anos que passa a maior parte do tempo na escola e seu tempo livre se resume em horas jogando videogame. Nos últimos meses tem reparado algumas mudanças em seu desempenho escolar, um cansaço excessivo e perda de peso. Assim, Francisco tentou avaliar sua rotina nesse período e identificou que estava passando muitas horas sem se alimentar, além de ingerir apenas salgadinhos industrializados para saciar a fome. Desse modo, cogitou que poderia estar desnutrido devido à má alimentação diária e que teria que tentar mudar de hábito para se adequar ao peso ideal e reduzir os sintomas que estavam o prejudicando. 
 
