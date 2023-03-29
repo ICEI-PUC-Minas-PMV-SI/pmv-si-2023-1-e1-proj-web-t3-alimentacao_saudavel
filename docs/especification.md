@@ -40,6 +40,8 @@ Idade:17
 Mora em: Campo Bom – RS
 Profissão:Estudante
 
+6. Francisco é um adolescente de 15 anos que passa a maior parte do tempo na escola e seu tempo livre se resume em horas jogando videogame. Nos últimos meses tem reparado algumas mudanças em seu desempenho escolar, um cansaço excessivo e perda de peso. Assim, Francisco tentou avaliar sua rotina nesse período e identificou que estava passando muitas horas sem se alimentar, além de ingerir apenas salgadinhos industrializados para saciar a fome. Desse modo, cogitou que poderia estar desnutrido devido à má alimentação diária e que teria que tentar mudar de hábito para se adequar ao peso ideal e reduzir os sintomas que estavam o prejudicando. 
+
 _________________________________________________________________________________________________
 
 
