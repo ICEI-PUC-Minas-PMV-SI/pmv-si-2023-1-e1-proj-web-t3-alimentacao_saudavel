@@ -31,7 +31,7 @@ Paulo joga futebol as terças e as quintas e aos sábados realiza pedaladas de m
 
 ![3](https://user-images.githubusercontent.com/125522668/228388229-158e9039-9827-4494-a462-f9873ae661c8.jpg)
 
-3.    Luísa tem 19 anos, é uma estudante de biomedicina em uma faculdade em Brasília, ela se considera sedentária, mas em algumas tardes frescas ela constuma caminhar pelo seu bairro, passa maior parte do seu dia na faculdade e quando chega de tarde em sua casa a primeira coisa que gosta de fazer é meditar e sua mãe a acompanha quase todas as vezes. Ela também se considera como vegetariana, nenhum tipo de carne entra em sua casa, para ela é uma tradição que seus pais a ensinaram, além de que colide totalmente com seus princípios.
+3.    Luísa tem 19 anos, é uma estudante de biomedicina em uma faculdade em Brasília, ela se considera sedentária, mas em algumas tardes frescas ela constuma caminhar pelo seu bairro, passa maior parte do seu dia na faculdade e quando chega de tarde em sua casa a primeira coisa que gosta de fazer é meditar e sua mãe a acompanha quase todas as vezes. Ela também é vegetariana, e nenhum tipo de carne entra em sua casa, para ela é uma tradição que seus pais a ensinaram, além de que colide totalmente com seus princípios. Se encontra com dificuldades em encontrar receitas vegetarianas para inovar seu cardápio diário. 
 
 ![Manual da persona apresentação](https://user-images.githubusercontent.com/125522668/228673217-ba3e7981-64e8-4ce4-98fd-3e4ab097fe2b.jpg)
 
