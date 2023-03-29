@@ -31,7 +31,7 @@ Paulo joga futebol as terças e as quintas e aos sábados realiza pedaladas de m
 
 ![3](https://user-images.githubusercontent.com/125522668/228388229-158e9039-9827-4494-a462-f9873ae661c8.jpg)
 
-3.    Luísa tem 19 anos, é uma estudante de biomedicina em uma faculdade em Brasília, ela se considera sedentária, mas em algumas tardes frescas ela constuma caminhar pelo seu bairro, passa maior parte do seu dia na faculdade e quando chega de tarde em sua casa a primeira coisa que gosta de fazer é meditar e sua mãe a acompanha quase todas as vezes. Ela também se considera com vegetariana, nenhum tipo de carne entra em sua casa, para ela é uma tradição que seus pais a ensinaram, além de que colide totalmente com seus princípios.
+3.    Luísa tem 19 anos, é uma estudante de biomedicina em uma faculdade em Brasília, ela se considera sedentária, mas em algumas tardes frescas ela constuma caminhar pelo seu bairro, passa maior parte do seu dia na faculdade e quando chega de tarde em sua casa a primeira coisa que gosta de fazer é meditar e sua mãe a acompanha quase todas as vezes. Ela também se considera como vegetariana, nenhum tipo de carne entra em sua casa, para ela é uma tradição que seus pais a ensinaram, além de que colide totalmente com seus princípios.
 
 ![Manual da persona apresentação](https://user-images.githubusercontent.com/125522668/228673217-ba3e7981-64e8-4ce4-98fd-3e4ab097fe2b.jpg)
 
@@ -81,23 +81,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
---**Em processo**--
-
-## Contexto
-
-Um software para levar o usuário em uma jornada de alimentação saudável e ajudá-lo a saber controlar suas calorias e manter sua saúde. Os usuários que precisam ou querem adquirir uma melhor alimentação que não sabem por onde nem como começar.
-
-## História de usuário 1
-
-Como uma pessoa acima do peso para minha altura de idade, eu quero aderir uma rotina mais saudável comendo alimentos naturais e com altos níveis de proteínas e vitaminas, eu quero saber de refeições pouco calóricas que possa consumir, mas ainda sim proteícas que eu possa ingerir antes de fazer exercícios físicos, gostaria de saber de receitas saudáveis que sejam mais gostosas. Para que eu possa emagrecer sem sentir muita falta dos produtos industrializados. 
-
-### Critérios de Aceite 
-
-Lista exibida no software com as informações de:
-- Alimetos saúdaveis e suas quantidade de nutrientes
-- Receitas fitness saborosas
-
 
 
 > **Links Úteis**:
