@@ -78,8 +78,6 @@ Portanto, é nítida que a situação de saúde e bem-estar confere uma responsa
 
 Nosso projeto provem de usúarios de todos os generos e idades que almejam mudar seus hábitos adquirindo uma alimentação saudável, que fortaleça o organismo e que ajude a prevenir doenças. Tendo como foco principal em pessoas com obesidade crônica que necessitam de registrar suas refeições e contabilizar as calorias ingeridas.
 
-
-___________________________________________________________________________________________________________________________________________________
 Pesquisas mostram que a boa alimentação passou a fazer parte dos protocolos contra a Covid-19 de muita gente, além das medidas de higiene e segurança sanitária
 
 A crescente procura por alimentação mais saudável também pode ser medida nos mecanismos de busca na internet. E preocupação com a alimentação saudável não é novidade. De acordo com dados da **[Euromonitor Internacional](https://www.euromonitor.com/article/de-volta-ao-basico-uma-tendencia-de-consumo-em-alimentos-e-bebidas-no-brasil)**, em 2019, o Brasil ocupava o quarto lugar no ranking mundial de alimentos e bebidas saudáveis. Este número deve crescer, este ano. Segundo o Instituto Mapa, só no estado de Santa Catarina, 48% da população pretende aumentar o consumo de produtos orgânicos em 2021.
