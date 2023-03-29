@@ -32,6 +32,14 @@ Paulo joga futebol as terças e as quintas e aos sábados realiza pedaladas de m
 ![3](https://user-images.githubusercontent.com/125522668/228388229-158e9039-9827-4494-a462-f9873ae661c8.jpg)
 
 3.    Luísa tem 19 anos, é uma estudante de biomedicina em uma faculdade em Brasília, ela se considera sedentária, mas em algumas tardes frescas ela constuma caminhar pelo seu bairro, passa maior parte do seu dia na faculdade e quando chega de tarde em sua casa a primeira coisa que gosta de fazer é meditar e sua mãe a acompanha quase todas as vezes. Ela também se considera com vegetariana, nenhum tipo de carne entra em sua casa, para ela é uma tradição que seus pais a ensinaram, além de que colide totalmente com seus princípios.
+
+5. Paulo Fernandes 17 anos, estudante, morador da cidade Campo Bom – RS, pesava 120 kg e era considerado uma criança obesa. Além de afetar a sua autoestima, ele já estava começando até ter dificuldade de caminhar e se movimentar. A única certeza que ele tinha era de que precisava mudar a sua vida. Então a motivação gerada neste núcleo nascia da partilha de histórias, receitas, novos truques e conquistas. Paulo Fernandes investigou muito. Testou muitas receitas. Procurou os melhores substitutos para cozinhar. Entrou em fóruns. Pesquisou muito e foi decorando as novas e simples regras. E mudou os seus hábitos alimentareis. Após aprender a ter uma relação também saudável com a comida, Paulo lê os rótulos dos alimentos, escolhe aqueles que se encaixam em seus objetivos, preocupa-se com o tamanho das porções e busca parar de comer quando já está cheio
+
+Nome: Paulo Fernandes
+Idade:17
+Mora em: Campo Bom – RS
+Profissão:Estudante
+
 _________________________________________________________________________________________________
 
 
