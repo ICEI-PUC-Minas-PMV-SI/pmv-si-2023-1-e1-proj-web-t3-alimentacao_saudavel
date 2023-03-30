@@ -52,7 +52,7 @@ Dado que a obesidade é influenciada por fatores biológicos e contextuais, são
 
 ## Objetivo geral
 
-Desenvolver um site que atenda os usuários que precisam mudar seus hábitos, interpor uma alimentação mais saudável e ter um controle de calorias ingeridas diariamente.
+Desenvolver uma aplicação que atenda os usuários que precisam mudar seus hábitos, interpor uma alimentação mais saudável e ter um controle de calorias ingeridas diariamente.
 
 ## Objetivos específicos
 
@@ -76,7 +76,7 @@ Portanto, é nítida que a situação de saúde e bem-estar confere uma responsa
 
 ## Público-Alvo
 
-Nosso projeto provem de usúarios de todos os generos e idades que almejam mudar seus hábitos adquirindo uma alimentação saudável, que fortaleça o organismo e que ajude a prevenir doenças. Tendo como foco principal em pessoas com obesidade crônica que necessitam de registrar suas refeições e contabilizar as calorias ingeridas.
+O público alvo da aplicação provem de usúarios de todos os generos e idades que almejam mudar seus hábitos adquirindo uma alimentação saudável, que fortaleça o organismo e que ajude a prevenir doenças. Tendo como foco principal em pessoas com obesidade crônica que necessitam de registrar suas refeições e contabilizar as calorias ingeridas.
 
 Pesquisas mostram que a boa alimentação passou a fazer parte dos protocolos contra a Covid-19 de muita gente, além das medidas de higiene e segurança sanitária
 
