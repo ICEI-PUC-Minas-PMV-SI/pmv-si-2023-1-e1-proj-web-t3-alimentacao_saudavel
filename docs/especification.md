@@ -115,12 +115,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| O IMC deve ser calculado usando os dados de peso e altura informado no perfil do usuario caso esteja logado |  BAIXA | 
-|RNF-004| A ingestão de recomendação de agua deve obter os dados de peso e altura no perfil do usuario caso esteja logado |  BAIXA | 
-|RNF-005| O relatorio de alimentação deve ser gerado em PDF |  BAIXA | 
-|RNF-006| O Usuario não precisa estar logado para obter dados dos alimentos ou receitas |  BAIXA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel. | MÉDIA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
+|RNF-003| O IMC deve ser calculado usando os dados de peso e altura informado no perfil do usuario caso esteja logado. |  BAIXA | 
+|RNF-004| A ingestão de recomendação de agua deve obter os dados de peso e altura no perfil do usuario caso esteja logado. |  BAIXA | 
+|RNF-005| O relatorio de alimentação deve ser gerado em PDF. |  BAIXA | 
+|RNF-006| O Usuario não precisa estar logado para obter dados dos alimentos ou receitas. |  BAIXA | 
+|RNF-007| O sistema deve ser compativel com diversos navegadores, sendo eles: Google Chrome, Mozilla Firefox e Safari. |  ALTA |
+|RNF-008| Sistema deve ser seguro e seguir as orientacoes da lei LGPD  |  ALTA |
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
