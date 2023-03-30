@@ -9,7 +9,7 @@ Exemplos de referências bibliográficas:
 
 **[1]** - GOV.BR, **Pesquisa do IBGE mostra aumento da obesidade entre adultos**. Disponível em: https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2020/10/pesquisa-do-ibge-mostra-aumento-da-obesidade-entre-adultos. Acesso em: 29/03/2023.
 
-**[2]** - SOUZA LUDMILLA, **Consumo de alimentos ultraprocessados cresce na pandemia**. Disponível em: https://agenciabrasil.ebc.com.br/saude/noticia/2020-11/consumo-de-alimentos-ultraprocessados-cresce-na-pandemia. Acesso em: 29/03/2023. 
+**[2]** - SOUZA, Ludmilla, **Consumo de alimentos ultraprocessados cresce na pandemia**. Disponível em: https://agenciabrasil.ebc.com.br/saude/noticia/2020-11/consumo-de-alimentos-ultraprocessados-cresce-na-pandemia. Acesso em: 29/03/2023. 
 
 **[3]** - ASSOSIAÇÃO BRASILEIRA PARA O ESTUDO DA OBESIDADE E SINDROME METABÓLICA - ABESO, **Mapa da Obesidade**. Disponível em: https://abeso.org.br/obesidade-e-sindrome-metabolica/mapa-da-obesidade/. Acesso em: 29/03/2023.
 
@@ -21,6 +21,13 @@ Exemplos de referências bibliográficas:
 
 **[7]** - HOSPITAL ISRAELITA ALBERT EINSTEIN - **Obesidade**. Disponível em: https://www.einstein.br/doencas-sintomas/obesidade. Acesso em: 29/03/2023.
  
+**[8]** - SANTANA,Viviane; et al., **Revisão itegrativa de literatura fatores de risco para o agravamento da COVID-19 em indivíduos jovens**. Conselho Federal de Enfermagem (COFEN) - Revista Enfermagem em Foco Volume 11 Número 2 Especial Ano 2020 Disponível em: http://revista.cofen.gov.br/index.php/enfermagem/article/view/3523/981http://revista.cofen.gov.br/index.php/enfermagem/article/view/3523/981. Acesso em: 29/03/2023.
+
+**[9]** - CNN BRASIL - **Diabetes aumentou 16% na população mundial nos últimos dois anos**. Disponível em: https://www.cnnbrasil.com.br/saude/diabetes-aumentou-16-na-populacao-mundial-nos-ultimos-dois-anos/. Acesso em: 29/03/2023.
+
+**[10]** - UNICEF - **Objetivos de Desenvolvimento Sustentável**. Disponível em: https://www.unicef.org/brazil/objetivos-de-desenvolvimento-sustentavel.  Acesso em: 29/03/2023.
+
+**[11]** - CAMPOS, Ana Cristina, **IBGE: 40,3% dos adultos são considerados sedentários no país**. Disponível em: https://agenciabrasil.ebc.com.br/saude/noticia/2020-11/ibge-403-dos-adultos-sao-considerados-sedentarios-no-brasil. Acesso em: 29/03/2023. 
 
 
 
