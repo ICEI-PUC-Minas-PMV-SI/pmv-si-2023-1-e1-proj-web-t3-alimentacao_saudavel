@@ -1,4 +1,4 @@
-<h1 align="center"> # NutriSchedule </h1> 
+<h1 align="center">NutriSchedule</h1> 
 
 ![prato-de-tigela-de-buda-com-legumes-e-legumes-vista-do-topo](https://user-images.githubusercontent.com/125522668/228103942-827caa17-111c-48bc-9b2a-6b799ebaba3e.jpg)
 
