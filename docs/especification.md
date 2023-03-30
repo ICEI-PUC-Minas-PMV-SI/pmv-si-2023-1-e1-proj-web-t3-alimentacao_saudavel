@@ -77,8 +77,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 | Tatiana | Receitas adequadas aos alimentos que posso consumir.  | Melhorar a condição de vida diária evitando os alimentos que me fazem mal.   |
 | Tatiana | Um registro dos alimentos ingeridos durante o dia-a-dia.  | Acompanhar melhor quais alimentos estou consumindo.   |
-| Tatiana(Gerar Outra persona) | Receitas que não possuem alimentos com gluten.   | Saber melhor quais alimentos posso consumir sem essa característica.    |
-| Tatiana(Gerar Outra persona) | Receitas que não possuem alimentos com lactose.   | Saber melhor quais alimentos posso consumir sem essa característica.    |
+| Danilo | Alimentos de  auto índice glicemico.   | Saber melhor quais alimentos posso consumir sem essa característica.    |
+| Carla | Receitas que não possuem alimentos com lactose.   | Saber melhor quais alimentos posso consumir sem essa característica.    |
 | Paulo Henrique | Me aprofundar na rotina de alimentação saúdavel.  | Melhorar meu rendimento no dia a dia, trabalho e nos esportes.    |
 | Paulo Henrique | Saber a quantidade de água que devo ingerir diariamente de acordo com o meu pesso.  | Melhorar meu rendimento no dia a dia, trabalho e nos esportes.    |
 | Luísa | Receitas que não possuem carnes.   | Inovar meu cardápio alimentar basendo-se em novas receitas vegetarianas.    |
