@@ -58,11 +58,11 @@ Desenvolver uma aplicação que atenda os usuários que precisam mudar seus háb
 
 -   Calcular as calorias do usuário com bases nos alimentos consumidos por ele o usuário.
 -   Promover sugestões de rotinas com alimentos mais saudáveis e dicas de como organizar o tempo para o perda das calorias recomendáveis ou desejáveis para cada tipo de pessoa(sexo, idade, peso e altura).
--   Adicionar ao software receitas mais saudáveis com a utilização de produtos orgânicos.
+-   Adicionar a aplicação receitas mais saudáveis com a utilização de produtos orgânicos.
 -   Sugerir quantidade de água para o peso e altura do usuário.
 -   Indicar alimentos que devem ser consumidos durante o dia.
 -   Inserir um medidor de **Índice de massa corporal (IMC).**
--   Relatório semanal das metas atingidas   
+-   Relatório semanal das metas atingidas.   
 
 ## Justificativa
 
