@@ -114,11 +114,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| Disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente | ALTA |  |
 |RF-006| Disponibilizar tela com os dados nutricionais dos alimentos | ALTA |  |
 |RF-007| Criar filtro para os dados nutricionais por: Nome, Verdura, Fruta, Carne, Sem Gluten, Sem Lactose | ALTA |  |
-|RF-002| Disponibilizar tela de cadastro  | MÉDIA | |
-|RF-002| Permitir Inclusão/Alteração dos dados do usuario  | MÉDIA | |
-|RF-002| Disponibilizar tela de recuperação de senha  | MÉDIA | |
-|RF-002| Permitir inserção de alimentos ingeridos pelo usuario  | MÉDIA | |
-|RF-002| Gerar relatorio com os alimentos ingeridos pelo usuario  | MÉDIA | |
+|RF-008| Disponibilizar tela de cadastro  | MÉDIA | |
+|RF-009| Permitir Inclusão/Alteração dos dados do usuario  | MÉDIA | |
+|RF-010| Disponibilizar tela de recuperação de senha  | MÉDIA | |
+|RF-011| Permitir inserção de alimentos ingeridos pelo usuario  | MÉDIA | |
+|RF-012| Gerar relatorio com os alimentos ingeridos pelo usuario  | MÉDIA | |
 
 
 ### Requisitos não Funcionais
@@ -128,7 +128,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel. | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
 |RNF-003| O IMC deve ser calculado usando os dados de peso e altura informado no perfil do usuario caso esteja logado. |  BAIXA | 
-|RNF-004| A ingestão de recomendação de agua deve obter os dados de peso e altura no perfil do usuario caso esteja logado. |  BAIXA | 
+|RNF-004| A ingestão de recomendação de água deve obter os dados de peso e altura no perfil do usuario caso esteja logado. |  BAIXA | 
 |RNF-005| O relatorio de alimentação deve ser gerado em PDF. |  BAIXA | 
 |RNF-006| O Usuario não precisa estar logado para obter dados dos alimentos ou receitas. |  BAIXA | 
 |RNF-007| O sistema deve ser compativel com diversos navegadores, sendo eles: Google Chrome, Mozilla Firefox e Safari. |  ALTA |
@@ -161,6 +161,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| Cada usuário poderá cadastrar no máximo 1 conta por endereço de e-mail |
+|04| A aplicação não dispensa o acompanhamento de um profissional da saúde e nutricionista |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
