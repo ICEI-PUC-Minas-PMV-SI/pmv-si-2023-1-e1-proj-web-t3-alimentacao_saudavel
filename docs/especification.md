@@ -82,6 +82,20 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
+**Em Revisão**
+|EU... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+| Tatiana | Receitas adequadas aos alimentos que pode consumir.  | Melhorar a condição de vida diária envitado os alimentos que a fazem mal.   |
+| Paulo Henrique | Aprofundar-se na rotina de alimentação saúdavel.  | Aprimorar seu dia a dia com dicas de alimentação mais saudável.    |
+| Luísa | Receitas que não possuem carnes.   | Inovar o seu cardápio alimentar basendo-se em novas receitas vegetarianas.    |
+| Paulo Fernandes | Mudar hábitos alimentares. | Ter acesso a informações de alimentos saudáveis e contabilizar as calorias ingeridas. |
+| Francisco | Necessita de aderir uma alimentação rica em nutrientes.| Ter acesso a lista de alimentos ricos em nutrientes.  |
+|Usuário que deseja saber a quantidade de calorias que necessita para o dia a dia. | Registrar informações no sistema. | Obter a informação de quantas calorias necessita diariamente.  
+| Usuário que necessida ter um acompanhamento dos alimentos que ingere. | Registrar os alimentos ingeridos. | Obter um relatório dos alimentos ingeridos. |
+|                    |             |                 |
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
