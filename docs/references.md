@@ -15,9 +15,11 @@ Exemplos de referências bibliográficas:
 
 **[4]** - ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE - OPAS, **Alimentação saudável**. Disponível em: https://www.paho.org/pt/topicos/alimentacao-saudavel. Acesso em: 29/03/2023.
 
-**[5]** - MINISTÉRIO DA SAÚDE - **Promoção da Saúde e da Alimentação Adequada e Saudável - Excesso de peso e obesidade**. Disponível em: https://aps.saude.gov.br/ape/promocaosaude/excesso#:~:text=A%20obesidade%20est%C3%A1%20relacionada%20ao,outras%2C%20reduzindo%20a%20qualidade%20e. Acesso em: 29/03/2023.
+**[7]** - BLIBIOTECA VITUAL DA SAÚDE - **04/3 – Dia Mundial da Obesidade**. Disponível em: https://bvsms.saude.gov.br/04-3-dia-mundial-da-obesidade/#:~:text=Pela%20defini%C3%A7%C3%A3o%20da%20Organiza%C3%A7%C3%A3o%20Mundial,24%2C9%20kg%2Fm2. Acesso em: 29/03/2023.
 
-**[6]** - HOSPITAL ISRAELITA ALBERT EINSTEIN - **Obesidade**. Disponível em: https://www.einstein.br/doencas-sintomas/obesidade. Acesso em: 29/03/2023.
+**[6]** - MINISTÉRIO DA SAÚDE - **Promoção da Saúde e da Alimentação Adequada e Saudável - Excesso de peso e obesidade**. Disponível em: https://aps.saude.gov.br/ape/promocaosaude/excesso#:~:text=A%20obesidade%20est%C3%A1%20relacionada%20ao,outras%2C%20reduzindo%20a%20qualidade%20e. Acesso em: 29/03/2023.
+
+**[7]** - HOSPITAL ISRAELITA ALBERT EINSTEIN - **Obesidade**. Disponível em: https://www.einstein.br/doencas-sintomas/obesidade. Acesso em: 29/03/2023.
  
 
 
