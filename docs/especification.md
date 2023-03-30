@@ -122,7 +122,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-005| O relatorio de alimentação deve ser gerado em PDF. |  BAIXA | 
 |RNF-006| O Usuario não precisa estar logado para obter dados dos alimentos ou receitas. |  BAIXA | 
 |RNF-007| O sistema deve ser compativel com diversos navegadores, sendo eles: Google Chrome, Mozilla Firefox e Safari. |  ALTA |
-|RNF-008| Sistema deve ser seguro e seguir as orientacoes da lei LGPD  |  ALTA |
+|RNF-008| A aplicação deve garantir a proteção de dados pessoais do usuário respeitando a LGPD (Lei Geral de Proteção de Dados)  |  ALTA |
+|RNF-009| O layout da aplicação deve ser intuitivo e de fácil entendimento |  ALTA |
+
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
@@ -148,6 +150,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|03| Cada usuário poderá cadastrar no máximo 1 conta por endereço de e-mail |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
