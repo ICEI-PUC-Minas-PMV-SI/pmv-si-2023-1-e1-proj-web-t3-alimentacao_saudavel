@@ -2,9 +2,7 @@
 
 Considerando o aumento no consumo de alimentos e processados junto com o crescimento no grau de obesidade no país ao longo desses últimos anos, diversas pessoas se encontram com dificuldade para organizar seus hábitos alimentares.
 
-No processo de ideação do nosso projeto, foram dados a importância aos índices de crescimento das doenças relacionadas à alimentação e a necessidade de otimização do tempo.
-
-Utilizando as técnicas abaixo:
+No processo de ideação da aplicação, utilizando as tecnicas logo abaixo:
 
       1.  Definição de publico alvo para busca de impacto do projeto
 
@@ -14,7 +12,7 @@ Utilizando as técnicas abaixo:
 
       4.  Mapeamento de requisitos para definição de prioridade e orientação do desenvolvimento do sistema
 
-Desenvolvemos um projeto com o intuito de de permitir que nossos usuários façam escolhas alimentares mais saudáveis para o dia a dia. Por isso, além de permitir o registro de todas as refeições e realizar os cálculos das calorias, é gerado uma análise do consumo, ajudando o usuário a entender como adequar as escolhas dos alimentos de forma mais inteligente, além de fornecer receitas para facilitar a nova rotina de alimentação.
+Foram levantados os dados logo abaixo, que fizeram que o intuito da aplicação fosse permitir que os usuários façam escolhas alimentares mais saudáveis para o dia a dia. Além disso, ela permite o registro de todas as refeições e a realização de cálculos das calorias, gerando uma analise do consumo, ajudando o usuário a entender como adequar as escolhas dos alimentos de forma mais inteligente, além de fornecer receitas para facilitar a nova rotina de alimentação.
 
 ## Personas
 
@@ -35,7 +33,7 @@ Paulo joga futebol as terças e as quintas e aos sábados realiza pedaladas de m
 
 ![Manual da persona apresentação](https://user-images.githubusercontent.com/125522668/228673217-ba3e7981-64e8-4ce4-98fd-3e4ab097fe2b.jpg)
 
-5. Paulo Fernandes 17 anos, estudante, morador da cidade Campo Bom – RS, pesava 120 kg e era considerado uma criança obesa. Além de afetar a sua autoestima, ele já estava começando até ter dificuldade de caminhar e se movimentar. A única certeza que ele tinha era de que precisava mudar a sua vida. Então a motivação gerada neste núcleo nascia da partilha de histórias, receitas, novos truques e conquistas. Paulo Fernandes investigou muito. Testou muitas receitas. Procurou os melhores substitutos para cozinhar. Entrou em fóruns. Pesquisou muito e foi decorando as novas e simples regras. E mudou os seus hábitos alimentareis. Após aprender a ter uma relação também saudável com a comida, Paulo lê os rótulos dos alimentos, escolhe aqueles que se encaixam em seus objetivos, preocupa-se com o tamanho das porções e busca parar de comer quando já está cheio
+5. Paulo Fernandes 17 anos, estudante, morador da cidade Campo Bom – RS, pesava 120 kg e era considerado uma criança obesa. Além de afetar a sua autoestima, ele já estava começando até ter dificuldade de caminhar e se movimentar. A única certeza que ele tinha era de que precisava mudar a sua vida. Então a motivação gerada neste núcleo nascia da partilha de histórias, receitas, novos truques e conquistas. Paulo Fernandes investigou muito. Testou muitas receitas. Procurou os melhores substitutos para cozinhar. Entrou em fóruns. Pesquisou muito e foi decorando as novas e simples regras. E mudou os seus hábitos alimentares. Após aprender a ter uma relação também saudável com a comida, Paulo lê os rótulos dos alimentos, escolhe aqueles que se encaixam em seus objetivos, preocupa-se com o tamanho das porções e busca parar de comer quando já está cheio.
 
 Nome: Paulo Fernandes
 Idade:17
@@ -48,10 +46,6 @@ Profissão:Estudante
 
 _________________________________________________________________________________________________
 
-
-
-
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -69,32 +63,22 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário que deseja saber a quantidade de calorias que necessita para o dia a dia. | Registrar informações no sistema. | Obter a informação de quantas calorias necessita diariamente.  
-| Usuário que necessita perder peso. | Mudar hábitos alimentares. | Ter acesso a informações de alimentos saudáveis. |
-| Usuário que necessida ter um acompanhamento dos alimentos que ingere. | Registrar os alimentos ingeridos. | Obter um relatório dos alimentos ingeridos. |
-| Usuário veganos ou vegetarianos. | Receitas restritivas.  | Dicas de receitas para pessoas que seguem a alimentação vegana ou vegetariana.    |
-| Usuários com déficit nutricional. | Necessitam de relaizar uma alimentação rica em nutrientes.| Ter acesso a lista de alimentos ricos em nutrientes.  |
-|                    |             |                 |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-**Em Revisão**
 |EU... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Tatiana | Receitas adequadas aos alimentos que pode consumir.  | Melhorar a condição de vida diária envitado os alimentos que a fazem mal.   |
-| Paulo Henrique | Aprofundar-se na rotina de alimentação saúdavel.  | Aprimorar seu dia a dia com dicas de alimentação mais saudável.    |
-| Luísa | Receitas que não possuem carnes.   | Inovar o seu cardápio alimentar basendo-se em novas receitas vegetarianas.    |
-| Paulo Fernandes | Mudar hábitos alimentares. | Ter acesso a informações de alimentos saudáveis e contabilizar as calorias ingeridas. |
-| Francisco | Necessita de aderir uma alimentação rica em nutrientes.| Ter acesso a lista de alimentos ricos em nutrientes.  |
-|Usuário que deseja saber a quantidade de calorias que necessita para o dia a dia. | Registrar informações no sistema. | Obter a informação de quantas calorias necessita diariamente.  
-| Usuário que necessida ter um acompanhamento dos alimentos que ingere. | Registrar os alimentos ingeridos. | Obter um relatório dos alimentos ingeridos. |
-|                    |             |                 |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Tatiana | Receitas adequadas aos alimentos que posso consumir.  | Melhorar a condição de vida diária evitando os alimentos que me fazem mal.   |
+| Tatiana | Um registro dos alimentos ingeridos durante o dia-a-dia.  | Acompanhar melhor quais alimentos estou consumindo.   |
+| Tatiana(Gerar Outra persona) | Receitas que não possuem alimentos com gluten.   | Saber melhor quais alimentos posso consumir sem essa característica.    |
+| Tatiana(Gerar Outra persona) | Receitas que não possuem alimentos com lactose.   | Saber melhor quais alimentos posso consumir sem essa característica.    |
+| Paulo Henrique | Me aprofundar na rotina de alimentação saúdavel.  | Melhorar meu rendimento no dia a dia, trabalho e nos esportes.    |
+| Paulo Henrique | Saber a quantidade de água que devo ingerir diariamente de acordo com o meu pesso.  | Melhorar meu rendimento no dia a dia, trabalho e nos esportes.    |
+| Luísa | Receitas que não possuem carnes.   | Inovar meu cardápio alimentar basendo-se em novas receitas vegetarianas.    |
+| Paulo Fernandes | Ter acesso a informações de alimentos saudáveis. | Mudar meus hábitos alimentares. |
+| Paulo Fernandes | Contabilizar as calorias ingeridas durante o dia. | Saber se estou consumindo mais alimentos do que devia. |
+| Paulo Fernandes | Calcular o meu IMC. | Saber se estou em um peso adequado para a minha altura. |
+| Francisco | Saber quais as informações nutricionais de cada alimento. | Poder melhorar minha saude.  |
+| Francisco | Saber quais alimentos devo evitar. | Não piorar minha saude.  |
+
+Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 
 > **Links Úteis**:
@@ -113,8 +97,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|RF-001| Disponibilizar tela com receitas contendo alimentos saudaveis | ALTA |  |
+|RF-002| Criar filtro para as receitas exibidas por: Intolerancia a lactose, gluten, vegano, vegetariano | ALTA |  |
+|RF-003| Criar tela que informe o usuario o quanto ele deve ingerir de água de acordo com o peso dele | ALTA |  |
+|RF-004| Criar tela para calculo de Indice de Massa Corporal | ALTA |  |
+|RF-005| Disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente | ALTA |  |
+|RF-006| Disponibilizar tela com os dados nutricionais dos alimentos | ALTA |  |
+|RF-007| Criar filtro para os dados nutricionais por: Nome, Verdura, Fruta, Carne, Sem Gluten, Sem Lactose | ALTA |  |
+|RF-002| Disponibilizar tela de cadastro  | MÉDIA | |
+|RF-002| Permitir Inclusão/Alteração dos dados do usuario  | MÉDIA | |
+|RF-002| Disponibilizar tela de recuperação de senha  | MÉDIA | |
+|RF-002| Permitir inserção de alimentos ingeridos pelo usuario  | MÉDIA | |
+|RF-002| Gerar relatorio com os alimentos ingeridos pelo usuario  | MÉDIA | |
 
 
 ### Requisitos não Funcionais
@@ -123,6 +117,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| O IMC deve ser calculado usando os dados de peso e altura informado no perfil do usuario caso esteja logado |  BAIXA | 
+|RNF-004| A ingestão de recomendação de agua deve obter os dados de peso e altura no perfil do usuario caso esteja logado |  BAIXA | 
+|RNF-005| O relatorio de alimentação deve ser gerado em PDF |  BAIXA | 
+|RNF-006| O Usuario não precisa estar logado para obter dados dos alimentos ou receitas |  BAIXA | 
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
