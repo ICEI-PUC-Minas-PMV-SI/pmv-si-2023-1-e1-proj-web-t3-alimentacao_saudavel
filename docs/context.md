@@ -64,7 +64,7 @@ Desenvolver uma aplicação que atenda os usuários que precisam mudar seus háb
 -   Sugerir quantidade de água para o peso e altura do usuário.
 -   Indicar alimentos que devem ser consumidos durante o dia.
 -   Inserir um medidor de **Índice de massa corporal (IMC).**
--   Relatório semanal das metas atingidas.   
+-   Fornecer um relatório semanal das metas atingidas.   
 
 ## Justificativa
 
