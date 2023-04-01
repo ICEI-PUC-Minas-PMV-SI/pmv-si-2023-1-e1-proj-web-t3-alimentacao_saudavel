@@ -19,42 +19,31 @@ Foram levantados os dados logo abaixo, que fizeram que o intuito da aplicação 
 | ![Manual da persona apresentação](https://user-images.githubusercontent.com/125522668/228301441-e37a8b1a-2eb9-403b-97b4-1e9ce4538229.jpg) |
 | -------------------------------------------------------------------------------------------------------------------------------- |
 
- 1.	Tatiana tem 38 anos, é professora universitária, tem uma rotina muito ocupada e as vezes não tem tempo de se alimentar nos horários adequados, faz prática de atividade física regularmente e acabou de se mudar para os Estados Unidos. Ao começar a ingerir os alimentos no novo país a mesma identificou uma mudança de comportamento do seu sistema digestivo tendo assim dificuldades de digestão. Tatiana realizou consultas médicas descobrindo uma inflamação no seu sistema digestivo. Tatiana precisa de um diário alimentar para descobrir qual alimento está causando a inflamação.
 
 
-| ![Manual da persona apresentação (1)](https://user-images.githubusercontent.com/125522668/228359001-4b8d5b71-c23a-4b4b-8108-fba9e863f95a.jpg) |
+| ![Manual da persona apresentação (4)](https://user-images.githubusercontent.com/125522668/229296117-955719bb-09ac-4328-b98b-ce7b93b320c7.jpg) |
 | -------------------------------------------------------------------------------------------------------------------------------- |
- 2.	Paulo Henrique tem 25 anos, é mecânico e mora em São Paulo, ele trabalha em uma oficina renomada de carros próximo à sua casa e pratica atividades físicas regularmente. Todos os dias, ao amanhecer ele realiza uma caminhada de 20 minutos logo antes de ir para o trabalho e ao final do dia vai para a academia.
-Paulo joga futebol as terças e as quintas e aos sábados realiza pedaladas de media distância em uma avenida próximo a sua moradia. Alinhado com a rotina de atividade fisica, paulo está em busca de formas de se alimentar melhor para que ele consiga manter essa rotina a longo prazo e para que ele tenha energia e disposição suficiente para jogar futebol com um rendimento melhor e pedalar distâncias maiores aos sabados.
 
-![Manual da persona apresentação (2)](https://user-images.githubusercontent.com/125522668/228693586-c169eacc-59f5-4452-adcf-7e1d8264e173.jpg)
+![Manual da persona apresentação (3)](https://user-images.githubusercontent.com/125522668/229296166-a7568769-92fc-4f4c-ba96-1321a48c31fc.jpg)
 | -------------------------------------------------------------------------------------------------------------------------------- |
-3.    Luísa tem 19 anos, é uma estudante de biomedicina em uma faculdade em Brasília, ela se considera sedentária, mas em algumas tardes frescas ela constuma caminhar pelo seu bairro, passa maior parte do seu dia na faculdade e quando chega de tarde em sua casa a primeira coisa que gosta de fazer é meditar e sua mãe a acompanha quase todas as vezes. Ela também é vegetariana, e nenhum tipo de carne entra em sua casa, para ela é uma tradição que seus pais a ensinaram, além de que colide totalmente com seus princípios. Se encontra com dificuldades em encontrar receitas vegetarianas para inovar seu cardápio diário. 
+
 
 ![Manual da persona apresentação](https://user-images.githubusercontent.com/125522668/228673217-ba3e7981-64e8-4ce4-98fd-3e4ab097fe2b.jpg)
 | -------------------------------------------------------------------------------------------------------------------------------- |
-5. Paulo Fernandes 17 anos, estudante, morador da cidade Campo Bom – RS, pesava 120 kg e era considerado uma criança obesa. Além de afetar a sua autoestima, ele já estava começando até ter dificuldade de caminhar e se movimentar. A única certeza que ele tinha era de que precisava mudar a sua vida. Então a motivação gerada neste núcleo nascia da partilha de histórias, receitas, novos truques e conquistas. Paulo Fernandes investigou muito. Testou muitas receitas. Procurou os melhores substitutos para cozinhar. Entrou em fóruns. Pesquisou muito e foi decorando as novas e simples regras. E mudou os seus hábitos alimentares. Após aprender a ter uma relação também saudável com a comida, Paulo lê os rótulos dos alimentos, escolhe aqueles que se encaixam em seus objetivos, preocupa-se com o tamanho das porções e busca parar de comer quando já está cheio.
 
-Nome: Paulo Fernandes
-Idade:17
-Mora em: Campo Bom – RS
-Profissão:Estudante
 
 ![Manual da persona apresentação (1)](https://user-images.githubusercontent.com/125522668/228673332-b896d026-23b7-4e42-a6e0-d0fd920a9ca1.jpg)
 | -------------------------------------------------------------------------------------------------------------------------------- |
-6. Francisco é um adolescente de 15 anos que passa a maior parte do tempo na escola e seu tempo livre se resume em horas jogando videogame. Nos últimos meses tem reparado algumas mudanças em seu desempenho escolar, um cansaço excessivo e perda de peso. Assim, Francisco tentou avaliar sua rotina nesse período e identificou que estava passando muitas horas sem se alimentar, além de ingerir apenas salgadinhos industrializados para saciar a fome. Desse modo, cogitou que poderia estar desnutrido devido à má alimentação diária e que teria que tentar mudar de hábito para se adequar ao peso ideal e reduzir os sintomas que estavam o prejudicando. 
+
 
 ![Manual da persona apresentação (2)](https://user-images.githubusercontent.com/125522668/228911286-6c556a73-65df-420f-81e2-0d6b1d0d96d8.jpg)
 | -------------------------------------------------------------------------------------------------------------------------------- |
-7. Carla tem 30 anos, é arquiteta e desde criança tem problemas de digestão. Sua rotina sempre foi marcada com dor na barriga, enjoo, muita constipação.
-Sua imunidade é baixa sendo assim problema com dor de garganta e resfriados eram constantes.
-Carla fez o acompanhamento com vários médicos e ao realizar um teste de intolerância descobriu o seu problema com lactose. Como solução foi receitado que ela tomasse uma enzima auxiliando na digestão da lactose.
-Carla necessita se adaptar ao novo estilo de alimentação, além de se habituar com os rótulos dos alimentos ela precisa descobrir novas receitas.
 
-![Manual da persona apresentação (3)](https://user-images.githubusercontent.com/125522668/228911465-f6f22ce6-dee8-4d23-ad7e-1160a9845c1f.jpg)
+
+![Manual da persona apresentação (5)](https://user-images.githubusercontent.com/125522668/229296500-c67f2918-ab25-4bb9-9bf0-0f5555ba6150.jpg)
 | -------------------------------------------------------------------------------------------------------------------------------- |
-8. Danilo tem 36 anos, é  advogado, devido a sua rotina de trabalho ele necessita se alimentar em seu escritório tendo como opção alimentos congelados ou fastfood. Danilo não sabe cozinhar, recetimente está tendo muitas dores de cabeça, dormencia nos membros e palpitações. Ele procurou assistencia médica e descobriu que está com a taxa de colesterol muito alta, diabetes do tipo 1 e precisa diminuir sua taxa de estresse. Para alcançar seu objetivo, optou a praticar atividade física e fazer sua própria refeição para levar para seu trabalho.  Além de não saber cozinhar, Danilo necessita de auxilio para saber quais alimentos possuí alto nivel glicemico e aprender receitas saudáveis para atingir seu objetivo.
-_________________________________________________________________________________________________
+
+____________________________________________________________________________________________________________________________________________________
 
 # Histórias de Usuários
 
