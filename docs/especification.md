@@ -52,7 +52,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 | Tatiana | Receitas adequadas aos alimentos que posso consumir.  | Melhorar a condição de vida diária evitando os alimentos que me fazem mal.   |
-| Tatiana | Um registro dos alimentos ingeridos durante o dia-a-dia.  | Acompanhar melhor quais alimentos estou consumindo.   |
+| Tatiana | Um registro dos alimentos ingeridos durante o dia a dia.  | Acompanhar melhor quais alimentos estou consumindo.   |
 | Danilo | Alimentos de  auto índice glicemico.   | Saber melhor quais alimentos posso consumir sem essa característica.    |
 | Carla | Receitas que não possuem alimentos com lactose.   | Saber melhor quais alimentos posso consumir sem essa característica.    |
 | Paulo Henrique | Me aprofundar na rotina de alimentação saúdavel.  | Melhorar meu rendimento no dia a dia, trabalho e nos esportes.    |
