@@ -47,7 +47,7 @@ A princípio é importante ressaltar que os benefícios referentes à alimentaç
 Conforme os dados fornecidos pelo **Hospital Israelita Albert Einstein[[7]](../docs/references.md)** o cálculo do Índice de Massa Corpórea (IMC), que avalia a relação entre o peso e a altura, é utilizado como parâmetro para indicar o peso ideal de cada pessoa. Nesse sentido, quando o IMC é maior do que 30, a pessoa é considerada obesa, ou seja, quanto maior o índice, maiores são as chances de indivíduos desenvolverem diabetes, problemas cardiovasculares e nas articulações, hipertensão arterial, depressão entre outros problemas diretamente ligados à pior qualidade de vida e menor longevidade. As respectivas classificações do resultado do índice obtido por meio do cálculo se apresentam na Tabela 1.
 
 | IMC| CLASSIFICAÇÃO | OBESIDADE (GRAU)|
-|--- |--- |--- |
+|:---:|:---:|:---:|
 | MENOR QUE 18,5 | ABAIXO DO PESO | - |
 | ENTRE 18,5 E 24,9 | PESO NORMAL | - |
 | ENTRE 25,0 E 29,9 | SOBREPESO |-|
@@ -64,15 +64,15 @@ Por outro lado, nota-se que a tendência de aumento do número de consumidores d
 Entretanto, iniciativas voltadas à gestão da alimentação não são novidades, uma vez que no mercado existem diversas aplicações com objetivos equivalentes. Com isso, é interessante avaliar suas semelhanças e diferenças a fim de identificar a sua abrangência e eficiência. Dessa forma, foram elencados alguns dos produtos disponíveis atualmente, e comparados com as soluções que o NutriSchedule apresenta. Os projetos selecionados foram: [FatSecret](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjbgbjjlon-AhXopJUCHXXYAZEQFnoECAcQAQ&url=https%3A%2F%2Fwww.fatsecret.com.br%2F&usg=AOvVaw2CUXo7AcNeof_gVLm4h4lr), [MyFitnessPal](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwizpNyhl4n-AhW1pJUCHUkJDegQFnoECAYQAQ&url=https%3A%2F%2Fwww.myfitnesspal.com%2F&usg=AOvVaw2O1PD0WVe1gYkxOiAuVAK8), [Nutrilio](https://play.google.com/store/apps/details?id=net.nutrilio&hl=pt_BR&gl=US) e [Lifesum](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiP8ZGul4n-AhX9qpUCHasSD6MQFnoECA4QAQ&url=https%3A%2F%2Flifesum.com%2Fpt%2F&usg=AOvVaw2iICms_wbdJhkT-y012OWG). Com isso, a Tabela 2 evidencia alguns dos aspectos que são base da aplicação proposta.
 
 | RECURSOS| NutriSchedule| FatSecret | MyFitnessPal | Nutrilio | Lifesum|
-|:---: |:---: |:---: |:---: |:---: |:---: |:---: |
+|:---: |:---: |:---: |:---: |:---: |:---: |
 |Controle de calorias ingeridas|:white_check_mark:|:white_check_mark:|:white_check_mark:|:x: |:white_check_mark:|
 |Apresenta sugestões de receitas |:white_check_mark:|:white_check_mark:|:white_check_mark:|:x:| :white_check_mark:|
 |Sugere quantidade de água|:white_check_mark:|:x:|:white_check_mark:|:white_check_mark:|:x:|
 |Calcula o Índice de massa corporal (IMC)|:white_check_mark:|:x:|:x:|:x:|:x:|
-|Sugere alimentos a serem consumidos|:white_check_mark:|:x:|:x:|:x: |:x:|
-|Sugere alimentos a serem evitados|:white_check_mark:|:x:|:x:|:x: |:x:|
+|Sugere alimentos a serem consumidos|:white_check_mark:|:x:|:x:|:x:|:x:|
+|Sugere alimentos a serem evitados|:white_check_mark:|:x:|:x:|:x:|:x:|
 |Exporta relatório da alimentação realizada|:white_check_mark:|:x:|:white_check_mark:|:white_check_mark:|:x:|
-|Apresenta informação nutricional de cada alimento|:white_check_mark:|:white_check_mark:|:white_check_mark:|:x: |:white_check_mark:|
+|Apresenta informação nutricional de cada alimento|:white_check_mark:|:white_check_mark:|:white_check_mark:|:x:|:white_check_mark:|
 |Aplicação gratuita|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Possui versão web|:white_check_mark:|:white_check_mark:|:white_check_mark:|:x:|:x:|
 
