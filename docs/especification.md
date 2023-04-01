@@ -62,7 +62,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Paulo Fernandes | Contabilizar as calorias ingeridas durante o dia. | Saber se estou consumindo mais alimentos do que deveria. |
 | Paulo Fernandes | Calcular o meu IMC. | Saber se estou com o peso adequado para a minha altura. |
 | Francisco | Saber quais as informações nutricionais de cada alimento. | Poder melhorar minha saúde.  |
-| Francisco | Saber quais alimentos devo evitar. | Não piorar minha saúde.  |
+| Francisco | Saber quais alimentos devo evitar. | Evitar problemas de saúde.  |
 _________________________________________________________________________________________________
 
 ## Requisitos
