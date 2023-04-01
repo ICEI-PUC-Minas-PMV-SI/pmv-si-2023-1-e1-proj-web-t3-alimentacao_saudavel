@@ -19,7 +19,7 @@ Registrar suas calorias de cada refeição ingerida fornece vários benefícios,
 
 ## Problema
 
-Os produtos ultraprocessados da indústria alimentícia estão presentes em abundância na nossa alimentação e como consequência adquirimos várias doenças tais como: intolerância alimentar, desnutrição, gastrite, diabetes, obesidade, colesterol elevado e hipertensão.
+Os produtos ultraprocessados da indústria alimentícia estão presentes em abundância na nossa alimentação e como consequência adquirimos várias doenças tais como: intolerância alimentar, desnutrição, gastrite, diabetes, obesidade, colesterol elevado e hipertensão. Aliado a esse problema, o intenso rítimo  de trabalho das pessoas contribui para que elas não tenham tempo para se dedicar a uma alimentação saudável.
 
 
 # Objetivos
