@@ -46,9 +46,6 @@ A doença pode ser evitada desde a infância, com a adoção de hábitos aliment
 
 Dado que a obesidade é influenciada por fatores biológicos e contextuais, são necessárias ações estruturantes e políticas públicas que visem a promoção da saúde, implementação de medidas de prevenção do ganho de peso excessivo, diagnóstico precoce e cuidado adequado às pessoas com excesso de peso.
 
-> * [Ministério da Saúde](https://aps.saude.gov.br/ape/promocaosaude/excesso#:~:text=A%20obesidade%20est%C3%A1%20relacionada%20ao,outras%2C%20reduzindo%20a%20qualidade%20e)
-> * [Hospital Israelita Albert Einstein](https://www.einstein.br/doencas-sintomas/obesidade)
-> * [Biblioteca Virtual em Saúde - Ministério da Saúde](https://bvsms.saude.gov.br/04-3-dia-mundial-da-obesidade/#:~:text=Pela%20defini%C3%A7%C3%A3o%20da%20Organiza%C3%A7%C3%A3o%20Mundial,24%2C9%20kg%2Fm2.)
 
 # Objetivos
 
