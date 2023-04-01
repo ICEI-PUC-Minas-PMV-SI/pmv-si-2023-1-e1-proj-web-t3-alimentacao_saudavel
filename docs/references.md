@@ -9,16 +9,18 @@
 
 **[4]** - ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE - OPAS, **Alimentação saudável**. Disponível em: https://www.paho.org/pt/topicos/alimentacao-saudavel. Acesso em: 29/03/2023.
 
-**[7]** - BLIBIOTECA VITUAL DA SAÚDE - **04/3 – Dia Mundial da Obesidade**. Disponível em: https://bvsms.saude.gov.br/04-3-dia-mundial-da-obesidade/#:~:text=Pela%20defini%C3%A7%C3%A3o%20da%20Organiza%C3%A7%C3%A3o%20Mundial,24%2C9%20kg%2Fm2. Acesso em: 29/03/2023.
+**[5]** - SANTANA,Viviane; et al., **Revisão itegrativa de literatura fatores de risco para o agravamento da COVID-19 em indivíduos jovens**. Revista Enfermagem em Foco, 11 (2), 2020. Disponível em: http://revista.cofen.gov.br/index.php/enfermagem/article/view/3523/981http://revista.cofen.gov.br/index.php/enfermagem/article/view/3523/981. Acesso em: 29/03/2023.
 
-**[6]** - MINISTÉRIO DA SAÚDE - **Promoção da Saúde e da Alimentação Adequada e Saudável: Excesso de peso e obesidade**. Disponível em: https://aps.saude.gov.br/ape/promocaosaude/excesso#:~:text=A%20obesidade%20est%C3%A1%20relacionada%20ao,outras%2C%20reduzindo%20a%20qualidade%20e. Acesso em: 29/03/2023.
+**[6]** - BLIBIOTECA VITUAL DA SAÚDE - **04/3 – Dia Mundial da Obesidade**. Disponível em: https://bvsms.saude.gov.br/04-3-dia-mundial-da-obesidade/#:~:text=Pela%20defini%C3%A7%C3%A3o%20da%20Organiza%C3%A7%C3%A3o%20Mundial,24%2C9%20kg%2Fm2. Acesso em: 29/03/2023.
 
-**[7]** - HOSPITAL ISRAELITA ALBERT EINSTEIN - **Obesidade**. Disponível em: https://www.einstein.br/doencas-sintomas/obesidade. Acesso em: 29/03/2023.
+
+**[7]** - CNN BRASIL - **Diabetes aumentou 16% na população mundial nos últimos dois anos**. Disponível em: https://www.cnnbrasil.com.br/saude/diabetes-aumentou-16-na-populacao-mundial-nos-ultimos-dois-anos/. Acesso em: 29/03/2023.
+
+**[8]** - HOSPITAL ISRAELITA ALBERT EINSTEIN - **Obesidade**. Disponível em: https://www.einstein.br/doencas-sintomas/obesidade. Acesso em: 29/03/2023.
  
-**[8]** - SANTANA,Viviane; et al., **Revisão itegrativa de literatura fatores de risco para o agravamento da COVID-19 em indivíduos jovens**. Revista Enfermagem em Foco, 11 (2), 2020. Disponível em: http://revista.cofen.gov.br/index.php/enfermagem/article/view/3523/981http://revista.cofen.gov.br/index.php/enfermagem/article/view/3523/981. Acesso em: 29/03/2023.
+**[9]** - UNICEF - **Objetivos de Desenvolvimento Sustentável**. Disponível em: https://www.unicef.org/brazil/objetivos-de-desenvolvimento-sustentavel.  Acesso em: 29/03/2023.
 
-**[9]** - CNN BRASIL - **Diabetes aumentou 16% na população mundial nos últimos dois anos**. Disponível em: https://www.cnnbrasil.com.br/saude/diabetes-aumentou-16-na-populacao-mundial-nos-ultimos-dois-anos/. Acesso em: 29/03/2023.
+**[10]** - CAMPOS, Ana Cristina, **IBGE: 40,3% dos adultos são considerados sedentários no país**. Disponível em: https://agenciabrasil.ebc.com.br/saude/noticia/2020-11/ibge-403-dos-adultos-sao-considerados-sedentarios-no-brasil. Acesso em: 29/03/2023. 
 
-**[10]** - UNICEF - **Objetivos de Desenvolvimento Sustentável**. Disponível em: https://www.unicef.org/brazil/objetivos-de-desenvolvimento-sustentavel.  Acesso em: 29/03/2023.
+**[11]** - ORGANIS - **Pesquisa revela que 31% dos brasileiros consomem orgânicos**. Disponível em: https://organis.org.br/imprensa/pesquisa-revela-que-31-dos-brasileiros-consomem-organicos/. Acesso em: 29/03/2023.
 
-**[11]** - CAMPOS, Ana Cristina, **IBGE: 40,3% dos adultos são considerados sedentários no país**. Disponível em: https://agenciabrasil.ebc.com.br/saude/noticia/2020-11/ibge-403-dos-adultos-sao-considerados-sedentarios-no-brasil. Acesso em: 29/03/2023. 
