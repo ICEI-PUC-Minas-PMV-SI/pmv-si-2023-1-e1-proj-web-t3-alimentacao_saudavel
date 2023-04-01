@@ -8,7 +8,7 @@
 
 `SEMESTRE: 1º`
 
-O Projeto de sistemas web **NutriSchedule** foi desenvolvido com a proposta de ajudar qualquer pessoa interessada em melhorar a sua alimentação ou obter um conhecimento maior sobre sobre os alimentos que acaba ingerindo. Visto que atualmente mais 60% da população brasileira acima de 18 anos se encontra no quadro de obesidade, **IBGE[[1]](./docs/references.md)** e diversas outras não tem noção do que é necessário ingerir diariamente para que o corpo funcione adequadamente.
+O Projeto de sistemas web **NutriSchedule** foi desenvolvido com a proposta de ajudar qualquer pessoa interessada em melhorar a sua alimentação ou obter um conhecimento maior sobre sobre os alimentos que acaba ingerindo. Visto que atualmente mais 60% da população brasileira acima de 18 anos se encontra no quadro de obesidade, **Instituto Brasileiro de Geografia e Estatistica - IBGE[[1]](./docs/references.md)** e diversas outras não tem noção do que é necessário ingerir diariamente para que o corpo funcione adequadamente.
 
 Com isso o projeto busca formas de auxiliar a pessoa a mapear melhor a sua alimentação e entender mais sobre os alimentos que ela está ingerindo assim como a necessidade desses alimentos no seu organismo, gerando um impacto positivo na vida de seus usuários.
 
