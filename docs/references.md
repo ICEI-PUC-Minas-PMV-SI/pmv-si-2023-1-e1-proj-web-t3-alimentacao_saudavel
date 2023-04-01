@@ -1,11 +1,5 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/referencias/)
-
-Exemplos de referências bibliográficas:
 
 **[1]** - GOV.BR, **Pesquisa do IBGE mostra aumento da obesidade entre adultos**. Disponível em: https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2020/10/pesquisa-do-ibge-mostra-aumento-da-obesidade-entre-adultos. Acesso em: 29/03/2023.
 
@@ -17,11 +11,11 @@ Exemplos de referências bibliográficas:
 
 **[7]** - BLIBIOTECA VITUAL DA SAÚDE - **04/3 – Dia Mundial da Obesidade**. Disponível em: https://bvsms.saude.gov.br/04-3-dia-mundial-da-obesidade/#:~:text=Pela%20defini%C3%A7%C3%A3o%20da%20Organiza%C3%A7%C3%A3o%20Mundial,24%2C9%20kg%2Fm2. Acesso em: 29/03/2023.
 
-**[6]** - MINISTÉRIO DA SAÚDE - **Promoção da Saúde e da Alimentação Adequada e Saudável - Excesso de peso e obesidade**. Disponível em: https://aps.saude.gov.br/ape/promocaosaude/excesso#:~:text=A%20obesidade%20est%C3%A1%20relacionada%20ao,outras%2C%20reduzindo%20a%20qualidade%20e. Acesso em: 29/03/2023.
+**[6]** - MINISTÉRIO DA SAÚDE - **Promoção da Saúde e da Alimentação Adequada e Saudável: Excesso de peso e obesidade**. Disponível em: https://aps.saude.gov.br/ape/promocaosaude/excesso#:~:text=A%20obesidade%20est%C3%A1%20relacionada%20ao,outras%2C%20reduzindo%20a%20qualidade%20e. Acesso em: 29/03/2023.
 
 **[7]** - HOSPITAL ISRAELITA ALBERT EINSTEIN - **Obesidade**. Disponível em: https://www.einstein.br/doencas-sintomas/obesidade. Acesso em: 29/03/2023.
  
-**[8]** - SANTANA,Viviane; et al., **Revisão itegrativa de literatura fatores de risco para o agravamento da COVID-19 em indivíduos jovens**. Conselho Federal de Enfermagem (COFEN) - Revista Enfermagem em Foco Volume 11 Número 2 Especial Ano 2020 Disponível em: http://revista.cofen.gov.br/index.php/enfermagem/article/view/3523/981http://revista.cofen.gov.br/index.php/enfermagem/article/view/3523/981. Acesso em: 29/03/2023.
+**[8]** - SANTANA,Viviane; et al., **Revisão itegrativa de literatura fatores de risco para o agravamento da COVID-19 em indivíduos jovens**. Revista Enfermagem em Foco, 11 (2), 2020. Disponível em: http://revista.cofen.gov.br/index.php/enfermagem/article/view/3523/981http://revista.cofen.gov.br/index.php/enfermagem/article/view/3523/981. Acesso em: 29/03/2023.
 
 **[9]** - CNN BRASIL - **Diabetes aumentou 16% na população mundial nos últimos dois anos**. Disponível em: https://www.cnnbrasil.com.br/saude/diabetes-aumentou-16-na-populacao-mundial-nos-ultimos-dois-anos/. Acesso em: 29/03/2023.
 
