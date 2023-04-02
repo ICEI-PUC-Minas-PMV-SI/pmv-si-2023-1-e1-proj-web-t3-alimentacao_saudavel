@@ -92,17 +92,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel. | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
-|RNF-003| O IMC deve ser calculado usando os dados de peso e altura informado no perfil do usuário caso esteja logado. |  BAIXA | 
-|RNF-004| A recomendação do consuumo de água deve obter os dados de peso e altura no perfil do usuário caso esteja logado. |  BAIXA | 
-|RNF-005| O relatório de alimentação deve ser gerado em PDF. |  BAIXA | 
-|RNF-006| O usuário não precisa estar logado para obter dados dos alimentos ou receitas. |  BAIXA | 
-|RNF-007| O sistema deve ser compatível com diversos navegadores, sendo eles: Google Chrome, Mozilla Firefox e Safari. |  ALTA |
-|RNF-008| A aplicação deve garantir a proteção de dados pessoais do usuário respeitando a LGPD (Lei Geral de Proteção de Dados).  |  ALTA |
-|RNF-009| O layout da aplicação deve ser intuitivo e de fácil entendimento. |  ALTA |
-|RNF-010| O tempo máximo de espera para o recebimento do e-mail de recuperação de senha deve ser de 5 minutos. |  ALTA |
-|RNF-011| O e-mail de recuperação de senha deve ser enviado apenas para o endereço de e-mail cadastrado pelo usuário. |  ALTA |
+|RNF-001| O sistema deve ser compatível com diversos navegadores, sendo eles: Google Chrome, Mozilla Firefox e Safari. |  ALTA |
+|RNF-002| O layout da aplicação deve ser intuitivo e de fácil entendimento. |  ALTA |
+|RNF-003| O usuário não precisa estar logado para obter dados dos alimentos ou receitas. |  ALTA | 
+|RNF-004| A aplicação deve garantir a proteção de dados pessoais do usuário respeitando a LGPD (Lei Geral de Proteção de Dados).  |  ALTA |
+|RNF-005| O sistema deve ser responsivo para rodar em um dispositivos móvel. | ALTA | 
+|RNF-006| O e-mail de recuperação de senha deve ser enviado apenas para o endereço de e-mail cadastrado pelo usuário. |  MEDIA |
+|RNF-007| Não é obrigatorio o usuario estar logado para o IMC ser calculado. |  MEDIA | 
+|RNF-008| Não é obrigatorio o usuario estar logado para a recomendação do consumo de água ser realizada. |  MEDIA | 
+|RNF-009| Deve processar requisições do usuário em no máximo 5s. |  BAIXA | 
+|RNF-010| O relatório de alimentação deve poder ser obtido por download via formato PDF. |  BAIXA | 
+
 _________________________________________________________________________________________________
 
 ## Restrições
