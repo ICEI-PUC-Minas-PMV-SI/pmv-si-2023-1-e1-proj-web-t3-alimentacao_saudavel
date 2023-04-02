@@ -26,7 +26,7 @@ Atualmente, a rotina acelerada e o rítimo intenso de trabalho das pessoas na no
 
 ## Objetivo geral
 
-Desenvolver uma aplicação que atenda aos usuários que precisam mudar seus hábitos, interpor uma alimentação mais saudável e ter um controle de calorias ingeridas diariamente.
+Desenvolver uma aplicação que atenda aos usuários que precisam mudar seus hábitos, interpor uma alimentação mais saudável e ter um controle de calorias ingeridas.
 
 ## Objetivos específicos
 
