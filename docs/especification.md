@@ -16,7 +16,7 @@ Foram levantados os dados logo abaixo, que fizeram que o intuito da aplicação 
 
 ## Personas
 
-| ![Manual da persona apresentação](https://user-images.githubusercontent.com/125522668/228301441-e37a8b1a-2eb9-403b-97b4-1e9ce4538229.jpg) |
+| ![1](https://user-images.githubusercontent.com/125522668/231544881-fad7aef3-15de-46d6-b422-8a1ee79c7db7.jpg) |
 | -------------------------------------------------------------------------------------------------------------------------------- |
 
 
