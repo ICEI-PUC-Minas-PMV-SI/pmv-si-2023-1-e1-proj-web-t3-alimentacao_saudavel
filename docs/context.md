@@ -2,7 +2,7 @@
 
 A relação dos humanos com o alimento vem se modificando a milhares de anos, passando por sua escassez e consumo dos alimentos na sua forma bruta para abundância e consumo de alimentos acompanhados de novos métodos de conservação e meios de preparo. Além disso, com o passar do tempo, foram aderidos ao nosso dia a dia as comidas processadas. Com a chegada da pandemia em 2019 a escolha desse tipo de alimento cresceu em 8 meses 7% segundo a reportagem **Agencia Brasil[[2]](../docs/references.md)**.
 
-Em decorrência do aumento do consumo de alimentos e processados geraram-se também uma serie de problemas de saúde. Sendo que um dos mais graves problemas do mundo atual é a  obesidade. No Brasil essa doença crônica aumentou 72% nos últimos 13 anos segundo **Organização Mundial da Saúde - OMS[[3]](../docs/references.md)** . A estimativa é de que no ano de 2025 serão 2,3 bilhões de adultos ao redor do mundo acima do peso. 
+Em decorrência do aumento do consumo de alimentos e processados geraram-se também uma serie de problemas de saúde. Sendo que um dos mais graves problemas do mundo atual é a  obesidade. No Brasil essa doença crônica aumentou 72% nos últimos 13 anos e a estimativa é de que no ano de 2025 serão 2,3 bilhões de adultos ao redor do mundo acima do peso segundo **Organização Mundial da Saúde - OMS[[3]](../docs/references.md)** . 
 
 No mundo atual, muitos têm uma vida ocupada e não possuem tempo ou não são capazes de cozinhar um prato saudável. Alguns não sabem nem mesmo por onde começar a ter hábitos saudáveis. 
 
@@ -19,7 +19,7 @@ Registrar suas calorias de cada refeição ingerida fornece vários benefícios,
 
 ## Problema
 
-Atualmente, a rotina acelerada e o rítimo intenso de trabalho das pessoas na nossa sociedade contribui para que elas não tenham tempo de se dedicar a uma alimentação saudável. Aliado a isso, os produtos ultraprocessados da indústria alimentícia estão presentes em abundância na nossa alimentação e como consequência adquirimos várias doenças tais como: intolerância alimentar, desnutrição, gastrite, diabetes, obesidade, colesterol elevado e hipertensão. 
+Atualmente, a rotina acelerada e o ritmo intenso de trabalho das pessoas na nossa sociedade contribui para que elas não tenham tempo de se dedicar a uma alimentação saudável. Aliado a isso, os produtos ultraprocessados da indústria alimentícia estão presentes em abundância na nossa alimentação e como consequência adquirimos várias doenças tais como: intolerância alimentar, desnutrição, gastrite, diabetes, obesidade, colesterol elevado e hipertensão. 
 
 
 # Objetivos
