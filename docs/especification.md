@@ -92,7 +92,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser compatível com diversos navegadores, sendo eles: Google Chrome, Mozilla Firefox e Safari. |  ALTA |
+|RNF-001| A aplicação deve ser compatível com diversos navegadores, sendo eles: Google Chrome, Mozilla Firefox e Safari. |  ALTA |
 |RNF-002| O layout da aplicação deve ser intuitivo e de fácil entendimento. |  ALTA |
 |RNF-003| O usuário não precisa estar logado para obter dados dos alimentos ou receitas. |  ALTA | 
 |RNF-004| A aplicação deve garantir a proteção de dados pessoais do usuário respeitando a LGPD (Lei Geral de Proteção de Dados).  |  ALTA |
@@ -100,8 +100,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-006| O e-mail de recuperação de senha deve ser enviado apenas para o endereço de e-mail cadastrado pelo usuário. |  MEDIA |
 |RNF-007| Não é obrigatorio o usuario estar logado para o IMC ser calculado. |  MEDIA | 
 |RNF-008| Não é obrigatorio o usuario estar logado para a recomendação do consumo de água ser realizada. |  MEDIA | 
-|RNF-009| Deve processar requisições do usuário em no máximo 5s. |  BAIXA | 
-|RNF-010| O relatório de alimentação deve poder ser obtido por download via formato PDF. |  BAIXA | 
+|RNF-009| A aplicação deve processar requisições do usuário em no máximo 5s. |  BAIXA | 
+|RNF-010| A aplicação deve disponibilizar um relatório de alimentação e deve poder ser obtido por download via formato PDF. |  BAIXA | 
 
 _________________________________________________________________________________________________
 
