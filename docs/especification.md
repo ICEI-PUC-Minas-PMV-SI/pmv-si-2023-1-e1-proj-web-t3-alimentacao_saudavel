@@ -73,19 +73,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| A aplicação deve disponibilizar tela com receitas contendo alimentos saudáveis. | ALTA |  |
-|RF-002| A aplicação deve ter um filtro filtro para as receitas exibidas por: Intolerância a lactose, glúten, vegano, vegetariano. | ALTA |  |
-|RF-003| A aplicação deve ter uma tela que informe ao usuário o quanto ele deve ingerir de água de acordo com o peso dele. | ALTA |  |
-|RF-004| A aplicação deve ter uma tela para cálculo do Índice de Massa Corporal. | ALTA |  |
-|RF-005| A aplicação deve disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente. | ALTA |  |
-|RF-006| A aplicação deve disponibilizar tela com os dados nutricionais dos alimentos. | ALTA |  |
+|RF-001| A aplicação deve disponibilizar para os usuários cadastrados ou não uma lista de receitas contendo apenas alimentos saudáveis. | ALTA |  |
+|RF-002| A aplicação deve ter um filtro para as receitas exibidas por: Intolerância a lactose, glúten, vegano, vegetariano. | ALTA |  |
+|RF-003| A aplicação deve informar ao usuário cadastrado ou não o quanto ele deve ingerir de água de acordo com o peso dele. | ALTA |  |
+|RF-004| A aplicação deve ter uma tela para cálculo do Índice de Massa Corporal para usuários cadastrados ou não. | ALTA |  |
+|RF-005| A aplicação deve disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente para qualquer usuário. | ALTA |  |
+|RF-006| A aplicação deve disponibilizar tela com os dados nutricionais dos alimentos para qualquer usuário. | ALTA |  |
 |RF-007| A aplicação deve ter um filtro para os dados nutricionais por: Nome, Verdura, Fruta, Carne, Sem Glúten, Sem Lactose. | ALTA |  |
-|RF-008| A aplicação deve disponibilizar tela de cadastro de usuário. | MÉDIA | |
-|RF-009| A aplicação deve permitir Inclusão/Alteração dos dados do usuário.  | MÉDIA | |
-|RF-010| A aplicação deve disponibilizar tela de recuperação de senha.  | MÉDIA | |
-|RF-011| A aplicação deve permitir inserção de alimentos ingeridos pelo usuário.  | MÉDIA | |
-|RF-012| A aplicação deve permitir gestão de alimentos ingeridos cadastrados pelo usuário.  | MÉDIA | |
-|RF-013| A aplicação deve gerar relatório com os alimentos ingeridos pelo usuário.  | MÉDIA | |
+|RF-008| a aplicação deve permitir o autogerenciamento do cadastro de usuário. | MÉDIA | |
+|RF-009| A aplicação deve disponibilizar tela de recuperação de senha.  | MÉDIA | |
+|RF-010| A aplicação deve permitir que um usuário cadastrado autogerencie os alimentos ingeridos ao longo do dia.  | MÉDIA | |
+|RF-011| A aplicação deve gerar relatório com os alimentos ingeridos pelo usuário cadastrado.  | MÉDIA | |
 
 
 ### Requisitos não Funcionais
@@ -94,14 +92,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser compatível com diversos navegadores, sendo eles: Google Chrome, Mozilla Firefox e Safari. |  ALTA |
 |RNF-002| O layout da aplicação deve ser intuitivo e de fácil entendimento. |  ALTA |
-|RNF-003| O usuário não precisa estar logado para obter dados dos alimentos ou receitas. |  ALTA | 
-|RNF-004| A aplicação deve garantir a proteção de dados pessoais do usuário respeitando a LGPD (Lei Geral de Proteção de Dados).  |  ALTA |
-|RNF-005| O sistema deve ser responsivo para rodar em um dispositivos móvel. | ALTA | 
-|RNF-006| O e-mail de recuperação de senha deve ser enviado apenas para o endereço de e-mail cadastrado pelo usuário. |  MEDIA |
-|RNF-007| Não é obrigatorio o usuario estar logado para o IMC ser calculado. |  MEDIA | 
-|RNF-008| Não é obrigatorio o usuario estar logado para a recomendação do consumo de água ser realizada. |  MEDIA | 
-|RNF-009| A aplicação deve processar requisições do usuário em no máximo 5s. |  BAIXA | 
-|RNF-010| A aplicação deve disponibilizar um relatório de alimentação e deve poder ser obtido por download via formato PDF. |  BAIXA | 
+|RNF-003| A aplicação deve garantir a proteção de dados pessoais do usuário respeitando a LGPD (Lei Geral de Proteção de Dados).  |  ALTA |
+|RNF-004| O sistema deve ser responsivo para rodar em um dispositivos móvel. | ALTA | 
+|RNF-005| O e-mail de recuperação de senha deve ser enviado apenas para o endereço de e-mail cadastrado pelo usuário. |  MEDIA |
+|RNF-006| A aplicação deve processar requisições do usuário em no máximo 5s. |  BAIXA | 
+|RNF-007| A aplicação deve disponibilizar um relatório de alimentação e deve poder ser obtido por download via formato PDF. |  BAIXA | 
 
 _________________________________________________________________________________________________
 
