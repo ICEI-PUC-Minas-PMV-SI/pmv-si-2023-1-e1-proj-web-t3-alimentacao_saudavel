@@ -73,19 +73,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Disponibilizar tela com receitas contendo alimentos saudáveis. | ALTA |  |
-|RF-002| Criar filtro para as receitas exibidas por: Intolerância a lactose, glúten, vegano, vegetariano. | ALTA |  |
-|RF-003| Criar tela que informe ao usuário o quanto ele deve ingerir de água de acordo com o peso dele. | ALTA |  |
-|RF-004| Criar tela para cálculo do Índice de Massa Corporal. | ALTA |  |
-|RF-005| Disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente. | ALTA |  |
-|RF-006| Disponibilizar tela com os dados nutricionais dos alimentos. | ALTA |  |
-|RF-007| Criar filtro para os dados nutricionais por: Nome, Verdura, Fruta, Carne, Sem Glúten, Sem Lactose. | ALTA |  |
-|RF-008| Disponibilizar tela de cadastro de usuário. | MÉDIA | |
-|RF-009| Permitir Inclusão/Alteração dos dados do usuário.  | MÉDIA | |
-|RF-010| Disponibilizar tela de recuperação de senha.  | MÉDIA | |
-|RF-011| Permitir inserção de alimentos ingeridos pelo usuário.  | MÉDIA | |
-|RF-012| Permitir gestão de alimentos ingeridos cadastrados pelo usuário.  | MÉDIA | |
-|RF-013| Gerar relatório com os alimentos ingeridos pelo usuário.  | MÉDIA | |
+|RF-001| A aplicação deve disponibilizar tela com receitas contendo alimentos saudáveis. | ALTA |  |
+|RF-002| A aplicação deve ter um filtro filtro para as receitas exibidas por: Intolerância a lactose, glúten, vegano, vegetariano. | ALTA |  |
+|RF-003| A aplicação deve ter uma tela que informe ao usuário o quanto ele deve ingerir de água de acordo com o peso dele. | ALTA |  |
+|RF-004| A aplicação deve ter uma tela para cálculo do Índice de Massa Corporal. | ALTA |  |
+|RF-005| A aplicação deve disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente. | ALTA |  |
+|RF-006| A aplicação deve disponibilizar tela com os dados nutricionais dos alimentos. | ALTA |  |
+|RF-007| A aplicação deve ter um filtro para os dados nutricionais por: Nome, Verdura, Fruta, Carne, Sem Glúten, Sem Lactose. | ALTA |  |
+|RF-008| A aplicação deve disponibilizar tela de cadastro de usuário. | MÉDIA | |
+|RF-009| A aplicação deve permitir Inclusão/Alteração dos dados do usuário.  | MÉDIA | |
+|RF-010| A aplicação deve disponibilizar tela de recuperação de senha.  | MÉDIA | |
+|RF-011| A aplicação deve permitir inserção de alimentos ingeridos pelo usuário.  | MÉDIA | |
+|RF-012| A aplicação deve permitir gestão de alimentos ingeridos cadastrados pelo usuário.  | MÉDIA | |
+|RF-013| A aplicação deve gerar relatório com os alimentos ingeridos pelo usuário.  | MÉDIA | |
 
 
 ### Requisitos não Funcionais
