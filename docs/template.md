@@ -23,6 +23,8 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 
 ## Iconografia
 
+![Iconografia](img/Iconografia.png)
+
 Defina os ícones que serão utilizados e suas respectivas funções.
 
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
