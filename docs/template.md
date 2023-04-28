@@ -11,9 +11,9 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-![Paleta de Cores](img/PaletaDeCores.png)
+Baseando-se na cor verde como principal além do branco, que está associda a saúde e vitalidade, foi criado a seguinte paleta de cores. 
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+![Paleta de Cores](img/PaletaDeCores.png)
 
 
 ## Tipografia
@@ -24,6 +24,18 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 ## Iconografia
 
 ![Iconografia](img/Iconografia.png)
+
+
+Esses(1, 2, 5 e 7) são utlizados na página de cálculo de IMC, os dois primeiros idicam o sexo que o usuário corresponde, o terceiro representa a altura e o quarto seu peso atual.
+
+*ou*
+
+Os ícones 1 e 2 representam respectivamente o sexo do usuário. 
+
+O ícone 4 simboliza a senha que deve ser inserida na caixa correspondente, e o ícone 3 a confirmação da senha digitada.
+
+
+
 
 Defina os ícones que serão utilizados e suas respectivas funções.
 
