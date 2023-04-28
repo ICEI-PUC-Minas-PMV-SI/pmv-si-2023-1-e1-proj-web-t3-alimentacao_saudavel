@@ -62,7 +62,7 @@ ________________________________________________________________________________
 
 ![Cálculo IMC](https://user-images.githubusercontent.com/125522668/235009975-59a0c918-5b01-4adb-b664-f44f4faa88aa.png)
 
-Na página **Cálculo do IMC** o usuário irá realizar o cálculo do Índice de Massa Corporal. (RF-004)
+Na página **Cálculo do IMC**, o usuário irá realizar o cálculo do Índice de Massa Corporal. (RF-004)
 
 
 ### Registre suas refeições
@@ -82,12 +82,12 @@ ________________________________________________________________________________
 
 ![Receitas](https://user-images.githubusercontent.com/125522668/235015987-aa5d65ff-ed07-40db-9bf8-9f73ef6d214b.png)
 
-Na página **Receitas do dia dia** o usuário terá acesso as receitas separadas por preferências: Rápido e fácil, Fit e saudável, Vegana e Gluteen e lactose free. (RF-001 | RF-002 | RF-006)
+Na página **Receitas do dia dia**, o usuário terá acesso as receitas separadas por preferências: Rápido e fácil, Fit e saudável, Vegana e Gluteen e lactose free. (RF-001 | RF-002 | RF-006)
 
 ________________________________________________________________________________________________________________________________________________________
 ### Alimentos que devem ser evitados
 
-![Alimentos a serem evitados](https://user-images.githubusercontent.com/125522668/235017953-b3873806-83ba-48bd-a7e1-b6b9bef1f444.jpeg)
+![Alimentos devem evitar](https://user-images.githubusercontent.com/125522668/235029075-72e67753-908f-44cb-aba9-76f69583519a.jpeg)
 
 Na página **Você conhece os alimentos que devem ser evitados?**, o usuário terá acesso a informações sobre alimentos que são prejuduciais a saúde. (RF-005)
 
