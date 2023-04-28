@@ -87,7 +87,11 @@ Na página **Receitas do dia dia**, o usuário terá acesso as receitas separada
 ________________________________________________________________________________________________________________________________________________________
 ### Alimentos que devem ser evitados
 
-![Alimentos devem evitar](https://user-images.githubusercontent.com/125522668/235029075-72e67753-908f-44cb-aba9-76f69583519a.jpeg)
+<div align="center">
+ 
+ ![Alimentos devemos evitar](https://user-images.githubusercontent.com/125522668/235030320-8a5a0f5f-3e4f-4b43-8a9d-189d7aedfab3.jpeg)
+ 
+ </div>
 
 Na página **Você conhece os alimentos que devem ser evitados?**, o usuário terá acesso a informações sobre alimentos que são prejuduciais a saúde. (RF-005)
 
