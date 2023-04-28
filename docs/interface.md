@@ -68,7 +68,7 @@ Na página **Cálculo do IMC**, o usuário irá realizar o cálculo do Índice d
 ### Registre suas refeições
 
 
-Ná página **Registre suas refeições**, o usuário irá cadastrar os alimentos ingeridos ao logo do dia e poderá gerar uma relatório dos dados cadastrados. Também terá acesso a sugestão de ingestão diária de àgua.  (RF-003 | RF-010 | RF-011)
+Ná página **Registre suas refeições**, o usuário irá cadastrar os alimentos ingeridos ao logo do dia e poderá gerar uma relatório dos dados cadastrados. Também terá acesso a sugestão de ingestão diária de água.  (RF-003 | RF-010 | RF-011)
 
 ________________________________________________________________________________________________________________________________________________________
 ### Conheça os Alimentos
