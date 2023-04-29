@@ -15,6 +15,7 @@ Baseando-se na cor verde como principal além do branco, que está associda a sa
 
 ![Paleta de Cores](img/PaletaDeCores.png)
 
+A cor #028F4B foi usada como fundo nas telas de cadastro e login, do cálculo do IMC,  e da edição de dados do usuário afim de chamar mais atenção ao conteúdo central que faz as requisições e contém as informações importantes do usuário. Utilizando esta cor na fonte de maneira que atraia a atenção e combine de forma harmoniosa com a intenção do projeto. Na versão de #028F4B - 70% foi aplicado na tela de sobre receitas para destacar o nome, a dificuldade, o tempo de preparo e as porções. 
 
 ## Tipografia
 
@@ -26,15 +27,9 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 ![Iconografia](img/Iconografia.png)
 
 
-Esses(1, 2, 5 e 7) são utlizados na página de cálculo de IMC, os dois primeiros idicam o sexo que o usuário corresponde, o terceiro representa a altura e o quarto seu peso atual.
+Os ícones 1, 2, 5 e 7 são utlizados na página de cálculo de IMC, os dois primeiros idicam o sexo que o usuário corresponde, o terceiro representa a altura e o quarto seu peso atual.
 
-*ou*
-
-Os ícones 1 e 2 representam respectivamente o sexo do usuário. 
-
-O ícone 4 simboliza a senha que deve ser inserida na caixa correspondente, e o ícone 3 a confirmação da senha digitada.
-
-
+Na sequência os ícones 3, 4, 5, 6, 7, 8  e 26 foram empregados nas telas de cadastro e login, na de editar dados do usuário e na de dados pessoais como papel de representar o nome(8), email(6), data de nascimento(26), altura(5), peso(7), senha(4) e confirmação de senha(3).
 
 
 Defina os ícones que serão utilizados e suas respectivas funções.
