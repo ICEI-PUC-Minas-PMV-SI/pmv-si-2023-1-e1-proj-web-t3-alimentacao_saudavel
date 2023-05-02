@@ -7,6 +7,21 @@ Explique as guias de estilo utilizadas no seu projeto.
 ## Design
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+## TESTE
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
 
 
 ## Cores
