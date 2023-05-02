@@ -55,7 +55,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 
 
-A página inicial é a principal entrada da plataforma, responsável por prover informações gerais sobre o objetivo da plataforma e dar acesso a outras páginas incluíndo páginas Connheça os alimentos, Registre suas refeições, Receitas para o dia a dia,Conheça os alimentos, Você conhece os alimentos que devem ser evitados?, Login e Cadastro. Nesta página o usuário também acessa o cálculo do IMC (RF- à RF-).
+A **página inicial** é a principal entrada da plataforma, responsável por prover informações gerais sobre o objetivo da plataforma e dar acesso a outras páginas incluíndo: Registre suas refeições (RF-003 | RF-010 | RF-011) , Receitas para o dia a dia (RF-001 | RF-002 | RF-007) ,Conheça os alimentos (RF-006), Você conhece os alimentos que devem ser evitados?(RF-005), Login e Cadastro(RF-008 | RF-009). Nesta página o usuário também acessa o cálculo do IMC (RF-004).
 
 ________________________________________________________________________________________________________________________________________________________
 ### Cálculo do IMC
@@ -75,14 +75,14 @@ ________________________________________________________________________________
 
 ![Informações alimentares](https://user-images.githubusercontent.com/125522668/235021349-2d44e798-e64a-4637-9bab-61d54d3d165f.png)
 
-Na página **Conheça os Alimentos**, o usuário terá acesso as informações sobre os tipos de grupos de alimentos. (RF-007)
+Na página **Conheça os Alimentos**, o usuário terá acesso as informações sobre os tipos de grupos de alimentos. (RF-006)
 
 ________________________________________________________________________________________________________________________________________________________
 ### Receitas do dia dia
 
 ![Receitas](https://user-images.githubusercontent.com/125522668/235015987-aa5d65ff-ed07-40db-9bf8-9f73ef6d214b.png)
 
-Na página **Receitas do dia dia**, o usuário terá acesso as receitas separadas por preferências: Rápido e fácil, Fit e saudável, Vegana e Gluteen e lactose free. (RF-001 | RF-002 | RF-006)
+Na página **Receitas do dia dia**, o usuário terá acesso as receitas separadas por preferências: Rápido e fácil, Fit e saudável, Vegana e Gluteen e lactose free. (RF-001 | RF-002 | RF-007)
 
 ________________________________________________________________________________________________________________________________________________________
 ### Alimentos que devem ser evitados
