@@ -31,8 +31,7 @@ Os ícones 1, 2, 5 e 7 são utlizados na página de cálculo de IMC, os dois pri
 
 Na sequência os ícones 3, 4, 5, 6, 7, 8  e 26 foram empregados nas telas de cadastro e login, na de editar dados do usuário e na de dados pessoais como papel de representar o nome(8), email(6), data de nascimento(26), altura(5), peso(7), senha(4) e confirmação de senha(3).
 
-
-Defina os ícones que serão utilizados e suas respectivas funções.
+E os ademais foram usados nas telas de sobre as receitas, e nas de informações nuticionais e de alimentos a serem evitados.
 
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
 Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
