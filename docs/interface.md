@@ -49,13 +49,10 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ### Home
 
 
-
-![HomePage](https://user-images.githubusercontent.com/125522668/235007237-1c0a75d2-9c37-4204-9b82-bed8ceaa9de3.png)
-
+![HomePage](https://user-images.githubusercontent.com/125522668/235706360-811c7b2f-acee-44e5-bb99-6c7f14817363.jpeg)
 
 
-
-A **página inicial** é a principal entrada da plataforma, responsável por prover informações gerais sobre o objetivo da plataforma e dar acesso a outras páginas incluíndo: Registre suas refeições (RF-003 | RF-010 | RF-011) , Receitas para o dia a dia (RF-001 | RF-002 | RF-007) ,Conheça os alimentos (RF-006), Você conhece os alimentos que devem ser evitados?(RF-005), Login e Cadastro(RF-008 | RF-009). Nesta página o usuário também acessa o cálculo do IMC (RF-004).
+A **página inicial** é a principal entrada da plataforma, responsável por prover informações gerais sobre o objetivo da plataforma e dar acesso a outras páginas incluíndo: Registre suas refeições (RF-003 | RF-010 | RF-011) , Receitas para o dia a dia (RF-001 | RF-002 | RF-007) , Conheça os alimentos (RF-006), Você conhece os alimentos que devem ser evitados?(RF-005), Login e Cadastro(RF-008 | RF-009). Nesta página o usuário também acessa o cálculo do IMC (RF-004).
 
 ________________________________________________________________________________________________________________________________________________________
 ### Cálculo do IMC
