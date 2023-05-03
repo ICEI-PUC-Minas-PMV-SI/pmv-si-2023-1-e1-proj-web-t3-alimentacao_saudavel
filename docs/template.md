@@ -24,7 +24,7 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 ```
 
 
-[Clique aqui para visualizar o exemplo interativo](https://codepen.io/CoelhoVin/pen/QWZqeKR)
+[Clique aqui para visualizar o exemplo interativo](https://codepen.io/CoelhoVin/embed/QWZqeKR?height=400&theme-id=dark&default-tab=html,result)
 
 
 ## Cores
