@@ -1,15 +1,32 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+## Visual padrão
+![Template Padrão](img/TemplateNutriSchedule.png)
 
-Explique as guias de estilo utilizadas no seu projeto.
+## Visual padrão da navegação
+![Template Navegacao](img/TemplateNutriSchedule_Navegacao.png)
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+### Header
 
-![Iconografia](img/Template_Header_Nav_Bar.PNG)
-![Iconografia](img/Template_Header_Nav_Bar_Responsivo.PNG)
+![Header](img/Template_Header_Nav_Bar.PNG)
+
+O header da aplicação se encontra presente em todas as telas com exceção das seguintes:
+- Calculo IMC
+- Cadastro/Gestão de dados
+
+A barra de navegação contem um redirecionamento para as telas principais
+- Registro Alimentar
+- Informações dos alimentos
+- Receitas
+- Alimentos não recomendados
+
+A logo se encontra no canto superior esquerdo e funciona como um redirecionamento para a "Home" ao clicar, independente da tela ativa no momento.
+
+Caso o dispositivo utilizado possua uma largura pequena, os elementos de navegação ficarão "escondidos" e so poderão ser acessados ao clicar no icone no canto superior direto
+
+![Header Responsivo](img/Template_Header_Nav_Bar_Responsivo.PNG)
 
 <details>
   <summary>Header/Nav Bar</summary>
@@ -19,7 +36,7 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
       <nav class="navbar sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/imgs/LogoNutrischedule.PNG" alt="Logo" width="70" height="60">
+                <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/main/src/imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
             </a>
             <ul class="nav justify-content-center nav-fluid-content">
               <li class="nav-item">
@@ -71,65 +88,35 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 </details>
 
 ---------------------
+### Footer
 
-![Iconografia](img/Template_Footer.PNG)
+O footer da aplicação se encontra presente em todas as telas com exceção das seguintes:
+- Calculo IMC
+- Cadastro/Gestão de dados
+
+A logo da aplicação sen encontra no canto inferior esquerdo e funciona como um redirecionamento para a tela inicial ao ser clicada
+
+![Footer](img/Template_Footer.PNG)
 
 <details>
   <summary>Footer</summary>
 
   ```html
-  <header>
-      <nav class="navbar sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="/imgs/LogoNutrischedule.PNG" alt="Logo" width="70" height="60">
-            </a>
-            <ul class="nav justify-content-center nav-fluid-content">
-              <li class="nav-item">
-                <a class="nav-link link-success" aria-current="page" href="#">Registro Alimentar</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-success" href="#">Informações dos Alimentos</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link link-success" href="#">Receitas</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
-              </li>
-            </ul>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark bg-success" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <i class="bi bi-person-circle"></i>
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Login</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
-                <li class="nav-item">
-                    <a class="nav-link link-success" href="#">Calculo IMC</a>
-                </li>
-                <li class="nav-item nav-fluid-content-canvas">
-                    <a class="nav-link link-success" href="#">Registro Alimentar</a>
-                </li>
-                <li class="nav-item nav-fluid-content-canvas">
-                    <a class="nav-link link-success" href="#">Informações dos Alimentos</a>
-                </li>
-                <li class="nav-item nav-fluid-content-canvas">
-                    <a class="nav-link link-success" href="#">Receitas</a>
-                </li>
-                <li class="nav-item nav-fluid-content-canvas">
-                    <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/main/src/imgs/LogoNutrischedule.png" alt="Logo" width="80" height="60">
+        </a>
+      </div>
+      <div>
+        <span class="mb-3 mb-md-0 text-light">© 2023 Nutrischedule</span>
+      </div>  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+            <i class="bi bi-github"></i>
+        </li>
+      </ul>
+    </footer>
   ```
 </details>
 
