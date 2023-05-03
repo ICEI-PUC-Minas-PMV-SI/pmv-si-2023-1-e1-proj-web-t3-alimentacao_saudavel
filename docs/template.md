@@ -135,8 +135,7 @@ A cor #028F4B foi usada como fundo nas telas de cadastro e login, do cálculo do
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
-
+A fonte usada para a criação das telas foi a Poppins, que é considerada uma tipografia geométrica clássica com aparência simples e justa[[12]](./docs/references.md). Esta mesma se tornou a fonte padrão da aplicação web por se encontrar presente em todas as telas com textos e títulos.
 
 ## Iconografia
 
@@ -149,14 +148,6 @@ Na sequência os ícones 3, 4, 5, 6, 7, 8  e 26 foram empregados nas telas de ca
 
 E os ademais foram usados nas telas de sobre as receitas, e nas de informações nuticionais e de alimentos a serem evitados.
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
 
 
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+
