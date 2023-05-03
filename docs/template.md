@@ -135,7 +135,8 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 --------
 
-[Clique aqui para visualizar o exemplo interativo da aplicação](https://codepen.io/CoelhoVin/embed/QWZqeKR?height=400&theme-id=dark&default-tab=html,result)
+
+[Clique aqui para visualizar o exemplo interativo da aplicação](https://codepen.io/IFVN/embed/QWZOLzM?default-tab=result&theme-id=dark)
 
 
 ## Cores
