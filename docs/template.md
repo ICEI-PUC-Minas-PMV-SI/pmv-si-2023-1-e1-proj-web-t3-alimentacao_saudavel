@@ -16,7 +16,7 @@ O header da aplicação se encontra presente em todas as telas com exceção das
 - Calculo IMC
 - Cadastro/Gestão de dados
 
-A barra de navegação contem um redirecionamento para as telas principais
+A barra de navegação contem um redirecionamento para as telas principais, sendo elas:
 - Registro Alimentar
 - Informações dos alimentos
 - Receitas
@@ -125,6 +125,7 @@ A logo da aplicação sen encontra no canto inferior esquerdo e funciona como um
 
 [Clique aqui para visualizar o exemplo interativo da aplicação](https://codepen.io/IFVN/embed/QWZOLzM?default-tab=result&theme-id=dark)
 
+O código html do template pode ser visualizado em `src/layout/layout.html` e o sua estilização em `src/layout/schema_padrao.html`
 
 ## Cores
 
