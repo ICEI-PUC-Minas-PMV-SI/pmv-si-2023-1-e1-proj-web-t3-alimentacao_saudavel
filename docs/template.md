@@ -7,24 +7,131 @@ Explique as guias de estilo utilizadas no seu projeto.
 ## Design
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
-## TESTE
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>
-```
 
 
-[Clique aqui para visualizar o exemplo interativo](https://codepen.io/CoelhoVin/embed/QWZqeKR?height=400&theme-id=dark&default-tab=html,result)
+<details>
+  <summary>Header/Nav Bar</summary>
+
+  ```html
+  <header>
+      <nav class="navbar sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/imgs/LogoNutrischedule.PNG" alt="Logo" width="70" height="60">
+            </a>
+            <ul class="nav justify-content-center nav-fluid-content">
+              <li class="nav-item">
+                <a class="nav-link link-success" aria-current="page" href="#">Registro Alimentar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-success" href="#">Informações dos Alimentos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link link-success" href="#">Receitas</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+              </li>
+            </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark bg-success" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <i class="bi bi-person-circle"></i>
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Login</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#">Calculo IMC</a>
+                </li>
+                <li class="nav-item nav-fluid-content-canvas">
+                    <a class="nav-link link-success" href="#">Registro Alimentar</a>
+                </li>
+                <li class="nav-item nav-fluid-content-canvas">
+                    <a class="nav-link link-success" href="#">Informações dos Alimentos</a>
+                </li>
+                <li class="nav-item nav-fluid-content-canvas">
+                    <a class="nav-link link-success" href="#">Receitas</a>
+                </li>
+                <li class="nav-item nav-fluid-content-canvas">
+                    <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  ```
+</details>
+
+---------------------
+
+<details>
+  <summary>Footer</summary>
+
+  ```html
+  <header>
+      <nav class="navbar sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/imgs/LogoNutrischedule.PNG" alt="Logo" width="70" height="60">
+            </a>
+            <ul class="nav justify-content-center nav-fluid-content">
+              <li class="nav-item">
+                <a class="nav-link link-success" aria-current="page" href="#">Registro Alimentar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-success" href="#">Informações dos Alimentos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link link-success" href="#">Receitas</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+              </li>
+            </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark bg-success" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <i class="bi bi-person-circle"></i>
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Login</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="#">Calculo IMC</a>
+                </li>
+                <li class="nav-item nav-fluid-content-canvas">
+                    <a class="nav-link link-success" href="#">Registro Alimentar</a>
+                </li>
+                <li class="nav-item nav-fluid-content-canvas">
+                    <a class="nav-link link-success" href="#">Informações dos Alimentos</a>
+                </li>
+                <li class="nav-item nav-fluid-content-canvas">
+                    <a class="nav-link link-success" href="#">Receitas</a>
+                </li>
+                <li class="nav-item nav-fluid-content-canvas">
+                    <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  ```
+</details>
+
+--------
+
+[Clique aqui para visualizar o exemplo interativo da aplicação](https://codepen.io/CoelhoVin/embed/QWZqeKR?height=400&theme-id=dark&default-tab=html,result)
 
 
 ## Cores
