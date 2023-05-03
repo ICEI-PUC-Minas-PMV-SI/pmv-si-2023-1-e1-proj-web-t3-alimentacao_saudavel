@@ -8,6 +8,8 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
+![Iconografia](img/Template_Header_Nav_Bar.PNG)
+![Iconografia](img/Template_Header_Nav_Bar_Responsivo.PNG)
 
 <details>
   <summary>Header/Nav Bar</summary>
@@ -69,6 +71,8 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 </details>
 
 ---------------------
+
+![Iconografia](img/Template_Footer.PNG)
 
 <details>
   <summary>Footer</summary>
