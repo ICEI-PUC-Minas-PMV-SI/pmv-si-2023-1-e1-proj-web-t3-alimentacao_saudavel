@@ -24,3 +24,4 @@
 
 **[11]** - ORGANIS - **Pesquisa revela que 31% dos brasileiros consomem orgânicos**. Disponível em: https://organis.org.br/imprensa/pesquisa-revela-que-31-dos-brasileiros-consomem-organicos/. Acesso em: 29/03/2023.
 
+**[12]** - KIMELBLAT, Hanna - **Fontes para logo: 30 fontes para um logo inesquecível**. Disponível em: https://pt.wix.com/blog/2020/01/melhores-fontes-para-logos/#:~:text=A%20Poppins%20%C3%A9%20uma%20fonte,e%20baseada%20em%20formas%20geom%C3%A9tricas.  Acesso em: 03/05/2023.
