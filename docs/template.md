@@ -1,10 +1,27 @@
 # Template padrão do site
 
-## Visual padrão
-![Template Padrão](img/TemplateNutriSchedule.png)
+## Cores
 
-## Visual padrão da navegação
-![Template Navegacao](img/TemplateNutriSchedule_Navegacao.png)
+Baseando-se na cor verde como principal além do branco, que está associda a saúde e vitalidade, foi criado a seguinte paleta de cores. 
+
+![Paleta de Cores](img/PaletaDeCores.png)
+
+A cor #028F4B foi usada como fundo nas telas de cadastro e login, do cálculo do IMC,  e da edição de dados do usuário afim de chamar mais atenção ao conteúdo central que faz as requisições e contém as informações importantes do usuário. Utilizando esta cor na fonte de maneira que atraia a atenção e combine de forma harmoniosa com a intenção do projeto. Na versão de #028F4B - 70% foi aplicado na tela de sobre receitas para destacar o nome, a dificuldade, o tempo de preparo e as porções. 
+
+## Tipografia
+
+A fonte usada para a criação das telas foi a Poppins, que é considerada uma tipografia geométrica clássica com aparência simples e justa[[12]](./docs/references.md). Esta mesma se tornou a fonte padrão da aplicação web por se encontrar presente em todas as telas com textos e títulos.
+
+## Iconografia
+
+![Iconografia](img/Iconografia.png)
+
+
+Os ícones 1, 2, 5 e 7 são utlizados na página de cálculo de IMC, os dois primeiros idicam o sexo que o usuário corresponde, o terceiro representa a altura e o quarto seu peso atual.
+
+Na sequência os ícones 3, 4, 5, 6, 7, 8  e 26 foram empregados nas telas de cadastro e login, na de editar dados do usuário e na de dados pessoais como papel de representar o nome(8), email(6), data de nascimento(26), altura(5), peso(7), senha(4) e confirmação de senha(3).
+
+E os ademais foram usados nas telas de sobre as receitas, e nas de informações nuticionais e de alimentos a serem evitados.
 
 ## Design
 
@@ -125,29 +142,12 @@ A logo da aplicação está presente no canto inferior esquerdo e funciona como 
 
 O código html do template pode ser visualizado em `src/layout/layout.html` e o sua estilização em `src/layout/schema_padrao.css`
 
-## Cores
+## Visual padrão as telas
+![Template Padrão](img/TemplateNutriSchedule.png)
 
-Baseando-se na cor verde como principal além do branco, que está associda a saúde e vitalidade, foi criado a seguinte paleta de cores. 
+## Visual padrão de navegação das telas
+![Template Navegacao](img/TemplateNutriSchedule_Navegacao.png)
 
-![Paleta de Cores](img/PaletaDeCores.png)
-
-A cor #028F4B foi usada como fundo nas telas de cadastro e login, do cálculo do IMC,  e da edição de dados do usuário afim de chamar mais atenção ao conteúdo central que faz as requisições e contém as informações importantes do usuário. Utilizando esta cor na fonte de maneira que atraia a atenção e combine de forma harmoniosa com a intenção do projeto. Na versão de #028F4B - 70% foi aplicado na tela de sobre receitas para destacar o nome, a dificuldade, o tempo de preparo e as porções. 
-
-## Tipografia
-
-A fonte usada para a criação das telas foi a Poppins, que é considerada uma tipografia geométrica clássica com aparência simples e justa[[12]](./docs/references.md). Esta mesma se tornou a fonte padrão da aplicação web por se encontrar presente em todas as telas com textos e títulos.
-
-## Iconografia
-
-![Iconografia](img/Iconografia.png)
-
-
-Os ícones 1, 2, 5 e 7 são utlizados na página de cálculo de IMC, os dois primeiros idicam o sexo que o usuário corresponde, o terceiro representa a altura e o quarto seu peso atual.
-
-Na sequência os ícones 3, 4, 5, 6, 7, 8  e 26 foram empregados nas telas de cadastro e login, na de editar dados do usuário e na de dados pessoais como papel de representar o nome(8), email(6), data de nascimento(26), altura(5), peso(7), senha(4) e confirmação de senha(3).
-
-E os ademais foram usados nas telas de sobre as receitas, e nas de informações nuticionais e de alimentos a serem evitados.
-
-
-
+## Tela Inicial
+![Tela Inicial Navegacao](img/TemplateTelaInicial.png)
 
