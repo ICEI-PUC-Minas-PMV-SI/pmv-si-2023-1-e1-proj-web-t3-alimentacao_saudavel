@@ -149,5 +149,5 @@ O código html do template pode ser visualizado em `src/layout/layout.html` e o 
 ![Template Navegacao](img/TemplateNutriSchedule_Navegacao.png)
 
 ## Tela Inicial
-![Tela Inicial Navegacao](img/TemplateTelaInicial.png)
+![Tela Inicial Navegacao](img/TemplateTelaInicial.PNG)
 
