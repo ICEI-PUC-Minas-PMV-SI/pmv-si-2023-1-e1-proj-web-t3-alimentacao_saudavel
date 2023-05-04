@@ -6,11 +6,21 @@ Baseando-se na cor verde como principal além do branco, que está associda a sa
 
 ![Paleta de Cores](img/PaletaDeCores.png)
 
-A cor #028F4B foi usada como fundo nas telas de cadastro e login, do cálculo do IMC,  e da edição de dados do usuário afim de chamar mais atenção ao conteúdo central que faz as requisições e contém as informações importantes do usuário. Utilizando esta cor na fonte de maneira que atraia a atenção e combine de forma harmoniosa com a intenção do projeto. Na versão de #028F4B - 70% foi aplicado na tela de sobre receitas para destacar o nome, a dificuldade, o tempo de preparo e as porções. 
+A cor #028F4B foi usada como fundo nas telas de cadastro e login, do cálculo do IMC,  e da edição de dados do usuário afim de chamar mais atenção ao conteúdo central que faz as requisições e contém as informações importantes do usuário. Utilizando esta cor na fonte de maneira que atraia a atenção e combine de forma harmoniosa com a intenção do projeto. Na versão de #028F4B - 70% foi aplicado na tela de sobre receitas para destacar o nome, a dificuldade, e o tempo de preparo e as porções.
+
+O branco #FFFFFF, aplicado como fundo das telas iniciais, nas de receitas de informações nutricionais, alimentos a serem evitados e como cor pricipal para as caixas de respostas de usuários nas telas de login e cadastro e de cálculo do IMC.
+
+A cor vermelha #E32900, foram empregues nas fontes da tela de "falha do envio do email" para indicar que houve algum problema de verificação que deve ser solucionado rapidamente para que possa ter acesso as seus benefícios como usuário cadastrado.  
+
+A cor preta #000000 deu-se como uma das cores de fonte nas telas de textos longos como as de informações nutricionais e a de alimentos a serem evitados.
+
+Os tons de cinza ##8D8585 e #D9D9D9 usados nas fontes de texto da tela inicial e também como película das telas que contém imagens no fundo.
 
 ## Tipografia
 
-A fonte usada para a criação das telas foi a Poppins, que é considerada uma tipografia geométrica clássica com aparência simples e justa[[12]](./docs/references.md). Esta mesma se tornou a fonte padrão da aplicação web por se encontrar presente em todas as telas com textos e títulos.
+A fonte usada para a criação das telas foi a Poppins, que é considerada uma tipografia geométrica clássica com aparência simples e justa[[12]](./docs/references.md). Esta mesma se tornou a fonte padrão da aplicação web por se encontrar presente em todas as telas com textos e títulos. E como fonte secundária foi usada a Inter nas telas que inclui textos mais longos como a de receitas.
+
+![Tipografia](img/fontes_tipografia.png)
 
 ## Iconografia
 
