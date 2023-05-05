@@ -32,7 +32,7 @@ A tela de **cálculo do IMC** é uma ferramenta útil para ajudar os usuários a
 
 A tela **Registre suas refeições** permite que o usuário cadastre os alimentos que ingeriu ao longo do dia e possa gerar um relatório dos dados cadastrados. Sendo uma ferramenta útil para quem deseja monitorar sua ingestão calórica e nutricional, além de identificar padrões alimentares e possíveis desequilíbrios na dieta.
 Além disso, na tela o usuário também terá acesso a sugestões de ingestão diária de água, o que pode ser uma ajuda importante para manter uma hidratação adequada. É importante lembrar que a água é essencial para diversas funções do organismo e que a falta dela pode levar a problemas de saúde.
-A tela **Registre suas refeições** é uma ferramenta importante para quem deseja adotar hábitos alimentares saudáveis e monitorar sua saúde.  (RF-003 | RF-010 | RF-011).
+A tela **Registre suas refeições** é uma ferramenta importante para quem deseja adotar hábitos alimentares saudáveis e monitorar sua saúde (RF-003 | RF-010 | RF-011).
 
 ________________________________________________________________________________________________________________________________________________________
 ### Conheça os Alimentos
