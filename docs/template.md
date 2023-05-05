@@ -41,7 +41,7 @@ Os demais ícones foram utilizados nas telas de informações sobre as receitas,
 ![Header](img/Template_Header_Nav_Bar.PNG)
 
 O header da aplicação se encontra presente em todas as telas com exceção das seguintes:
-- Calculo IMC
+- Cálculo IMC
 - Cadastro/Gestão de dados
 
 A barra de navegação contém um redirecionamento para as telas principais, sendo elas:
@@ -119,7 +119,7 @@ Se o dispositivo utilizado tiver uma largura pequena, os elementos de navegaçã
 ### Footer
 
 A logo da aplicação está presente no canto inferior esquerdo e funciona como um redirecionamento para a tela inicial ao ser clicada, porém, nas seguintes telas abaixo ele não é visivel:
-- Calculo IMC
+- Cálculo IMC
 - Cadastro/Gestão de dados
 
 ![Footer](img/Template_Footer.PNG)
