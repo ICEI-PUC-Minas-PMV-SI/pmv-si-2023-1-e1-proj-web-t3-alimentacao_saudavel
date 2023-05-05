@@ -50,13 +50,13 @@ ________________________________________________________________________________
 
 A tela **Receitas do dia dia**, o usuário terá acesso as receitas separadas por preferências: Rápido e fácil, Fit e saudável, Vegana e Gluteen e lactose free (RF-001 | RF-002 | RF-007).
 
-Na categoria "Rápido e fácil", serão apresentadas receitas que podem ser preparadas de forma rápida e simples, sem exigir muito tempo ou habilidades culinárias complexas. Estas receitas são ideais para quem tem pouco tempo disponível para cozinhar ou para quem está começando a se aventurar na cozinha.
+Na categoria **Rápido e fácil**, serão apresentadas receitas que podem ser preparadas de forma rápida e simples, sem exigir muito tempo ou habilidades culinárias complexas. Estas receitas são ideais para quem tem pouco tempo disponível para cozinhar ou para quem está começando a se aventurar na cozinha.
 
 
-Na categoria "Fit e saudável", serão apresentadas receitas com ingredientes nutritivos e saudáveis, adequados para quem busca uma alimentação equilibrada e saudável. Estas receitas podem incluir opções de baixo teor de gordura, ricas em proteínas ou com baixo teor de carboidratos, por exemplo.
+Na categoria **Fit e saudável**, serão apresentadas receitas com ingredientes nutritivos e saudáveis, adequados para quem busca uma alimentação equilibrada e saudável. Estas receitas podem incluir opções de baixo teor de gordura, ricas em proteínas ou com baixo teor de carboidratos, por exemplo.
 
 
-Na categoria "Vegana", serão apresentadas receitas livres de produtos de origem animal, adequadas para quem segue uma dieta vegana. Estas receitas podem incluir opções com proteínas vegetais, como tofu, seitan ou legumes, por exemplo.
+Na categoria **Vegana**, serão apresentadas receitas livres de produtos de origem animal, adequadas para quem segue uma dieta vegana. Estas receitas podem incluir opções com proteínas vegetais, como tofu, seitan ou legumes, por exemplo.
 
 Por fim, na categoria "Glúten e lactose free", serão apresentadas receitas que não contêm glúten ou lactose, adequadas para pessoas com intolerância ou sensibilidade a estes componentes. Estas receitas podem incluir opções com farinhas sem glúten, como a de arroz ou de mandioca, ou substitutos para o leite, como o leite de amêndoas ou o leite de soja, por exemplo.
 
