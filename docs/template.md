@@ -44,15 +44,15 @@ O header da aplicação se encontra presente em todas as telas com exceção das
 - Calculo IMC
 - Cadastro/Gestão de dados
 
-A barra de navegação contem um redirecionamento para as telas principais, sendo elas:
+A barra de navegação contém um redirecionamento para as telas principais, sendo elas:
 - Registro Alimentar
 - Informações dos alimentos
 - Receitas
 - Alimentos não recomendados
 
-A logo se encontra no canto superior esquerdo e funciona como um redirecionamento para a "Home" ao clicar, independente da tela ativa no momento.
+A logo está localizada no canto superior esquerdo e serve como um redirecionamento para a página inicial, independentemente da tela em que o usuário esteja.
 
-Caso o dispositivo utilizado possua uma largura pequena, os elementos de navegação ficarão "escondidos" e so poderão ser acessados ao clicar no icone no canto superior direto
+Se o dispositivo utilizado tiver uma largura pequena, os elementos de navegação ficarão ocultos e só poderão ser acessados ao clicar no ícone no canto superior direito.
 
 ![Header Responsivo](img/Template_Header_Nav_Bar_Responsivo.PNG)
 
