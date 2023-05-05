@@ -27,7 +27,7 @@ A fonte usada para a criação das telas foi a Poppins, que é considerada uma t
 ![Iconografia](img/Iconografia.png)
 
 
-Os ícones 1, 2, 5 e 7 são utlizados na página de cálculo de IMC, os dois primeiros desingnam o sexo que o usuário corresponde, o terceiro representa a altura e o quarto seu peso atual.
+Os ícones 1, 2, 5 e 7 são utlizados na página de cálculo de IMC, os dois primeiros designam o sexo que o usuário corresponde, o terceiro representa a altura e o quarto seu peso atual.
 
 Na sequência os ícones 3, 4, 5, 6, 7, 8  e 26 foram empregados nas telas de cadastro e login, na de editar dados do usuário e na de dados pessoais como papel de representar o nome(8), email(6), data de nascimento(26), altura(5), peso(7), senha(4) e confirmação de senha(3).
 
