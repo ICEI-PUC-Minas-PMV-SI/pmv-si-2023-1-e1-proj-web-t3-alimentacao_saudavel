@@ -18,11 +18,11 @@ Por conseguinte, a logo - Figura 1, utiliza das premissas das cores principais p
   Figura 2 - Paleta de Cores
 </p>
 
-Como resultado, a seleção de cores é apresentada pela Figura 2 - Paleta de Cores. De forma detalhada, a cor `#028F4B` é utilizada como fundo das telas de cadastro e login, no cálculo do IMC e na edição de dados do usuário, a fim de destacar o conteúdo central que contém informações importantes. A cor está aplicada à fonte de forma a atrair a atenção dos usuários, bem como harmonizar com a intenção do projeto. Na versão `#028F4B` - 70%, a pigmentação é incorporada à tela de receitas para destacar o nome, a dificuldade, o tempo de preparo e as porções. 
+Como resultado, a seleção de cores é apresentada pela Figura 2 - Paleta de Cores. De forma detalhada, a cor `#028F4B` é utilizada como fundo das [telas de cadastro e login](interface.md#home), no [cálculo do IMC](interface.md#home) e na edição de dados do usuário, a fim de destacar o conteúdo central que contém informações importantes. A cor está aplicada à fonte de forma a atrair a atenção dos usuários, bem como harmonizar com a intenção do projeto. Na versão `#028F4B - 70%`, a pigmentação é incorporada à [tela de receitas](interface.md#home) para destacar o nome, a dificuldade, o tempo de preparo e as porções. 
 
-O branco `#FFFFFF` é usado para estilizar os planos de fundo das telas iniciais, telas de receitas e informações nutricionais. Além disso, é configurado como cor principal para as caixas de respostas dos usuários nas telas de login, cadastro e cálculo do IMC.
+O branco `#FFFFFF` é usado para estilizar os planos de fundo das [telas iniciais](interface.md#home), telas de receitas e [informações nutricionais](interface.md#home). Além disso, é configurado como cor principal para as caixas de respostas dos usuários nas telas de login, cadastro e cálculo do IMC.
 
-A cor vermelha `#E32900` é aplicada nas fonte do texto presente na tela: "falha no envio do e-mail", para indicar que houve algum problema de verificação, o qual deve ser solucionado rapidamente para que o usuário possa ter acesso as demais áreas da aplicação.
+A cor vermelha `#E32900` é aplicada nas fonte do texto presente na tela: ["falha no envio do e-mail"](interface.md#home), para indicar que houve algum problema de verificação, o qual deve ser solucionado rapidamente para que o usuário possa ter acesso as demais áreas da aplicação.
 
 A cor preta `#000000` é base de estilização de fonte nas telas que possuem descrições amplas, como as informações nutricionais e alimentos a serem evitados.
 
@@ -41,7 +41,7 @@ A fonte aplicada na criação das telas é a Poppins, uma tipografia geométrica
 ![Iconografia](img/Iconografia.png)
 
 
-Os ícones 1, 2, 5 e 7 são utilizados na página de cálculo do IMC, sendo que os dois primeiros representam o sexo do usuário, o terceiro representa a altura e o quarto representa o peso atual.
+Os ícones 1, 2, 5 e 7 são utilizados na página de cálculo do IMC, sendo que os dois primeiros (1, 2) representam o sexo do usuário, o terceiro (5) representa a altura e o quarto (7) representa o peso atual.
 Já os ícones 3, 4, 5, 6, 7, 8 e 26 são empregados nas telas de cadastro e login, edição de dados do usuário e informações pessoais, para representar respectivamente, o nome (8), e-mail (6), data de nascimento (26), altura (5), peso (7), senha (4) e confirmação de senha (3).
 Os demais ícones são implementados nas telas de informações sobre as receitas, informações nutricionais e alimentos a serem evitados.
 
