@@ -7,15 +7,15 @@ Com base nas cores presentes na logomarca, a cor verde, que está associada à s
 
 ![Paleta de Cores](img/PaletaDeCores.png)
 
-A cor #028F4B foi utilizada como fundo nas telas de cadastro e login, no cálculo do IMC e na edição de dados do usuário, a fim de destacar o conteúdo central que contém informações importantes. A cor foi aplicada na fonte de forma a atrair a atenção e harmonizar com a intenção do projeto. Na versão #028F4B - 70%, a cor foi utilizada na tela de receitas para destacar o nome, a dificuldade, o tempo de preparo e as porções. 
+A cor `#028F4B` foi utilizada como fundo nas telas de cadastro e login, no cálculo do IMC e na edição de dados do usuário, a fim de destacar o conteúdo central que contém informações importantes. A cor foi aplicada na fonte de forma a atrair a atenção e harmonizar com a intenção do projeto. Na versão `#028F4B` - 70%, a cor foi utilizada na tela de receitas para destacar o nome, a dificuldade, o tempo de preparo e as porções. 
 
-O branco #FFFFFF foi utilizado como fundo nas telas iniciais, nas telas de receitas e informações nutricionais, e como cor principal para as caixas de respostas de usuários nas telas de login, cadastro e cálculo do IMC.
+O branco `#FFFFFF` foi utilizado como fundo nas telas iniciais, nas telas de receitas e informações nutricionais, e como cor principal para as caixas de respostas de usuários nas telas de login, cadastro e cálculo do IMC.
 
-A cor vermelha #E32900 foi utilizada nas fontes da tela de "falha no envio do e-mail" para indicar que houve algum problema de verificação que deve ser solucionado rapidamente para que o usuário possa ter acesso aos seus benefícios.
+A cor vermelha `#E32900` foi utilizada nas fontes da tela de "falha no envio do e-mail" para indicar que houve algum problema de verificação que deve ser solucionado rapidamente para que o usuário possa ter acesso aos seus benefícios.
 
-A cor preta #000000 foi utilizada como uma das cores de fonte nas telas de textos longos, como as de informações nutricionais e alimentos a serem evitados.
+A cor preta `#000000` foi utilizada como uma das cores de fonte nas telas de textos longos, como as de informações nutricionais e alimentos a serem evitados.
 
-Os tons de cinza ##8D8585 e #D9D9D9 foram utilizados como fontes de texto na tela inicial e também como película das telas que contêm imagens no fundo.
+Os tons de cinza `#8D8585` e `#D9D9D9` foram utilizados como fontes de texto na tela inicial e também como película das telas que contêm imagens no fundo.
   
 
 ## Tipografia
