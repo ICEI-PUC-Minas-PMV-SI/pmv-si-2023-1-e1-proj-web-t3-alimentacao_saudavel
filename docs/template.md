@@ -1,8 +1,11 @@
 # Template padrão do site
 
 ## Cores
+A saúde e vitalidade estão associadas a cor verde, o que endossa os objetivos da aplicação. Dessa forma, esta coloração é aderida como principal, assim como o branco que está relacionado à clareza e sugere equilíbrio interior.
+Por conseguinte, a logo utiliza das premissas das cores principais para transmitir, de forma indireta, a finalidade do sistema.  
 
-Com base nas cores presentes na logomarca, a cor verde, que está associada à saúde e vitalidade, foi escolhida como cor principal, juntamente com o branco. Com isso, foi criada a seguinte paleta de cores. Vale ressaltar também que a logomarca do projeto se baseia na cor verde e branco que reflete na aplicação.
+
+![Logo](img/logo.png)
 
 
 ![Paleta de Cores](img/PaletaDeCores.png)
