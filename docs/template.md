@@ -2,15 +2,23 @@
 
 ## Cores
 A saúde e vitalidade estão associadas a cor verde, o que endossa os objetivos da aplicação. Dessa forma, esta coloração é aderida como principal, assim como o branco que está relacionado à clareza e sugere equilíbrio interior.
-Por conseguinte, a logo utiliza das premissas das cores principais para transmitir, de forma indireta, a finalidade do sistema.  
+Por conseguinte, a logo - Figura 1, utiliza das premissas das cores principais para transmitir, de forma indireta, a finalidade do sistema.
 
 
-![Logo](img/logo.png)
+<p align="center">
+  <img src="img/logo.png">
+  <br>
+  Figura 1 - Logo
+</p>
 
 
 ![Paleta de Cores](img/PaletaDeCores.png)
 
-A cor `#028F4B` é utilizada como fundo das telas de cadastro e login, no cálculo do IMC e na edição de dados do usuário, a fim de destacar o conteúdo central que contém informações importantes. A cor está aplicada à fonte de forma a atrair a atenção dos usuários, bem como harmonizar com a intenção do projeto. Na versão `#028F4B` - 70%, a pigmentação é incorporada à tela de receitas para destacar o nome, a dificuldade, o tempo de preparo e as porções. 
+<p align="center">
+  Figura 2 - Paleta de Cores
+</p>
+
+Como resultado, a seleção de cores é apresentada pela Figura 2 - Paleta de Cores. De forma detalhada, a cor `#028F4B` é utilizada como fundo das telas de cadastro e login, no cálculo do IMC e na edição de dados do usuário, a fim de destacar o conteúdo central que contém informações importantes. A cor está aplicada à fonte de forma a atrair a atenção dos usuários, bem como harmonizar com a intenção do projeto. Na versão `#028F4B` - 70%, a pigmentação é incorporada à tela de receitas para destacar o nome, a dificuldade, o tempo de preparo e as porções. 
 
 O branco `#FFFFFF` é usado para estilizar os planos de fundo das telas iniciais, telas de receitas e informações nutricionais. Além disso, é configurado como cor principal para as caixas de respostas dos usuários nas telas de login, cadastro e cálculo do IMC.
 
