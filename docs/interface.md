@@ -10,12 +10,15 @@ ________________________________________________________________________________
 ### Home
 
 
-A tela principal da plataforma é a primeira entrada para o usuário e é projetada para ajudá-lo a entender rapidamente o que a plataforma oferece e como ela pode ajudá-lo a alcançar seus objetivos. Para isso, a tela utiliza elementos visuais claros e de fácil leitura, como títulos e imagens, além de informações concisas sobre os recursos da plataforma.
+A tela principal da plataforma, apresentada pela Figura 1, é a primeira entrada para o usuário e é projetada para ajudá-lo a entender rapidamente o que a plataforma oferece e como ela pode ajudá-lo a alcançar seus objetivos. Para isso, a tela utiliza elementos visuais claros e de fácil leitura, como títulos e imagens, além de informações concisas sobre os recursos da plataforma.
 Além disso, a tela inicial facilita o acesso aos recursos mais importantes da plataforma, como "Registre suas refeições" (RF-003 | RF-010 | RF-011), "Receitas para o dia a dia" (RF-001 | RF-002 | RF-007), "Conheça os alimentos" (RF-006), "Você conhece os alimentos que devem ser evitados?" (RF-005), "Login" e "Cadastro" (RF-008 | RF-009). Esses recursos são disponibilizados por meio de botões ou links de fácil acesso, aumentando a probabilidade do usuário explorar mais a plataforma e utilizar seus recursos para alcançar seus objetivos de saúde e bem-estar.
 Por fim, na tela inicial, o usuário também pode acessar o cálculo do IMC (RF-004), o que pode ser uma ferramenta importante para monitorar sua saúde.
 
 
 ![HomePage](https://user-images.githubusercontent.com/125522668/236067066-4c37b440-e237-40c3-87ca-52668d02c802.png)
+
+Figura 1 - Tela Principal
+
 
 ________________________________________________________________________________________________________________________________________________________
 ### Cálculo do IMC
