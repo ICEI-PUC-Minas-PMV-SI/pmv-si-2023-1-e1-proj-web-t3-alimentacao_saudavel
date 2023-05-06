@@ -2,25 +2,25 @@
 
 ## Cores
 
-Com base nas cores presentes na logomarca, a cor verde, que está associada à saúde e vitalidade, foi escolhida como cor principal, juntamente com o branco. Com isso, foi criada a seguinte paleta de cores. Vale ressaltar também que a logomarca do projeto se baseia na cor verde e branco onde buscamos refletir em nossa a aplicação web.
+Com base nas cores presentes na logomarca, a cor verde, que está associada à saúde e vitalidade, foi escolhida como cor principal, juntamente com o branco. Com isso, foi criada a seguinte paleta de cores. Vale ressaltar também que a logomarca do projeto se baseia na cor verde e branco que reflete na aplicação.
 
 
 ![Paleta de Cores](img/PaletaDeCores.png)
 
-A cor `#028F4B` foi utilizada como fundo nas telas de cadastro e login, no cálculo do IMC e na edição de dados do usuário, a fim de destacar o conteúdo central que contém informações importantes. A cor foi aplicada na fonte de forma a atrair a atenção e harmonizar com a intenção do projeto. Na versão `#028F4B` - 70%, a cor foi utilizada na tela de receitas para destacar o nome, a dificuldade, o tempo de preparo e as porções. 
+A cor `#028F4B` é utilizada como fundo das telas de cadastro e login, no cálculo do IMC e na edição de dados do usuário, a fim de destacar o conteúdo central que contém informações importantes. A cor está aplicada à fonte de forma a atrair a atenção dos usuários, bem como harmonizar com a intenção do projeto. Na versão `#028F4B` - 70%, a pigmentação é incorporada à tela de receitas para destacar o nome, a dificuldade, o tempo de preparo e as porções. 
 
-O branco `#FFFFFF` foi utilizado como fundo nas telas iniciais, nas telas de receitas e informações nutricionais, e como cor principal para as caixas de respostas de usuários nas telas de login, cadastro e cálculo do IMC.
+O branco `#FFFFFF` é usado para estilizar os planos de fundo das telas iniciais, telas de receitas e informações nutricionais. Além disso, é configurado como cor principal para as caixas de respostas dos usuários nas telas de login, cadastro e cálculo do IMC.
 
-A cor vermelha `#E32900` foi utilizada nas fontes da tela de "falha no envio do e-mail" para indicar que houve algum problema de verificação que deve ser solucionado rapidamente para que o usuário possa ter acesso aos seus benefícios.
+A cor vermelha `#E32900` é aplicada nas fonte do texto presente na tela: "falha no envio do e-mail", para indicar que houve algum problema de verificação, o qual deve ser solucionado rapidamente para que o usuário possa ter acesso as demais áreas da aplicação.
 
-A cor preta `#000000` foi utilizada como uma das cores de fonte nas telas de textos longos, como as de informações nutricionais e alimentos a serem evitados.
+A cor preta `#000000` é base de estilização de fonte nas telas que possuem descrições amplas, como as informações nutricionais e alimentos a serem evitados.
 
-Os tons de cinza `#8D8585` e `#D9D9D9` foram utilizados como fontes de texto na tela inicial e também como película das telas que contêm imagens no fundo.
+Os tons de cinza `#8D8585` e `#D9D9D9` são implementados nas fontes dos textos da tela inicial e, também como película das telas que contêm imagens no fundo.
   
 
 ## Tipografia
 
-A fonte utilizada na criação das telas foi a Poppins, uma tipografia geométrica clássica com aparência simples e equilibrada[[12]](./docs/references.md). Essa fonte tornou-se padrão em toda a aplicação web, presente em todas as telas com textos e títulos. A fonte secundária utilizada foi a Inter, nas telas que incluem textos mais longos, como a de receitas.
+A fonte aplicada na criação das telas é a Poppins, uma tipografia geométrica clássica com aparência simples e equilibrada[[12]](./docs/references.md). Essa fonte tornou-se padrão em toda a aplicação web, presente em todas as telas com textos e títulos. A fonte secundária utilizada é a Inter, nas telas que incluem textos mais longos, como a de receitas.
 
 
 ![Tipografia](img/fontes_tipografia.png)
@@ -31,8 +31,8 @@ A fonte utilizada na criação das telas foi a Poppins, uma tipografia geométri
 
 
 Os ícones 1, 2, 5 e 7 são utilizados na página de cálculo do IMC, sendo que os dois primeiros representam o sexo do usuário, o terceiro representa a altura e o quarto representa o peso atual.
-Já os ícones 3, 4, 5, 6, 7, 8 e 26 foram empregados nas telas de cadastro e login, edição de dados do usuário e informações pessoais, para representar respectivamente o nome (8), e-mail (6), data de nascimento (26), altura (5), peso (7), senha (4) e confirmação de senha (3).
-Os demais ícones foram utilizados nas telas de informações sobre as receitas, informações nutricionais e alimentos a serem evitados.
+Já os ícones 3, 4, 5, 6, 7, 8 e 26 são empregados nas telas de cadastro e login, edição de dados do usuário e informações pessoais, para representar respectivamente, o nome (8), e-mail (6), data de nascimento (26), altura (5), peso (7), senha (4) e confirmação de senha (3).
+Os demais ícones são implementados nas telas de informações sobre as receitas, informações nutricionais e alimentos a serem evitados.
 
 ## Design
 
@@ -40,7 +40,7 @@ Os demais ícones foram utilizados nas telas de informações sobre as receitas,
 
 ![Header](img/Template_Header_Nav_Bar.PNG)
 
-O header da aplicação se encontra presente em todas as telas com exceção das seguintes:
+O header da aplicação se encontra presente em todas as telas, com exceção das seguintes:
 - Cálculo IMC
 - Cadastro/Gestão de dados
 
@@ -118,7 +118,7 @@ Se o dispositivo utilizado tiver uma largura pequena, os elementos de navegaçã
 ---------------------
 ### Footer
 
-A logo da aplicação está presente no canto inferior esquerdo e funciona como um redirecionamento para a tela inicial ao ser clicada, porém, nas seguintes telas abaixo ele não é visivel:
+A logo da aplicação está presente no canto inferior esquerdo e funciona como um redirecionamento para a tela inicial ao ser clicada, porém, nas seguintes telas abaixo ele não é visível:
 - Cálculo IMC
 - Cadastro/Gestão de dados
 
