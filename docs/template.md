@@ -31,7 +31,7 @@ Os tons de cinza `#8D8585` e `#D9D9D9` são implementados nas fontes dos textos 
 
 ## Tipografia
 
-A fonte aplicada na criação das telas é a Poppins, uma tipografia geométrica clássica com aparência simples e equilibrada[[12]](./docs/references.md). Essa fonte tornou-se padrão em toda a aplicação web, presente em todas as telas com textos e títulos. A fonte secundária utilizada é a Inter, nas telas que incluem textos mais longos, como a de receitas.
+A fonte aplicada na criação das telas é a Poppins, uma tipografia geométrica clássica com aparência simples e equilibrada[[12]](../docs/references.md). Essa fonte tornou-se padrão em toda a aplicação web, presente em todas as telas com textos e títulos. A fonte secundária utilizada é a Inter, nas telas que incluem textos mais longos, como a de receitas.
 
 
 ![Tipografia](img/fontes_tipografia.png)
