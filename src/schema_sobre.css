@@ -1,0 +1,39 @@
+body {
+    background-color: #028F4B; /* Cor de fundo do corpo */
+    color: #ffffff; /* Cor do texto do corpo */
+    margin: 2.5cm;
+      font-family: Poppins, sans-serif;
+      font-size: 12pt;
+      line-height: 1.5;
+      }
+
+      header {
+        position: fixed;
+         top: 0;
+        left: 0;
+         width: 100%;
+        background-color: #ffff; /* Cor de fundo do cabeçalho */
+        color: #028F4B; /* Cor do texto do cabeçalho */
+          }
+             
+          h1 {
+        color: #fff;
+        font-size: 24px;
+        margin-bottom: 10px;
+           }
+           img {
+            float: right;
+            margin-left: 10px;
+          }
+
+      p {
+          color: #fff;
+        margin-bottom: 10px;
+        text-align: justify;
+        display: block;
+        line-height: 1.5;
+      }
+
+     footer {
+      background-color: black;
+     }
