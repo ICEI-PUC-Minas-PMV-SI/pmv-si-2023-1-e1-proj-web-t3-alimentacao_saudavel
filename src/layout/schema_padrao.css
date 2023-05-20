@@ -20,11 +20,6 @@ body{
   font-size: 3em;
 }
 
-.down-orientation{
-  margin-top: 5em;
-  margin-bottom: 5em;
-}
-
 .offcanvas-body{
   background-color: #F5F5F5
 }
@@ -51,6 +46,10 @@ main {
 
 footer {
   background-color: #028F4B;
-  position: sticky;
+  position: relative;
   bottom: 0;
+}
+
+#link-github {
+  color: black;
 }
