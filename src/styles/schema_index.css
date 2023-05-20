@@ -78,8 +78,7 @@ footer {
 }
 
 .sign-up-button {
-  position: relative;
-  left: 10vw;
+  margin-left: 10vw;
   font-size: 2vw;
 }
 
