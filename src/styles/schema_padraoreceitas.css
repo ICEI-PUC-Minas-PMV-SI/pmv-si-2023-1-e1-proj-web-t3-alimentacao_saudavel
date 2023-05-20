@@ -55,3 +55,30 @@ li {
 .title-margin-left {
   margin-left: 20px;
 }
+
+.my-custom-container {
+  display: flex;
+}
+
+.my-custom-container .image-item {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.my-custom-container .image-item img {
+  width: 50px;
+  height: 50px;
+}
+
+.my-custom-container .image-item figcaption {
+  font-size: 12px;
+}
+
+.image-container.my-custom-container {
+  display: flex;
+  margin-right: 10px;
+}
+
+.my-custom-container .image-item:not(:last-child) {
+  margin-right: 10px;
+}
