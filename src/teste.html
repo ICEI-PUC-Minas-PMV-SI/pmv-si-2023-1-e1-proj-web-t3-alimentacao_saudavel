@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NutriSchedule</title>
+  <!--OUTROS STYLESHEETS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+</head>
+
+<body>
+  <main>
+    <section>
+      <div class="container py-3">
+        <div class="row">
+          <div class="bg-white border rounded p-3" style="width: 100%;"> <!--CONTAINER BASE TABELA-->
+
+            <div class="d-flex m-3 justify-content-between">
+              <div class="mr-auto p-2 bi bi-calendar btn border-success text-success bg-white"> MAIO - 2023</div>
+
+              <div class="btn-group">
+                <button class="btn btn-success" data-mode="month">Month</button>
+                <button class="btn btn-success" data-mode="week">Week</button>
+                <button class="btn btn-success" data-mode="day">Day</button>
+              </div>
+
+            </div>
+
+            <div class="text-bg-success p-4"> <!--MENU CALENDARIO-->
+              <div class="d-flex row justify-content-between">
+                <button class="js-cal-prev btn btn-default text-success"><</button>
+                <button class="js-cal-option btn btn-default" data-mode="month">HOJE</button>
+              <span class="btn-group btn-group-lg">
+                    PERIODOS
+              </span>
+              <button class="js-cal-next btn btn-default text-success">></button>
+              </div>
+            </div> <!-- FIM MENU CALENDARIO-->
+
+            <div class="text-bg-warning p-4">
+
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title text-success">Café da manhã</h4>
+                  <p class="card-text">01 xícara de café, 01 pão, 02 ovos</p>
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                    data-bs-target="#adiciona">+</button>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title text-success">Almoço</h4>
+                  <p class="card-text">100 gramas de arroz, 2 pedaços de bife, 700ml de coca-cola</p>
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                    data-bs-target="#adiciona">+</button>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title text-success">Lanche</h4>
+                  <p class="card-text">1 xícara de café, 5 biscoitos</p>
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                    data-bs-target="#adiciona">+</button>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title text-success">Jantar</h4>
+                  <p class="card-text">100 gramas de arroz, 2 pedaços de bife, 700ml de coca-cola</p>
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                    data-bs-target="#adiciona">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex mt-3 justify-content-between">
+          <div class="card border-success mb-3" style="max-width: 18rem;">
+            <div class="card-header bg-transparent border-success">Objetivo diário:</div>
+            <div class="card-body text-success">
+              <h5 class="card-title">3500ml</h5>
+            </div>
+          </div>
+          <div class="align-self-center">
+            <button class="btn btn-primary btn-md" type="button">CONFERIR RELATORIO</button>
+          </div>
+        </div>
+      </div>
+
+      <!--  INICIO MODAL 1 - REGISTRO ALIMENTOS-->
+      <div class="modal fade" id="adiciona" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Registro de Alimentos</h5>
+              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h6>Alimentos</h6>
+              <p>Selecione os alimentos base que estão presentes em sua refeição ou adicione um novo.</p>
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label mb-2">Recipient:</label>                  
+                  <div class="add_icones_food">
+                    <img src="Icones\food\Cola.png" alt="Refrigerante", height="50">
+                    <img src="Icones\food\Bread.png" alt="Pão", height="50">
+                    <img src="Icones\food\Cafe.png" alt="Café", height="50">
+                    <img src="Icones\food\Cheese.png" alt="Queijo", height="50">
+              
+                    <img src="Icones\food\Cookie.png" alt="Biscoitos", height="50">
+                    <img src="Icones\food\Dessert.png" alt="Doces", height="50">
+                    <img src="Icones\food\Eggs.png" alt="Ovos", height="50">
+                    <img src="Icones\food\Tea.png" alt="Chá", height="50">
+
+                    <img src="Icones\food\French Bread.png" alt="Pão francês", height="50">
+                    <img src="Icones\food\French Fries.png" alt="Batata frita", height="50">
+                    <img src="Icones\food\Grains Of Rice.png" alt="Arroz", height="50">
+                    <img src="Icones\food\Group Of Fruits.png" alt="Fruta", height="50">
+
+                    <img src="Icones\food\Hamburger.png" alt="Hamburger", height="50">
+                    <img src="Icones\food\Juice Glass.png" alt="Suco", height="50">
+                    <img src="Icones\food\Meat.png" alt="Carne", height="50">
+                    <img src="Icones\food\Pizza.png" alt="Pizza", height="50">
+
+                    <img src="Icones\food\White Beans.png" alt="Hamburger", height="50">
+                    <img src="Icones\food\Salad.png" alt="Suco", height="50">
+                    <img src="Icones\food\Spaghetti.png" alt="Carne", height="50">
+                    <img src="Icones\food\Whole Fish.png" alt="Pizza", height="50">
+                    
+                  </div>
+                </div>
+              </form>
+              <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                    data-bs-target="#exampleModalCenter">+</button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Adicionar</button>
+            </div>
+          </div>
+        </div>
+      </div> <!--FIM MODAL 1 - REGISTRO ALIMENTOS-->
+
+
+
+    <!--INICIO MODAL 2 - REGISTRO ALIMENTOS PERSONALIZADO-->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Registro de Alimentos</h5>
+            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h6>Alimentos</h6>
+            <p>Selecione os alimentos base que estão presentes em sua refeição ou adicione um novo.</p>
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+            </form>
+
+            <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                  data-bs-target="#exampleModalCenter">+</button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div><!--INICIO MODAL 2 - REGISTRO ALIMENTOS PERSONALIZADO-->
+
+
+    </section>
+  </main>
+
+
+
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <img src="imgs/LogoNutrischedule.png" alt="Logo" width="80" height="60">
+      </a>
+    </div>
+    <div>
+      <span class="mb-3 mb-md-0 text-light">© 2023 Nutrischedule</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <i class="bi bi-github"></i>
+      </li>
+    </ul>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</html>
