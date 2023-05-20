@@ -1,0 +1,88 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-fluid-content{
+  display: none;
+}
+
+.nav-fluid-content-canvas{
+  display: flex;
+}
+
+.bi-person-circle, .bi-github, .bi-chevron-double-down{
+  font-size: 3em;
+}
+
+.down-orientation{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.offcanvas-body{
+  background-color: #F5F5F5
+}
+
+@media (min-width: 992px) {
+  .nav-fluid-content {
+    display: flex;
+  }
+  .nav-fluid-content-canvas {
+    display: none;
+  }
+}
+
+header {
+  background-color: #FFFFFF;
+  position: sticky;
+  top: 0;
+}
+
+main {
+  background-color: #f1f1f1;
+  flex-grow: 1;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h1 {
+  color: #028F4B;
+  font-weight: 900;
+}
+
+footer {
+  background-color: #028F4B;
+}
+
+.text-service-info {
+  font-size: 2vw;
+}
+
+.title-service-info {
+  font-size: 4vw;
+}
+
+.icon-size {
+  font-size: 6vw;
+}
+
+.down-orientation{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.sign-up-button {
+  position: relative;
+  left: 10vw;
+  font-size: 2vw;
+}
+
+#link-github {
+  color: black;
+}
