@@ -1,31 +1,57 @@
 body {
-    background-color: #f5f5f5; /* Cor de fundo do corpo */
-    color: #028F4B; /* Cor do texto do corpo */
-      }           
-          .container {
-            display: flex;
-          }
-      
-          .text {
-            flex: 1;
-          }
-      
-          .table-container {
-            float: right;
-            margin-left: 20px;
-          }
-      
-          table {
-            width: 100%;
-            border-collapse: collapse;
-          }
-      
-          th {
-            background-color: #028F4B; /* verde */
-            color: #fff; /* texto em branco */
-          }
-      
-          tr:nth-child(even) {
-            background-color: #ffffff; /* branco */
-            color: #028F4B;
-          }
+  background-color: #f5f5f5;
+  color: #028F4B;
+}
+
+.container {
+  display: flex;
+}
+
+.text {
+  flex: 1;
+}
+
+.table-container {
+  float: right;
+  margin-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #028F4B;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+  color: #028F4B;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.nutrition {
+  margin-left: 40px;
+}
+
+.image-container {
+  margin-left: 40px;
+}
+
+.title-margin-left {
+  margin-left: 20px;
+}
