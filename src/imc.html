@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NutriSchedule</title>
+  <!--OUTROS STYLESHEETS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+</head>
+
+<body>
+<main>
+    <section class="bg-success">
+
+
+        <div class="container py-3 bg-warning">
+            <div class="align-items-center" style="width: 100%; height: 100%;">
+                <div class="card border-success mb-3 align-items-center">
+                    <div class="card-header bg-transparent border-success">
+                        <h5 class="card-title text-success mt-3">Cálculo IMC</h5>
+                    </div>
+                    <div class="card-body text-success">
+                        <h5 class="card-title">Descubra o seu índice de Massa Corporal</h5>
+
+                        <div class="btn-group mb-3">
+                            <button class="btn btn-outline-success"><img src="Icones\Woman.png" alt="Mulher"
+                                    title="Mulher" height="50"> Mulher</button>
+                            <button class="btn btn-outline-success"><img src="Icones\Man in a Tuxedo.png" alt="Homem"
+                                    title="Homem" height="50"> Homem</button>
+                        </div>
+
+
+                        <div class="btn-toolbar justify-content-between mb-3" role="toolbar"
+                            aria-label="Toolbar with button groups">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text" id="btnGroupAddon2"><img
+                                            src="Icones\Sewing Tape Measure.png" alt="Peso" title="Peso" height="50">
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control" placeholder="50 kg"
+                                    aria-label="Input group example" aria-describedby="btnGroupAddon2">
+                            </div>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text" id="btnGroupAddon2"><img src="Icones\Length.png"
+                                            alt="Altura" title="Altura" height="50"></div>
+                                </div>
+                                <input type="text" class="form-control" placeholder="2,15m"
+                                    aria-label="Input group example" aria-describedby="btnGroupAddon2">
+                            </div>
+                        </div>
+
+
+                        <div class="calcular-imc">
+                            <button class="btn btn-sm bg-success text-white" id="show-imc">Calcular</button>
+                        </div>
+                    </div>
+                    <!-- RESULTADO IMC -->
+                    <div class="align-self-center" id="imc-resultado" style="display: none;">
+                        <div class="card-footer bg-transparent border-success">Seu IMC é:
+                            <div class="mb-3 bg-transparent">Sobrepeso</div>
+                        </div>
+                    </div>
+                    <script>
+                        document.getElementById("show-imc").addEventListener("click", function(){
+                            var myImc = document.getElementById("imc-resultado");
+                            if (myImc.style.display === "none") {
+                                myImc.style.display = "block";
+                            } else {
+                                myImc.style.display = "none";
+
+                            }
+                        });
+                    </script>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+</main>
+
+
+
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <img src="imgs/LogoNutrischedule.png" alt="Logo" width="80" height="60">
+      </a>
+    </div>
+    <div>
+      <span class="mb-3 mb-md-0 text-light">© 2023 Nutrischedule</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <i class="bi bi-github"></i>
+      </li>
+    </ul>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</html>
