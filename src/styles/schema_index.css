@@ -46,9 +46,42 @@ header {
 
 main {
   background-color: #f1f1f1;
-  flex-grow: 1
+  flex-grow: 1;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h1 {
+  color: #028F4B;
+  font-weight: 900;
 }
 
 footer {
   background-color: #028F4B;
+}
+
+.text-service-info {
+  font-size: 2vw;
+}
+
+.title-service-info {
+  font-size: 4vw;
+}
+
+.icon-size {
+  font-size: 6vw;
+}
+
+.down-orientation{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.sign-up-button {
+  margin-left: 10vw;
+  font-size: 2vw;
+}
+
+#link-github {
+  color: black;
 }
