@@ -52,8 +52,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |Nome Alimento|Texto|Nome característico do alimento consumido.|Arroz|
 |Refeição|Número (Inteiro)|Identificador padrão da refeição.|2 - Almoço|
 |Data|Data|Data em que será realizado o cadastro do alimento ingerido.|25/04/2022|
-|Quantidade|Número|Quantidade do alimento consumida.|200         
-|Unidade|Texto|Unidade de referência do alimento cadastrado.|gramas        
+|Quantidade|Número|Quantidade do alimento consumida.|4         
+|Unidade|Texto|Unidade de referência do alimento cadastrado.|Colheres        
 
 ## Refeição
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
