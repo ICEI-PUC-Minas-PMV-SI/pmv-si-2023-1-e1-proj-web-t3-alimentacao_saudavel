@@ -16,44 +16,43 @@
 <main>
     <section class="bg-success">
 
-
-        <div class="container py-3 bg-warning">
-            <div class="align-items-center" style="width: 100%; height: 100%;">
+        <div class="container py-5">
+            <div class="d-flex" style="width: 100%; height: 100%;">
                 <div class="card border-success mb-3 align-items-center">
                     <div class="card-header bg-transparent border-success">
                         <h5 class="card-title text-success mt-3">Cálculo IMC</h5>
                     </div>
-                    <div class="card-body text-success">
-                        <h5 class="card-title">Descubra o seu índice de Massa Corporal</h5>
-
-                        <div class="btn-group mb-3">
-                            <button class="btn btn-outline-success"><img src="Icones\Woman.png" alt="Mulher"
-                                    title="Mulher" height="50"> Mulher</button>
-                            <button class="btn btn-outline-success"><img src="Icones\Man in a Tuxedo.png" alt="Homem"
-                                    title="Homem" height="50"> Homem</button>
+                    <div class="d-flex card-body text-success align-items-center">
+                        <div class="row m-2">
+                            <h5 class="card-title">Descubra o seu índice de Massa Corporal</h5>
+                            <div class="btn-group mb-3">
+                                <button class="btn btn-outline-success m-1"><img src="Icones\Woman.png" alt="Mulher"
+                                        title="Mulher" height="50"> Mulher</button>
+                                <button class="btn btn-outline-success m-1"><img src="Icones\Man in a Tuxedo.png" alt="Homem"
+                                        title="Homem" height="50"> Homem</button>
+                                        
                         </div>
-
-
-                        <div class="btn-toolbar justify-content-between mb-3" role="toolbar"
-                            aria-label="Toolbar with button groups">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text" id="btnGroupAddon2"><img
-                                            src="Icones\Sewing Tape Measure.png" alt="Peso" title="Peso" height="50">
+                        </div>
+                        
+                            <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="input-group m-1">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" id="btnGroupAddon2"><img src="Icones\Sewing Tape Measure.png" alt="Peso"
+                                                title="Peso" height="50">
+                                        </div>
                                     </div>
+                                    <input type="text" class="form-control" placeholder="50 kg" aria-label="Input group example"
+                                        aria-describedby="btnGroupAddon2">
                                 </div>
-                                <input type="text" class="form-control" placeholder="50 kg"
-                                    aria-label="Input group example" aria-describedby="btnGroupAddon2">
-                            </div>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text" id="btnGroupAddon2"><img src="Icones\Length.png"
-                                            alt="Altura" title="Altura" height="50"></div>
+                                <div class="input-group m-1">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" id="btnGroupAddon2"><img src="Icones\Length.png" alt="Altura"
+                                                title="Altura" height="50"></div>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="2,15m" aria-label="Input group example"
+                                        aria-describedby="btnGroupAddon2">
                                 </div>
-                                <input type="text" class="form-control" placeholder="2,15m"
-                                    aria-label="Input group example" aria-describedby="btnGroupAddon2">
                             </div>
-                        </div>
 
 
                         <div class="calcular-imc">
@@ -63,7 +62,7 @@
                     <!-- RESULTADO IMC -->
                     <div class="align-self-center" id="imc-resultado" style="display: none;">
                         <div class="card-footer bg-transparent border-success">Seu IMC é:
-                            <div class="mb-3 bg-transparent">Sobrepeso</div>
+                            <div class="mb-3 bg-transparent"><strong>Sobrepeso</strong></div>
                         </div>
                     </div>
                     <script>
