@@ -74,7 +74,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RF-001| A aplicação deve disponibilizar para os usuários cadastrados ou não uma lista de receitas contendo apenas alimentos saudáveis. | ALTA |  |
-|RF-002| A aplicação deve diponibilizar as receitas exibidas por: Intolerância a lactose, glúten, vegano, vegetariano. | ALTA |  |
+|RF-002| A aplicação deve fornecer ao usuário receitas, indicando se são adequadas para pessoas com intolerância à lactose, glúten, vegana ou vegetariana. | ALTA |  |
 |RF-003| A aplicação deve informar ao usuário cadastrado a quantidade que o mesmo deve ingerir de água de acordo com o peso dele. | ALTA |  |
 |RF-004| A aplicação deve ter uma tela para cálculo do Índice de Massa Corporal para usuários cadastrados ou não. | ALTA |  |
 |RF-005| A aplicação deve disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente para qualquer usuário. | ALTA |  |
