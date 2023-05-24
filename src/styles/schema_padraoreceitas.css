@@ -1,0 +1,84 @@
+body {
+  background-color: #f5f5f5;
+  color: #028F4B;
+}
+
+.container {
+  display: flex;
+}
+
+.text {
+  flex: 1;
+}
+
+.table-container {
+  float: right;
+  margin-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #028F4B;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+  color: #028F4B;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.nutrition {
+  margin-left: 40px;
+}
+
+.image-container {
+  margin-left: 40px;
+}
+
+.title-margin-left {
+  margin-left: 20px;
+}
+
+.my-custom-container {
+  display: flex;
+}
+
+.my-custom-container .image-item {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.my-custom-container .image-item img {
+  width: 50px;
+  height: 50px;
+}
+
+.my-custom-container .image-item figcaption {
+  font-size: 12px;
+}
+
+.image-container.my-custom-container {
+  display: flex;
+  margin-right: 10px;
+}
+
+.my-custom-container .image-item:not(:last-child) {
+  margin-right: 10px;
+}

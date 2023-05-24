@@ -1,0 +1,18 @@
+
+.carousel-caption h5 {
+  color: #028F4B;
+  }
+  
+  .carousel-caption p {
+  color: #028F4B;
+  }
+  
+  .carousel-container {
+  max-width: 300px;
+  margin: 0 auto;
+  }
+  
+  .carousel-item img {
+  max-width: 100%;
+  height: auto;
+  }

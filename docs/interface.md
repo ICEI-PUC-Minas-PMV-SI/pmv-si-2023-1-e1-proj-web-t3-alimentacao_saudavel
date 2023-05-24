@@ -73,7 +73,7 @@ Na categoria **Vegana**, serão apresentadas receitas livres de produtos de orig
 Por fim, na categoria **Glúten e lactose free**, serão apresentadas receitas que não contêm glúten ou lactose, adequadas para pessoas com intolerância ou sensibilidade a estes componentes. Estas receitas podem incluir opções com farinhas sem glúten, como a de arroz ou de mandioca, ou substitutos para o leite, como o leite de amêndoas ou o leite de soja, por exemplo.
 
 
-![Receitas](https://user-images.githubusercontent.com/125522668/235015987-aa5d65ff-ed07-40db-9bf8-9f73ef6d214b.png)
+![Imagem 5-20-23 às 4 12 AM](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/147411e6-849e-4e61-bf6e-3c1bd965014b)
 
 <p align="center">
    Figura 4 - Receitas

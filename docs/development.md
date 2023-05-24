@@ -27,16 +27,47 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+|RF-001| A aplicação deve disponibilizar para os usuários cadastrados ou não uma lista de receitas contendo apenas alimentos saudáveis. | ALTA | index.html |
+|RF-002| A aplicação deve fornecer ao usuário receitas, indicando se são adequadas para pessoas com intolerância à lactose, glúten, vegana ou vegetariana. | ALTA | receitas.html , graodebico.html |
+|RF-003| A aplicação deve informar ao usuário cadastrado a quantidade que o mesmo deve ingerir de água de acordo com o peso dele. | ALTA | registro_alimentar.html |
+|RF-004| A aplicação deve ter uma tela para cálculo do Índice de Massa Corporal para usuários cadastrados ou não. | ALTA | imc.html |
+|RF-005| A aplicação deve disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente para qualquer usuário. | ALTA |  |
+|RF-006| A aplicação deve disponibilizar tela com os dados nutricionais das receitas cadastradas para qualquer usuário. | ALTA | steak.html |
+|RF-007| A aplicação deve diponibilizar informações sobre os grupos de alimentos. | ALTA |  |
+|RF-008| A aplicação deve permitir o autogerenciamento do cadastro de usuário. | MÉDIA | dados_pessoais.html |
+|RF-009| A aplicação deve disponibilizar tela de recuperação de senha.  | MÉDIA |recuperacao_senha.html |
+|RF-010| A aplicação deve permitir que um usuário cadastrado autogerencie os alimentos ingeridos ao longo do dia.  | MÉDIA | registro_alimentar.html |
+|RF-011| A aplicação deve gerar relatório com os alimentos ingeridos pelo usuário cadastrado.  | MÉDIA | |
 
 ## Descrição das estruturas:
 
-## Notícia
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
-|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
 
+## Usuário
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|:-------------------:|:-------------------------------------------:|:------------------------------------------------:|
+|Id do usuário|Número (Inteiro)|Identificador único do usuário.| 1|
+|Nome|Texto|Nome do usuário.|Paulo Henrique|
+|Idade|Número (Inteiro)|Idade do usuário que irá realizar acompanhamento por meio da aplicação.|25|
+|Peso|Número|Peso do usuário que irá realizar acompanhamento por meio da aplicação.|72,65|
+|Altura|Número|Altura do usuário que irá realizar acompanhamento por meio da aplicação.|1,75|
+|E-mail|Texto|Email utilizado para cadastro do usuário no sistema.|paulo.henrique@email.com|
+|Senha|Texto|Senha de cadastro no sistema.|SenhaNutri123|
+
+
+## Registro Alimentar
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|:-------------------:|:-------------------------------------------:|:------------------------------------------------:|
+|Id do alimento|Número (Inteiro)|Identificador único do alimento no relatório.|1|
+|Nome Alimento|Texto|Nome característico do alimento consumido.|Arroz|
+|Refeição|Número (Inteiro)|Identificador padrão da refeição.|2 - Almoço|
+|Data|Data|Data em que será realizado o cadastro do alimento ingerido.|25/04/2022|
+|Quantidade|Número|Quantidade do alimento consumida.|4         
+|Unidade|Texto|Unidade de referência do alimento cadastrado.|Colheres        
+
+## Refeição
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|:-------------------:|:-------------------------------------------:|:------------------------------------------------:|
+|Café da manhã|Número (Inteiro)|Identificador da refeição.| 1|
+|Almoço|Número (Inteiro)|Identificador da refeição.|2|
+|Lanche|Número (Inteiro)|Identificador da refeição.|3|
+|Jantar|Número (Inteiro)|Identificador da refeição.|4|
