@@ -38,6 +38,7 @@ h1 {
 h2 {
   margin-top: 20px;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 li {
@@ -81,4 +82,32 @@ li {
 
 .my-custom-container .image-item:not(:last-child) {
   margin-right: 10px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 30px;
+  color: #ddd;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+  color: #FFD700;
+}
+
+.comment-section textarea {
+  width: 100%;
+  resize: vertical;
 }
