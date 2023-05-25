@@ -1,0 +1,32 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+footer {
+  background-color: #028F4B;
+}
+.texto p {
+  color: #028F4B;
+  margin-bottom: 0;
+  text-indent: 1.5em;
+  margin-top: 0;
+  text-align: justify;
+  padding: 15px 10px;
+}
+
+.carousel-caption h5 {
+  color: #eeeeee;
+  }
+  
+.carousel-caption p {
+  color: #ffffff;
+}
+  
+.carousel-container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+  
+.carousel-item img {
+  max-width: 100%;
+  height: auto;  
+}
