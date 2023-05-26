@@ -9,17 +9,25 @@ footer {
     background-color: #028F4B;
 }
 .conteudo p {
-    color: #028F4B;
-    margin-bottom: 0;
-    text-indent: 1.5em;
-    margin-top: 0;
-    text-align: justify;
-    padding: 15px 10px;
-    display:inline-block;
+    text-indent: 24.5em; 
+    text-align:justify;
+    padding: 15px 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-left: 46%;
+    margin-right: 75%;
+    width: 6em;
 }
 
 .imagem img{
     width: 30%;
+    height: auto;
+    border-radius: 30px;
     display:inline-block;
     vertical-align:top;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
 }
