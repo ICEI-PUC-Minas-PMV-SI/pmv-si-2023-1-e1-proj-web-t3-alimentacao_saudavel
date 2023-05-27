@@ -193,3 +193,6 @@ li {
 .rating input:checked ~ label {
   color: #FFD700;
 }
+footer {
+  margin-top: 8px;
+}
