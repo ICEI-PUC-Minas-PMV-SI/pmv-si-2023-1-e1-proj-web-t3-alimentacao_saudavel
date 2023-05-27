@@ -75,19 +75,11 @@ li {
   font-size: 12px;
 }
 
-.image-container.my-custom-container {
-  display: flex;
-  margin-right: 10px;
-}
-
-.my-custom-container .image-item:not(:last-child) {
-  margin-right: 10px;
-}
-
 .rating {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  flex-direction: row;
 }
 
 .rating input {
@@ -168,6 +160,7 @@ li {
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
+
 #historicoAvaliacoes {
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -175,4 +168,28 @@ li {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-top: 50px;
   display: inline-block;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: row-reverse;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 30px;
+  color: #ddd;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+  color: #FFD700;
 }
