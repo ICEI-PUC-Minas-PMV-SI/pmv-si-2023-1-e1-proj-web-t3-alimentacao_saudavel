@@ -122,6 +122,44 @@
     <li>Corte em fatias e sirva.</li>
   </ol>
 
+  <form id="avaliacaoForm" class="modern-form">
+    <h2 class="form-title">Avalie a receita:</h2>
+    <div class="rating">
+      <input type="radio" id="star5" name="avaliacao" value="5" />
+      <label for="star5" title="Excelente">
+        <i class="bi bi-star-fill"></i>
+      </label>
+      <input type="radio" id="star4" name="avaliacao" value="4" />
+      <label for="star4" title="Muito Bom">
+        <i class="bi bi-star-fill"></i>
+      </label>
+      <input type="radio" id="star3" name="avaliacao" value="3" />
+      <label for="star3" title="Bom">
+        <i class="bi bi-star-fill"></i>
+      </label>
+      <input type="radio" id="star2" name="avaliacao" value="2" />
+      <label for="star2" title="Regular">
+        <i class="bi bi-star-fill"></i>
+      </label>
+      <input type="radio" id="star1" name="avaliacao" value="1" />
+      <label for="star1" title="Ruim">
+        <i class="bi bi-star-fill"></i>
+      </label>
+    </div>
+  
+    <div class="comment-section">
+      <label for="comentarios">Comentários:</label>
+      <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+    </div>
+    
+    <button type="submit" class="submit-button">Enviar</button>
+  </form>
+  
+  <div id="historicoAvaliacoes" class="modern-historico">
+    <h2 class="form-title">Histórico de Avaliações</h2>
+    <ul id="listaAvaliacoes" class="avaliacoes-list"></ul>
+  </div>  
+
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
     <div class="col-md-4 d-flex align-items-center">
       <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
@@ -137,6 +175,7 @@
       </li>
     </ul>
   </footer>
+  <script src="../styles/avaliacao.js"></script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </html>
