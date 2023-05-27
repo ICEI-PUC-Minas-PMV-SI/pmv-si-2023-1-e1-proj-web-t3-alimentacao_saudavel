@@ -28,7 +28,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
 |RF-001| A aplicação deve disponibilizar para os usuários cadastrados ou não uma lista de receitas contendo apenas alimentos saudáveis. | Italo | index.html |
-|RF-002| A aplicação deve fornecer ao usuário receitas, indicando se são adequadas para pessoas com intolerância à lactose, glúten, vegana ou vegetariana. | Jully | receitas.html  bolomilho.html espetovegan.html graodebico.html pizzavegana.html saladagrega.html soup.html spaghettisquash.html|
+|RF-002| A aplicação deve fornecer ao usuário receitas, indicando se são adequadas para pessoas com intolerância à lactose, glúten, vegana ou vegetariana. | Jully | receitas.html  bolomilho.html espetovegan.html graodebico.html pizzavegana.html saladagrega.html soup.html spaghettisquash.html suflespinafre.html pastapesto.html|
 |RF-003| A aplicação deve informar ao usuário cadastrado a quantidade que o mesmo deve ingerir de água de acordo com o peso dele. | Vinicius | registro_alimentar.html |
 |RF-004| A aplicação deve ter uma tela para cálculo do Índice de Massa Corporal para usuários cadastrados ou não. | Vinicius | imc.html |
 |RF-005| A aplicação deve disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente para qualquer usuário. | Mariana |  |
