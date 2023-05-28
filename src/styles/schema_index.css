@@ -78,8 +78,9 @@ footer {
 }
 
 .sign-up-button {
-  margin-left: 10vw;
   font-size: 2vw;
+  display: block;
+  margin: auto;
 }
 
 #link-github {
