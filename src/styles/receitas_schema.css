@@ -1,29 +1,8 @@
-
-.carousel-caption h5 {
-  color: #028F4B;
-  }
-  
-  .carousel-caption p {
-  color: #028F4B;
-  }
-  
-  .carousel-container {
-  max-width: 300px;
-  margin: 0 auto;
-  }
-  
-  .carousel-item img {
-  max-width: 100%;
-  height: auto;
-  }
-  .icon-circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #028F4B; /* Cor de fundo do círculo */
-    margin-bottom: 10px; /* Espaçamento inferior entre o círculo e o texto */
-  }
-  
+.text-shadow {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+figcaption {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}

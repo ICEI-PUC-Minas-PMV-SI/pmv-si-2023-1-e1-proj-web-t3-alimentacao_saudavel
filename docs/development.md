@@ -27,17 +27,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve disponibilizar para os usuários cadastrados ou não uma lista de receitas contendo apenas alimentos saudáveis. | X | index.html |
-|RF-002| A aplicação deve fornecer ao usuário receitas, indicando se são adequadas para pessoas com intolerância à lactose, glúten, vegana ou vegetariana. | ALTA | receitas.html , graodebico.html |
-|RF-003| A aplicação deve informar ao usuário cadastrado a quantidade que o mesmo deve ingerir de água de acordo com o peso dele. | ALTA | registro_alimentar.html |
-|RF-004| A aplicação deve ter uma tela para cálculo do Índice de Massa Corporal para usuários cadastrados ou não. | ALTA | imc.html |
-|RF-005| A aplicação deve disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente para qualquer usuário. | ALTA |  |
-|RF-006| A aplicação deve disponibilizar tela com os dados nutricionais das receitas cadastradas para qualquer usuário. | ALTA | steak.html |
-|RF-007| A aplicação deve diponibilizar informações sobre os grupos de alimentos. | ALTA |  |
-|RF-008| A aplicação deve permitir o autogerenciamento do cadastro de usuário. | MÉDIA | dados_pessoais.html |
-|RF-009| A aplicação deve disponibilizar tela de recuperação de senha.  | MÉDIA |recuperacao_senha.html |
-|RF-010| A aplicação deve permitir que um usuário cadastrado autogerencie os alimentos ingeridos ao longo do dia.  | MÉDIA | registro_alimentar.html |
-|RF-011| A aplicação deve gerar relatório com os alimentos ingeridos pelo usuário cadastrado.  | MÉDIA | |
+|RF-001| A aplicação deve disponibilizar para os usuários cadastrados ou não uma lista de receitas contendo apenas alimentos saudáveis. | Italo | index.html |
+|RF-002| A aplicação deve fornecer ao usuário receitas, indicando se são adequadas para pessoas com intolerância à lactose, glúten, vegana ou vegetariana. | Jully | receitas.html  bolomilho.html espetovegan.html graodebico.html pizzavegana.html saladagrega.html soup.html spaghettisquash.html suflespinafre.html pastapesto.html|
+|RF-003| A aplicação deve informar ao usuário cadastrado a quantidade que o mesmo deve ingerir de água de acordo com o peso dele. | Vinicius | registro_alimentar.html |
+|RF-004| A aplicação deve ter uma tela para cálculo do Índice de Massa Corporal para usuários cadastrados ou não. | Vinicius | imc.html |
+|RF-005| A aplicação deve disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente para qualquer usuário. | Mariana |  |
+|RF-006| A aplicação deve disponibilizar tela com os dados nutricionais das receitas cadastradas para qualquer usuário. | Jully |bolomilho.html espetovegan.html pastapesto.html graodebico.html pizzavegana.html saladagrega.html soup.html spaghettisquash.html steak.html  suflespinafre.html|
+|RF-007| A aplicação deve diponibilizar informações sobre os grupos de alimentos. | Mariana | conhecalimentos.html |
+|RF-008| A aplicação deve permitir o autogerenciamento do cadastro de usuário. | Italo | dados_pessoais.html |
+|RF-009| A aplicação deve disponibilizar tela de recuperação de senha.  | Italo |recuperacao_senha.html |
+|RF-010| A aplicação deve permitir que um usuário cadastrado autogerencie os alimentos ingeridos ao longo do dia.  | Vinicius | registro_alimentar.html |
+|RF-011| A aplicação deve gerar relatório com os alimentos ingeridos pelo usuário cadastrado.  | Vinicius | |
 
 ## Descrição das estruturas:
 

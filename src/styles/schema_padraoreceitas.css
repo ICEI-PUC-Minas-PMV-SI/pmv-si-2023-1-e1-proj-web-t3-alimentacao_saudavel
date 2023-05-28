@@ -38,6 +38,7 @@ h1 {
 h2 {
   margin-top: 20px;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 li {
@@ -74,11 +75,124 @@ li {
   font-size: 12px;
 }
 
-.image-container.my-custom-container {
+.rating {
   display: flex;
-  margin-right: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: row;
 }
 
-.my-custom-container .image-item:not(:last-child) {
-  margin-right: 10px;
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 30px;
+  color: #ddd;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+  color: #FFD700;
+}
+
+.comment-section textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+.modern-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.comment-section label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.comment-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #028F4B;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #028F4B;
+}
+
+.modern-historico {
+  margin-top: 50px;
+}
+
+.avaliacoes-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.avaliacoes-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+#historicoAvaliacoes {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: row-reverse;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 30px;
+  color: #ddd;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+  color: #FFD700;
+}
+footer {
+  margin-top: 8px;
 }
