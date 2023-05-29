@@ -6,15 +6,3 @@ figcaption {
   color: white;
   text-shadow: 2px 2px 4px black;
 }
-.carousel {
-  margin-top: 8px;
-}
-.carousel {
-  position: relative;
-  z-index: 999;
-}
-
-header {
-  position: relative;
-  z-index: 9999;
-}
