@@ -37,7 +37,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-008| A aplicação deve permitir o autogerenciamento do cadastro de usuário. | Italo | dados_pessoais.html dados_pessoais_edicao.html alterar_senha.html login.html cadastro.html |
 |RF-009| A aplicação deve disponibilizar tela de recuperação de senha.  | Italo |recuperacao_senha.html |
 |RF-010| A aplicação deve permitir que um usuário cadastrado autogerencie os alimentos ingeridos ao longo do dia.  | Vinicius | registro_alimentar.html |
-|RF-011| A aplicação deve gerar relatório com os alimentos ingeridos pelo usuário cadastrado.  | Vinicius | |
+|RF-011| A aplicação deve gerar relatório com os alimentos ingeridos pelo usuário cadastrado.  | Vinicius | registro_alimentar.html |
 
 
 ## Descrição das estruturas:
