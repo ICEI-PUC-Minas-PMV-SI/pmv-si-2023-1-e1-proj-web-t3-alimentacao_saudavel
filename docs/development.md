@@ -40,7 +40,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-011| A aplicação deve gerar relatório com os alimentos ingeridos pelo usuário cadastrado.  | Vinicius | |
 
 
-
 ## Descrição das estruturas:
 
 ## Usuário
@@ -51,6 +50,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |Idade|Número (Inteiro)|Idade do usuário que irá realizar acompanhamento por meio da aplicação.|25|
 |Peso|Número|Peso do usuário que irá realizar acompanhamento por meio da aplicação.|72,65|
 |Altura|Número|Altura do usuário que irá realizar acompanhamento por meio da aplicação.|1,75|
+|Gênero|Número (Inteiro)|Identifica o gênero do usuário|1. Feminino|
 |E-mail|Texto|Email utilizado para cadastro do usuário no sistema.|paulo.henrique@email.com|
 |Senha|Texto|Senha de cadastro no sistema.|SenhaNutri123|
 |Status|Booleano|Informa o status referente a conta do usuário(ATIVO/INATIVO).|Ativo|
@@ -62,6 +62,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |Descrição|Texto|Descrição completa dos alimentos inseridos para a respectiva refeição.|200 gramas de arroz, 2 litros de coca-cola, 1 unidade de maçã.|
 |Refeição|Número (Inteiro)|Identificador padrão da refeição.|2 - Almoço|
 |Data|Data|Data em que será realizado o cadastro do alimento ingerido.|25/04/2022|
+|Id Receita|Número (Inteiro)|Identificador das receitas cadastradas no sistema.|3. Sopa|
+|Avaliação receita|Texto|Comentário a respeito das receitas cadastradas.|3 estrelas, Ótima sopa.|
 |Id Usuário|Número (Inteiro)|Identificador do usuário à refeição|1|
-
 
