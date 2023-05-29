@@ -1,7 +1,3 @@
-*{
-  font-family: 'Poppins', sans-serif;
-}
-
 body{
   min-height: 100vh;
   display: flex;
@@ -78,8 +74,9 @@ footer {
 }
 
 .sign-up-button {
-  margin-left: 10vw;
   font-size: 2vw;
+  display: block;
+  margin: auto;
 }
 
 #link-github {

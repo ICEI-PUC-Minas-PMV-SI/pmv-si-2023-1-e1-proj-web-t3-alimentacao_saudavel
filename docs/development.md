@@ -34,7 +34,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-005| A aplicação deve disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente para qualquer usuário. | Mariana |  |
 |RF-006| A aplicação deve disponibilizar tela com os dados nutricionais das receitas cadastradas para qualquer usuário. | Jully |bolomilho.html espetovegan.html pastapesto.html graodebico.html pizzavegana.html saladagrega.html soup.html spaghettisquash.html steak.html  suflespinafre.html|
 |RF-007| A aplicação deve diponibilizar informações sobre os grupos de alimentos. | Mariana | conhecalimentos.html |
-|RF-008| A aplicação deve permitir o autogerenciamento do cadastro de usuário. | Italo | dados_pessoais.html |
+|RF-008| A aplicação deve permitir o autogerenciamento do cadastro de usuário. | Italo | dados_pessoais.html dados_pessoais_edicao.html alterar_senha.html login.html cadastro.html |
 |RF-009| A aplicação deve disponibilizar tela de recuperação de senha.  | Italo |recuperacao_senha.html |
 |RF-010| A aplicação deve permitir que um usuário cadastrado autogerencie os alimentos ingeridos ao longo do dia.  | Vinicius | registro_alimentar.html |
 |RF-011| A aplicação deve gerar relatório com os alimentos ingeridos pelo usuário cadastrado.  | Vinicius | |
