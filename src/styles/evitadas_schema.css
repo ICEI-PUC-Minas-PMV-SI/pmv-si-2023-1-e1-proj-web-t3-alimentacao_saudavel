@@ -9,14 +9,14 @@ footer {
     background-color: #028F4B;
 }
 .conteiner {
-    display: block;
+    display: inline-block;
 }
 .conteiner img{
     width: 30%;
     height: auto;
     border-radius: 30px;
     padding:auto;
-    margin: auto;
+    margin: 20px 20px;
 
 }
 .conteiner p {
@@ -25,4 +25,11 @@ footer {
     text-align:justify;
     float: right;
     margin-top: 20px;
+    padding: auto;
+    margin: 15px 12px;
+}
+.titulo{
+    text-align: center;
+    color: #f5f5f5;
+    background-color: #028F4B;
 }

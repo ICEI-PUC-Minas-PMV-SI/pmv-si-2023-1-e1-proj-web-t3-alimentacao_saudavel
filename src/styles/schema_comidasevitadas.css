@@ -30,3 +30,8 @@
     max-width: 100%;
     height: auto;  
   }
+  .texto h3{
+    text-align: center;
+    color: #f5f5f5;
+    background-color: #028F4B;
+  }
