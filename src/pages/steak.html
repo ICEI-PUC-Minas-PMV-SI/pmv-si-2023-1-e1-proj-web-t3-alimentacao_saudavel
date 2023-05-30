@@ -13,96 +13,137 @@
   <header>
     <nav class="navbar sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
-        </a>
-        <ul class="nav justify-content-center nav-fluid-content">
-          <li class="nav-item">
-            <a class="nav-link link-success" aria-current="page" href="#">Registro Alimentar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Informações dos Alimentos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Receitas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
-          </li>
-        </ul>
+          <a class="navbar-brand" href="../index.html">
+              <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
+          </a>
+          <ul class="nav justify-content-center nav-fluid-content">
+            <li class="nav-item">
+              <a class="nav-link link-success" aria-current="page" href="../pages/teste.html">Registro Alimentar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+            </li>
+          </ul>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="offcanvas offcanvas-end text-bg-dark bg-success" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <i class="bi bi-person-circle"></i>
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Login</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+              <li class="nav-item">
+                  <a class="nav-link link-success" href="../pages/imc.html">Calculo IMC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-success" href="../pages/sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/teste.html">Registro Alimentar</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
 
   <h1 class="title-margin-left">Steak</h1>
-  <div class="image-container">
-    <img src="../imgs/steak-g3bbc95cb0_1280.jpg" alt="Steak" class="center-image" style="width: 400px; height: auto; border-radius: 10px">
-  </div>
 
-  <table>
+  <table class="mb-4">
     <tr>
-      <th>Tempo de Preparo: 25 minutos <br> Porções: 2</th>
+      <th class="p-3">Tempo de Preparo: 25 minutos <br> Porções: 2</th>
     </tr>
   </table>
-
+  
   <div class="container">
-    <div class="ingredients">
-      <h2>Ingredientes</h2>
-      <p>2 bifes de steak (cerca de 200g cada)</p>
-      <p>Sal e pimenta a gosto</p>
-      <p>2 colheres de sopa de azeite de oliva</p>
-      <p>4 xícaras de folhas de alface variadas (rúcula, alface roxa, alface americana, etc.)</p>
-      <p>1 xícara de tomates cereja, cortados ao meio</p>
-      <p>1/2 xícara de pepino, fatiado</p>
-      <p>2 colheres de sopa de azeitonas pretas fatiadas</p>
-      <p>1/4 de xícara de queijo feta, esfarelado</p>
-      <p>2 colheres de sopa de molho de sua preferência (como vinagrete)</p>
-    </div>
-
-    <div class="nutrition">
-      <h2>Informações Nutricionais (Porção)</h2>
-      <table>
-        <tr>
-          <th>Informações Nutricionais</th>
-          <th>Quantidade</th>
-        </tr>
-        <tr>
-          <td>Calorias</td>
-          <td>500 cal</td>
-        </tr>
-        <tr>
-          <td>Gorduras</td>
-          <td>30g</td>
-        </tr>
-        <tr>
-          <td>Carboidratos</td>
-          <td>15g</td>
-        </tr>
-        <tr>
-          <td>Proteínas</td>
-          <td>50g</td>
-        </tr>
-        <tr>
-          <td>Fibras</td>
-          <td>5g</td>
-        </tr>
-      </table>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="image-container">
+          <img src="../imgs/steak-g3bbc95cb0_1280.jpg" alt="Steak" class="center-image" style="width: 600px; height: auto; border-radius: 10px">
+        </div>
+  
+        <div class="preparation">
+          <h2>Modo de Preparo</h2>
+          <ol>
+            <li>Tempere os bifes de steak com sal e pimenta a gosto em ambos os lados.</li>
+            <li>Em uma frigideira ou grelha aquecida, adicione uma colher de sopa de azeite de oliva e coloque os bifes para grelhar. Cozinhe por cerca de 4 a 6 minutos de cada lado, ou até que estejam no ponto de cozimento desejado. Retire os bifes da frigideira e reserve para descansar por alguns minutos antes de fatiar.</li>
+            <li>Enquanto os bifes descansam, prepare a salada. Em uma tigela grande, misture as folhas de alface variadas, os tomates cereja, o pepino, a cebola roxa, o queijo feta e as azeitonas pretas.</li>
+            <li>Regue a salada com uma colher de sopa de azeite de oliva e duas colheres de sopa de molho de sua preferência, como vinagrete. Misture bem para garantir que todos os ingredientes estejam cobertos pelo molho.</li>
+            <li>Fatie os bifes de steak em tiras finas.</li>
+            <li>Divida a salada em pratos individuais ou em uma travessa grande, e disponha as fatias de steak por cima.</li>
+            <li>Sirva imediatamente e aproveite sua deliciosa refeição de steak com salada.</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="col-md-6">
+        <div class="preparation-nutrition-container">
+          <div class="ingredients">
+            <h2>Ingredientes</h2>
+            <p>2 bifes de steak (cerca de 200g cada)</p>
+            <p>Sal e pimenta a gosto</p>
+            <p>2 colheres de sopa de azeite de oliva</p>
+            <p>4 xícaras de folhas de alface variadas (rúcula, alface roxa, alface americana, etc.)</p>
+            <p>1 xícara de tomates cereja, cortados ao meio</p>
+            <p>1/2 xícara de pepino, fatiado</p>
+            <p>2 colheres de sopa de azeitonas pretas fatiadas</p>
+            <p>1/4 de xícara de queijo feta, esfarelado</p>
+            <p>2 colheres de sopa de molho de sua preferência (como vinagrete)</p>
+          </div>
+  
+          <div class="nutrition">
+            <h2>Informações Nutricionais (Porção)</h2>
+            <table>
+              <tr>
+                <th>Informações Nutricionais</th>
+                <th>Quantidade</th>
+              </tr>
+              <tr>
+                <td>Calorias</td>
+                <td>500 cal</td>
+              </tr>
+              <tr>
+                <td>Gorduras</td>
+                <td>30g</td>
+              </tr>
+              <tr>
+                <td>Carboidratos</td>
+                <td>15g</td>
+              </tr>
+              <tr>
+                <td>Proteínas</td>
+                <td>50g</td>
+              </tr>
+              <tr>
+                <td>Fibras</td>
+                <td>5g</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-
-  <h2 class="title-margin-left">Modo de Preparo</h2>
-  <ol>
-    <li>Tempere os bifes de steak com sal e pimenta a gosto em ambos os lados.</li>
-    <li>Em uma frigideira ou grelha aquecida, adicione uma colher de sopa de azeite de oliva e coloque os bifes para grelhar. Cozinhe por cerca de 4 a 6 minutos de cada lado, ou até que estejam no ponto de cozimento desejado. Retire os bifes da frigideira e reserve para descansar por alguns minutos antes de fatiar.</li>
-    <li>Enquanto os bifes descansam, prepare a salada. Em uma tigela grande, misture as folhas de alface variadas, os tomates cereja, o pepino, a cebola roxa, o queijo feta e as azeitonas pretas.</li>
-    <li>Regue a salada com uma colher de sopa de azeite de oliva e duas colheres de sopa de molho de sua preferência, como vinagrete. Misture bem para garantir que todos os ingredientes estejam cobertos pelo molho.</li>
-    <li>Fatie os bifes de steak em tiras finas.</li>
-    <li>Divida a salada em pratos individuais ou em uma travessa grande, e disponha as fatias de steak por cima.</li>
-    <li>Sirva imediatamente e aproveite sua deliciosa refeição de steak com salada.</li>
-  </ol>
+  
   <form id="avaliacaoForm" class="modern-form">
     <h2 class="form-title">Avalie a receita:</h2>
     <div class="rating">

@@ -14,23 +14,23 @@
   <header>
     <nav class="navbar sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
-        </a>
-        <ul class="nav justify-content-center nav-fluid-content">
-          <li class="nav-item">
-            <a class="nav-link link-success" aria-current="page" href="#">Registro Alimentar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Informações dos Alimentos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Receitas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
-          </li>
-        </ul>
+          <a class="navbar-brand" href="../index.html">
+              <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
+          </a>
+          <ul class="nav justify-content-center nav-fluid-content">
+            <li class="nav-item">
+              <a class="nav-link link-success" aria-current="page" href="../pages/teste.html">Registro Alimentar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+            </li>
+          </ul>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,97 +38,134 @@
           <div class="offcanvas-header">
             <i class="bi bi-person-circle"></i>
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Login</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+              <li class="nav-item">
+                  <a class="nav-link link-success" href="../pages/imc.html">Calculo IMC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-success" href="../pages/sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/teste.html">Registro Alimentar</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </nav>
   </header>
+  
   <h1 class="title-margin-left">Espeto Vegano</h1>
-  <div class="image-container">
-    <img src="../imgs/espetinho vegano.jpg" alt="Espeto Vegano" class="center-image" style="width: 400px; height: auto; border-radius: 10px">
-  </div>
-  <table>
+  
+  <table class="mb-4">
     <tr>
-      <th>Tempo de Preparo: 25 minutos <br> Porções: 2-3</th>
+      <th class="p-3">Tempo de Preparo: 25 minutos <br> Porções: 2-3</th>
     </tr>
   </table>
-
+  
   <div class="container">
-    <div class="ingredients">
-      <h2>Ingredientes</h2>
-      <p>200g de tofu firme</p>
-      <p>1 pimentão vermelho</p>
-      <p>1 pimentão amarelo</p>
-      <p>1 cebola roxa</p>
-      <p>1 abobrinha</p>
-      <p>8 cogumelos</p>
-      <p>2 colheres de sopa de azeite de oliva</p>
-      <p>2 colheres de sopa de molho de soja (ou tamari para uma opção sem glúten)</p>
-      <p>1 colher de chá de páprica defumada</p>
-      <p>1 colher de chá de alho em pó</p>
-      <p>Sal e pimenta a gosto</p>
-    </div>
-    <div class="nutrition">
-      <h2>Informações Nutricionais (Porção)</h2>
-      <table>
-        <tr>
-          <th>Informações Nutricionais</th>
-          <th>Quantidade</th>
-        </tr>
-        <tr>
-          <td>Calorias</td>
-          <td>600 cal</td>
-        </tr>
-        <tr>
-          <td>Gorduras</td>
-          <td>30g</td>
-        </tr>
-        <tr>
-          <td>Carboidratos</td>
-          <td>40g</td>
-        </tr>
-        <tr>
-          <td>Proteínas</td>
-          <td>35g</td>
-        </tr>
-        <tr>
-          <td>Fibras</td>
-          <td>12g</td>
-        </tr>
-      </table>
-      <div class="image-container my-custom-container">
-      </figure>
-      <figure class="image-item lactose-free">
-        <img src="../Icones/Vegano.png" alt="">
-        <figcaption>Vegana</figcaption>
-      </figure>
-        <figure class="image-item gluten-free">
-          <img src="../Icones/Glutenfree.png" alt="">
-          <figcaption>Gluten Free</figcaption>
-        </figure>
-        <figure class="image-item lactose-free">
-          <img src="../Icones/Lactosefree.png" alt="">
-          <figcaption>Lactose Free</figcaption>
-        </figure>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="image-container">
+          <img src="../imgs/espetinho vegano.jpg" alt="Espeto Vegano" class="center-image" style="width: 600px; height: auto; border-radius: 10px">
+        </div>
+  
+        <div class="preparation">
+          <h2>Modo de Preparo</h2>
+          <ol>
+            <li>Corte o tofu em cubos.</li>
+            <li>Corte o pimentão vermelho e o pimentão amarelo em pedaços do mesmo tamanho que os cubos de tofu.</li>
+            <li>Descasque a cebola roxa e corte em quartos.</li>
+            <li>Corte a abobrinha em rodelas grossas.</li>
+            <li>Limpe os cogumelos e deixe-os inteiros.</li>
+            <li>Em um recipiente, misture o azeite de oliva, o molho de soja, a páprica defumada, o alho em pó, o sal e a pimenta. Mexa bem para combinar os temperos.</li>
+            <li>Coloque os cubos de tofu na marinada e deixe descansar por cerca de 10 minutos.</li>
+            <li>Monte os espetinhos, alternando os ingredientes. Por exemplo, você pode colocar um cubo de tofu, um pedaço de pimentão vermelho, uma fatia de cebola roxa, uma rodela de abobrinha e um cogumelo em cada espetinho.</li>
+            <li>Repita o processo até usar todos os ingredientes.</li>
+            <li>Pré-aqueça a grelha ou churrasqueira em fogo médio-alto.</li>
+            <li>Coloque os espetinhos na grelha e grelhe por cerca de 10 a 12 minutos, virando ocasionalmente, até que os legumes estejam macios e levemente carbonizados.</li>
+            <li>Sirva quente e aproveite!</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="col-md-6">
+        <div class="preparation-nutrition-container">
+          <div class="ingredients">
+            <h2>Ingredientes</h2>
+            <p>200g de tofu firme</p>
+            <p>1 pimentão vermelho</p>
+            <p>1 pimentão amarelo</p>
+            <p>1 cebola roxa</p>
+            <p>1 abobrinha</p>
+            <p>8 cogumelos</p>
+            <p>2 colheres de sopa de azeite de oliva</p>
+            <p>2 colheres de sopa de molho de soja (ou tamari para uma opção sem glúten)</p>
+            <p>1 colher de chá de páprica defumada</p>
+            <p>1 colher de chá de alho em pó</p>
+            <p>Sal e pimenta a gosto</p>
+          </div>
+  
+          <div class="nutrition">
+            <h2>Informações Nutricionais (Porção)</h2>
+            <table>
+              <tr>
+                <th>Informações Nutricionais</th>
+                <th>Quantidade</th>
+              </tr>
+              <tr>
+                <td>Calorias</td>
+                <td>600 cal</td>
+              </tr>
+              <tr>
+                <td>Gorduras</td>
+                <td>30g</td>
+              </tr>
+              <tr>
+                <td>Carboidratos</td>
+                <td>40g</td>
+              </tr>
+              <tr>
+                <td>Proteínas</td>
+                <td>35g</td>
+              </tr>
+              <tr>
+                <td>Fibras</td>
+                <td>12g</td>
+              </tr>
+            </table>
+            <div class="image-container my-custom-container d-flex justify-content-center">
+              <figure class="image-item vegan text-center">
+                <img src="../Icones/Vegano.png" alt="">
+                <figcaption>Vegano</figcaption>
+              </figure>
+              <figure class="image-item gluten-free text-center">
+                <img src="../Icones/Glutenfree.png" alt="">
+                <figcaption>Gluten Free</figcaption>
+              </figure>
+              <figure class="image-item lactose-free text-center">
+                <img src="../Icones/Lactosefree.png" alt="">
+                <figcaption>Lactose Free</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-
-  <h2 class="title-margin-left">Modo de Preparo</h2>
-  <ol>
-    <li>Corte o tofu em cubos.</li>
-    <li>Corte o pimentão vermelho e o pimentão amarelo em pedaços do mesmo tamanho que os cubos de tofu.</li>
-    <li>Descasque a cebola roxa e corte em quartos.</li>
-    <li>Corte a abobrinha em rodelas grossas.</li>
-    <li>Limpe os cogumelos e deixe-os inteiros.</li>
-    <li>Em um recipiente, misture o azeite de oliva, o molho de soja, a páprica defumada, o alho em pó, o sal e a pimenta. Mexa bem para combinar os temperos.</li>
-    <li>Coloque os cubos de tofu na marinada e deixe descansar por cerca de 10 minutos.</li>
-    <li>Monte os espetinhos, alternando os ingredientes. Por exemplo, você pode colocar um cubo de tofu, um pedaço de pimentão vermelho, uma fatia de cebola roxa, uma rodela de abobrinha e um cogumelo em cada espetinho.</li>
-    <li>Repita o processo até usar todos os ingredientes.</li>
-    <li>Pré-aqueça a grelha ou churrasqueira em fogo médio-alto.</li>
-    <li>Coloque os espetinhos na grelha e grelhe por cerca de 10 a 12 minutos, virando ocasionalmente, até que os legumes estejam macios e levemente carbonizados.</li>
-    <li>Sirva quente e aproveite!</li>
-  </ol>
+  </div>  
+  
   <form id="avaliacaoForm" class="modern-form">
     <h2 class="form-title">Avalie a receita:</h2>
     <div class="rating">

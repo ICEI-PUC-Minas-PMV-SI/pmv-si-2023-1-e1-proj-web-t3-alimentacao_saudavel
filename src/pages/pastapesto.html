@@ -14,23 +14,23 @@
   <header>
     <nav class="navbar sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
-        </a>
-        <ul class="nav justify-content-center nav-fluid-content">
-          <li class="nav-item">
-            <a class="nav-link link-success" aria-current="page" href="#">Registro Alimentar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Informações dos Alimentos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Receitas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
-          </li>
-        </ul>
+          <a class="navbar-brand" href="../index.html">
+              <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
+          </a>
+          <ul class="nav justify-content-center nav-fluid-content">
+            <li class="nav-item">
+              <a class="nav-link link-success" aria-current="page" href="../pages/teste.html">Registro Alimentar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+            </li>
+          </ul>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,6 +38,29 @@
           <div class="offcanvas-header">
             <i class="bi bi-person-circle"></i>
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Login</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+              <li class="nav-item">
+                  <a class="nav-link link-success" href="../pages/imc.html">Calculo IMC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-success" href="../pages/sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/teste.html">Registro Alimentar</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -45,77 +68,88 @@
   </header>
   
   <h1 class="title-margin-left">Spaghetti Al Pesto</h1>
-  <div class="image-container">
-    <img src="../imgs/pasta-g92de81dd8_1280.jpg" alt="SpaghettiPesto" class="center-image" style="width: 400px; height: auto; border-radius: 10px">
-  </div>
   
-  <table>
+  <table class="mb-4">
     <tr>
-      <th>Tempo de Preparo: 20 minutos<br>Porções: 4</th>
+      <th class="p-3">Tempo de Preparo: 20 minutos<br>Porções: 4</th>
     </tr>
   </table>
   
   <div class="container">
-    <div class="ingredients">
-      <h2>Ingredientes</h2>
-      <p>300g de espaguete</p>
-      <p>2 xícaras de folhas de manjericão fresco</p>
-      <p>1/2 xícara de queijo parmesão ralado</p>
-      <p>1/4 de xícara de pinhões (ou nozes)</p>
-      <p>2 dentes de alho</p>
-      <p>1/2 xícara de azeite de oliva extra virgem</p>
-      <p>Sal a gosto</p>
-      <p>Pimenta preta moída a gosto</p>
-    </div>
-    
-    <div class="nutrition">
-      <h2>Informações Nutricionais (Porção)</h2>
-      <table>
-        <tr>
-          <th>Informações Nutricionais</th>
-          <th>Quantidade</th>
-        </tr>
-        <tr>
-          <td>Calorias</td>
-          <td>500 cal</td>
-        </tr>
-        <tr>
-          <td>Gorduras</td>
-          <td>22g</td>
-        </tr>
-        <tr>
-          <td>Carboidratos</td>
-          <td>60g</td>
-        </tr>
-        <tr>
-          <td>Proteínas</td>
-          <td>15g</td>
-        </tr>
-        <tr>
-          <td>Fibras</td>
-          <td>4g</td>
-        </tr>
-      </table>
-      <div class="image-container my-custom-container">
-      </figure>
-      <figure class="image-item lactose-free">
-        <img src="../Icones/Vegano.png" alt="">
-        <figcaption>Vegetariana</figcaption>
-      </figure>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="image-container">
+          <img src="../imgs/pasta-g92de81dd8_1280.jpg" alt="SpaghettiPesto" class="center-image" style="width: 600px; height: auto; border-radius: 10px">
+        </div>
+  
+        <div class="preparation">
+          <h2>Modo de Preparo</h2>
+          <ol>
+            <li>Em uma panela grande, ferva água com sal. Cozinhe o espaguete de acordo com as instruções da embalagem até ficar al dente. Escorra e reserve.</li>
+            <li>Em um processador de alimentos, adicione as folhas de manjericão, o queijo parmesão, os pinhões (ou nozes), o alho, o azeite de oliva, o sal e a pimenta preta. Processe até obter uma pasta homogênea.</li>
+            <li>Em uma frigideira grande, aqueça um pouco de azeite de oliva. Adicione a pasta de pesto e refogue por cerca de 1 minuto em fogo baixo.</li>
+            <li>Adicione o espaguete cozido à frigideira com o pesto e misture bem para que o macarrão fique bem revestido com o molho.</li>
+            <li>Ajuste o sal e a pimenta, se necessário.</li>
+            <li>Transfira o espaguete al pesto para pratos individuais e sirva quente.</li>
+            <li>Se desejar, polvilhe um pouco de queijo parmesão ralado por cima antes de servir.</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="col-md-6">
+        <div class="preparation-nutrition-container">
+          <div class="ingredients">
+            <h2>Ingredientes</h2>
+            <p>300g de espaguete</p>
+            <p>2 xícaras de folhas de manjericão fresco</p>
+            <p>1/2 xícara de queijo parmesão ralado</p>
+            <p>1/4 de xícara de pinhões (ou nozes)</p>
+            <p>2 dentes de alho</p>
+            <p>1/2 xícara de azeite de oliva extra virgem</p>
+            <p>Sal a gosto</p>
+            <p>Pimenta preta moída a gosto</p>
+          </div>
+  
+          <div class="nutrition">
+            <h2>Informações Nutricionais (Porção)</h2>
+            <table>
+              <tr>
+                <th>Informações Nutricionais</th>
+                <th>Quantidade</th>
+              </tr>
+              <tr>
+                <td>Calorias</td>
+                <td>500 cal</td>
+              </tr>
+              <tr>
+                <td>Gorduras</td>
+                <td>22g</td>
+              </tr>
+              <tr>
+                <td>Carboidratos</td>
+                <td>60g</td>
+              </tr>
+              <tr>
+                <td>Proteínas</td>
+                <td>15g</td>
+              </tr>
+              <tr>
+                <td>Fibras</td>
+                <td>4g</td>
+              </tr>
+            </table>
+            <div class="image-container my-custom-container d-flex justify-content-center">
+              <figure class="image-item lactose-free">
+                <img src="../Icones/Vegano.png" alt="">
+                <figcaption>Vegetariana</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  
-  <h2 class="title-margin-left">Modo de Preparo</h2>
-  <ol>
-    <li>Em uma panela grande, ferva água com sal. Cozinhe o espaguete de acordo com as instruções da embalagem até ficar al dente. Escorra e reserve.</li>
-    <li>Em um processador de alimentos, adicione as folhas de manjericão, o queijo parmesão, os pinhões (ou nozes), o alho, o azeite de oliva, o sal e a pimenta preta. Processe até obter uma pasta homogênea.</li>
-    <li>Em uma frigideira grande, aqueça um pouco de azeite de oliva. Adicione a pasta de pesto e refogue por cerca de 1 minuto em fogo baixo.</li>
-    <li>Adicione o espaguete cozido à frigideira com o pesto e misture bem para que o macarrão fique bem revestido com o molho.</li>
-    <li>Ajuste o sal e a pimenta, se necessário.</li>
-    <li>Transfira o espaguete al pesto para pratos individuais e sirva quente.</li>
-    <li>Se desejar, polvilhe um pouco de queijo parmesão ralado por cima antes de servir.</li>
-  </ol>
+  </div>  
+
   <form id="avaliacaoForm" class="modern-form">
     <h2 class="form-title">Avalie a receita:</h2>
     <div class="rating">

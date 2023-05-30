@@ -14,23 +14,23 @@
   <header>
     <nav class="navbar sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
-        </a>
-        <ul class="nav justify-content-center nav-fluid-content">
-          <li class="nav-item">
-            <a class="nav-link link-success" aria-current="page" href="#">Registro Alimentar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Informações dos Alimentos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Receitas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
-          </li>
-        </ul>
+          <a class="navbar-brand" href="../index.html">
+              <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
+          </a>
+          <ul class="nav justify-content-center nav-fluid-content">
+            <li class="nav-item">
+              <a class="nav-link link-success" aria-current="page" href="../pages/teste.html">Registro Alimentar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+            </li>
+          </ul>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,6 +38,29 @@
           <div class="offcanvas-header">
             <i class="bi bi-person-circle"></i>
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Login</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+              <li class="nav-item">
+                  <a class="nav-link link-success" href="../pages/imc.html">Calculo IMC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-success" href="../pages/sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/teste.html">Registro Alimentar</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -45,82 +68,92 @@
   </header>
 
   <h1 class="title-margin-left">Bolo de Milho Gluten e Lactose Free</h1>
-  <div class="image-container">
-    <img src="../imgs/bread-g8acb0a5c1_1280.jpg" alt="Bolo de Milho" class="center-image" style="width: 400px; height: auto; border-radius: 10px">
-  </div>
-
-  <table>
+ 
+  <table class="mb-4">
     <tr>
-      <th>Tempo de Preparo: 60 minutos <br> Porções: 8-10</th>
+      <th class="p-3">Tempo de Preparo: 60 minutos <br> Porções: 8-10</th>
     </tr>
   </table>
-
   <div class="container">
-    <div class="ingredients">
-      <h2>Ingredientes</h2>
-      <p>2 xícaras de milho em conserva escorrido</p>
-      <p>3 ovos</p>
-      <p>1/2 xícara de óleo vegetal</p>
-      <p>1 xícara de açúcar</p>
-      <p>1 xícara de farinha de milho</p>
-      <p>1/2 xícara de farinha de arroz</p>
-      <p>1 colher de sopa de fermento em pó</p>
-      <p>1 colher de chá de essência de baunilha</p>
-      <p>Pitada de sal</p>
-    </div>
-
-    <div class="nutrition">
-      <h2>Informações Nutricionais (Porção)</h2>
-      <table>
-        <tr>
-          <th>Informações Nutricionais</th>
-          <th>Quantidade</th>
-        </tr>
-        <tr>
-          <td>Calorias</td>
-          <td>290 cal</td>
-        </tr>
-        <tr>
-          <td>Gorduras</td>
-          <td>14g</td>
-        </tr>
-        <tr>
-          <td>Carboidratos</td>
-          <td>39g</td>
-        </tr>
-        <tr>
-          <td>Proteínas</td>
-          <td>4g</td>
-        </tr>
-        <tr>
-          <td>Fibras</td>
-          <td>2g</td>
-        </tr>
-      </table>
-      <div class="image-container my-custom-container">
-        <figure class="image-item gluten-free">
-          <img src="../Icones/Glutenfree.png" alt="">
-          <figcaption>Gluten Free</figcaption>
-        </figure>
-        <figure class="image-item lactose-free">
-          <img src="../Icones/Lactosefree.png" alt="">
-          <figcaption>Lactose Free</figcaption>
-        </figure>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="image-container">
+          <img src="../imgs/bread-g8acb0a5c1_1280.jpg" alt="Bolo de Milho" class="center-image" style="width: 600px; height: auto; border-radius: 10px">
+        </div>
+  
+        <div class="preparation">
+          <h2>Modo de Preparo</h2>
+          <ol>
+            <li>Pré-aqueça o forno a 180°C. Unte uma forma de bolo com óleo vegetal e polvilhe com farinha de arroz.</li>
+            <li>No liquidificador, adicione o milho escorrido, os ovos, o óleo vegetal e o açúcar. Bata até obter uma mistura homogênea.</li>
+            <li>Em uma tigela separada, misture a farinha de milho, a farinha de arroz, o fermento em pó e o sal.</li>
+            <li>Despeje a mistura do liquidificador na tigela com os ingredientes secos. Adicione a essência de baunilha e misture bem até obter uma massa uniforme.</li>
+            <li>Despeje a massa na forma preparada e espalhe uniformemente.</li>
+            <li>Leve ao forno pré-aquecido e asse por aproximadamente 40 a 45 minutos, ou até que o bolo esteja dourado e um palito inserido no centro saia limpo.</li>
+            <li>Retire do forno e deixe o bolo esfriar na forma por alguns minutos. Em seguida, transfira para uma grade de resfriamento e deixe esfriar completamente.</li>
+            <li>Corte em fatias e sirva.</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="col-md-6">
+        <div class="preparation-nutrition-container">
+          <div class="ingredients">
+            <h2>Ingredientes</h2>
+            <p>2 xícaras de milho em conserva escorrido</p>
+            <p>3 ovos</p>
+            <p>1/2 xícara de óleo vegetal</p>
+            <p>1 xícara de açúcar</p>
+            <p>1 xícara de farinha de milho</p>
+            <p>1/2 xícara de farinha de arroz</p>
+            <p>1 colher de sopa de fermento em pó</p>
+            <p>1 colher de chá de essência de baunilha</p>
+            <p>Pitada de sal</p>
+          </div>
+        </div>
+  
+        <div class="nutrition">
+          <h2>Informações Nutricionais (Porção)</h2>
+          <table>
+            <tr>
+              <th>Informações Nutricionais</th>
+              <th>Quantidade</th>
+            </tr>
+            <tr>
+              <td>Calorias</td>
+              <td>290 cal</td>
+            </tr>
+            <tr>
+              <td>Gorduras</td>
+              <td>14g</td>
+            </tr>
+            <tr>
+              <td>Carboidratos</td>
+              <td>39g</td>
+            </tr>
+            <tr>
+              <td>Proteínas</td>
+              <td>4g</td>
+            </tr>
+            <tr>
+              <td>Fibras</td>
+              <td>2g</td>
+            </tr>
+          </table>
+          <div class="image-container my-custom-container d-flex justify-content-center">
+            <figure class="image-item gluten-free text-center">
+              <img src="../Icones/Glutenfree.png" alt="">
+              <figcaption>Gluten Free</figcaption>
+            </figure>
+            <figure class="image-item lactose-free text-center">
+              <img src="../Icones/Lactosefree.png" alt="">
+              <figcaption>Lactose Free</figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-
-  <h2 class="title-margin-left">Modo de Preparo</h2>
-  <ol>
-    <li>Pré-aqueça o forno a 180°C. Unte uma forma de bolo com óleo vegetal e polvilhe com farinha de arroz.</li>
-    <li>No liquidificador, adicione o milho escorrido, os ovos, o óleo vegetal e o açúcar. Bata até obter uma mistura homogênea.</li>
-    <li>Em uma tigela separada, misture a farinha de milho, a farinha de arroz, o fermento em pó e o sal.</li>
-    <li>Despeje a mistura do liquidificador na tigela com os ingredientes secos. Adicione a essência de baunilha e misture bem até obter uma massa uniforme.</li>
-    <li>Despeje a massa na forma preparada e espalhe uniformemente.</li>
-    <li>Leve ao forno pré-aquecido e asse por aproximadamente 40 a 45 minutos, ou até que o bolo esteja dourado e um palito inserido no centro saia limpo.</li>
-    <li>Retire do forno e deixe o bolo esfriar na forma por alguns minutos. Em seguida, transfira para uma grade de resfriamento e deixe esfriar completamente.</li>
-    <li>Corte em fatias e sirva.</li>
-  </ol>
+  </div>  
 
   <form id="avaliacaoForm" class="modern-form">
     <h2 class="form-title">Avalie a receita:</h2>

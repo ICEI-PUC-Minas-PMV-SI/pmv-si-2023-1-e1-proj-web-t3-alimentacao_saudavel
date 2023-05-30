@@ -14,23 +14,23 @@
   <header>
     <nav class="navbar sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
-        </a>
-        <ul class="nav justify-content-center nav-fluid-content">
-          <li class="nav-item">
-            <a class="nav-link link-success" aria-current="page" href="#">Registro Alimentar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Informações dos Alimentos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Receitas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
-          </li>
-        </ul>
+          <a class="navbar-brand" href="../index.html">
+              <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
+          </a>
+          <ul class="nav justify-content-center nav-fluid-content">
+            <li class="nav-item">
+              <a class="nav-link link-success" aria-current="page" href="../pages/teste.html">Registro Alimentar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+            </li>
+          </ul>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,6 +38,29 @@
           <div class="offcanvas-header">
             <i class="bi bi-person-circle"></i>
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Login</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+              <li class="nav-item">
+                  <a class="nav-link link-success" href="../pages/imc.html">Calculo IMC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-success" href="../pages/sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/teste.html">Registro Alimentar</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -45,95 +68,108 @@
   </header>
 
   <h1 class="title-margin-left">Creme de Abóbora Velouté com Toque de Especiarias</h1>
-  <div class="image-container">
-    <img src="../imgs/pumpkin-soup-gf7566cacb_1280.jpg" alt="Pumpkin" class="center-image" style="width: 400px; height: auto; border-radius: 10px">
-  </div>
-
-  <table>
+  
+  <table class="mb-4">
     <tr>
-      <th>Tempo de Preparo: 40 minutos <br> Porções: 4</th>
+      <th class="p-3">Tempo de Preparo: 40 minutos <br> Porções: 4</th>
     </tr>
   </table>
-
+  
   <div class="container">
-    <div class="ingredients">
-      <h2>Ingredientes</h2>
-      <p>500g de abóbora (preferencialmente a abóbora moranga)</p>
-      <p>1 cebola média, picada</p>
-      <p>2 dentes de alho, picados</p>
-      <p>3 xícaras de caldo de legumes</p>
-      <p>1/2 colher de chá de gengibre em pó</p>
-      <p>1/2 colher de chá de cominho em pó</p>
-      <p>1/4 colher de chá de canela em pó</p>
-      <p>1/4 colher de chá de noz-moscada ralada</p>
-      <p>1/2 xícara de creme de leite vegano (opcional)</p>
-      <p>Sal e pimenta a gosto</p>
-      <p>Azeite de oliva, para refogar</p>
-    </div>
-
-    <div class="nutrition">
-      <h2>Informações Nutricionais (Porção)</h2>
-      <table>
-        <tr>
-          <th>Informações Nutricionais</th>
-          <th>Quantidade</th>
-        </tr>
-        <tr>
-          <td>Calorias</td>
-          <td>150 cal</td>
-        </tr>
-        <tr>
-          <td>Gorduras</td>
-          <td>6g</td>
-        </tr>
-        <tr>
-          <td>Carboidratos</td>
-          <td>23g</td>
-        </tr>
-        <tr>
-          <td>Proteínas</td>
-          <td>3g</td>
-        </tr>
-        <tr>
-          <td>Fibras</td>
-          <td>5g</td>
-        </tr>
-      </table>
-      <div class="image-container my-custom-container">
-      </figure>
-      <figure class="image-item lactose-free">
-        <img src="../Icones/Vegano.png" alt="">
-        <figcaption>Vegana</figcaption>
-      </figure>
-        <figure class="image-item gluten-free">
-          <img src="../Icones/Glutenfree.png" alt="">
-          <figcaption>Gluten Free</figcaption>
-        </figure>
-        <figure class="image-item lactose-free">
-          <img src="../Icones/Lactosefree.png" alt="">
-          <figcaption>Lactose Free</figcaption>
-        </figure>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="image-container">
+          <img src="../imgs/pumpkin-soup-gf7566cacb_1280.jpg" alt="Pumpkin" class="center-image" style="width: 600px; height: auto; border-radius: 10px">
+        </div>
+  
+        <div class="preparation">
+          <h2>Modo de Preparo</h2>
+          <ol>
+            <li>Descasque a abóbora, retire as sementes e corte-a em cubos.</li>
+            <li>Aqueça um pouco de azeite de oliva em uma panela grande em fogo médio.</li>
+            <li>Adicione a cebola picada e o alho e refogue até ficarem macios e dourados.</li>
+            <li>Acrescente os cubos de abóbora à panela e refogue por alguns minutos, para realçar o sabor.</li>
+            <li>Adicione o caldo de legumes à panela, suficiente para cobrir a abóbora.</li>
+            <li>Tempere com gengibre em pó, cominho em pó, canela em pó e noz-moscada ralada.</li>
+            <li>Deixe ferver e, em seguida, reduza o fogo para médio-baixo e cozinhe por cerca de 20 minutos, ou até que a abóbora esteja macia.</li>
+            <li>Com cuidado, transfira a mistura para um liquidificador ou utilize um mixer de mão para processar até obter um creme suave.</li>
+            <li>Volte o creme para a panela em fogo baixo e adicione o creme de leite vegano, se desejar, mexendo bem.</li>
+            <li>Tempere com sal e pimenta a gosto, ajustando conforme sua preferência.</li>
+            <li>Cozinhe por mais 5 minutos, apenas para aquecer o creme.</li>
+            <li>Sirva o creme de abóbora velouté em tigelas individuais, decorando com um fio de azeite de oliva e algumas pitadas de noz-moscada ralada.</li>
+            <li>Acompanhe com pães ou croutons para um toque crocante.</li>
+            <li>Aprecie essa saborosa e sofisticada opção de creme de abóbora.</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="col-md-6">
+        <div class="preparation-nutrition-container">
+          <div class="ingredients">
+            <h2>Ingredientes</h2>
+            <p>500g de abóbora (preferencialmente a abóbora moranga)</p>
+            <p>1 cebola média, picada</p>
+            <p>2 dentes de alho, picados</p>
+            <p>3 xícaras de caldo de legumes</p>
+            <p>1/2 colher de chá de gengibre em pó</p>
+            <p>1/2 colher de chá de cominho em pó</p>
+            <p>1/4 colher de chá de canela em pó</p>
+            <p>1/4 colher de chá de noz-moscada ralada</p>
+            <p>1/2 xícara de creme de leite vegano (opcional)</p>
+            <p>Sal e pimenta a gosto</p>
+            <p>Azeite de oliva, para refogar</p>
+          </div>
+  
+          <div class="nutrition">
+            <h2>Informações Nutricionais (Porção)</h2>
+            <table>
+              <tr>
+                <th>Informações Nutricionais</th>
+                <th>Quantidade</th>
+              </tr>
+              <tr>
+                <td>Calorias</td>
+                <td>150 cal</td>
+              </tr>
+              <tr>
+                <td>Gorduras</td>
+                <td>6g</td>
+              </tr>
+              <tr>
+                <td>Carboidratos</td>
+                <td>23g</td>
+              </tr>
+              <tr>
+                <td>Proteínas</td>
+                <td>3g</td>
+              </tr>
+              <tr>
+                <td>Fibras</td>
+                <td>5g</td>
+              </tr>
+            </table>
+          </div>
+  
+          <div class="image-container my-custom-container d-flex justify-content-center">
+            <figure class="image-item lactose-free">
+              <img src="../Icones/Vegano.png" alt="">
+              <figcaption>Vegana</figcaption>
+            </figure>
+            <figure class="image-item gluten-free">
+              <img src="../Icones/Glutenfree.png" alt="">
+              <figcaption>Gluten Free</figcaption>
+            </figure>
+            <figure class="image-item lactose-free">
+              <img src="../Icones/Lactosefree.png" alt="">
+              <figcaption>Lactose Free</figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  
 
-  <h2 class="title-margin-left">Modo de Preparo</h2>
-  <ol>
-    <li>Descasque a abóbora, retire as sementes e corte-a em cubos.</li>
-    <li>Aqueça um pouco de azeite de oliva em uma panela grande em fogo médio.</li>
-    <li>Adicione a cebola picada e o alho e refogue até ficarem macios e dourados.</li>
-    <li>Acrescente os cubos de abóbora à panela e refogue por alguns minutos, para realçar o sabor.</li>
-    <li>Adicione o caldo de legumes à panela, suficiente para cobrir a abóbora.</li>
-    <li>Tempere com gengibre em pó, cominho em pó, canela em pó e noz-moscada ralada.</li>
-    <li>Deixe ferver e, em seguida, reduza o fogo para médio-baixo e cozinhe por cerca de 20 minutos, ou até que a abóbora esteja macia.</li>
-    <li>Com cuidado, transfira a mistura para um liquidificador ou utilize um mixer de mão para processar até obter um creme suave.</li>
-    <li>Volte o creme para a panela em fogo baixo e adicione o creme de leite vegano, se desejar, mexendo bem.</li>
-    <li>Tempere com sal e pimenta a gosto, ajustando conforme sua preferência.</li>
-    <li>Cozinhe por mais 5 minutos, apenas para aquecer o creme.</li>
-    <li>Sirva o creme de abóbora velouté em tigelas individuais, decorando com um fio de azeite de oliva e algumas pitadas de noz-moscada ralada.</li>
-    <li>Acompanhe com pães ou croutons para um toque crocante.</li>
-    <li>Aprecie essa saborosa e sofisticada opção de creme de abóbora.</li>
-  </ol>
   <form id="avaliacaoForm" class="modern-form">
     <h2 class="form-title">Avalie a receita:</h2>
     <div class="rating">

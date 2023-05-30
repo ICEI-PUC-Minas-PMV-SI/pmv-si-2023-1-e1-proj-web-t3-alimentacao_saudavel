@@ -11,117 +11,152 @@
   <link rel="stylesheet" href="../styles/schema_padraoreceitas.css">
 </head>
 <body>
-<header>
-  <nav class="navbar sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
-      </a>
-      <ul class="nav justify-content-center nav-fluid-content">
-        <li class="nav-item">
-          <a class="nav-link link-success" aria-current="page" href="#">Registro Alimentar</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link-success" href="#">Informações dos Alimentos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link-success" href="#">Receitas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
-        </li>
-      </ul>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end text-bg-dark bg-success" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-          <i class="bi bi-person-circle"></i>
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Login</h5>
+  <header>
+    <nav class="navbar sticky-top">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+              <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
+          </a>
+          <ul class="nav justify-content-center nav-fluid-content">
+            <li class="nav-item">
+              <a class="nav-link link-success" aria-current="page" href="../pages/teste.html">Registro Alimentar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+            </li>
+          </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark bg-success" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <i class="bi bi-person-circle"></i>
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Login</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+              <li class="nav-item">
+                  <a class="nav-link link-success" href="../pages/imc.html">Calculo IMC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-success" href="../pages/sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/teste.html">Registro Alimentar</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
+              </li>
+              <li class="nav-item nav-fluid-content-canvas">
+                  <a class="nav-link link-success" href="#">Alimentos não recomendados</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 
 <h1 class="title-margin-left">Spaghetti Squash</h1>
-<div class="image-container">
-  <img src="../imgs/spaghetti-squash-g3055f81d6_1280.jpg" alt="Spaghetti Squash" class="center-image" style="width: 400px; height: auto; border-radius: 10px">
-</div>
 
-<table>
+<table class="mb-4">
   <tr>
-    <th>Tempo de Preparo: 15 minutos <br> Porções: 2</th>
+    <th class="p-3">Tempo de Preparo: 15 minutos <br> Porções: 2</th>
   </tr>
 </table>
 
 <div class="container">
-  <div class="ingredients">
-    <h2>Ingredientes</h2>
-    <p>2 abobrinhas médias</p>
-    <p>2 colheres de sopa de azeite deoliva</p>
-    <p>2 dentes de alho picados</p>
-    <p>Sal e pimenta a gosto</p>
-    <p>Molho de sua preferência (opcional)</p>
-  </div>
-  
-  <div class="nutrition">
-    <h2>Informações Nutricionais (Porção)</h2>
-    <table>
-      <tr>
-        <th>Informações Nutricionais</th>
-        <th>Quantidade</th>
-      </tr>
-      <tr>
-        <td>Calorias</td>
-        <td>80 cal</td>
-      </tr>
-      <tr>
-        <td>Gorduras</td>
-        <td>5g</td>
-      </tr>
-      <tr>
-        <td>Carboidratos</td>
-        <td>7g</td>
-      </tr>
-      <tr>
-        <td>Proteínas</td>
-        <td>3g</td>
-      </tr>
-      <tr>
-        <td>Fibras</td>
-        <td>2g</td>
-      </tr>
-    </table>
-    <div class="image-container my-custom-container">
-    </figure>
-      <figure class="image-item gluten-free">
-        <img src="../Icones/Glutenfree.png" alt="">
-        <figcaption>Gluten Free</figcaption>
-      </figure>
-      <figure class="image-item lactose-free">
-        <img src="../Icones/Vegano.png" alt="">
-        <figcaption>Vegana</figcaption>
-      </figure>
-      <figure class="image-item lactose-free">
-        <img src="../Icones/Lactosefree.png" alt="">
-        <figcaption>Lactose Free</figcaption>
-      </figure>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="image-container">
+        <img src="../imgs/spaghetti-squash-g3055f81d6_1280.jpg" alt="Spaghetti Squash" class="center-image" style="width: 400px; height: auto; border-radius: 10px">
+      </div>
+
+      <div class="preparation">
+        <h2>Modo de Preparo</h2>
+        <ol>
+          <li>Lave bem as abobrinhas e corte as extremidades.</li>
+          <li>Utilizando um espiralizador ou um descascador de legumes, corte as abobrinhas em forma de espaguete.</li>
+          <li>Em uma frigideira grande, aqueça o azeite de oliva em fogo médio.</li>
+          <li>Adicione o alho picado e refogue por cerca de 1 minuto, até ficar perfumado.</li>
+          <li>Adicione o espaguete de abobrinha na frigideira e cozinhe por aproximadamente 3-4 minutos, mexendo delicadamente, até que fiquem macios, porém ainda crocantes.</li>
+          <li>Tempere com sal e pimenta a gosto.</li>
+          <li>Se desejar, adicione o molho de sua preferência e misture bem para aquecer.</li>
+          <li>Retire do fogo e sirva o espaguete de abobrinha em pratos individuais.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="preparation-nutrition-container">
+        <div class="ingredients">
+          <h2>Ingredientes</h2>
+          <p>2 abobrinhas médias</p>
+          <p>2 colheres de sopa de azeite de oliva</p>
+          <p>2 dentes de alho picados</p>
+          <p>Sal e pimenta a gosto</p>
+          <p>Molho de sua preferência (opcional)</p>
+        </div>
+
+        <div class="nutrition">
+          <h2>Informações Nutricionais (Porção)</h2>
+          <table>
+            <tr>
+              <th>Informações Nutricionais</th>
+              <th>Quantidade</th>
+            </tr>
+            <tr>
+              <td>Calorias</td>
+              <td>80 cal</td>
+            </tr>
+            <tr>
+              <td>Gorduras</td>
+              <td>5g</td>
+            </tr>
+            <tr>
+              <td>Carboidratos</td>
+              <td>7g</td>
+            </tr>
+            <tr>
+              <td>Proteínas</td>
+              <td>3g</td>
+            </tr>
+            <tr>
+              <td>Fibras</td>
+              <td>2g</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="image-container my-custom-container d-flex justify-content-center">
+          <figure class="image-item gluten-free">
+            <img src="../Icones/Glutenfree.png" alt="">
+            <figcaption>Gluten Free</figcaption>
+          </figure>
+          <figure class="image-item lactose-free">
+            <img src="../Icones/Vegano.png" alt="">
+            <figcaption>Vegana</figcaption>
+          </figure>
+          <figure class="image-item lactose-free">
+            <img src="../Icones/Lactosefree.png" alt="">
+            <figcaption>Lactose Free</figcaption>
+          </figure>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<h2 class="title-margin-left">Modo de Preparo</h2>
-<ol>
-  <li>Lave bem as abobrinhas e corte as extremidades.</li>
-  <li>Utilizando um espiralizador ou um descascador de legumes, corte as abobrinhas em forma de espaguete.</li>
-  <li>Em uma frigideira grande, aqueça o azeite de oliva em fogo médio.</li>
-  <li>Adicione o alho picado e refogue por cerca de 1 minuto, até ficar perfumado.</li>
-  <li>Adicione o espaguete de abobrinha na frigideira e cozinhe por aproximadamente 3-4 minutos, mexendo delicadamente, até que fiquem macios, porém ainda crocantes.</li>
-  <li>Tempere com sal e pimenta a gosto.</li>
-  <li>Se desejar, adicione o molho de sua preferência e misture bem para aquecer.</li>
-  <li>Retire do fogo e sirva o espaguete de abobrinha em pratos individuais.</li>
-</ol>
 <form id="avaliacaoForm" class="modern-form">
   <h2 class="form-title">Avalie a receita:</h2>
   <div class="rating">
