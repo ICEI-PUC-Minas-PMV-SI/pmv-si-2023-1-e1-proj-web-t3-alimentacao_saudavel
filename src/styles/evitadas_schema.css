@@ -1,0 +1,28 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+    color: #028F4B;
+}
+footer {
+    background-color: #028F4B;
+}
+.conteiner {
+    display: block;
+}
+.conteiner img{
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
+    padding:auto;
+    margin: auto;
+
+}
+.conteiner p {
+    text-indent: 1.5em; 
+    display: block;
+    text-align:justify;
+    float: right;
+    margin-top: 20px;
+}
