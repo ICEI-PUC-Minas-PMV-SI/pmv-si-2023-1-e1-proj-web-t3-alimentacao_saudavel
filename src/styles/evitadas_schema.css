@@ -9,7 +9,7 @@ footer {
     background-color: #028F4B;
 }
 .conteiner {
-    display: inline-block;
+    display: flex;
 }
 .conteiner img{
     width: 30%;
@@ -26,10 +26,32 @@ footer {
     float: right;
     margin-top: 20px;
     padding: auto;
-    margin: 15px 12px;
+    margin: 15px 15px;
 }
 .titulo{
-    text-align: center;
     color: #f5f5f5;
     background-color: #028F4B;
+}
+.titulo h3{
+    margin: 10px;
+}
+.conteiner2{
+    display: flex;
+}
+.conteiner2 img{
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
+    padding:auto;
+    margin: 20px 20px;
+
+}
+.conteiner2 p {
+    text-indent: 1.5em; 
+    display: block;
+    text-align:justify;
+    float: right;
+    margin-top: 20px;
+    padding: auto;
+    margin: 15px 15px;
 }
