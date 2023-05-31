@@ -1,0 +1,48 @@
+
+
+/* Mobile */
+@media (min-width:200px) {
+    .insidebox {
+        padding: 0.5vw;
+        font-size: small;
+    }
+    #segunda {
+        display: none;
+    }
+    #terca {
+        display: none;
+    }
+    #quarta {
+        display: none;
+    }
+    #quinta {
+        display: none;
+    }
+    #sexta {
+        display: none;
+    }
+    #sabado {
+        display: none;
+    }
+    #domingo {
+        display: none;
+    }
+
+}
+
+
+/* Tablet */
+@media (min-width:600px) {
+    .insidebox {
+        padding: 0.8vw;
+        font-size: small;
+    }
+}
+
+/* Desktop */
+@media (min-width:900px) {
+    .insidebox {
+        padding: 2em;
+        font-size: small;
+    }
+}
