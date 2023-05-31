@@ -47,22 +47,62 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |:--------------:|:-------------------:|:-------------------------------------------:|:------------------------------------------------:|
 |Id do usuário|Número (Inteiro)|Identificador único do usuário.| 1|
 |Nome|Texto|Nome do usuário.|Paulo Henrique|
-|Idade|Número (Inteiro)|Idade do usuário que irá realizar acompanhamento por meio da aplicação.|25|
+|Data Nascimento|Data (DD-MM-AAA)|Data de nascimento do usuário que irá realizar acompanhamento por meio da aplicação.|01-01-2001|
 |Peso|Número|Peso do usuário que irá realizar acompanhamento por meio da aplicação.|72,65|
 |Altura|Número|Altura do usuário que irá realizar acompanhamento por meio da aplicação.|1,75|
-|Gênero|Número (Inteiro)|Identifica o gênero do usuário|1. Feminino|
+|Id Gênero|Número (Inteiro)|Identifica o gênero do usuário|1|
 |E-mail|Texto|Email utilizado para cadastro do usuário no sistema.|paulo.henrique@email.com|
 |Senha|Texto|Senha de cadastro no sistema.|SenhaNutri123|
-|Status|Booleano|Informa o status referente a conta do usuário(ATIVO/INATIVO).|Ativo|
+|Status|Booleano|Informa o status referente a conta do usuário (ATIVO/INATIVO).|Ativo|
 
 
 ## Registro Alimentar
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|:-------------------:|:-------------------------------------------:|:------------------------------------------------:|
-|Descrição|Texto|Descrição completa dos alimentos inseridos para a respectiva refeição.|200 gramas de arroz, 2 litros de coca-cola, 1 unidade de maçã.|
-|Refeição|Número (Inteiro)|Identificador padrão da refeição.|2 - Almoço|
-|Data|Data|Data em que será realizado o cadastro do alimento ingerido.|25/04/2022|
-|Id Receita|Número (Inteiro)|Identificador das receitas cadastradas no sistema.|3. Sopa|
-|Avaliação receita|Texto|Comentário a respeito das receitas cadastradas.|3 estrelas, Ótima sopa.|
 |Id Usuário|Número (Inteiro)|Identificador do usuário à refeição|1|
+|Data Registro|Data (DD-MM-AAA)|Data em que será realizado o cadastro do alimento ingerido.|25-04-2022|
+|Id Refeição|Número (Inteiro)|Identificador padrão da refeição.|2|
+|Descrição|Texto|Descrição completa dos alimentos inseridos para a respectiva refeição.|200 gramas de arroz, 2 litros de coca-cola, 1 unidade de maçã.|
+
+
+## Avaliação Receita
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|:-------------------:|:-------------------------------------------:|:------------------------------------------------:|
+|Id Usuário|Número (Inteiro)|Identificador do usuário que avaliou a receita.|1|
+|Id Receita|Número (Inteiro)|Identificador das receitas cadastradas no sistema.|3|
+|Nota|Número (Inteiro)|Nota da receita avaliada no sistema.|5|
+|Avaliação receita|Texto|Comentário a respeito das receitas cadastradas.|Ótima sopa.|
+
+
+
+## Estrutura Identificação Receita
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Valor**                                    |
+|:--------------:|:-------------------:|:-------------------------------------------:|:------------------------------------------------:|
+|Id Receita|Número (Inteiro)|Sopa.|1|
+|Id Receita|Número (Inteiro)|Bolo de milho.|2|
+|Id Receita|Número (Inteiro)|Pasta Pesto.|3|
+|Id Receita|Número (Inteiro)|Salada Grega.|4|
+|Id Receita|Número (Inteiro)|Spaghetti.|5|
+|Id Receita|Número (Inteiro)|Pizza Vegana.|6|
+
+
+
+## Estrutura Identificação Gênero
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Valor**                                    |
+|:--------------:|:-------------------:|:-------------------------------------------:|:------------------------------------------------:|
+|Id Gênero|Número (Inteiro)|Feminino.|1|
+|Id Gênero|Número (Inteiro)|Masculino.|2|
+|Id Gênero|Número (Inteiro)|Outro.|3|
+
+
+
+## Estrutura Identificação Refeição
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Valor**                                    |
+|:--------------:|:-------------------:|:-------------------------------------------:|:------------------------------------------------:|
+|Id Refeição|Número (Inteiro)|Café da manhã.|1|
+|Id Refeição|Número (Inteiro)|Almoço.|2|
+|Id Refeição|Número (Inteiro)|Lanche.|3|
+|Id Refeição|Número (Inteiro)|Jantar.|4|
+
+
 
