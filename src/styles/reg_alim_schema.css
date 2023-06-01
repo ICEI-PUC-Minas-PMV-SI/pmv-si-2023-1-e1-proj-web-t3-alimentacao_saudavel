@@ -1,33 +1,10 @@
 
-
 /* Mobile */
 @media (min-width:200px) {
     .insidebox {
         padding: 0.5vw;
         font-size: small;
     }
-    #segunda {
-        display: none;
-    }
-    #terca {
-        display: none;
-    }
-    #quarta {
-        display: none;
-    }
-    #quinta {
-        display: none;
-    }
-    #sexta {
-        display: none;
-    }
-    #sabado {
-        display: none;
-    }
-    #domingo {
-        display: none;
-    }
-
 }
 
 
@@ -46,3 +23,8 @@
         font-size: small;
     }
 }
+
+/*AJUSTE O EIXO Z DO LAYOUT(../layout/schema_padrao.css) - NESSE MOMENTO O MODAL DEVE SOBREPOR TUDO...  */
+.modal {
+    z-index: 999999;
+  }

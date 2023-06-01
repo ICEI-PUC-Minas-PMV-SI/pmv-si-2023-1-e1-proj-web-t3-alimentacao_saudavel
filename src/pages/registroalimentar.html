@@ -41,16 +41,16 @@
           </a>
           <ul class="nav justify-content-center nav-fluid-content">
             <li class="nav-item">
-              <a class="nav-link link-success active" aria-current="page" href="../pages/sobre.html">Registro Alimentar</a>
+              <a class="nav-link link-success active" aria-current="page" href="../pages/registroalimentar.html">Registro Alimentar</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-success" href="../pages/sobre.html">Informações dos Alimentos</a>
+              <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link link-success" href="/src/pages/receitas.html">Receitas</a>
+                <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link link-success" href="../pages/sobre.html">Alimentos não recomendados</a>
+                <a class="nav-link link-success" href="../pages/comidasevitadas.html">Alimentos não recomendados</a>
             </li>
           </ul>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -65,20 +65,23 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
               <li class="nav-item">
-                  <a class="nav-link link-success" href="../pages/imc.html">Calculo IMC</a>
+                  <a class="nav-link link-success" href="../pages/imc.html">Cálculo IMC</a>
               </li>
               <li class="nav-item nav-fluid-content-canvas">
-                  <a class="nav-link link-success" href="/src/pages/receitas.html">Registro Alimentar</a>
+                  <a class="nav-link link-success" href="../pages/registroalimentar.html">Registro Alimentar</a>
               </li>
               <li class="nav-item nav-fluid-content-canvas">
-                  <a class="nav-link link-success" href="../pages/sobre.html">Informações dos Alimentos</a>
+                  <a class="nav-link link-success" href="../pages/conhecalimentos.html">Informações dos Alimentos</a>
               </li>
               <li class="nav-item nav-fluid-content-canvas">
-                  <a class="nav-link link-success" href="/src/pages/receitas.html">Receitas</a>
+                  <a class="nav-link link-success" href="../pages/receitas.html">Receitas</a>
               </li>
               <li class="nav-item nav-fluid-content-canvas">
-                  <a class="nav-link link-success" href="../pages/sobre.html">Alimentos não recomendados</a>
+                  <a class="nav-link link-success" href="../pages/comidasevitadas.html">Alimentos não recomendados</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link link-success" href="../pages/sobre.html">Sobre</a>
+            </li>
             </ul>
           </div>
         </div>
@@ -121,11 +124,12 @@
             <!-- FIM MENU CALENDARIO-->
 
 
-            <div class="bg-secondary rounded p-4">
+            <div class="bg-light rounded p-4">
 
               <div class="card mb-3">
                 <div class="card-body">
-                  <h4 class="card-title text-success">Café da manhã</h4>
+                  <img src="../Icones/Cafedamanha.png" height="50" class="d-inline align-items-center">
+                  <h4 class="card-title text-success d-inline align-middle">Café da manhã</h4>
                   <p class="card-text">01 xícara de café, 01 pão, 02 ovos</p>
                   <button type="button" class="btn btn-success" data-bs-toggle="modal"
                     data-bs-target="#adiciona">+</button>
@@ -134,7 +138,8 @@
 
               <div class="card mb-3">
                 <div class="card-body">
-                  <h4 class="card-title text-success">Almoço</h4>
+                  <img src="../Icones/Almoco_Jantar.png" height="50" class="d-inline align-items-center">
+                  <h4 class="card-title text-success d-inline align-middle">Almoço</h4>
                   <p class="card-text">100 gramas de arroz, 2 pedaços de bife, 700ml de coca-cola</p>
                   <button type="button" class="btn btn-success" data-bs-toggle="modal"
                     data-bs-target="#adiciona">+</button>
@@ -143,7 +148,8 @@
 
               <div class="card mb-3">
                 <div class="card-body">
-                  <h4 class="card-title text-success">Lanche</h4>
+                  <img src="../Icones/Lanche.png" height="50" class="d-inline align-items-center">
+                  <h4 class="card-title text-success d-inline align-middle">Lanche</h4>
                   <p class="card-text">1 xícara de café, 5 biscoitos</p>
                   <button type="button" class="btn btn-success" data-bs-toggle="modal"
                     data-bs-target="#adiciona">+</button>
@@ -152,7 +158,8 @@
 
               <div class="card mb-3">
                 <div class="card-body">
-                  <h4 class="card-title text-success">Jantar</h4>
+                  <img src="../Icones/Almoco_Jantar.png" height="50" class="d-inline align-items-center">
+                  <h4 class="card-title text-success d-inline align-middle">Jantar</h4>
                   <p class="card-text">100 gramas de arroz, 2 pedaços de bife, 700ml de coca-cola</p>
                   <button type="button" class="btn btn-success" data-bs-toggle="modal"
                     data-bs-target="#adiciona">+</button>
@@ -164,14 +171,16 @@
         <!-- SUGESTÃO DE CONSUMO DE ÁGUA -->
         <div class="d-flex mt-3 justify-content-between">
           <div class="card border-success mb-3" style="max-width: 18rem;">
-            <div class="card-header bg-transparent border-success">Objetivo diário:</div>
+
+            <div class="card-header bg-transparent border-success text-success">Objetivo diário:</div>
             <div class="card-body text-success">
-              <h5 class="card-title">3500ml</h5>
+              <img src="../Icones/food/Water Glass.png" height="50" class="d-inline align-items-center">
+              <h5 class="card-title d-inline align-middle">3500ml</h5>
             </div>
           </div>
           <div class="align-self-center">
             <!-- <button class="btn btn-primary btn-md" type="button" id="generate-pdf" onclick="generatePDF()">CONFERIR RELATORIO</button> -->
-            <button class="btn btn-primary btn-md" type="button" onclick="generatePDF">CONFERIR RELATORIO</button>
+            <button class="btn bg-white border-success btn-md text-success" type="button" onclick="generatePDF">CONFERIR RELATORIO</button>
           </div>
         </div>
       </div>
@@ -185,9 +194,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel">Registro de Alimentos</h5>
-              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <h6>Alimentos</h6>
@@ -243,9 +250,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLongTitle">Registro de Alimentos</h5>
-            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <h6>Alimentos</h6>
