@@ -196,3 +196,8 @@ li {
 footer {
   margin-top: 8px;
 }
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
