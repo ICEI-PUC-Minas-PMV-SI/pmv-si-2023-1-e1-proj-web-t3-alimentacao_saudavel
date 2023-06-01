@@ -84,6 +84,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-009| A aplicação deve disponibilizar tela de recuperação de senha.  | MÉDIA | |
 |RF-010| A aplicação deve permitir que um usuário cadastrado autogerencie os alimentos ingeridos ao longo do dia.  | MÉDIA | |
 |RF-011| A aplicação deve gerar relatório com os alimentos ingeridos pelo usuário cadastrado.  | MÉDIA | |
+|RF-012| A aplicaçã deve permitir aos usuários avaliar as receitas disponíveis na plataforma, a fim de fornecer feedback e classificações.  | MÉDIA | |
 
 
 ### Requisitos não Funcionais
