@@ -11,32 +11,63 @@
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
     </head>
     <body>
-        <header>
-            <nav class="navbar sticky-top">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
+      <header>
+        <nav class="navbar sticky-top">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
                   <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
-                </a>
-                <ul class="nav justify-content-center nav-fluid-content">
-                  <li class="nav-item">
-                    <a class="nav-link link-success" aria-current="page" href="registroalimentar.html">Registro Alimentar</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link link-success" href="conhecalimentos.html">Informações dos Alimentos</a>
-                  </li>
-                  <li class="nav-item">
+              </a>
+              <ul class="nav justify-content-center nav-fluid-content">
+                <li class="nav-item">
+                  <a class="nav-link link-success" aria-current="page" href="registroalimentar.html">Registro Alimentar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-success" href="conhecalimentos.html">Informações dos Alimentos</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link link-success" href="receitas.html">Receitas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="comidasevitadas.html">Alimentos não recomendados</a>
+                </li>
+              </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark bg-success" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <i class="bi bi-person-circle"></i>
+                <a class="nav-link" href="login.html">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Login</h5>
+                </a>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                  <li class="nav-item">
+                      <a class="nav-link link-success" href="imc.html">Calculo IMC</a>
+                  </li>
+                  <li class="nav-item nav-fluid-content-canvas">
+                      <a class="nav-link link-success" href="registroalimentar.html">Registro Alimentar</a>
+                  </li>
+                  <li class="nav-item nav-fluid-content-canvas">
+                      <a class="nav-link link-success" href="conhecalimentos.html">Informações dos Alimentos</a>
+                  </li>
+                  <li class="nav-item nav-fluid-content-canvas">
+                      <a class="nav-link link-success" href="receitas.html">Receitas</a>
+                  </li>
+                  <li class="nav-item nav-fluid-content-canvas">
+                      <a class="nav-link link-success" href="comidasevitadas.html">Alimentos não recomendados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link link-success" href="comidasevitadas.html">Alimentos não recomendados</a>
+                      <a class="nav-link link-success" href="sobre.html">Sobre</a>
                   </li>
                 </ul>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
               </div>
-            </nav>
-        </header>
+            </div>
+          </div>
+        </nav>
+      </header>
         <div class="titulo">
           <h3>Legumes</h3>
         </div>
@@ -56,20 +87,20 @@
 
             </div>
           </section>
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-success">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
             <div class="col-md-4 d-flex align-items-center">
-              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="80" height="60">
+              <a href="../index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <img src="../imgs/LogoNutrischedule.png" alt="Logo" width="70" height="60">
               </a>
             </div>
             <div>
               <span class="mb-3 mb-md-0 text-light">© 2023 Nutrischedule</span>
-            </div>
+            </div>  
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
               <li class="ms-3">
-                <i class="bi bi-github"></i>
+                  <a id="link-github" href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel" target="_blank"><i class="bi bi-github"></i></a>
               </li>
             </ul>
-        </footer>
+          </footer>
     </body>
 </html>
