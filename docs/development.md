@@ -31,13 +31,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-002| A aplicação deve fornecer ao usuário receitas, indicando se são adequadas para pessoas com intolerância à lactose, glúten, vegana ou vegetariana. | Jully | receitas.html  bolomilho.html espetovegan.html graodebico.html pizzavegana.html saladagrega.html soup.html spaghettisquash.html suflespinafre.html pastapesto.html|
 |RF-003| A aplicação deve informar ao usuário cadastrado a quantidade que o mesmo deve ingerir de água de acordo com o peso dele. | Vinicius | registro_alimentar.html |
 |RF-004| A aplicação deve ter uma tela para cálculo do Índice de Massa Corporal para usuários cadastrados ou não. | Vinicius | imc.html |
-|RF-005| A aplicação deve disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente para qualquer usuário. | Mariana |  |
+|RF-005| A aplicação deve disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente para qualquer usuário. | Mariana | comidasevitadas.html |
 |RF-006| A aplicação deve disponibilizar tela com os dados nutricionais das receitas cadastradas para qualquer usuário. | Jully |bolomilho.html espetovegan.html pastapesto.html graodebico.html pizzavegana.html saladagrega.html soup.html spaghettisquash.html steak.html  suflespinafre.html|
 |RF-007| A aplicação deve diponibilizar informações sobre os grupos de alimentos. | Mariana | conhecalimentos.html |
 |RF-008| A aplicação deve permitir o autogerenciamento do cadastro de usuário. | Italo | dados_pessoais.html dados_pessoais_edicao.html alterar_senha.html login.html cadastro.html |
 |RF-009| A aplicação deve disponibilizar tela de recuperação de senha.  | Italo |recuperacao_senha.html |
 |RF-010| A aplicação deve permitir que um usuário cadastrado autogerencie os alimentos ingeridos ao longo do dia.  | Vinicius | registro_alimentar.html |
 |RF-011| A aplicação deve gerar relatório com os alimentos ingeridos pelo usuário cadastrado.  | Vinicius | registro_alimentar.html |
+|RF-012| A aplicaçã deve permitir aos usuários avaliar as receitas disponíveis na plataforma, a fim de fornecer feedback e classificações.  | Jully |bolomilho.html espetovegan.html pastapesto.html graodebico.html pizzavegana.html saladagrega.html soup.html spaghettisquash.html steak.html  suflespinafre.html |
+
 
 
 ## Descrição das estruturas:
@@ -82,8 +84,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |Id Receita|Número (Inteiro)|Bolo de milho.|2|
 |Id Receita|Número (Inteiro)|Pasta Pesto.|3|
 |Id Receita|Número (Inteiro)|Salada Grega.|4|
-|Id Receita|Número (Inteiro)|Spaghetti.|5|
+|Id Receita|Número (Inteiro)|Spaghetti Squash.|5|
 |Id Receita|Número (Inteiro)|Pizza Vegana.|6|
+|Id Receita|Número (Inteiro)|Espeto Vegano.|7|
+|Id Receita|Número (Inteiro)|Salada de Grão de Bico.|8|
+|Id Receita|Número (Inteiro)|Steak.|9|
+|Id Receita|Número (Inteiro)|Sufle de Espinafre.|10|
 
 
 
