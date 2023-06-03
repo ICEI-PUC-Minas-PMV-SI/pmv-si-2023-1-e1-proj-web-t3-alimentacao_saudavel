@@ -42,6 +42,12 @@ A tela **Registre suas refeições** permite que o usuário cadastre os alimento
 Além disso, na tela o usuário também terá acesso a sugestões de ingestão diária de água, o que pode ser uma ajuda importante para manter uma hidratação adequada. É importante lembrar que a água é essencial para diversas funções do organismo e que a falta dela pode levar a problemas de saúde.
 A tela **Registre suas refeições** é uma ferramenta importante para quem deseja adotar hábitos alimentares saudáveis e monitorar sua saúde [(RF-003 | RF-010 | RF-011)](especification.md#requisitos).
 
+![7D49D88C-2B3D-4DB2-B05E-2604CD1939B1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/15681d21-d776-4c34-89c5-4c58c4046993)
+
+<p align="center">
+  Figura 3 - Registro dos alimentos
+</p>
+
 ________________________________________________________________________________________________________________________________________________________
 ### Conheça os Alimentos
 
@@ -51,10 +57,11 @@ Além disso, a tela "Conheça os Alimentos" pode ser útil para quem precisa ade
 A tela "Conheça os Alimentos" pode ser uma ferramenta importante para quem deseja aprender mais sobre nutrição e fazer escolhas alimentares mais saudáveis e adequadas às suas necessidades individuais. 
  [(RF-006)](especification.md#requisitos).
 
-![Informações alimentares](https://user-images.githubusercontent.com/125522668/235021349-2d44e798-e64a-4637-9bab-61d54d3d165f.png)
+![D67376D3-CA8E-4DA6-8FE2-78B06D15127A_1_201_a](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/6b4742b7-7130-46c0-9458-982e696e951f)
+
 
 <p align="center">
-  Figura 3 - Informações alimentares
+  Figura 4 - Informações alimentares
 </p>
 
 ________________________________________________________________________________________________________________________________________________________
@@ -76,7 +83,7 @@ Por fim, na categoria **Glúten e lactose free**, serão apresentadas receitas q
 
 
 <p align="center">
-   Figura 4 - Receitas
+   Figura 5 - Receitas
 </p>
 
 ________________________________________________________________________________________________________________________________________________________
@@ -89,9 +96,9 @@ Existem muitos alimentos que, se consumidos em excesso ou de forma inadequada, p
 
 <div align="center">
  
- ![Alimentos devemos evitar](https://user-images.githubusercontent.com/125522668/235030320-8a5a0f5f-3e4f-4b43-8a9d-189d7aedfab3.jpeg)
+![5731F45E-6D50-4F1A-B0A2-0750C08A6375_1_201_a](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/48bea7ef-75d4-4d29-adb2-6fad8bfe4331)
  <p align="center">
-   Figura 5 - Alimentos que devem ser evitados
+   Figura 6 - Alimentos que devem ser evitados
 </p>
  </div>
 
@@ -104,7 +111,7 @@ As telas acima são protegidas por autenticação, e a plataforma oferece meios 
 ![Páginas protegidas](https://user-images.githubusercontent.com/125522668/235024372-198f5544-e03b-4841-b13d-4170ce67f8f5.png)
 
 <p align="center">
-   Figura 6 - Telas protegidas
+   Figura 7 - Telas protegidas
 </p>
 
 ________________________________________________________________________________________________________________________________________________________
