@@ -2,7 +2,44 @@
   color: white;
   text-shadow: 2px 2px 4px black;
 }
+
 figcaption {
   color: white;
   text-shadow: 2px 2px 4px black;
+}
+
+.carousel-item img {
+  max-height: 600px;
+}
+
+@media screen and (max-width: 375px) {
+  .carousel-caption {
+    display: block !important;
+  }
+
+  .carousel-caption h5,
+  .carousel-caption p {
+    text-align: center;
+    font-size: 14px;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .carousel-caption .image-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .carousel-caption .image-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .carousel-caption .image-item figcaption {
+    font-size: 10px;
+  }
 }
