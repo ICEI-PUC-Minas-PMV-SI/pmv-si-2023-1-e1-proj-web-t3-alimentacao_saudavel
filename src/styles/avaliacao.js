@@ -31,4 +31,4 @@ function enviarAvaliacao(event) {
     document.querySelector("input[name='avaliacao']:checked").checked = false;
     document.getElementById("comentarios").value = "";
   });
-  
+  teste
