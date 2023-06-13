@@ -1,18 +1,14 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "server.js",
-        "use": "@vercel/node",
-        "config": {
-          "includeFiles": ["databease/db.json"]
-        }
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "server.js"
-      }
-    ]
-  }
+  "functions": {
+    "server.js": {
+      "memory": 1024,
+      "includeFiles": "database/db.json"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "server.js"
+    }
+  ]
+}
