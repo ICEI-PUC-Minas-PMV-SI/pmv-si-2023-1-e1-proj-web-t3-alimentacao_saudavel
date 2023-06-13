@@ -14,8 +14,6 @@ Com isso o projeto busca formas de auxiliar a pessoa a mapear melhor a sua alime
 
 ## Integrantes
 
-* Glerdson Cristian Farias
-* Isabela Gomes Lima
 * Italo Fideles Vieira
 * Jully Anne Roman Palhano Dutra
 * Mariana Wandermurem
