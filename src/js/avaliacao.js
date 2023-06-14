@@ -1,6 +1,3 @@
-// Objeto para armazenar as avaliações por receita
-let historicoAvaliacoes = {};
-
 // Função para gerar um ID único para o usuário
 function generateUniqueId() {
   return Math.random().toString(36).substr(2, 9);
@@ -8,14 +5,13 @@ function generateUniqueId() {
 
 // Função para obter o ID do usuário logado ou gerar um ID único
 function obterUsuarioLogadoId() {
-  let usuarioLogadoId = localStorage.getItem("usuarioLogadoId");
+  let usuarioLogado = obterDadosUsuarioLogadoSessao();
 
-  if (!usuarioLogadoId) {
-    usuarioLogadoId = generateUniqueId();
-    localStorage.setItem("usuarioLogadoId", usuarioLogadoId);
+  if (usuarioLogado != null) {
+    return usuarioLogado.id
   }
 
-  return usuarioLogadoId;
+  return generateUniqueId();
 }
 
 // Função para adicionar uma avaliação ao histórico da receita
@@ -34,32 +30,19 @@ function adicionarAvaliacao(avaliacao, comentario) {
     comentario: comentario
   };
 
-  historicoAvaliacoes[receitaId].push(novaAvaliacao); // Adicionar a avaliação ao histórico da receita
-  salvarHistoricoAvaliacoes(); // Salvar o histórico no localStorage
+  salvarHistoricoAvaliacoes(novaAvaliacao,receitaId); // Salvar o histórico no localStorage
   exibirAvaliacoes(receitaId);
   calcularMediaAvaliacoes(receitaId); // Calcular a média e exibir para o usuário
-}
-
-// Função para salvar o histórico de avaliações no localStorage
-function salvarHistoricoAvaliacoes() {
-  localStorage.setItem("historicoAvaliacoes", JSON.stringify(historicoAvaliacoes));
-}
-
-// Função para carregar o histórico de avaliações do localStorage
-function carregarHistoricoAvaliacoes() {
-  const historicoArmazenado = localStorage.getItem("historicoAvaliacoes");
-  if (historicoArmazenado) {
-    historicoAvaliacoes = JSON.parse(historicoArmazenado);
-  }
 }
 
 // Função para exibir as avaliações no histórico da receita
 function exibirAvaliacoes(receitaId) {
   const listaAvaliacoes = document.getElementById("listaAvaliacoes");
   listaAvaliacoes.innerHTML = ""; // Limpar a lista antes de exibir as avaliações
+var avaliacoes =obterTodasAvaliacoes()
 
-  if (historicoAvaliacoes[receitaId]) {
-    for (const avaliacao of historicoAvaliacoes[receitaId]) {
+  if (avaliacoes[receitaId]) {
+    for (const avaliacao of avaliacoes[receitaId]) {
       const itemAvaliacao = document.createElement("li");
       const usuario = avaliacao.usuarioId === obterUsuarioLogadoId() ? "Você" : `Usuário ${avaliacao.usuarioId}`;
       itemAvaliacao.textContent = `${usuario} - Avaliação: ${avaliacao.avaliacao} estrela(s) - Comentário: ${avaliacao.comentario}`;
@@ -71,7 +54,7 @@ function exibirAvaliacoes(receitaId) {
 
 // Função para calcular a média das avaliações
 function calcularMediaAvaliacoes(receitaId) {
-  const avaliacoes = historicoAvaliacoes[receitaId];
+  const avaliacoes = obterAvaliacaoPorReceita(receitaId);
   if (avaliacoes && avaliacoes.length > 0) {
     const totalAvaliacoes = avaliacoes.length;
     let somaAvaliacoes = 0;

@@ -67,4 +67,8 @@ function prepararLogOff(rota){
 
 }
 
+function obterDadosUsuarioLogadoSessao(){
+    return JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+}
+
 initLoginData()
