@@ -9,10 +9,6 @@
       {
         "source": "/(.*)",
         "destination": "api/server.js"
-      },
-      {
-        "source": "",
-        "destination": "src/index.html"
       }
     ]
   }
