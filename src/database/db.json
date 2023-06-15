@@ -1,15 +1,35 @@
 {
-    "usuarios": [
-      {
-        "id": 1,
-        "nome": "Paulo Henriques",
-        "dataNascimento": "1998-01-18T00:00:00.000Z",
-        "peso": 75,
-        "altura": 1.8,
-        "idGenero": 1,
-        "email": "paulo.henrique@email.com",
-        "senha": "teste1",
-        "status": true
-      }
-    ]
-  }
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Paulo Henriques",
+      "dataNascimento": "1998-01-18T00:00:00.000Z",
+      "peso": 75,
+      "altura": 1.8,
+      "idGenero": 1,
+      "email": "paulo.henrique@email.com",
+      "senha": "teste1",
+      "status": true
+    }
+  ],
+  "avaliacoes": [
+    {
+      "id": 1,
+      "avaliacao": 5,
+      "comentarios": "Essa receita é excelente!",
+      "idUsuario": 1
+    },
+    {
+      "id": 2,
+      "avaliacao": 4,
+      "comentarios": "Muito bom, recomendo!",
+      "idUsuario": 1
+    },
+    {
+      "id": 3,
+      "avaliacao": 3,
+      "comentarios": "A receita é boa, mas poderia ser melhor.",
+      "idUsuario": 1
+    }
+  ]
+}
