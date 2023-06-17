@@ -5,7 +5,6 @@ URL = urlBase + "usuarios"
 // GET - PROCEDIMENTO PARA OBTER UM USUARIO
 
 async function getUser(params){
-    alert(URL)
     var response = await fetch(`${URL}?${params}`);
     return await response.json();
 }
