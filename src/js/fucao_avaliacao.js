@@ -1,15 +1,3 @@
-// Função para obter todas as avaliações do servidor
-function obterTodasAvaliacoes() {
-  return fetch('http://localhost:3000/historicoAvaliacoes')
-    .then(response => {
-      if (response.ok) {
-        return response.json();
-      } else {
-        throw new Error("Erro ao obter as avaliações");
-      }
-    });
-}
-
 // Função para adicionar uma avaliação ao histórico da receita
 function adicionarAvaliacao(avaliacao, comentario) {
   const receitaId = document.querySelector("main").dataset.receitaId; // Obter o ID da receita
@@ -41,7 +29,7 @@ function exibirAvaliacoes(receitaId) {
     .then(avaliacoes => {
       for (const avaliacao of avaliacoes) {
         const itemAvaliacao = document.createElement("li");
-        const usuario = avaliacao.idUsuario === parseInt(obterUsuarioLogadoId()) ? "Você" : `Usuário ${avaliacao.idUsuario}`;
+        const usuario = avaliacao.idUsuario === parseInt(obterUsuarioCorrente()) ? "Você" : `Usuário ${avaliacao.idUsuario}`;
         itemAvaliacao.textContent = `${usuario} - Avaliação: ${avaliacao.nota} estrela(s) - Comentário: ${avaliacao.avaliacaoReceita}`;
 
         listaAvaliacoes.appendChild(itemAvaliacao);

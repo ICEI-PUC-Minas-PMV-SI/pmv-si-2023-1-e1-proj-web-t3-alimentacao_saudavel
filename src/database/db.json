@@ -17,20 +17,61 @@
       "idUsuario": 1,
       "idReceita": 5,
       "nota": 5,
-      "avaliacaoReceita": "Essa receita é excelente!"
+      "avaliacaoReceita": "Essa receita é maravilhosa!"
     },
     {
       "idUsuario": 2,
       "idReceita": 3,
       "nota": 1,
-      "avaliacaoReceita": "Muito bom, recomendo!"
+      "avaliacaoReceita": "Muito ruim, não recomendo!"
     },
     {
       "idUsuario": 3,
-      "idReceita": 3,
-      "nota": 1,
+      "idReceita": 4,
+      "nota": 3,
       "avaliacaoReceita": "A receita é boa, mas poderia ser melhor."
+    },
+    {
+      "idUsuario": 3,
+      "idReceita": 6,
+      "nota": 4,
+      "avaliacaoReceita": "Gostei, mas precisa de ajustes."
+    },
+    {
+      "idUsuario": 4,
+      "idReceita": 8,
+      "nota": 5,
+      "avaliacaoReceita": "Essa receita é muito saborosa!"
+    },
+    {
+      "idUsuario": 10,
+      "idReceita": 1,
+      "nota": 3,
+      "avaliacaoReceita": "Poderia ser melhor, mas não é ruim."
+    },
+    {
+      "idUsuario": 7,
+      "idReceita": 2,
+      "nota": 2,
+      "avaliacaoReceita": "Precisa de mais temperos, faltou sabor."
+    },
+    {
+      "idUsuario": 3,
+      "idReceita": 7,
+      "nota": 4,
+      "avaliacaoReceita": "Gostei, mas pode ser mais nutritiva."
+    },
+    {
+      "idUsuario": 5,
+      "idReceita": 9,
+      "nota": 4,
+      "avaliacaoReceita": "Achei ok, mas não impressionou."
+    },
+    {
+      "idUsuario": 7,
+      "idReceita": 10,
+      "nota": 1,
+      "avaliacaoReceita": "Precisa de mais instruções, ficou confuso."
     }
   ]
-
 }
