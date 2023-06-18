@@ -8,7 +8,7 @@ function obterUsuarioLogadoId() {
   let usuarioLogado = obterDadosUsuarioLogadoSessao();
 
   if (usuarioLogado != null) {
-    return usuarioLogado.idUsuario;
+    return usuarioLogado.id;
   }
 
   return generateUniqueId();
