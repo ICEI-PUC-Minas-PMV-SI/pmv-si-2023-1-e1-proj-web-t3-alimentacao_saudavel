@@ -1,15 +1,135 @@
 {
-    "usuarios": [
-      {
-        "id": 1,
-        "nome": "Paulo Henriques",
-        "dataNascimento": "1998-01-18T00:00:00.000Z",
-        "peso": 75,
-        "altura": 1.8,
-        "idGenero": 1,
-        "email": "paulo.henrique@email.com",
-        "senha": "teste1",
-        "status": true
-      }
-    ]
-  }
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Paulo Henriques",
+      "dataNascimento": "1998-01-18T00:00:00.000Z",
+      "peso": 75,
+      "altura": 1.8,
+      "idGenero": 1,
+      "email": "paulo.henrique@email.com",
+      "senha": "teste1",
+      "status": true
+    }
+  ],
+  "avaliacoes": [
+    {
+      "idUsuario": 1,
+      "idReceita": 5,
+      "nota": 5,
+      "avaliacaoReceita": "Essa receita é maravilhosa!"
+    },
+    {
+      "idUsuario": 2,
+      "idReceita": 3,
+      "nota": 1,
+      "avaliacaoReceita": "Muito ruim, não recomendo!"
+    },
+    {
+      "idUsuario": 3,
+      "idReceita": 4,
+      "nota": 3,
+      "avaliacaoReceita": "A receita é boa, mas poderia ser melhor."
+    },
+    {
+      "idUsuario": 3,
+      "idReceita": 6,
+      "nota": 4,
+      "avaliacaoReceita": "Gostei, mas precisa de ajustes."
+    },
+    {
+      "idUsuario": 4,
+      "idReceita": 8,
+      "nota": 5,
+      "avaliacaoReceita": "Essa receita é muito saborosa!"
+    },
+    {
+      "idUsuario": 10,
+      "idReceita": 1,
+      "nota": 3,
+      "avaliacaoReceita": "Poderia ser melhor, mas não é ruim."
+    },
+    {
+      "idUsuario": 7,
+      "idReceita": 2,
+      "nota": 2,
+      "avaliacaoReceita": "Precisa de mais temperos, faltou sabor."
+    },
+    {
+      "idUsuario": 3,
+      "idReceita": 7,
+      "nota": 4,
+      "avaliacaoReceita": "Gostei, mas pode ser mais nutritiva."
+    },
+    {
+      "idUsuario": 5,
+      "idReceita": 9,
+      "nota": 4,
+      "avaliacaoReceita": "Achei ok, mas não impressionou."
+    },
+    {
+      "idUsuario": 7,
+      "idReceita": 10,
+      "nota": 1,
+      "avaliacaoReceita": "Precisa de mais instruções, ficou confuso."
+    },
+    {
+      "idUsuario": "v1bfdh17s",
+      "idReceita": 2,
+      "nota": 5,
+      "avaliacaoReceita": "Adorei",
+      "id": "g1mk64s8g"
+    },
+    {
+      "idUsuario": "v3xo1n1lt",
+      "idReceita": 2,
+      "nota": 5,
+      "avaliacaoReceita": "Uma delia o bolo",
+      "id": "ogkciv7ri"
+    },
+    {
+      "idUsuario": "bc2gesugu",
+      "idReceita": 2,
+      "nota": 5,
+      "avaliacaoReceita": "Delícia!!!!",
+      "id": "p0bru0gb9"
+    },
+    {
+      "idUsuario": "izt4brrsd",
+      "idReceita": 2,
+      "nota": 5,
+      "avaliacaoReceita": "um otimo prato\n",
+      "id": "4mu9enie2"
+    },
+    {
+      "idUsuario": "uievktr7e",
+      "idReceita": 2,
+      "nota": 5,
+      "avaliacaoReceita": "Adorei a receita!",
+      "id": "7eu41041b",
+      "receitaId": "2"
+    },
+    {
+      "idUsuario": "e5zyqb6xk",
+      "idReceita": 2,
+      "nota": 5,
+      "avaliacaoReceita": "adorei a receita\n",
+      "id": "a7jvs54lf",
+      "receitaId": "2"
+    },
+    {
+      "idUsuario": "0um6ny9nd",
+      "idReceita": 9,
+      "nota": 5,
+      "avaliacaoReceita": "A carne ficou uma délicia!",
+      "id": "5zacmNa"
+    },
+    {
+      "idUsuario": "edkwkmwd2",
+      "idReceita": 5,
+      "nota": 5,
+      "avaliacaoReceita": "Não imaginei que seria tão gostoso",
+      "id": "iuEII7q"
+    }
+  ]
+}
