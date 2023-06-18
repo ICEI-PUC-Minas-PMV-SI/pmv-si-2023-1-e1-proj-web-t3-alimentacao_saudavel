@@ -8,44 +8,66 @@ function obterUsuarioLogadoId() {
   let usuarioLogado = obterDadosUsuarioLogadoSessao();
 
   if (usuarioLogado != null) {
-    return usuarioLogado.id
+    return usuarioLogado.idUsuario;
   }
 
   return generateUniqueId();
 }
 
 // Função para adicionar uma avaliação ao histórico da receita
-function adicionarAvaliacao(avaliacao, comentario) {
+async function adicionarAvaliacao(avaliacao, comentario) {
   const receitaId = document.querySelector("main").dataset.receitaId; // Obter o ID da receita
-
-  // Verificar se o histórico da receita já existe
-  if (!historicoAvaliacoes[receitaId]) {
-    historicoAvaliacoes[receitaId] = [];
-  }
 
   const usuarioId = obterUsuarioLogadoId(); // Obter o ID do usuário logado ou gerar um ID único
   const novaAvaliacao = {
-    usuarioId: usuarioId,
-    avaliacao: parseInt(avaliacao),
-    comentario: comentario
+    idUsuario: usuarioId,
+    idReceita: parseInt(receitaId),
+    nota: parseInt(avaliacao),
+    avaliacaoReceita: comentario
   };
 
-  salvarHistoricoAvaliacoes(novaAvaliacao,receitaId); // Salvar o histórico no localStorage
+  await salvarAvaliacaoNoServidor(novaAvaliacao); // Salvar a avaliação no servidor
   exibirAvaliacoes(receitaId);
   calcularMediaAvaliacoes(receitaId); // Calcular a média e exibir para o usuário
 }
 
+// Função para obter todas as avaliações do servidor
+async function obterTodasAvaliacoes() {
+  const response = await fetch('http://localhost:3000/avaliacoes');
+  const avaliacoes = await response.json();
+  return avaliacoes;
+}
+
+// Função para obter as avaliações de uma receita específica do servidor
+async function obterAvaliacaoPorReceita(receitaId) {
+  const response = await fetch(`http://localhost:3000/avaliacoes?idReceita=${receitaId}`);
+  const avaliacoes = await response.json();
+  return avaliacoes;
+}
+
+// Função para salvar a avaliação no servidor
+async function salvarAvaliacaoNoServidor(avaliacao) {
+  await fetch('http://localhost:3000/avaliacoes', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(avaliacao)
+  });
+}
+
 // Função para exibir as avaliações no histórico da receita
-function exibirAvaliacoes(receitaId) {
+async function exibirAvaliacoes(receitaId) {
   const listaAvaliacoes = document.getElementById("listaAvaliacoes");
   listaAvaliacoes.innerHTML = ""; // Limpar a lista antes de exibir as avaliações
-var avaliacoes =obterTodasAvaliacoes()
 
-  if (avaliacoes[receitaId]) {
-    for (const avaliacao of avaliacoes[receitaId]) {
+  const avaliacoes = await obterAvaliacaoPorReceita(receitaId);
+
+  if (avaliacoes.length > 0) {
+    for (const avaliacao of avaliacoes) {
       const itemAvaliacao = document.createElement("li");
-      const usuario = avaliacao.usuarioId === obterUsuarioLogadoId() ? "Você" : `Usuário ${avaliacao.usuarioId}`;
-      itemAvaliacao.textContent = `${usuario} - Avaliação: ${avaliacao.avaliacao} estrela(s) - Comentário: ${avaliacao.comentario}`;
+      const usuario = avaliacao.idUsuario === obterUsuarioLogadoId() ? "Você" : `Usuário ${avaliacao.idUsuario}`;
+      itemAvaliacao.textContent = `${usuario} - Avaliação: ${avaliacao.nota} estrela(s) - Comentário: ${avaliacao.avaliacaoReceita}`;
 
       listaAvaliacoes.appendChild(itemAvaliacao);
     }
@@ -53,13 +75,13 @@ var avaliacoes =obterTodasAvaliacoes()
 }
 
 // Função para calcular a média das avaliações
-function calcularMediaAvaliacoes(receitaId) {
-  const avaliacoes = obterAvaliacaoPorReceita(receitaId);
-  if (avaliacoes && avaliacoes.length > 0) {
+async function calcularMediaAvaliacoes(receitaId) {
+  const avaliacoes = await obterAvaliacaoPorReceita(receitaId);
+  if (avaliacoes.length > 0) {
     const totalAvaliacoes = avaliacoes.length;
     let somaAvaliacoes = 0;
     for (const avaliacao of avaliacoes) {
-      somaAvaliacoes += avaliacao.avaliacao;
+      somaAvaliacoes += avaliacao.nota;
     }
     const mediaAvaliacoes = somaAvaliacoes / totalAvaliacoes;
 
@@ -103,9 +125,6 @@ document.getElementById("avaliacaoForm").addEventListener("submit", function(eve
   const receitaId = document.querySelector("main").dataset.receitaId; // Obter o ID da receita
   exibirAvaliacoes(receitaId); // Chamar a função de exibição após adicionar uma avaliação
 });
-
-// Carregar o histórico de avaliações do localStorage
-carregarHistoricoAvaliacoes();
 
 // Exibir avaliações iniciais da receita (se houver)
 const receitaId = document.querySelector("main").dataset.receitaId; // Obter o ID da receita
