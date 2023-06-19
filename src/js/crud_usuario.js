@@ -1,6 +1,13 @@
 // URL DA API DE DADOS DE USUARIOS
-URL = urlBase + "usuarios"
-//=================================================================================================
+URL = urlBaseApi() + "usuarios"
+//============================================================()=====================================
+
+function urlBaseApi(){
+    if(window.location.href.includes("vercel"))
+        return "https://nutrischedule.vercel.app/api/"
+    else
+        return "http://localhost:3000/"
+}
 
 // GET - PROCEDIMENTO PARA OBTER UM USUARIO
 
@@ -189,8 +196,6 @@ async function loginUser(){
     var params = `email=${dados.email}&senha=${dados.senha}`
 
     var result = await getUser(params)
-
-    console.log(result)
 
     if(result.length == 1){
         usuarioCorrente.id = result[0].id;

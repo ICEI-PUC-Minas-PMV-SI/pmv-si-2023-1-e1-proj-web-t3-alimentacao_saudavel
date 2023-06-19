@@ -23,11 +23,11 @@ function personalizarPaginasComLogin(){
     if(window.location.href.includes("index")){
         montarDadosHeader("pages/", "index.html")
         retirarBotaoCadastro()
-        prepararLogOff("index.html")
+        //prepararLogOff("index.html")
     }
     else{
         montarDadosHeader("", "../index.html")
-        prepararLogOff("../index.html")
+        //prepararLogOff("../index.html")
     }
 }
 
@@ -72,6 +72,9 @@ function prepararLogOff(rota){
         if(confirm("Deseja realmente encerrar sua sessão?")){
             sessionStorage.removeItem('usuarioCorrente');
             window.location.href = `${rota}`;
+        }
+        else{
+            event.preventDefault();
         }
     })
 
