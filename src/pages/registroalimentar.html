@@ -132,19 +132,19 @@
                 <div class="card-body">
                   <img src="../Icones/Cafedamanha.png" height="50" class="d-inline align-items-center">
                   <h4 class="card-title text-success d-inline align-middle">Café da manhã</h4>
-                  <p class="card-text">01 xícara de café, 01 pão, 02 ovos</p>
-                  <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                    data-bs-target="#adiciona">+</button>
-                </div>
+                  <p class="card-text" id="breakfast_list"></p>
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#adiciona" onclick="openModal(1);">+</button>
+                </div> 
+                <!-- DEVE PASSAR O ID DA REFEIÇÃO PARA A SEÇÃO DE ADD ALIMENTO-->
               </div>
 
               <div class="card mb-3">
                 <div class="card-body">
                   <img src="../Icones/Almoco_Jantar.png" height="50" class="d-inline align-items-center">
                   <h4 class="card-title text-success d-inline align-middle">Almoço</h4>
-                  <p class="card-text">100 gramas de arroz, 2 pedaços de bife, 700ml de coca-cola</p>
-                  <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                    data-bs-target="#adiciona">+</button>
+                  <p class="card-text" id="lunch_list"></p>
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#adiciona" onclick="openModal(2);">+</button>
+                    <!-- DEVE PASSAR O ID DA REFEIÇÃO PARA A SEÇÃO DE ADD ALIMENTO-->
                 </div>
               </div>
 
@@ -152,9 +152,9 @@
                 <div class="card-body">
                   <img src="../Icones/Lanche.png" height="50" class="d-inline align-items-center">
                   <h4 class="card-title text-success d-inline align-middle">Lanche</h4>
-                  <p class="card-text">1 xícara de café, 5 biscoitos</p>
-                  <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                    data-bs-target="#adiciona">+</button>
+                  <p class="card-text" id="snack_list"></p>
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#adiciona" onclick="openModal(3);">+</button>
+                    <!-- DEVE PASSAR O ID DA REFEIÇÃO PARA A SEÇÃO DE ADD ALIMENTO-->
                 </div>
               </div>
 
@@ -162,9 +162,10 @@
                 <div class="card-body">
                   <img src="../Icones/Almoco_Jantar.png" height="50" class="d-inline align-items-center">
                   <h4 class="card-title text-success d-inline align-middle">Jantar</h4>
-                  <p class="card-text">100 gramas de arroz, 2 pedaços de bife, 700ml de coca-cola</p>
-                  <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                    data-bs-target="#adiciona">+</button>
+                  <p class="card-text" id="dinner_list"></p>
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#adiciona" onclick="openModal(4);">+</button>
+
+                    <!-- DEVE PASSAR O ID DA REFEIÇÃO PARA A SEÇÃO DE ADD ALIMENTO-->
                 </div>
               </div>
             </div>
@@ -190,13 +191,14 @@
 
 
       <!--  INICIO MODAL 1 - REGISTRO ALIMENTOS-->
-      <div class="modal fade" id="adiciona" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+      <!-- <div class="modal fade" id="adiciona" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"> -->
+      <div class="modal" id="adiciona">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel">Registro de Alimentos</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+              <button class="btn-close" onclick="closeModal()"></button>
             </div>
             <div class="modal-body">
               <h6>Alimentos</h6>
@@ -205,44 +207,46 @@
                 <div class="form-group">
                   <label for="recipient-name" class="col-form-label mb-2">Alimento:</label>                  
                   <div class="add_icones_food">
-                    <a href="#"><img src="../Icones\food\Cola.png" alt="Refrigerante" title="Refrigerante" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Bread.png" alt="Pão" title="Pão" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Cafe.png" alt="Café" title="Café" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Cheese.png" alt="Queijo" title="Queijo" height="50"></a>
+                    <button id="Refrigerante" class="btn" onclick="addRegularFood(id)"><img src="../Icones/food/Cola.png" alt="Refrigerante" title="Refrigerante" height="50"></button>
+                    <button id="Pão" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Bread.png" alt="Pão" title="Pão" height="50"></button>
+                    <button id="Café" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Cafe.png" alt="Café" title="Café" height="50"></button>
+                    <button id="Queijo" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Cheese.png" alt="Queijo" title="Queijo" height="50"></button>
               
-                    <a href="#"><img src="../Icones\food\Cookie.png" alt="Biscoitos" title="Biscoitos" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Dessert.png" alt="Doces" title="Doces" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Eggs.png" alt="Ovos" title="Ovos" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Tea.png" alt="Chá" title="Chá" height="50"></a>
+                    <button id="Biscoitos" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Cookie.png" alt="Biscoitos" title="Biscoitos" height="50"></button>
+                    <button id="Doces" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Dessert.png" alt="Doces" title="Doces" height="50"></button>
+                    <button id="Ovos" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Eggs.png" alt="Ovos" title="Ovos" height="50"></button>
+                    <button id="Chá" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Tea.png" alt="Chá" title="Chá" height="50"></button>
 
-                    <a href="#"><img src="../Icones\food\French Bread.png" alt="Pão francês" title="Pão francês" height="50"></a>
-                    <a href="#"><img src="../Icones\food\French Fries.png" alt="Batata frita" title="Batata frita" height="50"></a>
-                    <a href="#"></a><img src="../Icones\food\Grains Of Rice.png" alt="Arroz" title="Arroz" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Group Of Fruits.png" alt="Fruta" title="Fruta" height="50"></a>
+                    <button id="Pão francês" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\French Bread.png" alt="Pão francês" title="Pão francês" height="50"></button>
+                    <button id="Batata frita" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\French Fries.png" alt="Batata frita" title="Batata frita" height="50"></button>
+                    <button id="Arroz" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Grains Of Rice.png" alt="Arroz" title="Arroz" height="50"></button>
+                    <button id="Fruta" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Group Of Fruits.png" alt="Fruta" title="Fruta" height="50"></button>
 
-                    <a href="#"><img src="../Icones\food\Hamburger.png" alt="Hamburger" title="Hamburger" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Juice Glass.png" alt="Suco" title="Suco" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Meat.png" alt="Carne" title="Carne" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Pizza.png" alt="Pizza" title="Pizza" height="50"></a>
+                    <button id="Hamburger" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Hamburger.png" alt="Hamburger" title="Hamburger" height="50"></button>
+                    <button id="Suco" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Juice Glass.png" alt="Suco" title="Suco" height="50"></button>
+                    <button id="Carne" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Meat.png" alt="Carne" title="Carne" height="50"></button>
+                    <button id="Pizza" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Pizza.png" alt="Pizza" title="Pizza" height="50"></button>
 
-                    <a href="#"><img src="../Icones\food\White Beans.png" alt="Hamburger" title="Hamburger" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Salad.png" alt="Suco" title="Suco" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Spaghetti.png" alt="Carne" title="Carne" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Whole Fish.png" alt="Pizza" title="Pizza" height="50"></a>
+                    <button id="Feijão" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\White Beans.png" alt="Feijão" title="Feijão" height="50"></button>
+                    <button id="Salada" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Salad.png" alt="Salada" title="Salada" height="50"></button>
+                    <button id="Spaghetti" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Spaghetti.png" alt="Spaghetti" title="Spaghetti" height="50"></button>
+                    <button id="Peixe" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Whole Fish.png" alt="Peixe" title="Peixe" height="50"></button>
                     
                   </div>
                 </div>
               </form>
               <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                    data-bs-target="#exampleModalCenter">+</button>
+              data-bs-dismiss="modal" data-bs-target="#exampleModalCenter">+</button>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Adicionar</button>
+              <button type="button" class="btn btn-secondary" onclick="closeModal();">Salvar</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal" data-bs-toggle="modal"
+               data-bs-target="#edit_list_food" onclick="getAlimentosRegistrados();">Editar</button>
             </div>
           </div>
         </div>
-      </div> <!--FIM MODAL 1 - REGISTRO ALIMENTOS-->
+      </div> 
+      <!--FIM MODAL 1 - REGISTRO ALIMENTOS-->
 
 
 
@@ -256,108 +260,68 @@
           </div>
           <div class="modal-body">
             <h6>Alimentos</h6>
-            <p>Selecione os alimentos base que estão presentes em sua refeição ou adicione um novo.</p>
-            <form>
-
+            <p>Informe os alimentos que estiveram presentes em sua refeição.</p>
+            <form id='newAlimentForm'>
               <div class="form-group">
                 <div class="row m-2">
                   <label for="recipient-name" class="col-form-label">Alimento:</label>
-                  <div class="col" id="name_alimento">
-                    <input type="text" class="form-control" id="recipient-name">
+                  <div class="col">
+                    <input type="text" class="form-control" id="name_alimento">
                   </div>
 
                   <label for="recipient-name" class="col-form-label">Qtd:</label>
-                  <div class="col" id="value_quantidade">
-                    <input type="text" class="form-control" id="recipient-name">
+                  <div class="col">
+                    <input type="number" class="form-control" id="value_quantidade" min="0">
                   </div>
 
-                  <div class="col" id="unidade_alimento">
-                    <div class="dropdown">
-                      <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Unidade
-                      </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item" type="button">Unidade(s)</button>
-                        <button class="dropdown-item" type="button">Colher(es)</button>
-                        <button class="dropdown-item" type="button">Gramas</button>
-                        <button class="dropdown-item" type="button">Pedaço</button>
-                      </div>
-                    </div>
+                  <div class="col">
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example" id='unidade_alimento'>
+                      <option selected>Unidade(s)</option>
+                      <option>Colher(es)</option>
+                      <option>Gramas</option>
+                      <option>Pedaço(s)</option>
+                    </select>
                   </div>
+
                 </div>
               </div>
+            </form>
 
-
-              <div class="form-group">
-                <div class="row m-2">
-                  <label for="recipient-name" class="col-form-label">Alimento:</label>
-                  <div class="col" id="name_alimento">
-                    <input type="text" class="form-control" id="recipient-name">
-                  </div>
-
-                  <label for="recipient-name" class="col-form-label">Qtd:</label>
-                  <div class="col" id="value_quantidade">
-                    <input type="text" class="form-control" id="recipient-name">
-                  </div>
-
-                  <div class="col" id="unidade_alimento">
-                    <div class="dropdown">
-                      <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Unidade
-                      </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item" type="button">Unidade(s)</button>
-                        <button class="dropdown-item" type="button">Colher(es)</button>
-                        <button class="dropdown-item" type="button">Gramas</button>
-                        <button class="dropdown-item" type="button">Pedaço</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="form-group">
-                <div class="row m-2">
-                  <label for="recipient-name" class="col-form-label">Alimento:</label>
-                  <div class="col" id="name_alimento">
-                    <input type="text" class="form-control" id="recipient-name">
-                  </div>
-
-                  <label for="recipient-name" class="col-form-label">Qtd:</label>
-                  <div class="col" id="value_quantidade">
-                    <input type="text" class="form-control" id="recipient-name">
-                  </div>
-
-                  <div class="col" id="unidade_alimento">
-                    <div class="dropdown">
-                      <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Unidade
-                      </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item" type="button">Unidade(s)</button>
-                        <button class="dropdown-item" type="button">Colher(es)</button>
-                        <button class="dropdown-item" type="button">Gramas</button>
-                        <button class="dropdown-item" type="button">Pedaço</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                  data-bs-target="#exampleModalCenter">+</button>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-            <button type="button" class="btn btn-primary">Adicionar</button>
+            <button type="button" class="btn btn-primary" onclick="addSpecificFood();">Adicionar</button>
           </div>
         </div>
       </div>
-    </div><!--FIM MODAL 2 - REGISTRO ALIMENTOS PERSONALIZADO-->
+    </div>
+    <!--FIM MODAL 2 - REGISTRO ALIMENTOS PERSONALIZADO-->
+
+
+    <!-- MODAL 3 - EDITAR REGISTRO DE ALIMENTOS DO DIA  -->
+    <div class="modal modal-xl fade" id="edit_list_food" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Registro de Alimentos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <h6 id="refeicao_name_edit"></h6>
+                <label for="message-text" class="col-form-label">Alimentos registrados:</label>
+                <textarea class="form-control" id="alimentos_registrados_input"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary" onclick="saveFoodEditDataBase();">Adicionar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     </section>
@@ -386,4 +350,6 @@
   integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
   <script src="../js/main.js" crossorigin="anonymous"></script>
+  <!-- TEM QUE REMOVER O CROSSORIGIN PARA FUNCIONAR -->
+  <script src="../js/crud_registro_alimentar.js"></script>
 </html>
