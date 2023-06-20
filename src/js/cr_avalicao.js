@@ -1,3 +1,7 @@
+// URL DA API DE DADOS DE USUARIOS
+URL = 'http://localhost:3000/usuarios'
+//=================================================================================================
+
 async function salvarAvaliacaoNoServidor(avaliacao, receitaId) {
   const avaliacaoComId = { ...avaliacao, id: generateUniqueId() };
   
