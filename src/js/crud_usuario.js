@@ -81,7 +81,7 @@ async function registerUser(){
 async function updateUser(){
     event.preventDefault();
 
-    var dadosUsuario = getUserSession();
+    var dadosUsuario = await getUserSession();
     
     if(dadosUsuario.length == 1){
         dadosUsuario[0].nome = document.getElementById('inputName').value,
@@ -90,8 +90,6 @@ async function updateUser(){
         dadosUsuario[0].altura = parseFloat(document.getElementById('inputHeight').value),
         dadosUsuario[0].email = document.getElementById('inputEmail').value
     };  
-    
-    console.log(dadosUsuario[0]);
 
     await fetch(`${URL}/${dadosUsuario[0].id}`, {
         method: 'PUT',
@@ -116,23 +114,16 @@ async function updateUserPassword(){
     
     if(senhaAtualInformada == dadosUsuario[0].senha && novasenha == confirmacaoNovaSenha){
         dadosUsuario[0].senha = novasenha;
-        var result = await fetch(`${URL}/${dadosUsuario[0].id}`, {
+        return await fetch(`${URL}/${dadosUsuario[0].id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(dadosUsuario[0])
         });   
-
-        
-        if(result.status == 200)
-        {
-            window.location.href = "dados_pessoais.html"
-            alert("Senha alterada com sucesso")
-        }
     }
     else{
-        confirm("Dados informados estão incorretos");
+        return null;
     }
 }
 //=================================================================================================
@@ -181,7 +172,6 @@ function validateUserRegister(){
 }
 
 async function loginUser(){
-    event.preventDefault();
     var resultadoLogin = false;
     var usuarioCorrente ={};
 
