@@ -1,10 +1,9 @@
 // PARA GUARDAR OS DADOS COLOCADOS NO FORMULARIO
 
 var dadosIMC = JSON.stringify({
-    sexo : parseFloat(document.getElementById('inputWeight').value),
-    peso : parseFloat(document.getElementById('inputWeight').value),
-    altura : parseFloat(document.getElementById('inputHeight').value)
-
+    genero : document.getElementById('imc-genero').value,
+    peso : document.getElementById('imc-peso').value,
+    altura :document.getElementById('imc-altura').value
 });
 
 // =======================================================================================
@@ -24,7 +23,7 @@ document.getElementById("show-imc").addEventListener("click", function(){
     		else if(IMC >25 && IMC <= 30)
     		{
     			alert("Sobrepeso");
-    		}
+    		} 
     		else if(IMC >30 && IMC <= 35)
     		{
     			alert("Obesidade Moderada");
@@ -39,7 +38,7 @@ document.getElementById("show-imc").addEventListener("click", function(){
     		}
     		else
     		{
-    			alert('Gordo');
+    			alert('Tente novamente');
     		}
 });
 // =======================================================================================
