@@ -73,6 +73,9 @@ function prepararLogOff(rota){
             sessionStorage.removeItem('usuarioCorrente');
             window.location.href = `${rota}`;
         }
+        else{
+            event.preventDefault();
+        }
     })
 
 }
