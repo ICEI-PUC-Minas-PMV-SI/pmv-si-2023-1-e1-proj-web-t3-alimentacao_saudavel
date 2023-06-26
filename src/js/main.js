@@ -46,7 +46,8 @@ function montarDadosHeader(rota, rotaSair){
             `</li>`
 
     var navBar = document.getElementsByClassName("navbar-nav");
-
+    document.getElementById("login").classList.add("d-none");
+    
     if(navBar.length != 0)
         navBar[0].innerHTML = 
             dadosPessoaisNav + 
