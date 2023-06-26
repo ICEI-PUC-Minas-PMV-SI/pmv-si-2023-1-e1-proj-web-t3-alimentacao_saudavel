@@ -36,7 +36,7 @@ async function salvarAlteracoesCadastro(){
 async function salvarAlteracaoSenha(){
     var result = await updateUserPassword();
 
-    if(result.status == 200)
+    if(result != null && result.status == 200)
     {
         alert("Senha alterada com sucesso!")
         fecharAlteracaoSenha()
