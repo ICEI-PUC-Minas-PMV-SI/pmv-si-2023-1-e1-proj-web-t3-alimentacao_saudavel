@@ -1,6 +1,18 @@
 // Função para gerar um ID único para o usuário
 function generateUniqueId() {
-  return Math.random().toString(36).substr(2, 9);
+  var d = new Date().getTime();//Timestamp
+    var d2 = (performance && performance.now && (performance.now()*1000)) || 0;//Time in microseconds since page-load or 0 if unsupported
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var r = Math.random() * 16;//random number between 0 and 16
+        if(d > 0){//Use timestamp until depleted
+            r = (d + r)%16 | 0;
+            d = Math.floor(d/16);
+        } else {//Use microseconds since page-load if supported
+            r = (d2 + r)%16 | 0;
+            d2 = Math.floor(d2/16);
+        }
+        return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+    });
 }
 
 // Função para obter o ID do usuário logado ou gerar um ID único
@@ -11,7 +23,7 @@ function obterUsuarioLogadoId() {
     return usuarioLogado.id;
   }
 
-  return generateUniqueId();
+  return null;
 }
 
 // Função para adicionar uma avaliação ao histórico da receita
@@ -20,6 +32,7 @@ async function adicionarAvaliacao(avaliacao, comentario) {
 
   const usuarioId = obterUsuarioLogadoId(); // Obter o ID do usuário logado ou gerar um ID único
   const novaAvaliacao = {
+    id: generateUniqueId(),
     idUsuario: usuarioId,
     idReceita: parseInt(receitaId),
     nota: parseInt(avaliacao),
@@ -29,31 +42,6 @@ async function adicionarAvaliacao(avaliacao, comentario) {
   await salvarAvaliacaoNoServidor(novaAvaliacao); // Salvar a avaliação no servidor
   exibirAvaliacoes(receitaId);
   calcularMediaAvaliacoes(receitaId); // Calcular a média e exibir para o usuário
-}
-
-// Função para obter todas as avaliações do servidor
-async function obterTodasAvaliacoes() {
-  const response = await fetch('http://localhost:3000/avaliacoes');
-  const avaliacoes = await response.json();
-  return avaliacoes;
-}
-
-// Função para obter as avaliações de uma receita específica do servidor
-async function obterAvaliacaoPorReceita(receitaId) {
-  const response = await fetch(`http://localhost:3000/avaliacoes?idReceita=${receitaId}`);
-  const avaliacoes = await response.json();
-  return avaliacoes;
-}
-
-// Função para salvar a avaliação no servidor
-async function salvarAvaliacaoNoServidor(avaliacao) {
-  await fetch('http://localhost:3000/avaliacoes', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(avaliacao)
-  });
 }
 
 // Função para exibir as avaliações no histórico da receita
@@ -66,8 +54,7 @@ function exibirAvaliacoes(receitaId) {
       if (avaliacoes.length > 0) {
         for (const avaliacao of avaliacoes) {
           const itemAvaliacao = document.createElement("li");
-          const usuario = avaliacao.idUsuario === obterUsuarioLogadoId() ? "Você" : `Usuário ${avaliacao.idUsuario}`;
-          itemAvaliacao.textContent = `${usuario} - Avaliação: ${avaliacao.nota} estrela(s) - Comentário: ${avaliacao.avaliacaoReceita}`;
+          itemAvaliacao.textContent = `Avaliação: ${avaliacao.nota} estrela(s) - Comentário: ${avaliacao.avaliacaoReceita}`;
 
           listaAvaliacoes.appendChild(itemAvaliacao);
         }

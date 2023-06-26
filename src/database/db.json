@@ -72,6 +72,76 @@
       "idReceita": 10,
       "nota": 1,
       "avaliacaoReceita": "Precisa de mais instruções, ficou confuso."
+    },
+    {
+      "id": 1,
+      "idUsuario": 1,
+      "idReceita": 2,
+      "nota": 4,
+      "avaliacaoReceita": "dsa"
+    },
+    {
+      "id": "c46c9b90-d647-43e8-b28d-985356081cf7",
+      "idUsuario": 1,
+      "idReceita": 2,
+      "nota": 4,
+      "avaliacaoReceita": "dsadsad"
+    },
+    {
+      "id": "f2392db1-1550-4150-92de-47b68a4202aa",
+      "idUsuario": 1,
+      "idReceita": 2,
+      "nota": 3,
+      "avaliacaoReceita": "teste 1"
+    },
+    {
+      "idUsuario": "9b9a6801-7c29-40a1-b405-098744b9e62a",
+      "idReceita": 9,
+      "nota": 4,
+      "avaliacaoReceita": "dsadasd",
+      "id": 2
+    },
+    {
+      "id": "e6c01130-48f3-49ce-ae4d-46f40212ff2e",
+      "idUsuario": null,
+      "idReceita": 9,
+      "nota": 3,
+      "avaliacaoReceita": "dsadsad"
+    },
+    {
+      "id": "a73d1198-bcc5-457f-8bfd-463ede0bd114",
+      "idUsuario": null,
+      "idReceita": 9,
+      "nota": 4,
+      "avaliacaoReceita": "dsadasd"
+    },
+    {
+      "id": "3f6a9804-f15a-4500-bc11-ef1449ff2e30",
+      "idUsuario": null,
+      "idReceita": 9,
+      "nota": 5,
+      "avaliacaoReceita": "Sensacional"
+    },
+    {
+      "id": "7374516c-12e8-4e66-bf33-98db09aa8260",
+      "idUsuario": 1,
+      "idReceita": 7,
+      "nota": 3,
+      "avaliacaoReceita": "tesaetwf"
+    },
+    {
+      "id": "4a8b1124-996d-4df1-9929-173ed3c77e82",
+      "idUsuario": 1,
+      "idReceita": 7,
+      "nota": 3,
+      "avaliacaoReceita": "tewdsf"
+    },
+    {
+      "id": "3ab82df8-f102-42ee-a45c-5e5a2b604242",
+      "idUsuario": 1,
+      "idReceita": 7,
+      "nota": 4,
+      "avaliacaoReceita": "dsadsa"
     }
   ]
 }
