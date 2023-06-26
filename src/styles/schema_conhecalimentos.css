@@ -1,10 +1,51 @@
-*{
-  font-family: 'Poppins', sans-serif;
+.text-shadow {
+  color: white;
+  text-shadow: 2px 2px 4px black;
 }
-footer {
-  background-color: #028F4B;
+
+figcaption {
+  color: white;
+  text-shadow: 2px 2px 4px black;
 }
+
+.carousel-item img {
+  max-height: 600px;
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel-caption {
+    display: block !important;
+  }
+
+  .carousel-caption h4,
+  .carousel-caption p {
+    text-align: center;
+    font-size: 2vw;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .carousel-caption .image-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .carousel-caption .image-item img {
+    width: 5vw;
+    height: 5vw;
+    margin-right: 5px;
+  }
+
+  .carousel-caption .image-item figcaption {
+    font-size: 2vw;
+  }
+}
+
 .texto p {
+  font-family: 'Poppins', sans-serif;
   color: #028F4B;
   margin-bottom: 0;
   text-indent: 1.5em;
@@ -18,25 +59,4 @@ footer {
 }
 .titulo2 h4{
   text-align: center;
-}
-.text-shadow{
-  color: white;
-  text-shadow: 2px 2px 4px black;
-}
-.carousel-caption h5 {
-  color: #eeeeee;
-  }
-  
-.carousel-caption p {
-  color: #ffffff;
-}
-  
-.carousel-container {
-  max-width: 300px;
-  margin: 0 auto;
-}
-  
-.carousel-item img {
-  max-width: 100%;
-  height: auto;  
 }

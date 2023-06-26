@@ -1,5 +1,5 @@
 // URL DA API DE DADOS DE USUARIOS
-URL = 'http://localhost:3000/usuarios'
+URL = urlBase + "usuarios"
 //=================================================================================================
 
 // GET - PROCEDIMENTO PARA OBTER UM USUARIO

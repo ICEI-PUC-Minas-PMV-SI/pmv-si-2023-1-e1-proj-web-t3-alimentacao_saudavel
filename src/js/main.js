@@ -1,3 +1,6 @@
+//URL para consumo da API
+var urlBase = ''
+
 function initLoginData() {
     usuarioCorrenteJSON = sessionStorage.getItem('usuarioCorrente');
     if (usuarioCorrenteJSON) {
@@ -7,6 +10,13 @@ function initLoginData() {
     else if(!paginasSomenteLogadas()){
         window.location.href = 'login.html';
     }
+}
+
+function initUrlBaseApi(){
+    if(window.location.href.includes("vercel"))
+        urlBase = "https://nutrischedule.vercel.app/api/"
+    else
+        urlBase = "http://localhost:3000/"
 }
 
 function personalizarPaginasComLogin(){
@@ -67,9 +77,9 @@ function prepararLogOff(rota){
 
 }
 
-
 function obterDadosUsuarioLogadoSessao(){
     return JSON.parse(sessionStorage.getItem('usuarioCorrente'));
 }
 
 initLoginData()
+initUrlBaseApi()
