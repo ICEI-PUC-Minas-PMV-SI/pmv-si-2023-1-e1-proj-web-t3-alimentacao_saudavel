@@ -18,3 +18,9 @@ main {
     min-height: 330px;
     padding: 3em;
 }
+
+.page-refs {
+    color: #028F4B;
+    font-size: 15px;
+    padding: 20px 0px 10px 0px;
+}
