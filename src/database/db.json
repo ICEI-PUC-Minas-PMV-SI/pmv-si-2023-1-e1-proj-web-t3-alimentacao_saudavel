@@ -121,27 +121,6 @@
       "idReceita": 9,
       "nota": 5,
       "avaliacaoReceita": "Sensacional"
-    },
-    {
-      "id": "7374516c-12e8-4e66-bf33-98db09aa8260",
-      "idUsuario": 1,
-      "idReceita": 7,
-      "nota": 3,
-      "avaliacaoReceita": "tesaetwf"
-    },
-    {
-      "id": "4a8b1124-996d-4df1-9929-173ed3c77e82",
-      "idUsuario": 1,
-      "idReceita": 7,
-      "nota": 3,
-      "avaliacaoReceita": "tewdsf"
-    },
-    {
-      "id": "3ab82df8-f102-42ee-a45c-5e5a2b604242",
-      "idUsuario": 1,
-      "idReceita": 7,
-      "nota": 4,
-      "avaliacaoReceita": "dsadsa"
     }
   ]
 }
