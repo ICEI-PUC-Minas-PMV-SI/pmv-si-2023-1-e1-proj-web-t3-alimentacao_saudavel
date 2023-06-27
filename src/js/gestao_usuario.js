@@ -54,7 +54,6 @@ function fecharAlteracaoSenha(){
     exibirDadosPessoais()
 }
 
-
 //funções auxiliares
 function bloquearAlteracaoInput(){
     for (const iterator of document.querySelectorAll(".form-control")) {
