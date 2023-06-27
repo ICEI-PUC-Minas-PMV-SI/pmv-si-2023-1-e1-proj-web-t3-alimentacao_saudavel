@@ -43,4 +43,4 @@ Com isso o projeto busca formas de auxiliar a pessoa a mapear melhor a sua alime
 
 # Aplicação
 
-<li><a href="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/"> NutriSchedule</a></li>
+<li><a href="https://nutrischedule.vercel.app"> NutriSchedule</a></li>
