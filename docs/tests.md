@@ -24,7 +24,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 **Caso de Teste** | **CT01 - Criar conta na aplicação**
  :--------------: | ------------
-**Procedimento**  | 1) O usuário deve acessar o site através do seguinte endereço: https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/. Na página inicial, o usuário deve clicar no botão "Cadastre-se" e preencher os campos solicitados, incluindo nome, e-mail, senha, confirmação de senha, peso atual, altura, data de nascimento e sexo. Em seguida, o usuário deve clicar no botão "Cadastrar". <br> 2) A aplicação deve verificar se os dados fornecidos são válidos e fornecer feedback ao usuário caso haja algum problema.
+**Procedimento**  | 1) O usuário deve acessar o site através do seguinte endereço: https://nutrischedule.vercel.app. Na página inicial, o usuário deve clicar no botão "Cadastre-se" e preencher os campos solicitados, incluindo nome, e-mail, senha, confirmação de senha, peso atual, altura, data de nascimento e sexo. Em seguida, o usuário deve clicar no botão "Cadastrar". <br> 2) A aplicação deve verificar se os dados fornecidos são válidos e fornecer feedback ao usuário caso haja algum problema.
 **Requisitos associados** | RF-001 RNF-003
 **Resultado esperado** | O cadastro do usuário é concluído com sucesso.
 **Dados de entrada** | Inserção de dados válidos nos campos do formulário de cadastro.
