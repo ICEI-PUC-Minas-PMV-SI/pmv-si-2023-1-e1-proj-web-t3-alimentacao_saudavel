@@ -70,6 +70,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Avaliação Receita
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|:-------------------:|:-------------------------------------------:|:------------------------------------------------:|
+|Id|Número (Inteiro)|Identificador da avaliação registrada.|1|
 |Id Usuário|Número (Inteiro)|Identificador do usuário que avaliou a receita.|1|
 |Id Receita|Número (Inteiro)|Identificador das receitas cadastradas no sistema.|3|
 |Nota|Número (Inteiro)|Nota da receita avaliada no sistema.|5|
