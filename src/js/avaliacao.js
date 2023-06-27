@@ -56,31 +56,6 @@ async function adicionarAvaliacao(avaliacao, comentario) {
   }
 }
 
-// Função para obter todas as avaliações do servidor
-async function obterTodasAvaliacoes() {
-  const response = await fetch('http://localhost:3000/avaliacoes');
-  const avaliacoes = await response.json();
-  return avaliacoes;
-}
-
-// Função para obter as avaliações de uma receita específica do servidor
-async function obterAvaliacaoPorReceita(receitaId) {
-  const response = await fetch(`http://localhost:3000/avaliacoes?idReceita=${receitaId}`);
-  const avaliacoes = await response.json();
-  return avaliacoes;
-}
-
-// Função para salvar a avaliação no servidor
-async function salvarAvaliacaoNoServidor(avaliacao) {
-  await fetch('http://localhost:3000/avaliacoes', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(avaliacao)
-  });
-}
-
 // Função para exibir as avaliações no histórico da receita
 function exibirAvaliacoes(receitaId) {
   const listaAvaliacoes = document.getElementById("listaAvaliacoes");
