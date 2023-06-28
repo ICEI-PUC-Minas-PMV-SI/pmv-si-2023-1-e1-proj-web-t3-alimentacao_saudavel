@@ -59,14 +59,14 @@ footer {
 .text-service-info {
   text-indent: 1.5em; 
   text-align:justify;
-  font-size: 130%;
+  font-size: 1.9vw;
   }
   
-  .title-service-info {
+.title-service-info {
   color: #028F4B;
   font-weight: 900;
-  font-size: 200%;
-  }
+  font-size: 4vw;
+}
   
 
 .icon-size {
@@ -91,10 +91,4 @@ margin-top: 0;
 text-align: justify;
 padding: 15px 10px;
 font-size: 110%;
-}
-
-.col img{
-  width: 100%;
-  border-radius: 30px;
-
 }
