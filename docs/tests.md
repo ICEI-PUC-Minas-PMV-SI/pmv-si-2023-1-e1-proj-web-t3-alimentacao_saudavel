@@ -130,17 +130,17 @@ ________________________________________________________________________________
 |*Caso de Teste*                                 |*TC-01 - Criar conta na aplicação *                                         |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que o usuário se cadastre, fornecendo as informações necessárias para criar uma conta no sistema. <br>RNF-003 - A aplicação deve garantir a proteção de dados pessoais do usuário respeitando a LGPD (Lei Geral de Proteção de Dados). |
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Link do vídeo do teste realizado: | [https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/038df8f2-336c-421a-bc40-0216b77cd7bc)| 
 
 |*Caso de Teste*                                 |*TC-02 - Recuperação de Senha *                                         |
 |---|---|
 |Requisito Associado | RF-010 - A aplicação deve disponibilizar tela de recuperação de senha. <br>RNF-005 - O e-mail de recuperação de senha deve ser enviado apenas para o endereço de e-mail cadastrado pelo usuário. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar |
+|Link do vídeo do teste realizado: | [https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/c2ebf45f-0c1f-40b7-94d3-cf7596aa039a) |
 
 |*Caso de Teste*                                 |*TC-03 - Autogerenciamento do Cadastro de Usuário *                                         |
 |---|---|
 |Requisito Associado | RF-009 - A aplicação deve permitir o autogerenciamento do cadastro de usuário.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar |
+|Link do vídeo do teste realizado: | [https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/f2812729-dd6f-4d92-bfbe-b0134f517de7) |
 
 |*Caso de Teste*                                 |*TC-04 - Visualização de Lista de Receitas Saudáveis *                                         |
 |---|---|
@@ -150,7 +150,7 @@ ________________________________________________________________________________
 |*Caso de Teste*                                 |*TC-05 - Avaliação das receitas *                                         |
 |---|---|
 |Requisito Associado | RF-013 - A aplicaçã deve permitir aos usuários avaliar as receitas disponíveis na plataforma, a fim de fornecer feedback e classificações. <br> RF-014 - A aplicação deve calcular a média das avaliações das receitas feitas pelos usuários cadastrados, levando em consideração as avaliações numéricas atribuídas a cada receita.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar |
+|Link do vídeo do teste realizado: | [https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/bcced89b-a9d2-45cb-b215-e756e67a46e1) |
 
 |*Caso de Teste*                                 |*TC-06 - Visualizar alimentos não recomendados *                                         |
 |---|---|
