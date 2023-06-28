@@ -12,21 +12,7 @@
     <link href="../layout/schema_padrao.css" rel="stylesheet" >
     <link rel="stylesheet" href="../styles/reg_alim_schema.css">
  
-         <script>
-             function generatePDF() {
-                 var pdf = new jsPDF({
-                     orientation: 'p',
-                     unit: 'mm',
-                     format: 'a5',
-                     putOnlyUsedFonts:true
-                     });
-                 pdf.text("Generate a PDF with JavaScript", 20, 20);
-                 pdf.text("published on APITemplate.io", 20, 30);
-                 pdf.addPage();
-                 pdf.text(20, 20, 'The second page');
-                 pdf.save('jsPDF_2Pages.pdf');
-             }
-         </script>
+
   </head>
 
 <body>
@@ -131,13 +117,13 @@
             <div class="d-flex bg-success p-4 rounded justify-content-between" style="height: 5em;"> 
                 <button class="js-cal-prev btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" style="width: 4em;"><</button>
                 <span class="d-flex btn-group btn-group-lg text-dark d-inline align-self-center">
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="segunda">SEG</button>
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="terca" >TER</button>
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="quarta" >QUA</button>
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="quinta" >QUI</button>
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="sexta" >SEX</button>
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="sabado" >SAB</button>
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="domingo" >DOM</button>
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="dayDom">DOM<br><h8 id="textNumDay"></h8></button>
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="daySeg">SEG<br><h8 id="textNumDay"></h8></button>
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="dayTer">TER<br><h8 id="textNumDay"></h8></button>
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="dayQua">QUA<br><h8 id="textNumDay"></h8></button>
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="dayQui">QUI<br><h8 id="textNumDay"></h8></button>
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="daySex">SEX<br><h8 id="textNumDay"></h8></button>
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="daySab">SAB<br><h8 id="textNumDay"></h8></button>
                 </span>
               <button class="js-cal-prev btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" style="width: 4em;">></button>
             </div> 
@@ -201,7 +187,7 @@
           </div>
           <div class="align-self-center">
             <!-- <button class="btn btn-primary btn-md" type="button" id="generate-pdf" onclick="generatePDF()">CONFERIR RELATORIO</button> -->
-            <button class="btn bg-white border-success btn-md text-success" type="button" onclick="generatePDF();">CONFERIR RELATORIO</button>
+            <button class="btn bg-white border-success btn-md text-success" type="button" onclick="generatePDF()">CONFERIR RELATORIO</button>
           </div>
         </div>
       </div>
@@ -370,4 +356,20 @@
   <script src="../js/main.js" ></script>
   <!-- TEM QUE REMOVER O CROSSORIGIN PARA FUNCIONAR crossorigin="anonymous" -->
   <script src="../js/crud_registro_alimentar.js"></script>
+
+  <script>
+    function generatePDF() {
+        var pdf = new jsPDF({
+            orientation: 'p',
+            unit: 'mm',
+            format: 'a5',
+            putOnlyUsedFonts:true
+            });
+        pdf.text("Generate a PDF with JavaScript", 20, 20);
+        pdf.text("published on APITemplate.io", 20, 30);
+        pdf.addPage();
+        pdf.text(20, 20, 'The second page');
+        pdf.save('jsPDF_2Pages.pdf');
+    }
+</script>
 </html>
