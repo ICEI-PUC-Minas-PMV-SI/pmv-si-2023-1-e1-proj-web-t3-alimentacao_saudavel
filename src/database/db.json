@@ -53,7 +53,7 @@
       "idUsuario": 7,
       "idReceita": 2,
       "nota": 2,
-      "avaliacaoReceita": "Precisa de mais temperos, faltou sabor."
+      "avaliacaoReceita": "Tinha que ser mais cremoso."
     },
     {
       "idUsuario": 3,
@@ -74,62 +74,11 @@
       "avaliacaoReceita": "Precisa de mais instruções, ficou confuso."
     },
     {
-      "idUsuario": "v1bfdh17s",
-      "idReceita": 2,
-      "nota": 5,
-      "avaliacaoReceita": "Adorei",
-      "id": "g1mk64s8g"
-    },
-    {
-      "idUsuario": "v3xo1n1lt",
-      "idReceita": 2,
-      "nota": 5,
-      "avaliacaoReceita": "Uma delia o bolo",
-      "id": "ogkciv7ri"
-    },
-    {
-      "idUsuario": "bc2gesugu",
-      "idReceita": 2,
-      "nota": 5,
-      "avaliacaoReceita": "Delícia!!!!",
-      "id": "p0bru0gb9"
-    },
-    {
-      "idUsuario": "izt4brrsd",
-      "idReceita": 2,
-      "nota": 5,
-      "avaliacaoReceita": "um otimo prato\n",
-      "id": "4mu9enie2"
-    },
-    {
-      "idUsuario": "uievktr7e",
-      "idReceita": 2,
-      "nota": 5,
-      "avaliacaoReceita": "Adorei a receita!",
-      "id": "7eu41041b",
-      "receitaId": "2"
-    },
-    {
-      "idUsuario": "e5zyqb6xk",
-      "idReceita": 2,
-      "nota": 5,
-      "avaliacaoReceita": "adorei a receita\n",
-      "id": "a7jvs54lf",
-      "receitaId": "2"
-    },
-    {
-      "idUsuario": "0um6ny9nd",
+      "id": "3f6a9804-f15a-4500-bc11-ef1449ff2e30",
+      "idUsuario": null,
       "idReceita": 9,
       "nota": 5,
-      "avaliacaoReceita": "A carne ficou uma délicia!",
-      "id": "5zacmNa"
-    },
-    {
-      "idUsuario": "edkwkmwd2",
-      "idReceita": 5,
-      "nota": 5,
-      "avaliacaoReceita": "Não imaginei que seria tão gostoso",
-      "id": "iuEII7q"
+      "avaliacaoReceita": "Sensacional"
     }
   ]
 }

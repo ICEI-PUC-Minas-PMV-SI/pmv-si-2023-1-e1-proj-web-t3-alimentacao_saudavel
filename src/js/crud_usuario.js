@@ -1,6 +1,13 @@
 // URL DA API DE DADOS DE USUARIOS
-URL = urlBase + "usuarios"
-//=================================================================================================
+URL = urlBaseApi() + "usuarios"
+//============================================================()=====================================
+
+function urlBaseApi(){
+    if(window.location.href.includes("vercel"))
+        return "https://nutrischedule.vercel.app/api/"
+    else
+        return "http://localhost:3000/"
+}
 
 // GET - PROCEDIMENTO PARA OBTER UM USUARIO
 
@@ -74,7 +81,7 @@ async function registerUser(){
 async function updateUser(){
     event.preventDefault();
 
-    var dadosUsuario = getUserSession();
+    var dadosUsuario = await getUserSession();
     
     if(dadosUsuario.length == 1){
         dadosUsuario[0].nome = document.getElementById('inputName').value,
@@ -83,8 +90,6 @@ async function updateUser(){
         dadosUsuario[0].altura = parseFloat(document.getElementById('inputHeight').value),
         dadosUsuario[0].email = document.getElementById('inputEmail').value
     };  
-    
-    console.log(dadosUsuario[0]);
 
     await fetch(`${URL}/${dadosUsuario[0].id}`, {
         method: 'PUT',
@@ -109,26 +114,51 @@ async function updateUserPassword(){
     
     if(senhaAtualInformada == dadosUsuario[0].senha && novasenha == confirmacaoNovaSenha){
         dadosUsuario[0].senha = novasenha;
-        var result = await fetch(`${URL}/${dadosUsuario[0].id}`, {
+        return await fetch(`${URL}/${dadosUsuario[0].id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(dadosUsuario[0])
         });   
-
-        
-        if(result.status == 200)
-        {
-            window.location.href = "dados_pessoais.html"
-            alert("Senha alterada com sucesso")
-        }
     }
     else{
-        confirm("Dados informados estão incorretos");
+        return null;
     }
 }
 //=================================================================================================
+
+// Funcoes auxiliares
+async function enviarEmailRecuperacaoSenha(){
+    var usuario = await getUserByEmail();
+
+    if(usuario != null){
+        Email.send({
+            SecureToken : "dfbef122-8525-49bf-b1eb-1417137ad7cc",
+            To : `${usuario[0].email}`,
+            From : "nutrischedule@gmail.com",
+            Subject : "Recuperação de senha - Nutrischedule",
+            Body : `<html>
+                        <h3>Segue logo abaixo a senha da sua conta</h3>
+                        <br><strong>${usuario[0].senha}</strong><br></br>
+                        <em>Caso você não tenha feito essa solicitação, altere a sua senha por segurança!</em>
+                    </html>`
+        }).then(
+            message => {
+                console.log(message)
+                if(message == "OK"){
+                    alert("Sua senha foi enviada para o email cadastrado!")
+                    window.location.href = "../index.html"
+                }
+                else
+                    alert("Ocorreu um erro, por favor tente novamente mais tarde!")
+            }
+        );
+    }
+    else{
+        alert("O email digitado não se encontra registrado no nosso sistema!")
+    }
+}
 
 async function getUserSession(){
     var usuarioCorrente = sessionStorage.getItem('usuarioCorrente');
@@ -137,6 +167,14 @@ async function getUserSession(){
 
      return await getUser(params);
 }
+
+async function getUserByEmail(){
+    var email = document.getElementById("inputEmailRecover").value;
+    var params = `email=${email}`;
+
+    return await getUser(params);
+}
+
 function defineIdGender(){
     if(document.querySelector('input[name="genderRadio"]:checked').value == "homem")
         return 1
@@ -174,7 +212,6 @@ function validateUserRegister(){
 }
 
 async function loginUser(){
-    event.preventDefault();
     var resultadoLogin = false;
     var usuarioCorrente ={};
 
@@ -189,8 +226,6 @@ async function loginUser(){
     var params = `email=${dados.email}&senha=${dados.senha}`
 
     var result = await getUser(params)
-
-    console.log(result)
 
     if(result.length == 1){
         usuarioCorrente.id = result[0].id;
