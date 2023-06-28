@@ -283,7 +283,7 @@ function highlightDayWeek() {
 
         } else {
             let weekDayButton = document.querySelector(`#${day_id}`);
-            weekDayButton.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 0);
+            // weekDayButton.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 0);
             weekDayButton.classList.add('bg-light');
             weekDayButton.classList.add('text-success');
             weekDayButton.classList.remove('bg-primary');
@@ -292,12 +292,6 @@ function highlightDayWeek() {
         }
     }
 
-    
-
-    // console.log(weekDayButton);
-    // console.log(weekDayButton.querySelector("#textNumDay"));
-
-
 
     // FILL THE OTHER DAYS
     switch (idDayName) {
@@ -305,15 +299,15 @@ function highlightDayWeek() {
             seg = document.querySelector(`#daySeg`);
             seg.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             ter = document.querySelector(`#dayTer`);
-            ter.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 2);
+            ter.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             qua = document.querySelector(`#dayQua`);
-            qua.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 3);
+            qua.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             qui = document.querySelector(`#dayQui`);
-            qui.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 4);
+            qui.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             sex = document.querySelector(`#daySex`);
-            sex.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 5);
+            sex.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             sab = document.querySelector(`#daySab`);
-            sab.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 6);
+            sab.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             break;
 
         case "daySeg":
@@ -335,81 +329,81 @@ function highlightDayWeek() {
             dom = document.querySelector(`#dayDom`);
             dom.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -2);
             seg = document.querySelector(`#daySeg`);
-            seg.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -1);
+            seg.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             qua = document.querySelector(`#dayQua`);
-            qua.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
+            qua.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 2);
             qui = document.querySelector(`#dayQui`);
-            qui.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 2);
+            qui.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             sex = document.querySelector(`#daySex`);
-            sex.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 3);
+            sex.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             sab = document.querySelector(`#daySab`);
-            sab.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 4);
+            sab.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             break;
 
         case "dayQua":
             dom = document.querySelector(`#dayDom`);
+            console.log('dayDom');
             dom.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -3);
             seg = document.querySelector(`#daySeg`);
-            seg.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -2);
+            console.log('daySeg');
+            seg.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             ter = document.querySelector(`#dayTer`);
-            ter.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -1);
+            console.log('dayTer');
+            ter.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             qui = document.querySelector(`#dayQui`);
-            qui.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
+            console.log('dayQui');
+            qui.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 2);
             sex = document.querySelector(`#daySex`);
-            sex.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 2);
+            console.log('daySex');
+            sex.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             sab = document.querySelector(`#daySab`);
-            sab.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 3);
-            dom = document.querySelector(`#dayDom`);
-            dom.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 4);
+            console.log('daySab');
+            sab.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             break;
 
         case "dayQui":
             dom = document.querySelector(`#dayDom`);
             dom.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -4);
             seg = document.querySelector(`#daySeg`);
-            seg.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -3);
+            seg.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             ter = document.querySelector(`#dayTer`);
-            ter.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -2);
+            ter.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             qua = document.querySelector(`#dayQua`);
-            qua.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -1);
+            qua.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             sex = document.querySelector(`#daySex`);
-            sex.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
+            sex.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 2);
             sab = document.querySelector(`#daySab`);
-            sab.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -2);
+            sab.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             break;
 
         case "daySex":
             dom = document.querySelector(`#dayDom`);
             dom.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -5);
             seg = document.querySelector(`#daySeg`);
-            seg.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -4);
+            seg.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             ter = document.querySelector(`#dayTer`);
-            ter.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -3);
+            ter.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             qua = document.querySelector(`#dayQua`);
-            qua.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -2);
+            qua.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             qui = document.querySelector(`#dayQui`);
-            qui.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -1);
+            qui.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             sab = document.querySelector(`#daySab`);
-            sab.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
-            dom = document.querySelector(`#dayDom`);
-            dom.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 2);
+            sab.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 2);
             break;
 
         case "daySab":
             dom = document.querySelector(`#dayDom`);
             dom.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -6);
             seg = document.querySelector(`#daySeg`);
-            seg.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -5);
+            seg.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             ter = document.querySelector(`#dayTer`);
-            ter.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -4);
+            ter.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             qua = document.querySelector(`#dayQua`);
-            qua.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -3);
+            qua.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             qui = document.querySelector(`#dayQui`);
-            qui.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -2);
+            qui.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             sex = document.querySelector(`#daySex`);
-            sex.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -1);
-            dom = document.querySelector(`#dayDom`);
-            dom.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
+            sex.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             break;
 
 
@@ -420,15 +414,16 @@ function highlightDayWeek() {
 
 
 // CALCULATE THE DAYS 
-function fillWeekDays(dateHighlight, qtd_days) {
-    dateHighlight.setDate(dateHighlight.getDate() + qtd_days);
-    let DATA = dateHighlight.toDateString()
-    console.log('DATA', DATA);
+function fillWeekDays(data, qtd_days) {
+    data.setDate(data.getDate() + qtd_days);
+    console.log('DT ORG: ',data);
+    console.log('QTD ADD: ',qtd_days);
 
 
-    day = String(dateHighlight.getDate()).padStart(2,'0');
-    monthOfYear = String(dateHighlight.getMonth()+1).padStart(2,'0');
-    year = dateHighlight.getFullYear()
+
+    day = String(data.getDate()).padStart(2,'0');
+    monthOfYear = String(data.getMonth()+1).padStart(2,'0');
+    year = data.getFullYear()
     formattedDate = `${day}/${monthOfYear}`;
 
     console.log('formattedDate', formattedDate);
@@ -437,10 +432,26 @@ function fillWeekDays(dateHighlight, qtd_days) {
 
 
 function addOneWeek(){
+    // ULTIMO DIA PRESENTE = SABADO
+    //FIRST DAY NEXT WEEK = DOM = SABADO + 1
+    // SEG = SABADO + 2
+    // TER = SABADO + 3
+    // QUA = SABADO + 4
+    // QUI = SABADO + 5
+    // SEX = SABADO + 6
+    // SAB PASS = SABADO + 7
 
 }
 
 function removeOneWeek(){
+    //PRIMEIRO DIA PRESENTE = DOMINGO
+    //LAST DAY PREV WEEK = SAB = DOMINGO - 1
+    // SEX = DOMINGO - 2
+    // QUI = DOMINGO - 3
+    // QUA = DOMINGO - 4
+    // TER = DOMINGO - 5
+    // SEG = DOMINGO - 6
+    // DOM PASS = DOMINGO - 7
 
 }
 
