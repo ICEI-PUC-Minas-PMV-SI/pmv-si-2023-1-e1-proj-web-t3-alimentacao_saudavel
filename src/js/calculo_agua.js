@@ -4,11 +4,16 @@ btn.addEventListener("click", function(e){
     const peso = document.querySelector("#peso");
     const value = peso.value;
     console.log(value);
-})
+});
+
+const metadeagua = ( peso * 35);
+
+div.addEventListener('submit', function(){
+    Console.WriteLine($metadeagua);
+});
+
+let select = document.querySelector('#meta');
+console.log(select);
 
 
-
-const metadeagua = ( peso * 35).toFixed(1);
-
-Console.WriteLine($metadeagua);
 
