@@ -436,6 +436,14 @@ function fillWeekDays(dateHighlight, qtd_days) {
 }
 
 
+function addOneWeek(){
+
+}
+
+function removeOneWeek(){
+
+}
+
 
 
 // Função para obter o ID do usuário logado
