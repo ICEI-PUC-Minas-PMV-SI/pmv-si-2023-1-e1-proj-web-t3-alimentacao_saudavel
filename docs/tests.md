@@ -145,7 +145,7 @@ ________________________________________________________________________________
 |*Caso de Teste*                                 |*TC-04 - Visualização de Lista de Receitas Saudáveis *                                         |
 |---|---|
 |Requisito Associado | RF-002 - A aplicação deve disponibilizar para os usuários cadastrados ou não uma lista de receitas contendo apenas alimentos saudáveis. <br> RF-003 - A aplicação deve fornecer ao usuário receitas, indicando se são adequadas para pessoas com intolerância à lactose, glúten, vegana ou vegetariana. <br> RF-007 - A aplicação deve disponibilizar tela com os dados nutricionais das receitas cadastradas para qualquer usuário.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar |
+|Link do vídeo do teste realizado: | [https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar ](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/baecb47b-249c-4efe-8400-198d0a483109)|
 
 |*Caso de Teste*                                 |*TC-05 - Avaliação das receitas *                                         |
 |---|---|
@@ -155,12 +155,12 @@ ________________________________________________________________________________
 |*Caso de Teste*                                 |*TC-06 - Visualizar alimentos não recomendados *                                         |
 |---|---|
 |Requisito Associado | RF-006 - A aplicação deve disponibilizar tela com alimentos que não são recomendados de se consumir recorrentemente para qualquer usuário.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar |
+|Link do vídeo do teste realizado: | [https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/7e00ea72-4299-4938-bf3f-0ffbf11d9a1a) |
 
 |*Caso de Teste*                                 |*TC-07 - Acesso às informações sobre os grupos de alimentos *                                         |
 |---|---|
 |Requisito Associado | RF-008 - A aplicação deve diponibilizar informações sobre os grupos de alimentos.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar |
+|Link do vídeo do teste realizado: | [https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/ab3b54f0-4af2-44b8-9c7b-87a1ebd3bfeb) |
 
 |*Caso de Teste*                                 |*TC-08 - Cálculo do Índice de Massa Corporal (IMC) *                                         |
 |---|---|
