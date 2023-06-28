@@ -1,11 +1,14 @@
-System.out.println("Informar o consumo");
+const btn =document.querySelector("#meta");
+btn.addEventListener("click", function(e){
+    e.preventDefault();
+    const peso = document.querySelector("#peso");
+    const value = peso.value;
+    console.log(value);
+})
 
-document.getElementById ('meta')({
-    peso : parseFloat(document.getElementById('inputWeight').value),
-});
 
-metadeagua = peso * 35;
-while ( consumo < metadeagua){
-   consumo : document.getElementById('inputHeight').value,
-   Console.WriteLine($metadeagua);
-}
+
+const metadeagua = ( peso * 35).toFixed(1);
+
+Console.WriteLine($metadeagua);
+
