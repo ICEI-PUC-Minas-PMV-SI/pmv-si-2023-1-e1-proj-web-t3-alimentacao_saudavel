@@ -120,7 +120,7 @@ async function saveFoodEditDataBase() {
         descricao : `${textArea.value}`
     };
     await saveFoodDataBase(new_data_food);
-    loadDataBaseInfo();
+    await loadDataBaseInfo();
 
 }
 
@@ -141,8 +141,6 @@ async function saveFoodDataBase(new_data_food) {
         console.log('NOVO REGISTRO ALIMENTAR');
 
     }
-    
-
 
     // let params = `idUsuario=${id_usuario}&idRefeicao=${id_refeicao}`
     // ACESSO É DIRETO NO CAMPO id - O NOME DEVE SER EXATAMENTE ESSE
@@ -189,8 +187,7 @@ async function loadDataBaseInfo() {
 }
 
 
-
-function checkCurrentDate() {
+async function checkCurrentDate() {
     let today = new Date();
     let day = today.getDate();
     let dayOfWeek = today.getDay();
@@ -214,11 +211,47 @@ function checkCurrentDate() {
     let calendarButton = document.querySelector('#calendarSelector');
     calendarButton.innerText = ' ' + day + ' - '+ monthName + ' - ' + year;
 
-    highlightDayWeek();
+    await highlightDayWeek();
+}
+
+async function changeDay(id_day) {
+    let calendarText = document.querySelector(`#${id_day}`);
+    let dateValueSelected = calendarText.querySelector("#textNumDay").innerText
+    // FORMART RETURN YYYY-MM-DD
+    console.log('dateValueSelected BOTAO', dateValueSelected);
+    console.log('dateSelected BOTAO', calendarText);
+
+    let dateArray = dateValueSelected.split('/');
+    let day = parseInt(dateArray[0]);
+    let monthOfYear = parseInt(dateArray[1]);
+
+    let data_separada = currentDate.split('-');
+    let year = parseInt(data_separada[2]);
+
+    console.log(day);
+    console.log(monthOfYear);
+    console.log(year);
+
+    //NEW CURRENT DAY
+    day = String(day).padStart(2,'0');
+    monthOfYear = String(monthOfYear).padStart(2,'0');
+
+    currentDate = `${day}-${monthOfYear}-${year}`;
+    console.log('NEW currentDate:', currentDate);
+
+    const monthsOfYear = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+    let monthName = monthsOfYear[parseInt(monthOfYear)-1];
+
+    let calendarButton = document.querySelector('#calendarSelector');
+    calendarButton.innerText = ' ' + day + ' - '+ monthName + ' - ' + year;
+
+    await loadDataBaseInfo();
+    await highlightDayWeek();
+
 }
 
 
-function updateDateSelector() {
+async function updateDateSelector() {
     let calendarText = document.querySelector('#dataRegistro');
     let dateSelected = calendarText.value;
     // FORMART RETURN YYYY-MM-DD
@@ -243,14 +276,14 @@ function updateDateSelector() {
 
     let calendarButton = document.querySelector('#calendarSelector');
     calendarButton.innerText = ' ' + day + ' - '+ monthName + ' - ' + year;
-    loadDataBaseInfo();
-    highlightDayWeek();
+    await loadDataBaseInfo();
+    await highlightDayWeek();
 
 }
 
 
 // ADD THE DAYS TO THE WEEK 
-function highlightDayWeek() {
+async function highlightDayWeek() {
     console.log('highlightDayWeek');
     console.log(currentDate);
 
@@ -314,15 +347,15 @@ function highlightDayWeek() {
             dom = document.querySelector(`#dayDom`);
             dom.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -1);
             ter = document.querySelector(`#dayTer`);
-            ter.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
+            ter.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 2);
             qua = document.querySelector(`#dayQua`);
-            qua.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 2);
+            qua.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             qui = document.querySelector(`#dayQui`);
-            qui.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 3);
+            qui.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             sex = document.querySelector(`#daySex`);
-            sex.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 4);
+            sex.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             sab = document.querySelector(`#daySab`);
-            sab.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 5);
+            sab.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             break;
 
         case "dayTer":
@@ -412,14 +445,11 @@ function highlightDayWeek() {
 }
 
 
-
 // CALCULATE THE DAYS 
 function fillWeekDays(data, qtd_days) {
     data.setDate(data.getDate() + qtd_days);
     console.log('DT ORG: ',data);
     console.log('QTD ADD: ',qtd_days);
-
-
 
     day = String(data.getDate()).padStart(2,'0');
     monthOfYear = String(data.getMonth()+1).padStart(2,'0');
@@ -431,33 +461,63 @@ function fillWeekDays(data, qtd_days) {
 }
 
 
-function addOneWeek(){
-    // ULTIMO DIA PRESENTE = SABADO
-    //FIRST DAY NEXT WEEK = DOM = SABADO + 1
-    // SEG = SABADO + 2
-    // TER = SABADO + 3
-    // QUA = SABADO + 4
-    // QUI = SABADO + 5
-    // SEX = SABADO + 6
-    // SAB PASS = SABADO + 7
 
-}
 
-function removeOneWeek(){
-    //PRIMEIRO DIA PRESENTE = DOMINGO
-    //LAST DAY PREV WEEK = SAB = DOMINGO - 1
-    // SEX = DOMINGO - 2
-    // QUI = DOMINGO - 3
-    // QUA = DOMINGO - 4
-    // TER = DOMINGO - 5
-    // SEG = DOMINGO - 6
-    // DOM PASS = DOMINGO - 7
+// function addOneWeek(){
+//     // ULTIMO DIA PRESENTE = SABADO
+//     //FIRST DAY NEXT WEEK = DOM = SABADO + 1
+//     // SEG = SABADO + 2
+//     // TER = SABADO + 3
+//     // QUA = SABADO + 4
+//     // QUI = SABADO + 5
+//     // SEX = SABADO + 6
+//     // SAB PASS = SABADO + 7
+//     let data_separada = currentDate.split('-');
+//     let year = parseInt(data_separada[2]);
+//     console.log(year);
 
-}
+//     sab = document.querySelector(`#daySab`);
+//     let ultimo_dia_menu = sab.querySelector("#textNumDay").innerText;
+
+//     let dateArray = ultimo_dia_menu.split('/');
+//     let day = parseInt(dateArray[0]);
+//     let monthOfYear = parseInt(dateArray[1]);
+//     console.log(dateArray);
+//     console.log(day);
+//     console.log(monthOfYear);
+
+
+//     let ultimo_dia = new Date(year, monthOfYear, day);
+//     dayDate = ultimo_dia.getDate();
+//     dayName = ultimo_dia.getDay();
+
+//     // CHANGE MENU SELECTOR DATA
+//     // let calendarText = document.querySelector('#dataRegistro');
+//     // calendarText.value =  ' ' + day + ' - '+ monthName + ' - ' + year;
+//     // let dateSelected = calendarText.value;
+
+//     console.log('ULTIMO DIA', `${ultimo_dia}`);
+
+
+// }
+
+// function removeOneWeek(){
+//     //PRIMEIRO DIA PRESENTE = DOMINGO
+//     //LAST DAY PREV WEEK = SAB = DOMINGO - 1
+//     // SEX = DOMINGO - 2
+//     // QUI = DOMINGO - 3
+//     // QUA = DOMINGO - 4
+//     // TER = DOMINGO - 5
+//     // SEG = DOMINGO - 6
+//     // DOM PASS = DOMINGO - 7
+
+// }
 
 
 
 // Função para obter o ID do usuário logado
+
+
 function obterUsuarioLogadoId() {
     let usuarioLogado = obterDadosUsuarioLogadoSessao();
   
