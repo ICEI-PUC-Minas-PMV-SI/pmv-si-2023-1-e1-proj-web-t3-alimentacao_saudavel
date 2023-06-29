@@ -16,17 +16,15 @@ div.addEventListener('submit', function(event){
 	if (imc < 18.5){
 		descripition =`IMC : ${imc} - Você está abaixo do seu peso ideal.`;
 	} else if (imc >= 18.5 && imc <= 25){
-		descripition = 'Você está em seu peso ideal.';
-		value.classList.remove('attention');
-		value.classList.add('normal');
+		descripition =`IMC : ${imc} - Você está em seu peso ideal.`;
 	} else if(imc > 25  && imc <= 30){
-		descripition = 'Cuidado! Você está com sobrepeso.';
+		descripition = `IMC : ${imc} - Cuidado! Você está com sobrepeso.`;
 	} else if(imc > 30  && imc <= 35){
-		descripition = 'Cuidado! Você está com obesidade moderada.';
+		descripition = `IMC : ${imc} - Cuidado! Você está com obesidade moderada.`;
 	} else if(imc > 35  && imc <= 40){
-		descripition = 'Cuidado! Você está com obesidade severa.';
+		descripition = `IMC : ${imc} - Cuidado! Você está com obesidade severa.`;
 	} else {
-		descripition = 'Cuidado! Você está com obesidade morbida.';
+		descripition = `IMC : ${imc} - Cuidado! Você está com obesidade morbida.`;
 	}
 
     value.textContent = imcreplace('.',',');
@@ -44,8 +42,5 @@ function dadosIMC (){
         alert('Faça seu cadastro se não ainda não tem');
     }
 }
-
-
-// =======================================================================================
 
 
