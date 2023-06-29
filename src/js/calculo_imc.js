@@ -14,7 +14,7 @@ div.addEventListener('submit', function(event){
 	document.getElementById('infos').classList.remove('hidden');
 
 	if (imc < 18.5){
-		descripition = 'Você está abaixo do seu peso ideal.';
+		descripition =`IMC : ${imc} - Você está abaixo do seu peso ideal.`;
 	} else if (imc >= 18.5 && imc <= 25){
 		descripition = 'Você está em seu peso ideal.';
 		value.classList.remove('attention');
