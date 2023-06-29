@@ -206,79 +206,90 @@ Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de soft
 
 # Testes de Usabilidade
 
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
-
-Para tanto, elaboramos quatro cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
-
-Foram convidadas quatro pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
-
-Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
-
-Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
-
-1. Péssimo; 
-2. Ruim; 
-3. Regular; 
-4. Bom; 
-5. Ótimo.
-
-Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
-
-Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
-
-
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
-
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
 
 ## Cenários de Teste de Usabilidade
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Você é uma pessoa que deseja criar uma nova conta no NutriSchedule. Encontre no site a aréa de cadastro e forneça informações básicas, como nome de usuário, senha e endereço de e-mail, para criar sua conta com sucesso. |
+| 2             | Você é uma pessoa que deseja realizar alterações em sua conta no NutriSchedule. Acesse  as configurações da conta  utilizando e faça alterações nos dados pessoais, como nome, idade, altura, peso e senha. |
+| 3             | Você é uma pessoa que deseja calcular seu Índice de Massa Corporal (IMC). Encontre no site o calculo de IMC e insera sua altura e peso e obtenha uma estimativa de seu estado nutricional.
+| 4             | Você é uma pessoa que deseja visualizar uma receita específica e saber os dados nutricionais. Localize a no site as receitas disponíves e selecione uma de sua preferência.|
+| 5             | Você é uma pessoa que deseja cadastrar os alimentos ingeridos ao logo do dia. Encontre no site a função Resgitro de alimento e registre sua alimentação.
+
 
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1: Você é uma pessoa que deseja criar uma nova conta no NutriSchedule.
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
-|  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
-
-
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+| Usuário | Idade | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-------|-----------------|----------------------|---------------------------------|
+| 1       | 26    | SIM             | 5                    | 60.87 segundos                  |
+| 2       | 39    | SIM             | 5                    | 71.08 segundos                  |
+| 3       | 65    | SIM             | 5                    | 127.38 segundos                  |
+| 4       | 30    | SIM             | 5                    | 72.39 segundos                  |
+| 5       | 17    | SIM             | 5                    | 55.83 segundos                  |
+| **Média**     | -     | 100%           | 5.0                | 77.11 segundos                  |
+| **Tempo para conclusão pelo especialista** | -     | SIM | 5 | 41.33 segundos |
 
 
 
+    Comentários dos usuários: 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
+Cenário 2: Você é uma pessoa que deseja realizar alterações em sua conta no NutriSchedule. 
+
+| Usuário | Idade | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-------|-----------------|----------------------|---------------------------------|
+| 1       | 26    | SIM             | 5                    | 18.15 segundos                  |
+| 2       | 39    | SIM             | 5                    | 22.27 segundos                  |
+| 3       | 65    | SIM             | 4                    | 87.52 segundos                  |
+| 4       | 30    | SIM             | 5                    | 20.94 segundos                  |
+| 5       | 17    | SIM             | 5                    | 20.18 segundos                  |
+| **Média**     | -     | 100%           | 4.8                | 33.41 segundos                  |
+| **Tempo para conclusão pelo especialista** | -     | SIM | 5 | 17.56 segundos |
+
+
+    Comentários dos usuários: 
+
+Cenário 3: Você é uma pessoa que deseja calcular seu Índice de Massa Corporal (IMC).
+
+    Comentários dos usuários: 
+
+Cenário 4: Você é uma pessoa que deseja visualizar uma receita específica e saber os dados nutricionais.
+
+| Usuário | Idade | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-------|-----------------|----------------------|---------------------------------|
+| 1       | 26    | SIM             | 5                    | 6.10 segundos                  |
+| 2       | 39    | SIM             | 5                    | 7.57 segundos                  |
+| 3       | 65    | SIM             | 5                    | 18.92 segundos                  |
+| 4       | 30    | SIM             | 5                    | 9.14 segundos                  |
+| 5       | 17    | SIM             | 5                    | 6.80 segundos                  |
+| **Média**     | -     | 100%           | 5.0                | 9.11 segundos                  |
+| **Tempo para conclusão pelo especialista** | -     | SIM | 5 | 5.06 segundos |
+
+
+
+    Comentários dos usuários: 
+    
+Cenário 5: Você é uma pessoa que deseja cadastrar os alimentos ingeridos ao logo do dia.
+
+| Usuário | Idade | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-------|-----------------|----------------------|---------------------------------|
+| 1       | 26    | SIM             | 5                    |  segundos                  |
+| 2       | 39    | SIM             | 5                    |  segundos                  |
+| 3       | 65    | SIM             | 5                    |  segundos                  |
+| 4       | 30    | SIM             | 5                    |  segundos                  |
+| 5       | 17    | SIM             | 5                    | segundos                  |
+| **Média**     | -     | 100%           | 5.0                |  segundos                  |
+| **Tempo para conclusão pelo especialista** | -     | SIM | 5 |  segundos |
 
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
-
-
-
 
 ## Avaliação dos Testes de Usabilidade
 
