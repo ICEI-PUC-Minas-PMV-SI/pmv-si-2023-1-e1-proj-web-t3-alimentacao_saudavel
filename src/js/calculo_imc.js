@@ -1,17 +1,18 @@
-div.addEventListener('submit', function(event){
+document.getElementById("show-imc").addEventListener('click', function(event){
 	event.preventDefault();
+
+	var myImc = document.getElementById('imc-resultado');
+	if (myImc.style.display == "none"){
+		myImc.style.display = "block";
+	} else {
+		myImc.style.display = "none";
+	}
 
     const peso = document.getElementById('peso').value;
     const altura = document.getElementById('altura').value;
 
     const imc =  (peso / (altura * altura)).toFixed(2);
 
-	const value = document.getElementById('value');
-	let descripition = '';
-
-	value.classList.add('attention');
-
-	document.getElementById('infos').classList.remove('hidden');
 
 	if (imc < 18.5){
 		descripition =`IMC : ${imc} - Você está abaixo do seu peso ideal.`;
@@ -42,5 +43,4 @@ function dadosIMC (){
         alert('Faça seu cadastro se não ainda não tem');
     }
 }
-
 
