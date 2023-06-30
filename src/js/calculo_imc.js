@@ -42,7 +42,7 @@ function urlBaseApi(){
 //=====================================================
 
 URL = urlBaseApi() + "usuarios";
-calculaMetaAgua();
+calculaIMCcadastrado();
 
 //PARA USUÁRIO CADASTRADO
 
