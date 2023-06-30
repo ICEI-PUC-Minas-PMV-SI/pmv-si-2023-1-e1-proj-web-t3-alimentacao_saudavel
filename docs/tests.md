@@ -165,7 +165,7 @@ ________________________________________________________________________________
 |*Caso de Teste*                                 |*CT-08 - Cálculo do Índice de Massa Corporal (IMC) *                                         |
 |---|---|
 |Requisito Associado | RF-005 - A aplicação deve ter uma tela para cálculo do Índice de Massa Corporal para usuários cadastrados ou não.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar |
+|Link do vídeo do teste realizado: | [https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar ](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/54f9787e-1b73-411e-894f-f0c46850cd0d)|
 
 
 |*Caso de Teste*                                 |*CT-09 - Autogerenciamento dos Alimentos Ingeridos *                                         |
@@ -174,16 +174,16 @@ ________________________________________________________________________________
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar |
 
 
-|*Caso de Teste*                                 |*CT-10 - Compatibilidade com Navegadores *                                         |
+|*Caso de Teste*                                 |*CT-10 - Compatibilidade com Navegadores*                                         |
 |---|---|
 |Requisito Associado | RNF-001 - A aplicação deve ser compatível com diversos navegadores, sendo eles: Google Chrome, Mozilla Firefox e Safari. <br>  RNF-002 - O layout da aplicação deve ser intuitivo e de fácil entendimento.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar |
+|Link do vídeo do teste realizado: | *Google Chrome* [https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/e6cc55db-f2d1-4c9e-abc7-4f9b64801832) <br> *Mozilla Firefox* https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar <br> *Safari* [https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/538a0a19-8f0f-407b-89d1-392be1acda4d) |
 
 
 |*Caso de Teste*                                 |*CT-11 - Responsividade em Dispositivos Móveis *                                         |
 |---|---|
 |Requisito Associado | RNF-004 - O sistema deve ser responsivo para rodar em um dispositivos móvel.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar |
+|Link do vídeo do teste realizado: | [https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar ](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/89afcfbc-bc7a-4af3-a858-da95ad3ba1ba)|
 
 
 |*Caso de Teste*                                 |*CT-12 - Tempo de Processamento de Requisições *                                         |
