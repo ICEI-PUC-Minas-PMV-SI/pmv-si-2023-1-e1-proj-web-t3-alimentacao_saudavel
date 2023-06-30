@@ -84,9 +84,12 @@ A tela **Você conhece os alimentos que devem ser evitados?**, verificada na Fig
 Existem muitos alimentos que, se consumidos em excesso ou de forma inadequada, podem ser prejudiciais à saúde. Saber quais são esses alimentos e como evitá-los pode ajudar a prevenir uma série de doenças crônicas, como obesidade, diabetes, doenças cardíacas e câncer.
 
 
-<div align="center">
+
  
-![Alimentos a serem evitados](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/e8533bd2-fbb1-40e2-98ed-75882f27d5c9)
+<div align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/e8533bd2-fbb1-40e2-98ed-75882f27d5c9" width="500" height="600" alt="Alimentos a serem evitados">
+</div>
+
  <p align="center">
    Figura 6 - Alimentos que devem ser evitados
 </p>
