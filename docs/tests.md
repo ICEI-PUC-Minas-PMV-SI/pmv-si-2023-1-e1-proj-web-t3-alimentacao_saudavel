@@ -189,7 +189,7 @@ ________________________________________________________________________________
 |*Caso de Teste*                                 |*CT-12 - Tempo de Processamento de Requisições *                                         |
 |---|---|
 |Requisito Associado | RNF-006 - A aplicação deve processar requisições do usuário em no máximo 5s.|
-|Link do vídeo do teste realizado: | Foi utilizada a PageSpeed para realizar o teste de velocidade na página de receita: [https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/aae415f1-959d-42f6-8096-b355baaaefde) |
+|Link do vídeo do teste realizado: | Foi realizado um teste de velocidade na página de receita utilizando a ferramenta PageSpeed: [https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/aae415f1-959d-42f6-8096-b355baaaefde) |
 
 _________________________________________________________________________________________________________________________________________________
 
