@@ -7,7 +7,6 @@
     }
 }
 
-
 /* Tablet */
 @media (min-width:600px) {
     .insidebox {
@@ -19,7 +18,7 @@
 /* Desktop */
 @media (min-width:900px) {
     .insidebox {
-        padding: 2em;
+        padding: 1.3em;
         font-size: small;
     }
 }
