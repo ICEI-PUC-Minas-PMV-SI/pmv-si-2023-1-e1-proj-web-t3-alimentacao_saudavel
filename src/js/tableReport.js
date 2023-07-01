@@ -20,7 +20,9 @@ async function getAllRegistersFromUser() {
     // let id_usuario = 1;
     let params = `idUsuario=${id_usuario}`
 
-    console.log('URL DE BUSCA'+' ' + `${URL}?${params}`);
+    // UPDATE URL 
+    URL = urlBaseApi() + "registro_alimentar";
+    console.log('URL DE BUSCA getAllRegistersFromUser '+' ' + `${URL}?${params}`);
 
     var response = await fetch(`${URL}?${params}`);
     if (response.ok) {
@@ -91,8 +93,10 @@ async function getTableDataBase() {
 
     const container = document.querySelector('#myTableReport');
     console.log(container)
-    container.append(table);
-    container.append(document.createElement('container').style.height('100%'));
+    while (container.firstChild){
+        container.removeChild(container.firstChild);
+    }
+    container.appendChild(table);
 }
 
 
