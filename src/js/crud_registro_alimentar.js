@@ -26,7 +26,10 @@ async function getAlimentosRegistradosDB() {
     console.log('vou buscar na seguinte data', currentDate);
     let params = `idUsuario=${id_usuario}&idRefeicao=${currentRefeicao}&dataRegistro=${currentDate}`
 
-    console.log('URL DE BUSCA'+' ' + `${URL}?${params}`);
+
+    // UPDATE URL 
+    URL = urlBaseApi() + "registro_alimentar";
+    console.log(' getAlimentosRegistradosDB URL DE BUSCA'+' ' + `${URL}?${params}`);
 
     var response = await fetch(`${URL}?${params}`);
     if (response.ok) {
@@ -135,6 +138,9 @@ async function saveFoodEditDataBase() {
 
 // SALVA NO BANCO DE DADOS
 async function saveFoodDataBase(new_data_food) {
+    // UPDATE URL 
+    URL = urlBaseApi() + "registro_alimentar";
+    
     // RECUPERAR id DO REGISTRO ALIMENTAR
     let list_registros = await getAlimentosRegistradosDB();
     if (list_registros.length != 0) {
