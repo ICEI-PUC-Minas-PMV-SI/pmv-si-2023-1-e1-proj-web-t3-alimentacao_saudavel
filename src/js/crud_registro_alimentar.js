@@ -1,7 +1,15 @@
 
 // URL DA API DO REGISTRO ALIMENTAR CADASTRADOS - db_registro_alimentar.JSON
 // URL = 'http://localhost:3000/registro_alimentar'
-URL = urlBase + "registro_alimentar"
+URL = urlBaseApi() + "registro_alimentar"
+//============================================================()=====================================
+
+function urlBaseApi(){
+    if(window.location.href.includes("vercel"))
+        return "https://nutrischedule.vercel.app/api/"
+    else
+        return "http://localhost:3000/"
+}
 
 let currentRefeicao = null
 let currentDate = null
