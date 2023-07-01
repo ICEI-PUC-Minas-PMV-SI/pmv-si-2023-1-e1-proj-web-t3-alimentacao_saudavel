@@ -237,7 +237,7 @@ Cenário 1: Você é uma pessoa que deseja criar uma nova conta no NutriSchedule
 
 
 
-    Comentários dos usuários: 
+    Comentários dos usuários: Consegui fazer minha conta no site, achei a página de criação da conta o formulário é objetivo e prático, e percebi que a própria logo é interativa e posso voltar a página inicial através dela.
 
 
 
@@ -254,11 +254,11 @@ Cenário 2: Você é uma pessoa que deseja realizar alterações em sua conta no
 | **Tempo para conclusão pelo especialista** | -     | SIM | 5 | 17.56 segundos |
 
 
-    Comentários dos usuários: 
+    Comentários dos usuários: Na hora que tive que atualizar meus dados não tive dificuldades, contudo senti falta de algum botão para reverter minhas atualizações.
 
 Cenário 3: Você é uma pessoa que deseja calcular seu Índice de Massa Corporal (IMC).
 
-    Comentários dos usuários: 
+    Comentários dos usuários: Achei interessante as imagens para a definição de gênero, e gostei que o questinário está em uma página só. O que faltou foi mais informações sobre meu nível de imc.
 
 Cenário 4: Você é uma pessoa que deseja visualizar uma receita específica e saber os dados nutricionais.
 
@@ -274,7 +274,7 @@ Cenário 4: Você é uma pessoa que deseja visualizar uma receita específica e 
 
 
 
-    Comentários dos usuários: 
+    Comentários dos usuários: Tive facilidade de acessar todas as receitas em rápida respostas, gostei das inlustrações e da opção de poder avaliar a receita. Me chamou atenção as informações nutricionais da receita que não se acha em todas as páginas com esse mesmo ramo.
     
 Cenário 5: Você é uma pessoa que deseja cadastrar os alimentos ingeridos ao logo do dia.
 
