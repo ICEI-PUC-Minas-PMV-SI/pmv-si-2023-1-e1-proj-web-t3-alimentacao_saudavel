@@ -142,13 +142,7 @@
       "descricao": "Suco, Refrigerante, Peixe, Carne, Biscoitos, Carne, Carne, Chá, ",
       "id": 6
     },
-    {
-      "idUsuario": 1,
-      "dataRegistro": "01-04-2022",
-      "idRefeicao": 1,
-      "descricao": "Suco, Refrigerante, ",
-      "id": 7
-    },
+
     {
       "idUsuario": 1,
       "dataRegistro": "01-04-2022",
@@ -172,10 +166,17 @@
     },
     {
       "idUsuario": 1,
-      "dataRegistro": "24-04-2022",
+      "dataRegistro": "28-04-2022",
+      "idRefeicao": 1,
+      "descricao": "Pão, Queijo, Biscoitos, ",
+      "id": 12
+    },
+    {
+      "idUsuario": 1,
+      "dataRegistro": "28-04-2022",
       "idRefeicao": 2,
-      "descricao": "Feijão, ",
-      "id": 11
+      "descricao": "CARNE MOIDA  500 Unidade(s), ",
+      "id": 13
     }
   ]
 }

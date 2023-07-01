@@ -470,6 +470,48 @@ function fillWeekDays(data, qtd_days) {
 
 
 
+// MUDA STATE DO BUTTON MODE REPORT - NECESSÁRIO P CONFERIR RELATORIO
+function changeStateReport(id_selected) {
+    console.log(id_selected);
+    options = ['month_report', 'week_report', 'day_report'];
+    for (i=0; i<options.length; i++) {
+        if (id_selected === options[i]) {
+            document.querySelector(`#${options[i]}`).classList.add('active');
+        } else {
+            document.querySelector(`#${options[i]}`).classList.remove('active');
+        }
+    }
+}
+
+
+
+//generatePDF MUST MAKE SURE REPORT OPTIONS WAS SELECTED - id=selected_report
+async function generatePDF() {
+    // let report_btn = document.querySelector('#selected_report');
+    let opt_report_btn = document.querySelector('#selected_report').children;
+    console.log(opt_report_btn);
+
+    // DEVE VERIFICAR QUAL ESTÁ ATIVO NO FUTURO...
+    report_type_id = 'day_report';
+    console.log('THIS ID CONTAINS THE ACTIVE CLASS REQUIRED ' + report_type_id);
+    await createReportTable(report_type_id);
+
+}
+
+
+async function createReportTable(report_type_id) {
+    console.log('createReportTable  ' + report_type_id);
+
+    switch (report_type_id) {
+        case 'day_report':
+            await getTableDataBase();
+        case 'week_report':
+            await getTableDataBase();
+        case 'month_report':
+            await getTableDataBase();
+    }
+}
+
 
 // function addOneWeek(){
 //     // ULTIMO DIA PRESENTE = SABADO
