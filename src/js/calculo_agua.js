@@ -1,16 +1,6 @@
-// <<<<<<< Calculo-IMC
-// // const btn = document.querySelector("#meta");
-// // btn.addEventListener("click", function(e){
-// //     e.preventDefault();
-// //     const peso = document.querySelector("#peso");
-// // });
-// // URL DA API DE DADOS DE USUARIOS
-// URL = urlBaseApi() + "usuarios";
-// //============================================================()=====================================
-// =======
-// URL = urlBaseApi() + "usuarios";
-// >>>>>>> main
-// calculaMetaAgua();
+
+URL = urlBaseApi() + "usuarios";
+calculaMetaAgua();
 
 function urlBaseApi(){
     if(window.location.href.includes("vercel"))
