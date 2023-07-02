@@ -286,7 +286,7 @@ Cenário 5: Você é uma pessoa que deseja cadastrar os alimentos ingeridos ao l
 | 4       | 30    | SIM             | 5                    |  82.56 segundos                 |
 | 5       | 17    | SIM             | 5                    |  70.52 segundos                 |
 | **Média**     | -     | 100%           | 4.6             |  90.20 segundos                 |
-| **Tempo para conclusão pelo especialista** | -     | SIM | 65.2 |  segundos |
+| **Tempo para conclusão pelo especialista** | -     | SIM | 4 | 65.2 segundos |
 
     Comentários dos usuários: O processo de cadastro e edição dos registros alimentares é relativamente simples e intuitivo. A forma de conferência do relatório dos registros ainda não está funcionando totalmente, uma vez que o relatório final visualizado não apresenta ordem cronológica e retorna tudo que meu usuário cadastrou, independente do período selecionado (Mensal, Semanal ou Diário). Acredito que seja uma sugestão de melhoria, ainda assim, é funcional e atende a minha necessidade.  
 
