@@ -274,23 +274,21 @@ Cenário 4: Você é uma pessoa que deseja visualizar uma receita específica e 
 
 
 
-    Comentários dos usuários: Tive facilidade de acessar todas as receitas em rápida respostas, gostei das inlustrações e da opção de poder avaliar a receita. Me chamou atenção as informações nutricionais da receita que não se acha em todas as páginas com esse mesmo ramo.
+    Comentários dos usuários: Tive facilidade de acessar todas as receitas em rápida respostas, gostei das ilustrações e da opção de poder avaliar a receita. Me chamou atenção as informações nutricionais da receita que não se acha em todas as páginas com esse mesmo ramo.
     
 Cenário 5: Você é uma pessoa que deseja cadastrar os alimentos ingeridos ao logo do dia.
 
 | Usuário | Idade | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-------|-----------------|----------------------|---------------------------------|
-| 1       | 26    | SIM             | 5                    |  segundos                  |
-| 2       | 39    | SIM             | 5                    |  segundos                  |
-| 3       | 65    | SIM             | 5                    |  segundos                  |
-| 4       | 30    | SIM             | 5                    |  segundos                  |
-| 5       | 17    | SIM             | 5                    | segundos                  |
-| **Média**     | -     | 100%           | 5.0                |  segundos                  |
-| **Tempo para conclusão pelo especialista** | -     | SIM | 5 |  segundos |
+| 1       | 26    | SIM             | 5                    |  73.32 segundos                 |
+| 2       | 39    | SIM             | 4                    |  87.66 segundos                 |
+| 3       | 65    | SIM             | 4                    | 136.94 segundos                 |
+| 4       | 30    | SIM             | 5                    |  82.56 segundos                 |
+| 5       | 17    | SIM             | 5                    |  70.52 segundos                 |
+| **Média**     | -     | 100%           | 4.6             |  90.20 segundos                 |
+| **Tempo para conclusão pelo especialista** | -     | SIM | 65.2 |  segundos |
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: O processo de cadastro e edição dos registros alimentares é relativamente simples e intuitivo. A forma de conferência do relatório dos registros ainda não está funcionando totalmente, uma vez que o relatório final visualizado não apresenta ordem cronológica e retorna tudo que meu usuário cadastrou, independente do período selecionado (Mensal, Semanal ou Diário). Acredito que seja uma sugestão de melhoria, ainda assim, é funcional e atende a minha necessidade.  
 
 ## Avaliação dos Testes de Usabilidade
 
