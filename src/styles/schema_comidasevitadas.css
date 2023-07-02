@@ -1,10 +1,8 @@
-*{
-    font-family: 'Poppins', sans-serif;
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-footer {
-    background-color: #028F4B;
-}
-
 
 .nav-fluid-content{
   display: none;
@@ -27,15 +25,6 @@ footer {
   background-color: #F5F5F5
 }
 
-
-
-.texto p {
-  margin-bottom: 0;
-  text-indent: 1.5em;
-  margin-top: 0;
-  text-align: justify;
-  padding: 15px 10px;
-}
 @media (min-width: 992px) {
   .nav-fluid-content {
     display: flex;
@@ -43,63 +32,45 @@ footer {
   .nav-fluid-content-canvas {
     display: none;
   }
-}  
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
- 
+
+header {
+  background-color: #FFFFFF;
+  position: sticky;
+  top: 0;
+}
+
 main {
   background-color: #f1f1f1;
   flex-grow: 1;
   padding-top: 1em;
   padding-bottom: 1em;
-}  
-footer {
-  background-color: #028F4B;
-}
- 
-.down-orientation{
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-  }
-  
-  .sign-up-button {
-    font-size: 2vw;
-    display: block;
-    margin: auto;
-  }
-
-.conteiner{
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * .5);
-  padding-left: calc(var(--bs-gutter-x) * .5);
-  margin-right: auto;
-  margin-left: auto;
-}
-.col img{
-  width: 30%;
-  height: auto;
-  border-radius: 30px;
-  padding:auto;
-  margin: 20px 20px;
-}
-.text-service-info {
-  text-indent: 1.5em; 
-  text-align:justify;
-  font-size: 1.4vw;
 }
 
-.title-service-info {
+h1 {
   color: #028F4B;
   font-weight: 900;
 }
 
-.icon-size {
+footer {
+  background-color: #028F4B;
+}
+
+.text-service-info {
+  text-indent: 1.5em; 
+  text-align:justify;
+  font-size: 1.9vw;
+  }
+  
+.title-service-info {
+  color: #028F4B;
+  font-weight: 900;
   font-size: 4vw;
+}
+  
+
+.icon-size {
+  font-size: 6vw;
 }
 
 .down-orientation{
@@ -111,4 +82,13 @@ footer {
   font-size: 2vw;
   display: block;
   margin: auto;
+}
+
+.texto p {
+margin-bottom: 0;
+text-indent: 1.5em;
+margin-top: 0;
+text-align: justify;
+padding: 15px 10px;
+font-size: 110%;
 }

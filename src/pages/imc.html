@@ -107,7 +107,7 @@
                                         src="../Icones\Weighing.png" alt="Peso" title="Peso" height="50">
                                 </div>
                             </div>
-                            <input type="text" class="form-control border-success" placeholder="50 kg" aria-label="Input group example"
+                            <input type="text" class="form-control border-success" placeholder="50 kg" id="peso" aria-label="Input group example"
                                 aria-describedby="btnGroupAddon2">
                         </div>
     
@@ -116,7 +116,7 @@
                                 <div class="input-group-text border-success" id="btnGroupAddon2"><img src="../Icones\Length.png" alt="Altura"
                                         title="Altura" height="50"></div>
                             </div>
-                            <input type="text" class="form-control border-success" placeholder="2,15m" aria-label="Input group example"
+                            <input type="text" class="form-control border-success" placeholder="2.15m" id="altura" aria-label="Input group example"
                                 aria-describedby="btnGroupAddon2">
                         </div>
                     </div>
@@ -130,20 +130,10 @@
                 <!-- RESULTADO IMC -->
                 <div class="align-self-center" id="imc-resultado" style="display: none;">
                     <div class="card-footer bg-transparent border-success">Seu IMC é:
-                        <div class="mb-3 bg-transparent"><strong>Sobrepeso</strong></div>
+                        <div class="mb-3 bg-transparent"><strong id="resultado"></strong></div>
                     </div>
                 </div>
-                <script>
-                    document.getElementById("show-imc").addEventListener("click", function(){
-                        var myImc = document.getElementById("imc-resultado");
-                        if (myImc.style.display === "none") {
-                            myImc.style.display = "block";
-                        } else {
-                            myImc.style.display = "none";
-
-                        }
-                    });
-                </script>
+                
 
             </div>
 
@@ -175,5 +165,6 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-
+<script src="../js/main.js" crossorigin="anonymous"></script>
+<script src="../js/calculo_imc.js"></script>
 </html>

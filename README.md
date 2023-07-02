@@ -1,6 +1,6 @@
 <h1 align="center">NutriSchedule</h1> 
 
-![prato-de-tigela-de-buda-com-legumes-e-legumes-vista-do-topo](https://user-images.githubusercontent.com/125522668/228103942-827caa17-111c-48bc-9b2a-6b799ebaba3e.jpg)
+![Design sem nome (1)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/9ea1915c-b159-4151-a2df-536aa2915f63)
 
 `CURSO: Sistemas de Informação`
 
@@ -43,4 +43,4 @@ Com isso o projeto busca formas de auxiliar a pessoa a mapear melhor a sua alime
 
 # Aplicação
 
-<li><a href="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/"> NutriSchedule</a></li>
+<li><a href="https://nutrischedule.vercel.app"> NutriSchedule</a></li>

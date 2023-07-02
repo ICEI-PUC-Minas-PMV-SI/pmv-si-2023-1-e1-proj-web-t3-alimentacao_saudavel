@@ -1,12 +1,16 @@
-// const btn = document.querySelector("#meta");
-// btn.addEventListener("click", function(e){
-//     e.preventDefault();
-//     const peso = document.querySelector("#peso");
-// });
-// URL DA API DE DADOS DE USUARIOS
-URL = urlBaseApi() + "usuarios";
-//============================================================()=====================================
-calculaMetaAgua();
+// <<<<<<< Calculo-IMC
+// // const btn = document.querySelector("#meta");
+// // btn.addEventListener("click", function(e){
+// //     e.preventDefault();
+// //     const peso = document.querySelector("#peso");
+// // });
+// // URL DA API DE DADOS DE USUARIOS
+// URL = urlBaseApi() + "usuarios";
+// //============================================================()=====================================
+// =======
+// URL = urlBaseApi() + "usuarios";
+// >>>>>>> main
+// calculaMetaAgua();
 
 function urlBaseApi(){
     if(window.location.href.includes("vercel"))
@@ -25,7 +29,10 @@ function obterUsuarioLogadoId() {
   }
 }
 
+// <<<<<<< Calculo-IMC
 
+// =======
+// >>>>>>> main
 async function getDadosUser() {
   let id_usuario = obterUsuarioLogadoId();
   let params = `idUsuario=${id_usuario}`;
@@ -45,7 +52,10 @@ async function calculaMetaAgua() {
   console.log(peso);
 
   const metadeagua = (peso * 35);
-  //show in the page
+// <<<<<<< Calculo-IMC
+//   //show in the page
+// =======
+// >>>>>>> main
   document.getElementById('metagua').innerText = `${metadeagua} ml`;
 }
 

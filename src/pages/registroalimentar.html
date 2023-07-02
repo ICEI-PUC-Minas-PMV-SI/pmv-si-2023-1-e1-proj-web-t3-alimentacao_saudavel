@@ -11,25 +11,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
     <link href="../layout/schema_padrao.css" rel="stylesheet" >
     <link rel="stylesheet" href="../styles/reg_alim_schema.css">
- 
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
-         <script>
-             function generatePDF() {
-                 var pdf = new jsPDF({
-                     orientation: 'p',
-                     unit: 'mm',
-                     format: 'a5',
-                     putOnlyUsedFonts:true
-                     });
-                 pdf.text("Generate a PDF with JavaScript", 20, 20);
-                 pdf.text("published on APITemplate.io", 20, 30);
-                 pdf.addPage();
-                 pdf.text(20, 20, 'The second page');
-                 pdf.save('jsPDF_2Pages.pdf');
-             }
-         </script>
+
   </head>
 
 <body>
@@ -58,14 +40,14 @@
         </button>
         <div class="offcanvas offcanvas-end text-bg-dark bg-success" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
           <div class="offcanvas-header">
-            <i class="bi bi-person-circle"></i>
-            <a class="nav-link" href="login.html">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Login</h5>
-            </a>
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+              <li class="nav-item" id="login">
+                <a class="nav-link link-success" href="login.html">Login</a>
+              </li>
               <li class="nav-item">
                   <a class="nav-link link-success" href="imc.html">Calculo IMC</a>
               </li>
@@ -99,29 +81,53 @@
           <div class="bg-light shadow-lg border rounded p-3" style="width: 100%;"> <!--CONTAINER BASE TABELA-->
 
             <div class="d-flex m-3 justify-content-between">
-              <div class="mr-auto p-2 bi bi-calendar btn border-success text-success bg-white"> MAIO - 2023</div>
-
-              <div class="btn-group">
-                <button class="btn btn-success" data-mode="month">Mensal</button>
-                <button class="btn btn-success" data-mode="week">Semanal</button>
-                <button class="btn btn-success" data-mode="day">Diário</button>
+              <div class="mr-auto p-2 bi bi-calendar btn border-success text-success bg-white"
+               data-bs-toggle="modal" data-bs-target="#myCalendar" id="calendarSelector"></div>
+              <div class="btn-group btn-group-toggle" data-bs-toggle="buttons" id="selected_report">
+                <button class="btn btn-success" id="month_report" onclick="changeStateReport(id);">Mensal</button>
+                <button class="btn btn-success" id="week_report" onclick="changeStateReport(id);">Semanal</button>
+                <button class="btn btn-success" id="day_report" onclick="changeStateReport(id);">Diário</button>
               </div>
+              
+            </div>
 
+            <!-- MODAL 4 - CALENDARIO SELECTOR -->
+            <div class="modal modal-sm fade" id="myCalendar" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Selecione a Data</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <input type="date" class="form-control border-success" id="dataRegistro">
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="updateDateSelector();">Salvar</button>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <!--MENU CALENDARIO-->
-            <div class="d-flex bg-success p-4 rounded justify-content-between" style="height: 5em;"> 
-                <button class="js-cal-prev btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" style="width: 4em;"><</button>
-                <span class="d-flex btn-group btn-group-lg text-dark d-inline align-self-center">
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="segunda" >SEG</button>
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="terca" >TER</button>
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="quarta" >QUA</button>
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="quinta" >QUI</button>
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="sexta" >SEX</button>
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="sabado" >SAB</button>
-                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" id="domingo" >DOM</button>
-                </span>
-              <button class="js-cal-prev btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" style="width: 4em;">></button>
+            <div class="d-flex bg-success p-4 rounded justify-content-center style="height: 5em;"> 
+                <!-- <button class="js-cal-prev btn btn-default bg-light border-success text-success d-inline align-self-center insidebox"
+                 style="width: 4em;" onclick="removeOneWeek();"><</button> -->
+                <div class="d-flex btn-group btn-group-lg text-dark d-inline align-self-center">
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" onclick="changeDay(id)"  id="dayDom">DOM<br><h8 id="textNumDay"></h8></button>
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" onclick="changeDay(id)"  id="daySeg">SEG<br><h8 id="textNumDay"></h8></button>
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" onclick="changeDay(id)"  id="dayTer">TER<br><h8 id="textNumDay"></h8></button>
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" onclick="changeDay(id)"  id="dayQua">QUA<br><h8 id="textNumDay"></h8></button>
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" onclick="changeDay(id)"  id="dayQui">QUI<br><h8 id="textNumDay"></h8></button>
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" onclick="changeDay(id)"  id="daySex">SEX<br><h8 id="textNumDay"></h8></button>
+                  <button class="btn btn-default bg-light border-success text-success d-inline align-self-center insidebox" onclick="changeDay(id)"  id="daySab">SAB<br><h8 id="textNumDay"></h8></button>
+                </div>
+              <!-- <button class="js-cal-prev btn btn-default bg-light border-success text-success d-inline align-self-center insidebox"
+               style="width: 4em;" onclick="addOneWeek();">></button> -->
             </div> 
             <!-- FIM MENU CALENDARIO-->
 
@@ -132,19 +138,19 @@
                 <div class="card-body">
                   <img src="../Icones/Cafedamanha.png" height="50" class="d-inline align-items-center">
                   <h4 class="card-title text-success d-inline align-middle">Café da manhã</h4>
-                  <p class="card-text">01 xícara de café, 01 pão, 02 ovos</p>
-                  <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                    data-bs-target="#adiciona">+</button>
-                </div>
+                  <p class="card-text" id="breakfast_list"></p>
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#adiciona" onclick="openModal(1);">+</button>
+                </div> 
+                <!-- DEVE PASSAR O ID DA REFEIÇÃO PARA A SEÇÃO DE ADD ALIMENTO-->
               </div>
 
               <div class="card mb-3">
                 <div class="card-body">
                   <img src="../Icones/Almoco_Jantar.png" height="50" class="d-inline align-items-center">
                   <h4 class="card-title text-success d-inline align-middle">Almoço</h4>
-                  <p class="card-text">100 gramas de arroz, 2 pedaços de bife, 700ml de coca-cola</p>
-                  <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                    data-bs-target="#adiciona">+</button>
+                  <p class="card-text" id="lunch_list"></p>
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#adiciona" onclick="openModal(2);">+</button>
+                    <!-- DEVE PASSAR O ID DA REFEIÇÃO PARA A SEÇÃO DE ADD ALIMENTO-->
                 </div>
               </div>
 
@@ -152,9 +158,9 @@
                 <div class="card-body">
                   <img src="../Icones/Lanche.png" height="50" class="d-inline align-items-center">
                   <h4 class="card-title text-success d-inline align-middle">Lanche</h4>
-                  <p class="card-text">1 xícara de café, 5 biscoitos</p>
-                  <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                    data-bs-target="#adiciona">+</button>
+                  <p class="card-text" id="snack_list"></p>
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#adiciona" onclick="openModal(3);">+</button>
+                    <!-- DEVE PASSAR O ID DA REFEIÇÃO PARA A SEÇÃO DE ADD ALIMENTO-->
                 </div>
               </div>
 
@@ -162,9 +168,10 @@
                 <div class="card-body">
                   <img src="../Icones/Almoco_Jantar.png" height="50" class="d-inline align-items-center">
                   <h4 class="card-title text-success d-inline align-middle">Jantar</h4>
-                  <p class="card-text">100 gramas de arroz, 2 pedaços de bife, 700ml de coca-cola</p>
-                  <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                    data-bs-target="#adiciona">+</button>
+                  <p class="card-text" id="dinner_list"></p>
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#adiciona" onclick="openModal(4);">+</button>
+
+                    <!-- DEVE PASSAR O ID DA REFEIÇÃO PARA A SEÇÃO DE ADD ALIMENTO-->
                 </div>
               </div>
             </div>
@@ -177,12 +184,12 @@
             <div class="card-header bg-transparent border-success text-success">Objetivo diário:</div>
             <div class="card-body text-success">
               <img src="../Icones/food/Water Glass.png" height="50" class="d-inline align-items-center">
-              <h5 class="card-title d-inline align-middle">3500ml</h5>
+              <h5 class="card-title d-inline align-middle" id="metagua"></h5>
             </div>
           </div>
           <div class="align-self-center">
             <!-- <button class="btn btn-primary btn-md" type="button" id="generate-pdf" onclick="generatePDF()">CONFERIR RELATORIO</button> -->
-            <button class="btn bg-white border-success btn-md text-success" type="button" onclick="generatePDF">CONFERIR RELATORIO</button>
+            <button class="btn bg-white border-success btn-md text-success" type="button" data-bs-toggle="modal" data-bs-target="#my_table_modal" onclick="generatePDF()">CONFERIR RELATORIO</button>
           </div>
         </div>
       </div>
@@ -190,13 +197,14 @@
 
 
       <!--  INICIO MODAL 1 - REGISTRO ALIMENTOS-->
-      <div class="modal fade" id="adiciona" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+      <!-- <div class="modal fade" id="adiciona" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"> -->
+      <div class="modal" id="adiciona">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel">Registro de Alimentos</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+              <button class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
               <h6>Alimentos</h6>
@@ -205,44 +213,46 @@
                 <div class="form-group">
                   <label for="recipient-name" class="col-form-label mb-2">Alimento:</label>                  
                   <div class="add_icones_food">
-                    <a href="#"><img src="../Icones\food\Cola.png" alt="Refrigerante" title="Refrigerante" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Bread.png" alt="Pão" title="Pão" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Cafe.png" alt="Café" title="Café" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Cheese.png" alt="Queijo" title="Queijo" height="50"></a>
+                    <button id="Refrigerante" class="btn" onclick="addRegularFood(id)"><img src="../Icones/food/Cola.png" alt="Refrigerante" title="Refrigerante" height="50"></button>
+                    <button id="Pão" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Bread.png" alt="Pão" title="Pão" height="50"></button>
+                    <button id="Café" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Cafe.png" alt="Café" title="Café" height="50"></button>
+                    <button id="Queijo" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Cheese.png" alt="Queijo" title="Queijo" height="50"></button>
               
-                    <a href="#"><img src="../Icones\food\Cookie.png" alt="Biscoitos" title="Biscoitos" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Dessert.png" alt="Doces" title="Doces" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Eggs.png" alt="Ovos" title="Ovos" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Tea.png" alt="Chá" title="Chá" height="50"></a>
+                    <button id="Biscoitos" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Cookie.png" alt="Biscoitos" title="Biscoitos" height="50"></button>
+                    <button id="Doces" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Dessert.png" alt="Doces" title="Doces" height="50"></button>
+                    <button id="Ovos" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Eggs.png" alt="Ovos" title="Ovos" height="50"></button>
+                    <button id="Chá" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Tea.png" alt="Chá" title="Chá" height="50"></button>
 
-                    <a href="#"><img src="../Icones\food\French Bread.png" alt="Pão francês" title="Pão francês" height="50"></a>
-                    <a href="#"><img src="../Icones\food\French Fries.png" alt="Batata frita" title="Batata frita" height="50"></a>
-                    <a href="#"></a><img src="../Icones\food\Grains Of Rice.png" alt="Arroz" title="Arroz" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Group Of Fruits.png" alt="Fruta" title="Fruta" height="50"></a>
+                    <button id="Pão francês" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\French Bread.png" alt="Pão francês" title="Pão francês" height="50"></button>
+                    <button id="Batata frita" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\French Fries.png" alt="Batata frita" title="Batata frita" height="50"></button>
+                    <button id="Arroz" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Grains Of Rice.png" alt="Arroz" title="Arroz" height="50"></button>
+                    <button id="Fruta" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Group Of Fruits.png" alt="Fruta" title="Fruta" height="50"></button>
 
-                    <a href="#"><img src="../Icones\food\Hamburger.png" alt="Hamburger" title="Hamburger" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Juice Glass.png" alt="Suco" title="Suco" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Meat.png" alt="Carne" title="Carne" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Pizza.png" alt="Pizza" title="Pizza" height="50"></a>
+                    <button id="Hamburger" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Hamburger.png" alt="Hamburger" title="Hamburger" height="50"></button>
+                    <button id="Suco" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Juice Glass.png" alt="Suco" title="Suco" height="50"></button>
+                    <button id="Carne" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Meat.png" alt="Carne" title="Carne" height="50"></button>
+                    <button id="Pizza" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Pizza.png" alt="Pizza" title="Pizza" height="50"></button>
 
-                    <a href="#"><img src="../Icones\food\White Beans.png" alt="Hamburger" title="Hamburger" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Salad.png" alt="Suco" title="Suco" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Spaghetti.png" alt="Carne" title="Carne" height="50"></a>
-                    <a href="#"><img src="../Icones\food\Whole Fish.png" alt="Pizza" title="Pizza" height="50"></a>
+                    <button id="Feijão" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\White Beans.png" alt="Feijão" title="Feijão" height="50"></button>
+                    <button id="Salada" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Salad.png" alt="Salada" title="Salada" height="50"></button>
+                    <button id="Spaghetti" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Spaghetti.png" alt="Spaghetti" title="Spaghetti" height="50"></button>
+                    <button id="Peixe" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Whole Fish.png" alt="Peixe" title="Peixe" height="50"></button>
                     
                   </div>
                 </div>
               </form>
               <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                    data-bs-target="#exampleModalCenter">+</button>
+              data-bs-dismiss="modal" data-bs-target="#exampleModalCenter">+</button>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Adicionar</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salvar</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal" data-bs-toggle="modal"
+               data-bs-target="#edit_list_food" onclick="getAlimentosRegistrados();">Editar</button>
             </div>
           </div>
         </div>
-      </div> <!--FIM MODAL 1 - REGISTRO ALIMENTOS-->
+      </div> 
+      <!--FIM MODAL 1 - REGISTRO ALIMENTOS-->
 
 
 
@@ -256,108 +266,85 @@
           </div>
           <div class="modal-body">
             <h6>Alimentos</h6>
-            <p>Selecione os alimentos base que estão presentes em sua refeição ou adicione um novo.</p>
-            <form>
-
+            <p>Informe os alimentos que estiveram presentes em sua refeição.</p>
+            <form id='newAlimentForm'>
               <div class="form-group">
                 <div class="row m-2">
                   <label for="recipient-name" class="col-form-label">Alimento:</label>
-                  <div class="col" id="name_alimento">
-                    <input type="text" class="form-control" id="recipient-name">
+                  <div class="col">
+                    <input type="text" class="form-control" id="name_alimento">
                   </div>
 
                   <label for="recipient-name" class="col-form-label">Qtd:</label>
-                  <div class="col" id="value_quantidade">
-                    <input type="text" class="form-control" id="recipient-name">
+                  <div class="col">
+                    <input type="number" class="form-control" id="value_quantidade" min="0">
                   </div>
 
-                  <div class="col" id="unidade_alimento">
-                    <div class="dropdown">
-                      <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Unidade
-                      </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item" type="button">Unidade(s)</button>
-                        <button class="dropdown-item" type="button">Colher(es)</button>
-                        <button class="dropdown-item" type="button">Gramas</button>
-                        <button class="dropdown-item" type="button">Pedaço</button>
-                      </div>
-                    </div>
+                  <div class="col">
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example" id='unidade_alimento'>
+                      <option selected>Unidade(s)</option>
+                      <option>Colher(es)</option>
+                      <option>Gramas</option>
+                      <option>Pedaço(s)</option>
+                    </select>
                   </div>
+
                 </div>
               </div>
+            </form>
 
-
-              <div class="form-group">
-                <div class="row m-2">
-                  <label for="recipient-name" class="col-form-label">Alimento:</label>
-                  <div class="col" id="name_alimento">
-                    <input type="text" class="form-control" id="recipient-name">
-                  </div>
-
-                  <label for="recipient-name" class="col-form-label">Qtd:</label>
-                  <div class="col" id="value_quantidade">
-                    <input type="text" class="form-control" id="recipient-name">
-                  </div>
-
-                  <div class="col" id="unidade_alimento">
-                    <div class="dropdown">
-                      <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Unidade
-                      </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item" type="button">Unidade(s)</button>
-                        <button class="dropdown-item" type="button">Colher(es)</button>
-                        <button class="dropdown-item" type="button">Gramas</button>
-                        <button class="dropdown-item" type="button">Pedaço</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="form-group">
-                <div class="row m-2">
-                  <label for="recipient-name" class="col-form-label">Alimento:</label>
-                  <div class="col" id="name_alimento">
-                    <input type="text" class="form-control" id="recipient-name">
-                  </div>
-
-                  <label for="recipient-name" class="col-form-label">Qtd:</label>
-                  <div class="col" id="value_quantidade">
-                    <input type="text" class="form-control" id="recipient-name">
-                  </div>
-
-                  <div class="col" id="unidade_alimento">
-                    <div class="dropdown">
-                      <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Unidade
-                      </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item" type="button">Unidade(s)</button>
-                        <button class="dropdown-item" type="button">Colher(es)</button>
-                        <button class="dropdown-item" type="button">Gramas</button>
-                        <button class="dropdown-item" type="button">Pedaço</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                  data-bs-target="#exampleModalCenter">+</button>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-            <button type="button" class="btn btn-primary">Adicionar</button>
+            <button type="button" class="btn btn-primary" onclick="addSpecificFood();">Adicionar</button>
           </div>
         </div>
       </div>
-    </div><!--FIM MODAL 2 - REGISTRO ALIMENTOS PERSONALIZADO-->
+    </div>
+    <!--FIM MODAL 2 - REGISTRO ALIMENTOS PERSONALIZADO-->
+
+
+    <!-- MODAL 3 - EDITAR REGISTRO DE ALIMENTOS DO DIA  -->
+    <div class="modal modal-xl fade" id="edit_list_food" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Registro de Alimentos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <h6 id="refeicao_name_edit"></h6>
+                <label for="message-text" class="col-form-label">Alimentos registrados:</label>
+                <textarea class="form-control" id="alimentos_registrados_input"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="saveFoodEditDataBase();">Salvar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MODAL 4 - TABELA RELATORIO  -->
+    <div class="modal modal-xl fade" id="my_table_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="exampleModalLongTitle">NutriSchedule - Alimentos Consumidos no Período</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="myTableReport">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     </section>
@@ -382,15 +369,11 @@
     </ul>
   </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
-<<<<<<< Updated upstream
-=======
-  <script src="../js/main.js"></script>
-  <!-- TEM QUE REMOVER O CROSSORIGIN PARA FUNCIONAR crossorigin="anonymous" -->
-  <!-- <script src="../js/crud_registro_alimentar.js"></script> -->
-  <script src="../js/calculo_agua.js"></script>
->>>>>>> Stashed changes
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
+  <script src="../js/main.js"></script>
+  <script src="../js/crud_registro_alimentar.js"></script>
+  <script src="../js/tableReport.js"></script>
+
+  <script src="../js/calculo_agua.js"></script>
 </html>

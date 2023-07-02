@@ -1,0 +1,182 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Paulo Henriques",
+      "dataNascimento": "1998-01-18T00:00:00.000Z",
+      "peso": 75,
+      "altura": 1.8,
+      "idGenero": 1,
+      "email": "paulo.henrique@email.com",
+      "senha": "teste1",
+      "status": true
+    }
+  ],
+  "avaliacoes": [
+    {
+      "idUsuario": 1,
+      "idReceita": 5,
+      "nota": 5,
+      "avaliacaoReceita": "Essa receita é maravilhosa!"
+    },
+    {
+      "idUsuario": 2,
+      "idReceita": 3,
+      "nota": 1,
+      "avaliacaoReceita": "Muito ruim, não recomendo!"
+    },
+    {
+      "idUsuario": 3,
+      "idReceita": 4,
+      "nota": 3,
+      "avaliacaoReceita": "A receita é boa, mas poderia ser melhor."
+    },
+    {
+      "idUsuario": 3,
+      "idReceita": 6,
+      "nota": 4,
+      "avaliacaoReceita": "Gostei, mas precisa de ajustes."
+    },
+    {
+      "idUsuario": 4,
+      "idReceita": 8,
+      "nota": 5,
+      "avaliacaoReceita": "Essa receita é muito saborosa!"
+    },
+    {
+      "idUsuario": 10,
+      "idReceita": 1,
+      "nota": 3,
+      "avaliacaoReceita": "Poderia ser melhor, mas não é ruim."
+    },
+    {
+      "idUsuario": 7,
+      "idReceita": 2,
+      "nota": 2,
+      "avaliacaoReceita": "Tinha que ser mais cremoso."
+    },
+    {
+      "idUsuario": 3,
+      "idReceita": 7,
+      "nota": 4,
+      "avaliacaoReceita": "Gostei, mas pode ser mais nutritiva."
+    },
+    {
+      "idUsuario": 5,
+      "idReceita": 9,
+      "nota": 4,
+      "avaliacaoReceita": "Achei ok, mas não impressionou."
+    },
+    {
+      "idUsuario": 7,
+      "idReceita": 10,
+      "nota": 1,
+      "avaliacaoReceita": "Precisa de mais instruções, ficou confuso."
+    },
+    {
+      "id": "3f6a9804-f15a-4500-bc11-ef1449ff2e30",
+      "idUsuario": null,
+      "idReceita": 9,
+      "nota": 5,
+      "avaliacaoReceita": "Sensacional"
+    }
+  ],
+  "refeicao": [
+    {
+      "id": 1,
+      "nome_refeicao": "Café da manhã."
+    },
+    {
+      "id": 2,
+      "nome_refeicao": "Almoço."
+    },
+    {
+      "id": 3,
+      "nome_refeicao": "Lanche."
+    },
+    {
+      "id": 4,
+      "nome_refeicao": "Jantar."
+    }
+  ],
+  "registro_alimentar": [
+    {
+      "idUsuario": 1,
+      "dataRegistro": "24-04-2022",
+      "idRefeicao": 1,
+      "descricao": "Refrigerante, Pão, Café, Queijo, Biscoitos, EDITEIPão, ",
+      "id": 1
+    },
+    {
+      "idUsuario": 1,
+      "dataRegistro": "24-06-2023",
+      "idRefeicao": 1,
+      "descricao": "Pão, Café, Biscoitos, COCA-COLA 10 LITROS",
+      "id": 2
+    },
+    {
+      "idUsuario": 1,
+      "dataRegistro": "25-04-2022",
+      "idRefeicao": 3,
+      "descricao": "EDITEI O LANCHE...",
+      "id": 3
+    },
+    {
+      "idUsuario": 1,
+      "dataRegistro": "25-04-2022",
+      "idRefeicao": 4,
+      "descricao": "Salada, Peixe, Coca-cola 1 Unidade(s), Uma torta de maça",
+      "id": 4
+    },
+    {
+      "idUsuario": 1,
+      "dataRegistro": "24-04-2022",
+      "idRefeicao": 3,
+      "descricao": "Café, Queijo, Peixe, Suco, Vinicius",
+      "id": 5
+    },
+    {
+      "idUsuario": 1,
+      "dataRegistro": "01-04-2022",
+      "idRefeicao": 1,
+      "descricao": "Suco, Refrigerante, Peixe, Carne, Biscoitos, Carne, Carne, Chá, ",
+      "id": 6
+    },
+
+    {
+      "idUsuario": 1,
+      "dataRegistro": "01-04-2022",
+      "idRefeicao": 2,
+      "descricao": "Chá, Chá, Batata frita, OMI FDSAF",
+      "id": 8
+    },
+    {
+      "idUsuario": 1,
+      "dataRegistro": "01-04-2022",
+      "idRefeicao": 3,
+      "descricao": "Feijão, Peixe, FDGF 2 cojerres",
+      "id": 9
+    },
+    {
+      "idUsuario": 1,
+      "dataRegistro": "24-04-2022",
+      "idRefeicao": 2,
+      "descricao": "Feijão, Salada, Teste ALIMENTO 2 Gramas, ",
+      "id": 10
+    },
+    {
+      "idUsuario": 1,
+      "dataRegistro": "28-04-2022",
+      "idRefeicao": 1,
+      "descricao": "Pão, Queijo, Biscoitos, ",
+      "id": 12
+    },
+    {
+      "idUsuario": 1,
+      "dataRegistro": "28-04-2022",
+      "idRefeicao": 2,
+      "descricao": "CARNE MOIDA  500 Unidade(s), ",
+      "id": 13
+    }
+  ]
+}

@@ -3,6 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NutriSchedule</title>
+    <link rel="icon" href="../imgs/LogoNutrischedule.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
@@ -35,14 +36,14 @@
           </button>
           <div class="offcanvas offcanvas-end text-bg-dark bg-success" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
-              <i class="bi bi-person-circle"></i>
-              <a class="nav-link" href="login.html">
-                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Login</h5>
-              </a>
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                <li class="nav-item" id="login">
+                  <a class="nav-link link-success" href="login.html">Login</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link link-success" href="imc.html">Calculo IMC</a>
                 </li>
@@ -97,16 +98,17 @@
               <div class="carousel-item active">
                <a href="steak.html">
                  <img src="../imgs/steak-g3bbc95cb0_1280.jpg" class="d-block w-100" alt="Steak">
-               </a>
+
                  <div class="carousel-caption d-none d-md-block">
                     <h5 class="text-shadow">Steak</h5>
                     <p class="text-shadow">Um prato suculento e saudável para o seu paladar.</p>
                  </div>
               </div>
+                </a>
               <div class="carousel-item">
                 <a href="spaghettisquash.html">
                   <img src="../imgs/spaghetti-squash-g3055f81d6_1280.jpg" class="d-block w-100" alt="SpaghettiSquash">
-                </a>
+
                 <div class="carousel-caption d-none d-md-block">
                   <div class="image-container my-custom-container" style="display: flex; justify-content: center;">
                     <figure class="image-item" style="margin-right: 10px;">
@@ -125,11 +127,12 @@
                   <h5 class="text-shadow">Spaghetti Squash</h5>
                   <p class="text-shadow">Descubra uma alternativa saudável ao espaguete com essa receita de espaguete de abobrinha!</p>
                 </div>
-              </div>              
+              </div> 
+            </a>             
               <div class="carousel-item">
                 <a href="bolomilho.html">
                   <img src="../imgs/bread-g8acb0a5c1_1280.jpg" class="d-block w-100" alt="Bolodemilho">
-                </a>
+
                 <div class="carousel-caption d-none d-md-block">
                   <div class="image-container my-custom-container" style="display: flex; justify-content: center;">
                     <figure class="image-item" style="margin-right: 10px;">
@@ -144,11 +147,12 @@
                   <h5 class="text-shadow">Bolo de Milho Gluten e Lactose Free</h5>
                   <p class="text-shadow">Uma opção perfeita para quem segue uma dieta sem glúten. Comece preparando uma massa leve e fofa de bolo de milho.</p>
                 </div>
-              </div>              
+              </div> 
+            </a>             
               <div class="carousel-item">
                 <a href="graodebico.html">
                   <img src="../imgs/grao de bico-g9f5da2975_1280.jpg" class="d-block w-100" alt="graodebico">
-                </a>
+
                 <div class="carousel-caption d-none d-md-block">
                   <div class="image-container my-custom-container" style="display: flex; justify-content: center;">
                     <figure class="image-item" style="margin-right: 10px;">
@@ -167,11 +171,12 @@
                   <h5 class="text-shadow">Salada de Grão de Bico</h5>
                   <p class="text-shadow">Experimente uma salada refrescante e nutritiva de grão-de-bico!</p>
                 </div>
-              </div>              
+              </div> 
+            </a>             
               <div class="carousel-item">
                 <a href="espetovegan.html">
                   <img src="../imgs/espetinho vegano.jpg" class="d-block w-100" alt="EspetoVegano">
-                </a>
+
                 <div class="carousel-caption d-none d-md-block">
                   <div class="image-container my-custom-container" style="display: flex; justify-content: center;">
                     <figure class="image-item" style="margin-right: 10px;">
@@ -191,10 +196,11 @@
                   <p class="text-shadow">Compartilhe essa receita com amigos e familiares que apreciam uma culinária vegana.</p>
                 </div>
               </div>
+            </a>
               <div class="carousel-item">
                <a href="pastapesto.html">
                  <img src="../imgs/pasta-g92de81dd8_1280.jpg" class="d-block w-100" alt="Pastaalpesto">
-               </a>
+
                <div class="carousel-caption d-none d-md-block">
                 <div class="image-container my-custom-container" style="display: flex; justify-content: center;">
                   <figure class="image-item" style="margin-right: 10px;">
@@ -206,10 +212,11 @@
                     <p class="text-shadow">Aproveite esse prato clássico italiano cheio de sabor e aromas frescos.</p>
                  </div>
               </div>
+            </a>
               <div class="carousel-item">
                 <a href="pizzavegana.html">
                   <img src="../imgs/pizza-gd75bebb85_1280.jpg" class="d-block w-100" alt="PizzaVegan">
-                </a>
+
                 <div class="carousel-caption d-none d-md-block">
                   <div class="image-container my-custom-container" style="display: flex; justify-content: center;">
                     <figure class="image-item" style="margin-right: 10px;">
@@ -228,11 +235,12 @@
                   <h5 class="text-shadow">Pizza Vegana</h5>
                   <p class="text-shadow">Uma alternativa saudável e saborosa para satisfazer seus desejos de pizza.</p>
                 </div>
-              </div>              
+              </div>  
+            </a>            
               <div class="carousel-item">
                 <a href="soup.html">
                   <img src="../imgs/pumpkin-soup-gf7566cacb_1280.jpg" class="d-block w-100" alt="Pumpkin">
-                </a>
+
                 <div class="carousel-caption d-none d-md-block">
                   <div class="image-container my-custom-container" style="display: flex; justify-content: center;">
                     <figure class="image-item" style="margin-right: 10px;">
@@ -251,11 +259,12 @@
                   <h5 class="text-shadow">Creme de Abóbora Velouté com Toque de Especiarias</h5>
                   <p class="text-shadow">Desfrute desse creme aveludado, perfeito para um almoço reconfortante ou como entrada em um jantar especial.</p>
                 </div>
-              </div>              
+              </div>   
+            </a>           
               <div class="carousel-item">
                 <a href="saladagrega.html">
                   <img src="../imgs/salad-g3a51df335_1280.jpg" class="d-block w-100" alt="saladagrega">
-                </a>
+
                 <div class="carousel-caption d-none d-md-block">
                   <div class="image-container my-custom-container" style="display: flex; justify-content: center;">
                     <figure class="image-item" style="margin-right: 10px;">
@@ -269,11 +278,12 @@
                   <h5 class="text-shadow">Salada Grega</h5>
                   <p class="text-shadow">Uma explosão de sabores mediterrâneos.</p>
                 </div>
-              </div>              
+              </div>   
+            </a>           
               <div class="carousel-item">
                <a href="suflespinafre.html">
                  <img src="../imgs/quiche-gd3f4681c2_1280.jpg" class="d-block w-100" alt="sufle">
-               </a>
+
                <div class="carousel-caption d-none d-md-block">
                 <div class="image-container my-custom-container" style="display: flex; justify-content: center;">
                   <figure class="image-item" style="margin-right: 10px;">
@@ -285,6 +295,7 @@
                     <p class="text-shadow">Delicadeza e sabor em cada mordida</p>
                  </div> 
               </div>
+            </a>
            </div>
         </div>
       </section>
@@ -306,4 +317,5 @@
     </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script>
 </html>

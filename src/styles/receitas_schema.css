@@ -20,7 +20,7 @@ figcaption {
   .carousel-caption h5,
   .carousel-caption p {
     text-align: center;
-    font-size: 14px;
+    font-size: 2vw;
     width: 80%;
     margin: 10px auto;
   }
@@ -34,12 +34,12 @@ figcaption {
   }
 
   .carousel-caption .image-item img {
-    width: 20px;
-    height: 20px;
+    width: 5vw;
+    height: 5vw;
     margin-right: 5px;
   }
 
   .carousel-caption .image-item figcaption {
-    font-size: 10px;
+    font-size: 2vw;
   }
 }
