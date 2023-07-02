@@ -155,7 +155,7 @@ ________________________________________________________________________________
 |*Caso de Teste*                                 |*CT-09 - Autogerenciamento dos Alimentos Ingeridos *                                         |
 |---|---|
 |Requisito Associado | RF-011- A aplicação deve permitir que um usuário cadastrado autogerencie os alimentos ingeridos ao longo do dia. <br> RF-004 - A aplicação deve informar ao usuário cadastrado a quantidade que o mesmo deve ingerir de água de acordo com o peso dele. <br> RF-012 - A aplicação deve gerar relatório com os alimentos ingeridos pelo usuário cadastrado.  <br> RNF-007 - A aplicação deve disponibilizar um relatório de alimentação e deve poder ser obtido por download via formato PDF.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar |
+|Link do vídeo do teste realizado: | [https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/129123809/b111a35e-8a8b-4abc-97f3-647ae21fca09](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/129123809/b111a35e-8a8b-4abc-97f3-647ae21fca09)|
 
 
 |*Caso de Teste*                                 |*CT-10 - Compatibilidade com Navegadores*                                         |
