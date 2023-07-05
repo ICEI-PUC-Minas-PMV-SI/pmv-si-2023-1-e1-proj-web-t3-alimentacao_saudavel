@@ -30,13 +30,13 @@ Desenvolver uma aplicação que atenda aos usuários que precisam mudar seus há
 
 ## Objetivos específicos
 
--   Calcular as calorias do usuário com bases nos alimentos consumidos por ele.
--   Promover sugestões de rotinas com alimentos mais saudáveis e dicas de como organizar o tempo para o perda das calorias recomendáveis ou desejáveis para cada tipo de pessoa(sexo, idade, peso e altura).
--   Adicionar a aplicação receitas mais saudáveis com a utilização de produtos orgânicos.
--   Sugerir quantidade de água para o peso e altura do usuário.
+-   Informar ao usuário quais alimentos devem ser evitados em uma alimentação saudável.
+-   Fornecer informações detalhadas sobre os alimentos, destacando seus benefícios para a saúde.
+-   Adicionar receitas mais saudáveis à aplicação, incluindo sugestões de receitas adequadas para pessoas com intolerâncias ou  restrições alimentares.
+-   Sugerir a quantidade ideal de água com base no peso e altura do usuário.
 -   Indicar alimentos que devem ser consumidos durante o dia.
--   Inserir um medidor de **Índice de massa corporal (IMC).**
--   Fornecer um relatório semanal das metas atingidas.   
+-   Inserir um medidor de **Índice de massa corporal (IMC).** para auxiliar os usuários a monitorar sua composição corporal. 
+-   Fornecer um relatório completo dos alimentos ingeridos pelo usuário, oferecendo um registro detalhado para acompanhamento e análise.   
 
 ## Justificativa
 
