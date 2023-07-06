@@ -293,13 +293,13 @@ Cenário 5: Você é uma pessoa que deseja cadastrar os alimentos ingeridos ao l
 ## Avaliação dos Testes de Usabilidade
 
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Com base nos resultados obtidos, constatou-se que a aplicação web demonstrou uma taxa de sucesso satisfatória na interação dos usuários, uma vez que os cenários propostos foram concluídos com êxito.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+Além disso, a aplicação também obteve uma alta satisfação subjetiva por parte dos usuários durante a realização dos cenários propostos. Isso é evidenciado pelas médias das avaliações em cada cenário, que variaram entre 4 (bom) e 5 (ótimo).
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+No que diz respeito ao tempo necessário para concluir cada tarefa/cenário, observou-se uma discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Essa discrepância é, em certa medida, esperada, uma vez que o desenvolvedor já possui conhecimento prévio de toda a interface da aplicação, incluindo a posição dos elementos e a lógica de organização das páginas.
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
+No entanto, dado que a diferença foi significativa (por exemplo, 127 segundos - média dos usuários - em comparação com 41 segundos - especialista - no cenário um) e levando em consideração os comentários de alguns usuários, identificamos oportunidades de aprimoramento na usabilidade da aplicação.
 
 
 
