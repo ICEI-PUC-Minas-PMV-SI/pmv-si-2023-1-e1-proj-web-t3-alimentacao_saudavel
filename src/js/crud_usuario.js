@@ -132,7 +132,7 @@ async function updateUserPassword(){
 async function enviarEmailRecuperacaoSenha(){
     var usuario = await getUserByEmail();
 
-    if(usuario != null){
+    if(usuario.length > 0){
         Email.send({
             SecureToken : "dfbef122-8525-49bf-b1eb-1417137ad7cc",
             To : `${usuario[0].email}`,
