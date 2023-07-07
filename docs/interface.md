@@ -137,5 +137,11 @@ ________________________________________________________________________________
 
 ![Informacoes Nutricionais Userflow](img/FlowInformacoesNutricionais.png)
 
----
+### Registro Alimentar
 
+![Registro Alimentar Userflow](img/RegistroAlimentarFlow.png)
+
+### Calculo IMC
+
+![Calculo IMC Userflow](img/FlowCalculoIMC.png)
+---
