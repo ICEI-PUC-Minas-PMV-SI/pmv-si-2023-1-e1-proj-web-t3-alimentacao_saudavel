@@ -302,5 +302,7 @@ No que diz respeito ao tempo necessário para concluir cada tarefa/cenário, obs
 
 No entanto, dado que a diferença foi significativa (por exemplo, 127 segundos - média dos usuários - em comparação com 41 segundos - especialista - no cenário um) e levando em consideração os comentários de alguns usuários, identificamos oportunidades de aprimoramento na usabilidade da aplicação.
 
+Dessa forma, uma possível melhoria elencada tanto pelo time de desenvolvimento, quanto pelos usuários é em relação a forma de disponibilização do dos dados alimentares cadastrados. Assim, implementações como seleção de um período específico, e a disponibilização dos registros em ordem cronológica no relatório final emitido, facilitariam a conferência para avaliação posterior. Outrossim, a possibilidade de salvar e compartlhar as informações armazenadas são de grande valia, e compõem também a lista de implementação futura.
+
 
 
