@@ -28,5 +28,4 @@ A seguir, estão disponíveis os links para as apresentações técnicas do Nutr
 
 <p> Apresentamos a você o NutriSchedule, a plataforma revolucionária que irá transformar a maneira como você se relaciona com a nutrição. Neste vídeo de demonstração, você verá em primeira mão todas as funcionalidades e benefícios que o NutriSchedule tem a oferecer. Não perca a oportunidade de descobrir como simplificar e otimizar seus cuidados nutricionais. Assista agora!</p>
 
-* [Nutrischedule - Demonstração do Sistema](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/129123809/83ae298b-d91f-441d-a713-42c497667bf5)
-
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/129123809/83ae298b-d91f-441d-a713-42c497667bf5
