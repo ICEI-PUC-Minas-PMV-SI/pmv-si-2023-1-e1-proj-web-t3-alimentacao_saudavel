@@ -114,15 +114,13 @@ function calculoIMC(peso, altura) {
   var myImc = document.getElementById('imc-resultado');
   if (myImc.style.display == "none") {
     myImc.style.display = "block";
-  } else {
-    myImc.style.display = "none";
   }
 
   // MANTÉM DADOS ALTURA E PESO NA TELA
   document.getElementById('peso').value = peso;
   document.getElementById('altura').value = altura;
 
-  const imc = (peso / (altura * altura)).toFixed(2);
+  var imc = (peso / (altura * altura)).toFixed(2);
 
   if (imc < 18.5) {
     descripition = `IMC : ${imc} - Você está abaixo do seu peso ideal.`;
@@ -134,9 +132,33 @@ function calculoIMC(peso, altura) {
     descripition = `IMC : ${imc} - Cuidado! Você está com obesidade moderada.`;
   } else if (imc > 35 && imc <= 40) {
     descripition = `IMC : ${imc} - Cuidado! Você está com obesidade severa.`;
-  } else {
+  } else if (isNaN(imc)){
+    descripition = `Valores informados não são validos, tente novamente`;
+  } else{
     descripition = `IMC : ${imc} - Cuidado! Você está com obesidade morbida.`;
   }
 
   document.getElementById('resultado').textContent = descripition;
+}
+
+var botoesGenero = document.getElementsByClassName("selecao-genero");
+
+for (const botao of botoesGenero) {
+  botao.addEventListener('click', function(element){
+    selecionaGenero(botao)
+  });
+}
+
+function selecionaGenero(botao){;
+  var botaoHomem = document.getElementById("botao-homem");
+  var botaoMulher = document.getElementById("botao-mulher");
+
+  if(botao.id == "botao-mulher"){
+    botaoHomem.classList.remove("active")
+    botaoMulher.classList.toggle("active")
+  }
+  else{
+    botaoMulher.classList.remove("active")
+    botaoHomem.classList.toggle("active")
+  }
 }
