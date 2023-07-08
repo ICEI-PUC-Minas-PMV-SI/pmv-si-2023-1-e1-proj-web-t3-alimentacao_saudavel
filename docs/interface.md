@@ -133,7 +133,7 @@ ________________________________________________________________________________
 
 ![Alimentos não recomendados Userflow](img/FlowAlimentosEvitados.png)
 
-### Informacoes Nutricionais
+### Conhecer os Alimentos
 
 ![Informacoes Nutricionais Userflow](img/FlowInformacoesNutricionais.png)
 
