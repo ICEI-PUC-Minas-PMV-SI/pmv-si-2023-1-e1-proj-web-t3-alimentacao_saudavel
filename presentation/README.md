@@ -1,39 +1,35 @@
 # Apresentação
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
-
-Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
+A seguir, estão disponíveis os links para as apresentações técnicas do NutriSchedule, uma plataforma inovadora no campo da alimentação. Essas apresentações abordam aspectos específicos do projeto, desde sua concepção até o desenvolvimento final.
 
 
-* [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
-* [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
+<p> Na apresentação inicial, compartilhamos os principais elementos do NutriSchedule, proporcionando uma visão geral das funcionalidades técnicas do projeto. Essa apresentação marcou o início do desenvolvimento, apresentando a proposta, objetivos e metas do NutriSchedule. Essa etapa foi crucial para estabelecer o marco inicial do projeto para avançar no desenvolvimento.</p>
 
-O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
+* [NutriSchedule - Pitch inicial](../presentation/NutriSchedule%20-%20Pitch%20inicial.pdf) 
+
+
+<p> A apresentação final do NutriSchedule proporciona uma visão abrangente das funcionalidades, arquitetura e componentes técnicos do sistema. Os slides fornecem detalhes minuciosos sobre o processo de desenvolvimento desde o pitch inicial, destacando as decisões de design, as metodologias de desenvolvimento adotadas e as tecnologias implementadas. Essa apresentação é uma oportunidade para explorar em profundidade o percurso do projeto, apresentando de forma clara e concisa os aspectos fundamentais que moldaram o NutriSchedule em sua forma final.</p>
+
+* [Nutrischedule - Apresentação Final](../presentation/Nutrischedule.-.Apresentacao.Final.pdf) 
+
+
 
 ## Título do Projeto
 
-Nome e marca do projeto
+<h1 align="center">NutriSchedule</h1> 
 
-## Identidade Visual (Marca, Design)
+<div align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/125522668/3b21ee58-37ce-440a-81f1-688e9f8fdaf9" alt="LogoNutrischedule">
+</div>
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
 
-> **Links Úteis**:
-> - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
-> - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
-> - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos)
-
-## Conjunto de Slides (Estrutura)
-
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos. Os arquivos devem ser postados na pasta [presentation](../presentation)
- 
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
 
 ## Vídeo de demonstração
+
+<p> Apresentamos a você o NutriSchedule, a plataforma revolucionária que irá transformar a maneira como você se relaciona com a nutrição. Neste vídeo de demonstração, você verá em primeira mão todas as funcionalidades e benefícios que o NutriSchedule tem a oferecer. Não perca a oportunidade de descobrir como simplificar e otimizar seus cuidados nutricionais. Assista agora!</p>
+
+* [Vídeo de demonstração](../presentation/) 
+
 
 O grupo deverá gravar um vídeo de demonstração do site desenvolvido.
 
