@@ -28,16 +28,5 @@ A seguir, estão disponíveis os links para as apresentações técnicas do Nutr
 
 <p> Apresentamos a você o NutriSchedule, a plataforma revolucionária que irá transformar a maneira como você se relaciona com a nutrição. Neste vídeo de demonstração, você verá em primeira mão todas as funcionalidades e benefícios que o NutriSchedule tem a oferecer. Não perca a oportunidade de descobrir como simplificar e otimizar seus cuidados nutricionais. Assista agora!</p>
 
-* [Vídeo de demonstração](../presentation/) 
-
-
-O grupo deverá gravar um vídeo de demonstração do site desenvolvido.
-
-> **Algumas informações úteis**
-> - O vídeo deve se limitar a 5 minutos e deve apresentar os objetivos do projeto antes de mostrar o sistema desenvolvido.
-> - O vídeo deve possuir uma narração que explica o que está sendo apresentado.
-> - Foque nas principais tarefas que o seu sistema desenvolveu. Não é necessário apresentar cada detalhe implementado.
-> - Não é necessário que todos os integrantes do grupo participem da gravação.
-> - Não é necessário que a face de algum integrante do grupo apareça na gravação.
-> - Uma ótima ferramenta open-source para gravação de vídeos é o [OBS](https://obsproject.com/pt-br/download)
+* [Nutrischedule - Demonstração do Sistema](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-alimentacao_saudavel/assets/129123809/83ae298b-d91f-441d-a713-42c497667bf5)
 
