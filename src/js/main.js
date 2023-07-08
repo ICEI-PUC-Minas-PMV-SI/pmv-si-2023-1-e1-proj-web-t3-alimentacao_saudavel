@@ -24,6 +24,7 @@ function personalizarPaginasComLogin(){
         montarDadosHeader("pages/", "index.html")
         retirarBotaoCadastro()
         prepararLogOff("index.html")
+        prepararLinks()
     }
     else{
         montarDadosHeader("", "../index.html")
@@ -79,6 +80,14 @@ function prepararLogOff(rota){
         }
     })
 
+}
+
+function prepararLinks(){
+    var links = document.getElementsByClassName('link-registro-alimentar')
+
+    for (const link of links) {
+        link.href = "pages/registroalimentar.html"   
+    }
 }
 
 function obterDadosUsuarioLogadoSessao(){
