@@ -2,17 +2,17 @@ cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title: NutriSchedule
 authors:
-  - family-names:Fideles Vieira
-    given-names:Italo
-  - family-names:Roman Palhano Dutra
-    given-names:Jully Anne
-  - family-names:Wandermurem
-    given-names:Mariana
-  - family-names:Pereira Coelho
-    given-names:Vinicius
+  - family-names: Fideles Vieira
+    given-names: Italo
+  - family-names: Roman Palhano Dutra
+    given-names: Jully Anne
+  - family-names: Wandermurem
+    given-names: Mariana
+  - family-names: Pereira Coelho
+    given-names: Vinicius
   - name-suffix: Professora
     affiliation: PUC Minas
-    family-names:de Nardin
+    family-names: De Nardin
     given-names: Luciana 
 keywords:
   - Nutrição
