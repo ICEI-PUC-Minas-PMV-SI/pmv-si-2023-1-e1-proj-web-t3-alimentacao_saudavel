@@ -10,7 +10,7 @@ A seguir, estão disponíveis os links para as apresentações técnicas do Nutr
 
 <p> A apresentação final do NutriSchedule proporciona uma visão abrangente das funcionalidades, arquitetura e componentes técnicos do sistema. Os slides fornecem detalhes minuciosos sobre o processo de desenvolvimento desde o pitch inicial, destacando as decisões de design, as metodologias de desenvolvimento adotadas e as tecnologias implementadas. Essa apresentação é uma oportunidade para explorar em profundidade o percurso do projeto, apresentando de forma clara e concisa os aspectos fundamentais que moldaram o NutriSchedule em sua forma final.</p>
 
-* [Nutrischedule - Apresentação Final](../presentation/Nutrischedule.-.Apresentacao.Final.pdf) 
+* [NutriSchedule - Apresentação Final](../presentation/Nutrischedule.-.Apresentacao.Final.pdf) 
 
 
 
