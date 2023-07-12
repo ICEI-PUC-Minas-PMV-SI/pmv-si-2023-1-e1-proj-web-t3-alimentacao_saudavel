@@ -21,7 +21,7 @@ Com isso o projeto busca formas de auxiliar a pessoa a mapear melhor a sua alime
 
 ## Orientador
 
-* Luciana de Nardin
+* Luciana De Nardin
 
 # Planejamento
 
