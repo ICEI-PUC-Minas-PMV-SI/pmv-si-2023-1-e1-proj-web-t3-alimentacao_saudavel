@@ -1,11 +1,7 @@
 
-async function handleCredentialResponse(response) {
-  console.log(response);
-  var tokenParts = response.credential.split('.');
-  var payload = tokenParts[1];
-  var decodedPayload = JSON.parse(atob(payload));
-  localStorage.setItem('decodedPayload', JSON.stringify(decodedPayload));
-  await loginGoogle(decodedPayload);
+import jwt_decode from 'jwt-decode';
+function handleCredentialResponse(response) {
+  var decoded = jwt_decode(response);console.log(decoded);
 }
 window.onload = function () {
   google.accounts.id.initialize({
