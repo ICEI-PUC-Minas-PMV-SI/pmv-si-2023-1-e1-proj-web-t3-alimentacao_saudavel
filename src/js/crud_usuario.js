@@ -57,6 +57,37 @@ async function registerUser(){
         idGenero : defineIdGender(),
         email : document.getElementById('inputEmail').value,
         senha : document.getElementById('inputNewPassword').value,
+        contaGoogle : false,
+        status : true,
+    })
+   
+    await fetch(URL, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: dadosUsuario
+    })
+    .then(res => res.json())
+    .then(() => location.reload());      
+
+    console.log(dadosUsuario)
+
+    window.location.href = '../index.html';
+}
+
+async function registerGoogleUser(tokenGoogle){
+    //obtem dados informados
+    var dadosUsuario = JSON.stringify({
+        id : generateUUID(),
+        nome : document.getElementById('inputName').value,
+        dataNascimento : new Date(document.getElementById('inputBirthday').value),
+        peso : parseFloat(document.getElementById('inputWeight').value),
+        altura : parseFloat(document.getElementById('inputHeight').value),
+        idGenero : defineIdGender(),
+        email : document.getElementById('inputEmail').value,
+        senha : tokenGoogle,
+        contaGoogle : true,
         status : true,
     })
    
@@ -208,6 +239,38 @@ function validateUserRegister(){
         alert ('As senhas informadas não são compativeis, favor inseri-las novamente!');
         document.getElementById('inputNewPassword').value = "";
         document.getElementById('inputConfirmPassword').value = "";
+    }
+}
+
+async function loginGoogle(dadosGoogle){
+    var resultadoLogin = false;
+    var usuarioCorrente ={};
+
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+
+    var dados = {
+        email : dadosGoogle.email,
+        senha : dadosGoogle.sub
+    };
+
+    var params = `email=${dados.email}&senha=${dados.senha}`
+    
+    var result = await getUser(params)
+    
+    if(result.length == 1){
+        usuarioCorrente.id = result[0].id;
+        usuarioCorrente.email = result[0].email;
+        usuarioCorrente.nome = result[0].nome;
+        sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
+        resultadoLogin = true;
+    };
+    
+    if(resultadoLogin){
+        window.location.href = '../index.html';
+    }
+    else{
+        window.location.href = 'cadastro_google.html'
     }
 }
 
