@@ -48,6 +48,24 @@ async function calculaMetaAgua() {
 // >>>>>>> main
   document.getElementById('metagua').innerText = `${metadeagua} ml`;
 }
+// Drink Water
+function drinkWater() {
+  const metaAguaElement = document.getElementById('metagua');
+  let metaAgua = parseInt(metaAguaElement.innerText.split(' ')[0]); // Extrai o valor numérico da meta
+  const passo = 250;
+
+  if (metaAgua >= passo) {
+    metaAgua -= passo;
+    metaAguaElement.innerText = `${metaAgua} ml`;
+
+    if (metaAgua === 0) {
+      document.getElementById('drinkWaterButton').setAttribute('disabled', 'true');
+      document.getElementById('drinkWaterButton').innerText = 'Objetivo alcançado';
+    }
+  } else {
+    alert('Você já atingiu sua meta diária de ingestão de água!');
+  }
+}
 
 
 
