@@ -27,3 +27,76 @@
 .modal {
     z-index: 999999;
   }
+
+
+.mySearchFood {
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+}
+
+.myLiElement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+    margin-top: 2px;
+    padding: 2px;
+    gap: 5px;
+}
+
+.myLiElement img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+}
+
+.myLiElement #inputAmount {
+    width: 7rem;
+    height: 2rem;
+}
+
+.myLiElement #selectMeasure {
+    width: 7rem;
+    height: 2rem;
+}
+
+
+.myLiElement #addFoodButton{
+    width: 2.5rem;
+    height: 2rem;
+}
+
+
+#myTableReport {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    word-wrap: break-word;
+    text-align: left;
+    padding: 8px;
+    /* border: 1px solid #dee2e6; */
+}
+
+#tableAmountKcal{
+    font-weight: bold;
+    border: 0;
+}
+
+
+
+#divButtonOptions {
+    display: block;
+}
+
+#divButtonOptions button {
+    margin-left: 2px;
+}

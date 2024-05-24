@@ -51,6 +51,7 @@ async function getTableDataBase() {
     table.classList.add('table');
     table.classList.add('table-bordered');
 
+
     
     // Create the table header row
     const headerRow = document.createElement('tr');

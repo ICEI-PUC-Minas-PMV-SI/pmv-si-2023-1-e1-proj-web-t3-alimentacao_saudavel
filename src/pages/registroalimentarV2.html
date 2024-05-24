@@ -191,7 +191,7 @@
           </div>
           <div class="align-self-center">
             <!-- <button class="btn btn-primary btn-md" type="button" id="generate-pdf" onclick="generatePDF()">CONFERIR RELATORIO</button> -->
-            <button class="btn bg-white border-success btn-md text-success" type="button" data-bs-toggle="modal" data-bs-target="#my_table_modal" onclick="generatePDF()">CONFERIR RELATORIO</button>
+            <button class="btn bg-white border-success btn-md text-success" id="btnCheckReportTable" type="button" data-bs-toggle="modal" data-bs-target="#my_table_modal" onclick="createReportTableV2()">CONFERIR RELATORIO</button>
           </div>
         </div>
       </div>
@@ -200,7 +200,7 @@
 
       <!--  INICIO MODAL 1 - REGISTRO ALIMENTOS-->
       <!-- <div class="modal fade" id="adiciona" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"> -->
-      <div class="modal" id="adiciona">
+      <div class="modal" id="adiciona" data-bs-backdrop="static">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -210,46 +210,25 @@
             </div>
             <div class="modal-body">
               <h6>Alimentos</h6>
-              <p>Selecione os alimentos base que estão presentes em sua refeição ou adicione um novo.</p>
+              <p>Procure os alimentos base que estão presentes em sua refeição ou adicione um novo.</p>
               <form>
                 <div class="form-group">
-                  <label for="recipient-name" class="col-form-label mb-2">Alimento:</label>                  
-                  <div class="add_icones_food">
-                    <button id="Refrigerante" class="btn" onclick="addRegularFood(id)"><img src="../Icones/food/Cola.png" alt="Refrigerante" title="Refrigerante" height="50"></button>
-                    <button id="Pão" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Bread.png" alt="Pão" title="Pão" height="50"></button>
-                    <button id="Café" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Cafe.png" alt="Café" title="Café" height="50"></button>
-                    <button id="Queijo" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Cheese.png" alt="Queijo" title="Queijo" height="50"></button>
-              
-                    <button id="Biscoitos" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Cookie.png" alt="Biscoitos" title="Biscoitos" height="50"></button>
-                    <button id="Doces" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Dessert.png" alt="Doces" title="Doces" height="50"></button>
-                    <button id="Ovos" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Eggs.png" alt="Ovos" title="Ovos" height="50"></button>
-                    <button id="Chá" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Tea.png" alt="Chá" title="Chá" height="50"></button>
+                  <label for="recipient-name" class="col-form-label mb-2">Busca por alimentos:</label>
 
-                    <button id="Pão francês" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\French Bread.png" alt="Pão francês" title="Pão francês" height="50"></button>
-                    <button id="Batata frita" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\French Fries.png" alt="Batata frita" title="Batata frita" height="50"></button>
-                    <button id="Arroz" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Grains Of Rice.png" alt="Arroz" title="Arroz" height="50"></button>
-                    <button id="Fruta" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Group Of Fruits.png" alt="Fruta" title="Fruta" height="50"></button>
+                  <input class="form-control" type="text" id="myInput" onkeyup="fetchFood()" placeholder="Digite um alimento..">    
+                  <ul id="mySearchFood">
+                  </ul>         
 
-                    <button id="Hamburger" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Hamburger.png" alt="Hamburger" title="Hamburger" height="50"></button>
-                    <button id="Suco" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Juice Glass.png" alt="Suco" title="Suco" height="50"></button>
-                    <button id="Carne" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Meat.png" alt="Carne" title="Carne" height="50"></button>
-                    <button id="Pizza" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Pizza.png" alt="Pizza" title="Pizza" height="50"></button>
-
-                    <button id="Feijão" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\White Beans.png" alt="Feijão" title="Feijão" height="50"></button>
-                    <button id="Salada" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Salad.png" alt="Salada" title="Salada" height="50"></button>
-                    <button id="Spaghetti" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Spaghetti.png" alt="Spaghetti" title="Spaghetti" height="50"></button>
-                    <button id="Peixe" class="btn" onclick="addRegularFood(id)"><img src="../Icones\food\Whole Fish.png" alt="Peixe" title="Peixe" height="50"></button>
-                    
-                  </div>
                 </div>
               </form>
-              <button type="button" class="btn btn-success" data-bs-toggle="modal"
-              data-bs-dismiss="modal" data-bs-target="#exampleModalCenter">+</button>
+              <!-- <button type="button" class="btn btn-success" data-bs-toggle="modal"
+              data-bs-dismiss="modal" data-bs-target="#exampleModalCenter">+</button> -->
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salvar</button>
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal" data-bs-toggle="modal"
-               data-bs-target="#edit_list_food" onclick="getAlimentosRegistrados();">Editar</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="saveFoodDatabase();">Salvar</button>
+              <!-- <button type="button" class="btn btn-primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#edit_list_food" onclick="getAlimentosRegistrados();">Editar</button> -->
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#my_table_modal" onclick="createReportTableV2();">Editar</button>
+ 
             </div>
           </div>
         </div>
@@ -375,8 +354,9 @@
 
   <!-- <script src="../js/main.js"></script> -->
   <script src="../js/crud_registro_alimentar.js"></script>
-  <script src="../js/tableReport.js"></script>
+  <!-- <script src="../js/tableReport.js"></script> -->
   <script src="../js/food_api.js"></script>
+  <script src="../js/report_table.js"></script>
 
   <script src="../js/calculo_agua.js"></script>
 </html>
