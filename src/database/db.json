@@ -1,7 +1,7 @@
 {
   "usuarios": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "Paulo Henriques",
       "dataNascimento": "1998-01-18T00:00:00.000Z",
       "peso": 75,
@@ -17,61 +17,71 @@
       "idUsuario": 1,
       "idReceita": 5,
       "nota": 5,
-      "avaliacaoReceita": "Essa receita é maravilhosa!"
+      "avaliacaoReceita": "Essa receita é maravilhosa!",
+      "id": "abd6"
     },
     {
       "idUsuario": 2,
       "idReceita": 3,
       "nota": 1,
-      "avaliacaoReceita": "Muito ruim, não recomendo!"
+      "avaliacaoReceita": "Muito ruim, não recomendo!",
+      "id": "2f95"
     },
     {
       "idUsuario": 3,
       "idReceita": 4,
       "nota": 3,
-      "avaliacaoReceita": "A receita é boa, mas poderia ser melhor."
+      "avaliacaoReceita": "A receita é boa, mas poderia ser melhor.",
+      "id": "04aa"
     },
     {
       "idUsuario": 3,
       "idReceita": 6,
       "nota": 4,
-      "avaliacaoReceita": "Gostei, mas precisa de ajustes."
+      "avaliacaoReceita": "Gostei, mas precisa de ajustes.",
+      "id": "38cd"
     },
     {
       "idUsuario": 4,
       "idReceita": 8,
       "nota": 5,
-      "avaliacaoReceita": "Essa receita é muito saborosa!"
+      "avaliacaoReceita": "Essa receita é muito saborosa!",
+      "id": "4e99"
     },
     {
       "idUsuario": 10,
       "idReceita": 1,
       "nota": 3,
-      "avaliacaoReceita": "Poderia ser melhor, mas não é ruim."
+      "avaliacaoReceita": "Poderia ser melhor, mas não é ruim.",
+      "id": "f5f0"
     },
     {
       "idUsuario": 7,
       "idReceita": 2,
       "nota": 2,
-      "avaliacaoReceita": "Tinha que ser mais cremoso."
+      "avaliacaoReceita": "Tinha que ser mais cremoso.",
+      "id": "5744"
     },
     {
       "idUsuario": 3,
       "idReceita": 7,
       "nota": 4,
-      "avaliacaoReceita": "Gostei, mas pode ser mais nutritiva."
+      "avaliacaoReceita": "Gostei, mas pode ser mais nutritiva.",
+      "id": "a483"
     },
     {
       "idUsuario": 5,
       "idReceita": 9,
       "nota": 4,
-      "avaliacaoReceita": "Achei ok, mas não impressionou."
+      "avaliacaoReceita": "Achei ok, mas não impressionou.",
+      "id": "e684"
     },
     {
       "idUsuario": 7,
       "idReceita": 10,
       "nota": 1,
-      "avaliacaoReceita": "Precisa de mais instruções, ficou confuso."
+      "avaliacaoReceita": "Precisa de mais instruções, ficou confuso.",
+      "id": "1a63"
     },
     {
       "id": "3f6a9804-f15a-4500-bc11-ef1449ff2e30",
@@ -83,100 +93,381 @@
   ],
   "refeicao": [
     {
-      "id": 1,
+      "id": "1",
       "nome_refeicao": "Café da manhã."
     },
     {
-      "id": 2,
+      "id": "2",
       "nome_refeicao": "Almoço."
     },
     {
-      "id": 3,
+      "id": "3",
       "nome_refeicao": "Lanche."
     },
     {
-      "id": 4,
+      "id": "4",
       "nome_refeicao": "Jantar."
     }
   ],
   "registro_alimentar": [
     {
+      "id": "b37a",
       "idUsuario": 1,
-      "dataRegistro": "24-04-2022",
+      "dataRegistro": "18-05-2024",
       "idRefeicao": 1,
-      "descricao": "Refrigerante, Pão, Café, Queijo, Biscoitos, EDITEIPão, ",
-      "id": 1
+      "foodName": "Bread",
+      "foodId": "food_a3049hmbqj5wstaeeb3udaz6uaqv",
+      "foodAmount": "5",
+      "foodMeasure": "Serving",
+      "foodWeight": "60",
+      "kcalValue": "274",
+      "measures": {
+        "Serving": "60",
+        "Whole": "384",
+        "Loaf": "384",
+        "Roll": "56",
+        "Stick": "56",
+        "Hunk": "29",
+        "Piece": "29",
+        "Slice": "29",
+        "Round": "28",
+        "Cube": "14.2",
+        "Box": "368.5",
+        "Package": "368.5",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000",
+        "Cup": "40"
+      }
     },
     {
+      "id": "5aa3",
       "idUsuario": 1,
-      "dataRegistro": "24-06-2023",
+      "dataRegistro": "18-05-2024",
       "idRefeicao": 1,
-      "descricao": "Pão, Café, Biscoitos, COCA-COLA 10 LITROS",
-      "id": 2
+      "foodName": "Nestle Coffe Mate Coffee Creamer",
+      "foodId": "food_a2vx50tacmrlrxbkqna5fb3w1uy3",
+      "foodAmount": "2",
+      "foodMeasure": "Serving",
+      "foodWeight": "931.566181203",
+      "kcalValue": "67.62804540482938",
+      "measures": {
+        "Serving": "14.786764781",
+        "Tablespoon": "14.786764781",
+        "Package": "931.566181203",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000",
+        "Milliliter": "0.9857843187333334"
+      }
     },
     {
+      "id": "0bcb",
       "idUsuario": 1,
-      "dataRegistro": "25-04-2022",
-      "idRefeicao": 3,
-      "descricao": "EDITEI O LANCHE...",
-      "id": 3
-    },
-    {
-      "idUsuario": 1,
-      "dataRegistro": "25-04-2022",
+      "dataRegistro": "18-05-2024",
       "idRefeicao": 4,
-      "descricao": "Salada, Peixe, Coca-cola 1 Unidade(s), Uma torta de maça",
-      "id": 4
+      "foodName": "Butter",
+      "foodId": "food_awz3iefajbk1fwahq9logahmgltj",
+      "foodAmount": "",
+      "foodMeasure": "Serving",
+      "foodWeight": "10",
+      "kcalValue": "717",
+      "measures": {
+        "Serving": "10",
+        "Whole": "113",
+        "Stick": "113",
+        "Cube": "28.4",
+        "Knob": "28.4",
+        "Piece": "14.2",
+        "Pat": "5",
+        "Slice": "5",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000",
+        "Tablespoon": "14.2",
+        "Cup": "227",
+        "undefined": "0.0136"
+      }
     },
     {
+      "id": "3ecd",
       "idUsuario": 1,
-      "dataRegistro": "24-04-2022",
-      "idRefeicao": 3,
-      "descricao": "Café, Queijo, Peixe, Suco, Vinicius",
-      "id": 5
+      "dataRegistro": "18-05-2024",
+      "idRefeicao": 4,
+      "foodName": "Chicken",
+      "foodId": "food_bmyxrshbfao9s1amjrvhoauob6mo",
+      "foodAmount": "2",
+      "foodMeasure": "Serving",
+      "foodWeight": "1000",
+      "kcalValue": "215",
+      "measures": {
+        "Serving": "250",
+        "Whole": "1200",
+        "Chicken": "1200",
+        "Breast": "196",
+        "Piece": "89.4",
+        "Slice": "28.3",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000",
+        "Cup": "140"
+      }
     },
     {
+      "id": "b2fd",
       "idUsuario": 1,
-      "dataRegistro": "01-04-2022",
+      "dataRegistro": "18-05-2024",
       "idRefeicao": 1,
-      "descricao": "Suco, Refrigerante, Peixe, Carne, Biscoitos, Carne, Carne, Chá, ",
-      "id": 6
+      "foodName": "Mandarin Orange",
+      "foodId": "food_a24i0asarijf6nbnhkbbrbgy91bw",
+      "foodAmount": "2",
+      "foodMeasure": "Serving",
+      "foodWeight": "195",
+      "kcalValue": "53",
+      "measures": {
+        "Serving": "109",
+        "Whole": "28.3",
+        "Piece": "28.3",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000",
+        "Cup": "195"
+      }
     },
-
     {
+      "id": "19ad",
       "idUsuario": 1,
-      "dataRegistro": "01-04-2022",
-      "idRefeicao": 2,
-      "descricao": "Chá, Chá, Batata frita, OMI FDSAF",
-      "id": 8
-    },
-    {
-      "idUsuario": 1,
-      "dataRegistro": "01-04-2022",
+      "dataRegistro": "18-05-2024",
       "idRefeicao": 3,
-      "descricao": "Feijão, Peixe, FDGF 2 cojerres",
-      "id": 9
+      "foodName": "Atum Tuna",
+      "foodId": "food_asx8c63atxf2heapb3cktbfhpu9p",
+      "foodAmount": "7",
+      "foodMeasure": "Serving",
+      "foodWeight": "55",
+      "kcalValue": "309.09090909090907",
+      "measures": {
+        "Serving": "55",
+        "Cup": "55",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000"
+      }
     },
     {
+      "id": "b8cd",
       "idUsuario": 1,
-      "dataRegistro": "24-04-2022",
-      "idRefeicao": 2,
-      "descricao": "Feijão, Salada, Teste ALIMENTO 2 Gramas, ",
-      "id": 10
+      "dataRegistro": "18-05-2024",
+      "idRefeicao": 3,
+      "foodName": "Cheese",
+      "foodId": "food_bhppgmha1u27voagb8eptbp9g376",
+      "foodAmount": "",
+      "foodMeasure": "Whole",
+      "foodWeight": "28",
+      "kcalValue": "403",
+      "measures": {
+        "Whole": "28",
+        "Block": "28",
+        "Piece": "28",
+        "Serving": "28",
+        "Slice": "28",
+        "Chip": "10",
+        "Package": "198",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000",
+        "Cup": "132",
+        "Cubic inch": "17"
+      }
     },
     {
+      "id": "8023",
       "idUsuario": 1,
-      "dataRegistro": "28-04-2022",
+      "dataRegistro": "18-05-2024",
+      "idRefeicao": 4,
+      "foodName": "Japanese Panko",
+      "foodId": "food_a9tnk2lbj0xkckbytqnx1ajhpqbp",
+      "foodAmount": "3",
+      "foodMeasure": "Package",
+      "foodWeight": "200",
+      "kcalValue": "350",
+      "measures": {
+        "Serving": "10",
+        "Whole": "200",
+        "Box": "200",
+        "Container": "200",
+        "Package": "200",
+        "Packet": "200",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000",
+        "Teaspoon": "1.2500000000634",
+        "Tablespoon": "3.7499999999366",
+        "Cup": "60"
+      }
+    },
+    {
+      "id": "a106",
+      "idUsuario": 1,
+      "dataRegistro": "18-05-2024",
       "idRefeicao": 1,
-      "descricao": "Pão, Queijo, Biscoitos, ",
-      "id": 12
+      "foodName": "Wine",
+      "foodId": "food_bw5p1agbubb4dubpm8r0yax8fjco",
+      "foodAmount": "2",
+      "foodMeasure": "Ounce",
+      "foodWeight": "748.135252278276",
+      "kcalValue": "83",
+      "measures": {
+        "Whole": "148",
+        "Serving": "148",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000",
+        "Bottle": "748.135252278276",
+        "Fluid ounce": "29.5"
+      }
     },
     {
+      "id": "8cdf",
       "idUsuario": 1,
-      "dataRegistro": "28-04-2022",
+      "dataRegistro": "19-05-2024",
+      "idRefeicao": 3,
+      "foodName": "Piknik Petit Biscuit",
+      "foodId": "food_awog2ycbzfhd3gah078r4b65y0ly",
+      "foodAmount": "2",
+      "foodMeasure": "Ounce",
+      "foodWeight": "1",
+      "kcalValue": "434",
+      "measures": {
+        "Serving": "35",
+        "Piece": "8.75",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000"
+      }
+    },
+    {
+      "id": "0066",
+      "idUsuario": 1,
+      "dataRegistro": "08-05-2024",
+      "idRefeicao": 3,
+      "foodName": "Churros",
+      "foodId": "food_bt00z7zab8kjvrbeo2mfoaykssbw",
+      "foodAmount": "3",
+      "foodMeasure": "Whole",
+      "foodWeight": "102.65019805411407",
+      "kcalValue": "336.44900758361297",
+      "measures": {
+        "Whole": "102.65019805411407",
+        "Serving": "102.65019805411407",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000",
+        "Milliliter": "1"
+      }
+    },
+    {
+      "id": "8679",
+      "idUsuario": 1,
+      "dataRegistro": "23-05-2024",
+      "idRefeicao": 1,
+      "foodName": "White Wheat Bread",
+      "foodId": "food_bwj0ujvbsgrpnoaifz0edandszvg",
+      "foodAmount": "2",
+      "foodMeasure": "Piece",
+      "foodWeight": "28",
+      "kcalValue": "238",
+      "measures": {
+        "Bread": "28",
+        "Piece": "28",
+        "Sandwich": "28",
+        "Serving": "28",
+        "Slice": "28",
+        "Whole": "448",
+        "Loaf": "448",
+        "Roll": "57",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000",
+        "Cup": "180"
+      }
+    },
+    {
+      "id": "c713",
+      "idUsuario": 1,
+      "dataRegistro": "23-05-2024",
+      "idRefeicao": 4,
+      "foodName": "Orange Juice",
+      "foodId": "food_bn7zicravp7kdrb8h9knhadt6kei",
+      "foodAmount": "1",
+      "foodMeasure": "Serving",
+      "foodWeight": "200",
+      "kcalValue": "45",
+      "measures": {
+        "Serving": "200",
+        "Whole": "86",
+        "Fruit": "86",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000",
+        "Cup": "248",
+        "Fluid ounce": "31"
+      }
+    },
+    {
+      "id": "10a5",
+      "idUsuario": 1,
+      "dataRegistro": "23-05-2024",
       "idRefeicao": 2,
-      "descricao": "CARNE MOIDA  500 Unidade(s), ",
-      "id": 13
+      "foodName": "Steak",
+      "foodId": "food_aregbrwb5q7z2db1h14uxaizfd9f",
+      "foodAmount": "2",
+      "foodMeasure": "Whole",
+      "foodWeight": "461",
+      "kcalValue": "228",
+      "measures": {
+        "Whole": "461",
+        "Roast": "1359",
+        "Steak": "461",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000"
+      }
+    },
+    {
+      "id": "84b5",
+      "idUsuario": 1,
+      "dataRegistro": "23-05-2024",
+      "idRefeicao": 2,
+      "foodName": "Water",
+      "foodId": "food_a99vzubbk1ayrsad318rvbzr3dh0",
+      "foodAmount": "2",
+      "foodMeasure": "Liter",
+      "foodWeight": "1000",
+      "kcalValue": "0",
+      "measures": {
+        "Serving": "237",
+        "Gram": "1",
+        "Ounce": "28.349523125",
+        "Pound": "453.59237",
+        "Kilogram": "1000",
+        "Cup": "236.5882365",
+        "Fluid ounce": "29.6",
+        "Liter": "1000"
+      }
     }
   ]
 }
