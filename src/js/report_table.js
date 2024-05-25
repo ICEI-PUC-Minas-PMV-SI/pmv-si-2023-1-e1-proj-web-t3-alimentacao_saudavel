@@ -39,7 +39,8 @@ async function createReportTableV2(){
     
     // Extract the keys from the first object to create table headers
     // let keys = Object.keys(data[0]);
-    let keys = ['id', 'dataRegistro', 'idRefeicao', 'foodName', 'foodMeasure', 'foodWeight', 'kcalValue'];
+    // let keys = ['id', 'dataRegistro', 'idRefeicao', 'foodName', 'foodAmount', 'foodMeasure', 'foodWeight', 'kcalValue'];
+    let keys = ['dataRegistro', 'idRefeicao', 'foodName', 'foodAmount', 'foodMeasure', 'kcalValue'];
     // console.log('keys ', keys);
     
     // Create table headers
@@ -155,6 +156,17 @@ function createCellData(row, keys, item){
             selectInput.label = item[key];
 
             cell.appendChild(selectInput);
+        } else if (key === "foodAmount"){
+            const amountInput = document.createElement("input");
+            amountInput.classList.add("form-control");
+            amountInput.classList.add("form-control-sm");
+            amountInput.disabled = true;
+
+            amountInput.value = item[key];
+
+            cell.appendChild(amountInput);
+        } else if (key === "kcalValue"){
+            cell.textContent = parseFloat(item[key]).toFixed(2);
         }
         
         else {
@@ -173,7 +185,14 @@ function sumkCAL(data){
 
     data.forEach(item => {
         const key = `${item.dataRegistro}_${item.idRefeicao}`;
-        sums[key] = (sums[key] || 0) + parseFloat(item.kcalValue);
+        const kcalPer100g = parseFloat(item.kcalValue);
+        const weightInGrams = parseFloat(item.foodWeight);
+        const kcalPerServing = (kcalPer100g / 100) * weightInGrams;
+        const totalKcal = kcalPerServing * (parseFloat(item.foodAmount || 1));
+        // console.log(`Calories per serving ${item.foodName}: ${totalKcal} KCAL || ${item.foodMeasure} ${weightInGrams} || ${item.kcalValue}`);
+
+        sums[key] = (sums[key] || 0) + totalKcal;
+
     });
     console.log(sums);
     return sums;
@@ -209,7 +228,7 @@ function createTotalAmountTable(data){
 
         cellDate.textContent = dataRegistro;
         cellMealName.textContent = getRefeicaoName(idRefeicao);
-        cellValueAmount.textContent = `${amountKcal[key]} Kcal`;
+        cellValueAmount.textContent = `${amountKcal[key].toFixed(2)} Kcal`;
 
         row.appendChild(cellDate);
         row.appendChild(cellMealName);
@@ -287,7 +306,7 @@ async function removeFood(idFood){
 
 function toggleDisabledPropertyFields(idFood){
     let foodHtmlElement = document.getElementById(idFood);
-    let editableFields = ['dataRegistro', 'idRefeicao', 'foodMeasure'];
+    let editableFields = ['dataRegistro', 'idRefeicao', 'foodMeasure', 'foodAmount'];
     editableFields.forEach(idEditField => {
         let htmlElement = foodHtmlElement.querySelector(`#${idEditField}`);
         htmlElement = htmlElement.querySelector(".form-control");
@@ -321,6 +340,9 @@ async function updateDataFood(idFood, data){
     let dataRegistro = htmlRowFood.querySelector("#dataRegistro");
     dataRegistro = dataRegistro.querySelector("input").value;
 
+    let foodAmount = htmlRowFood.querySelector("#foodAmount");
+    foodAmount = foodAmount.querySelector("input").value;
+
     let idRefeicao = htmlRowFood.querySelector("#idRefeicao");
     idRefeicao = idRefeicao.querySelector("select");
     idRefeicao = idRefeicao.options[idRefeicao.selectedIndex].value;
@@ -345,6 +367,7 @@ async function updateDataFood(idFood, data){
         id: idFood,
         dataRegistro: convertDateIntoDDMMYYYY(dataRegistro),
         idRefeicao: parseInt(idRefeicao),
+        foodAmount: foodAmount,
         foodMeasure: foodMeasure,
         foodWeight: newFoodWeight
     }
