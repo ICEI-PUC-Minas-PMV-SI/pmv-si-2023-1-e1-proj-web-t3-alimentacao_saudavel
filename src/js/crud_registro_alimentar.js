@@ -1,7 +1,7 @@
 
 // URL DA API DO REGISTRO ALIMENTAR CADASTRADOS - db_registro_alimentar.JSON
 // URL = 'http://localhost:3000/registro_alimentar'
-URL = urlBaseApi() + "registro_alimentar"
+URLBase = urlBaseApi() + "registro_alimentar"
 //============================================================()=====================================
 
 function urlBaseApi(){
@@ -28,10 +28,10 @@ async function getAlimentosRegistradosDB() {
 
 
     // UPDATE URL 
-    URL = urlBaseApi() + "registro_alimentar";
-    console.log(' getAlimentosRegistradosDB URL DE BUSCA'+' ' + `${URL}?${params}`);
+    URLBase = urlBaseApi() + "registro_alimentar";
+    console.log(' getAlimentosRegistradosDB URL DE BUSCA'+' ' + `${URLBase}?${params}`);
 
-    var response = await fetch(`${URL}?${params}`);
+    var response = await fetch(`${URLBase}?${params}`);
     if (response.ok) {
         let jsonData = await response.json();
         console.log('jsonData',jsonData);
@@ -139,19 +139,19 @@ async function saveFoodEditDataBase() {
 // SALVA NO BANCO DE DADOS
 async function saveFoodDataBase(new_data_food) {
     // UPDATE URL 
-    URL = urlBaseApi() + "registro_alimentar";
+    URLBase = urlBaseApi() + "registro_alimentar";
     
     // RECUPERAR id DO REGISTRO ALIMENTAR
     let list_registros = await getAlimentosRegistradosDB();
     if (list_registros.length != 0) {
         let id_registro = list_registros[0].id;
         httpMethod = 'PUT';
-        URL_REG_ALIM = `${URL}/${id_registro}`;
+        URL_REG_ALIM = `${URLBase}/${id_registro}`;
 
         console.log('ID REGISTRO ALIMENTAR', id_registro);
     } else {
         httpMethod = 'POST';
-        URL_REG_ALIM = `${URL}`;
+        URL_REG_ALIM = `${URLBase}`;
         console.log('NOVO REGISTRO ALIMENTAR');
 
     }
