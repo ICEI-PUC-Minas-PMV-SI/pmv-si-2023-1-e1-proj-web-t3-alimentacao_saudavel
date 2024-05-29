@@ -1,7 +1,7 @@
 
 // URL DA API DO REGISTRO ALIMENTAR CADASTRADOS - db_registro_alimentar.JSON
 // URL = 'http://localhost:3000/registro_alimentar'
-URL = urlBaseApi() + "registro_alimentar"
+URLBase = urlBaseApi() + "registro_alimentar"
 //============================================================()=====================================
 
 function urlBaseApi(){
@@ -21,10 +21,10 @@ async function getAllRegistersFromUser() {
     let params = `idUsuario=${id_usuario}`
 
     // UPDATE URL 
-    URL = urlBaseApi() + "registro_alimentar";
-    console.log('URL DE BUSCA getAllRegistersFromUser '+' ' + `${URL}?${params}`);
+    URLBase = urlBaseApi() + "registro_alimentar";
+    console.log('URL DE BUSCA getAllRegistersFromUser '+' ' + `${URLBase}?${params}`);
 
-    var response = await fetch(`${URL}?${params}`);
+    var response = await fetch(`${URLBase}?${params}`);
     if (response.ok) {
         let jsonData = await response.json();
         console.log('jsonData',jsonData);
@@ -103,10 +103,11 @@ async function getTableDataBase() {
 
 function getRefeicaoName(idRefeicao) {
     return {
-        1:"Café da manhã.", 
-        2:"Almoço.",
-        3:"Lanche.",
-        4:"Jantar."
+        1:"Café da manhã", 
+        2:"Almoço",
+        3:"Lanche",
+        4:"Jantar",
+        5:"Agua"
       }[idRefeicao]
 }
 
