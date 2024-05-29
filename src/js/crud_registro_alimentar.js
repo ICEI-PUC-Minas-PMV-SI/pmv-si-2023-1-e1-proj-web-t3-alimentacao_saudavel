@@ -22,8 +22,8 @@ loadDataBaseInfo();
 // GET - RETORNO DO QUE FOI CADASTRADO NO db_registro_alimentar
 async function getAlimentosRegistradosDB() {
     let id_usuario = obterUsuarioLogadoId();
-    console.log('vou buscar o seguinte id_usuario', id_usuario);
-    console.log('vou buscar na seguinte data', currentDate);
+    // console.log('vou buscar o seguinte id_usuario', id_usuario);
+    // console.log('vou buscar na seguinte data', currentDate);
     let params = `idUsuario=${id_usuario}&idRefeicao=${currentRefeicao}&dataRegistro=${currentDate}`
 
 
@@ -34,8 +34,8 @@ async function getAlimentosRegistradosDB() {
     var response = await fetch(`${URLBase}?${params}`);
     if (response.ok) {
         let jsonData = await response.json();
-        console.log('jsonData',jsonData);
-        console.log('jsonData.Value',jsonData.value);
+        // console.log('jsonData',jsonData);
+        // console.log('jsonData.Value',jsonData.value);
         return jsonData;
     } else {
         throw new Error('Erro retorno db');
@@ -46,7 +46,7 @@ async function getAlimentosRegistradosDB() {
 
 
 function openModal(triggerInfo) {
-    console.log('id_refeicao sent'+ ' ' + triggerInfo);
+    // console.log('id_refeicao sent'+ ' ' + triggerInfo);
     currentRefeicao = triggerInfo;
 }
 
@@ -58,7 +58,7 @@ async function getAlimentosRegistrados() {
     // textArea.value = myListFood.textContent;
 
     textoDB = await getAlimentosRegistradosDB();
-    console.log('RETORNO CADASTRADO NO BANCO :' + ' '+ textoDB[0].descricao);
+    // console.log('RETORNO CADASTRADO NO BANCO :' + ' '+ textoDB[0].descricao);
     textArea.value = textoDB[0].descricao;
 }
 
@@ -122,7 +122,7 @@ async function addSpecificFood() {
 async function saveFoodEditDataBase() {
     // let myListFood = document.getElementById(checkRefeicaoID(currentRefeicao));
     let textArea = document.getElementById("alimentos_registrados_input");
-    console.log('CONTEUDO EDITAR: ' + textArea.value);
+    // console.log('CONTEUDO EDITAR: ' + textArea.value);
     // ENVIA PARA SALVAR NO BD
     let new_data_food = {
         idUsuario : obterUsuarioLogadoId(),
@@ -148,12 +148,11 @@ async function saveFoodDataBase(new_data_food) {
         httpMethod = 'PUT';
         URL_REG_ALIM = `${URLBase}/${id_registro}`;
 
-        console.log('ID REGISTRO ALIMENTAR', id_registro);
+        // console.log('ID REGISTRO ALIMENTAR', id_registro);
     } else {
         httpMethod = 'POST';
         URL_REG_ALIM = `${URLBase}`;
         console.log('NOVO REGISTRO ALIMENTAR');
-
     }
 
     // let params = `idUsuario=${id_usuario}&idRefeicao=${id_refeicao}`
@@ -190,7 +189,7 @@ async function loadDataBaseInfo() {
         console.log('list_registros',list_registros);
         if (list_registros.length != 0) {
             let descricao_bd = list_registros[0].descricao;
-            console.log(currentRefeicao, descricao_bd);
+            // console.log(currentRefeicao, descricao_bd);
             myListFood.innerText = descricao_bd;
         } else {
             myListFood.innerText = '';
@@ -219,7 +218,7 @@ async function checkCurrentDate() {
     currentDate = `${day}-${monthOfYear}-${year}`;
     
 
-    console.log('currentDate:', currentDate);
+    // console.log('currentDate:', currentDate);
 
 
     let calendarButton = document.querySelector('#calendarSelector');
@@ -232,8 +231,8 @@ async function changeDay(id_day) {
     let calendarText = document.querySelector(`#${id_day}`);
     let dateValueSelected = calendarText.querySelector("#textNumDay").innerText
     // FORMART RETURN YYYY-MM-DD
-    console.log('dateValueSelected BOTAO', dateValueSelected);
-    console.log('dateSelected BOTAO', calendarText);
+    // console.log('dateValueSelected BOTAO', dateValueSelected);
+    // console.log('dateSelected BOTAO', calendarText);
 
     let dateArray = dateValueSelected.split('/');
     let day = parseInt(dateArray[0]);
@@ -242,16 +241,16 @@ async function changeDay(id_day) {
     let data_separada = currentDate.split('-');
     let year = parseInt(data_separada[2]);
 
-    console.log(day);
-    console.log(monthOfYear);
-    console.log(year);
+    // console.log(day);
+    // console.log(monthOfYear);
+    // console.log(year);
 
     //NEW CURRENT DAY
     day = String(day).padStart(2,'0');
     monthOfYear = String(monthOfYear).padStart(2,'0');
 
     currentDate = `${day}-${monthOfYear}-${year}`;
-    console.log('NEW currentDate:', currentDate);
+    // console.log('NEW currentDate:', currentDate);
 
     const monthsOfYear = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
     let monthName = monthsOfYear[parseInt(monthOfYear)-1];
@@ -269,7 +268,7 @@ async function updateDateSelector() {
     let calendarText = document.querySelector('#dataRegistro');
     let dateSelected = calendarText.value;
     // FORMART RETURN YYYY-MM-DD
-    console.log('dateSelected', dateSelected);
+    // console.log('dateSelected', dateSelected);
     let dateArray = dateSelected.split('-');
 
     let day = dateArray[2];
@@ -279,14 +278,14 @@ async function updateDateSelector() {
     const monthsOfYear = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
     let monthName = monthsOfYear[parseInt(monthOfYear)-1];
 
-    console.log('dateArray', dateArray);
-    console.log('day', day);
-    console.log('monthOfYear', monthOfYear);
-    console.log('year', year);
-    console.log('monthName', monthName);
+    // console.log('dateArray', dateArray);
+    // console.log('day', day);
+    // console.log('monthOfYear', monthOfYear);
+    // console.log('year', year);
+    // console.log('monthName', monthName);
 
     currentDate = `${day}-${monthOfYear}-${year}`;
-    console.log('currentDate:', currentDate);
+    // console.log('currentDate:', currentDate);
 
     let calendarButton = document.querySelector('#calendarSelector');
     calendarButton.innerText = ' ' + day + ' - '+ monthName + ' - ' + year;
@@ -298,8 +297,8 @@ async function updateDateSelector() {
 
 // ADD THE DAYS TO THE WEEK 
 async function highlightDayWeek() {
-    console.log('highlightDayWeek');
-    console.log(currentDate);
+    // console.log('highlightDayWeek');
+    // console.log(currentDate);
 
     let dateArray = currentDate.split('-');
     let day = parseInt(dateArray[0]);
@@ -313,7 +312,7 @@ async function highlightDayWeek() {
     const daysOfWeekID = [ "dayDom", "daySeg", "dayTer", "dayQua", "dayQui", "daySex", "daySab"];
     let idDayName = daysOfWeekID[dayHigh];
 
-    console.log('dateHighlight, ', idDayName);
+    // console.log('dateHighlight, ', idDayName);
     
 
     //THE CURRENT DAY HIGHLIGHT
@@ -389,22 +388,22 @@ async function highlightDayWeek() {
 
         case "dayQua":
             dom = document.querySelector(`#dayDom`);
-            console.log('dayDom');
+            // console.log('dayDom');
             dom.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, -3);
             seg = document.querySelector(`#daySeg`);
-            console.log('daySeg');
+            // console.log('daySeg');
             seg.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             ter = document.querySelector(`#dayTer`);
-            console.log('dayTer');
+            // console.log('dayTer');
             ter.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             qui = document.querySelector(`#dayQui`);
-            console.log('dayQui');
+            // console.log('dayQui');
             qui.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 2);
             sex = document.querySelector(`#daySex`);
-            console.log('daySex');
+            // console.log('daySex');
             sex.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             sab = document.querySelector(`#daySab`);
-            console.log('daySab');
+            // console.log('daySab');
             sab.querySelector("#textNumDay").innerText = fillWeekDays(dateHighlight, 1);
             break;
 
@@ -462,15 +461,15 @@ async function highlightDayWeek() {
 // CALCULATE THE DAYS 
 function fillWeekDays(data, qtd_days) {
     data.setDate(data.getDate() + qtd_days);
-    console.log('DT ORG: ',data);
-    console.log('QTD ADD: ',qtd_days);
+    // console.log('DT ORG: ',data);
+    // console.log('QTD ADD: ',qtd_days);
 
     day = String(data.getDate()).padStart(2,'0');
     monthOfYear = String(data.getMonth()+1).padStart(2,'0');
     year = data.getFullYear()
     formattedDate = `${day}/${monthOfYear}`;
 
-    console.log('formattedDate', formattedDate);
+    // console.log('formattedDate', formattedDate);
     return formattedDate;
 }
 
@@ -478,7 +477,7 @@ function fillWeekDays(data, qtd_days) {
 
 // MUDA STATE DO BUTTON MODE REPORT - NECESSÁRIO P CONFERIR RELATORIO
 function changeStateReport(id_selected) {
-    console.log(id_selected);
+    // console.log(id_selected);
     options = ['month_report', 'week_report', 'day_report'];
     for (i=0; i<options.length; i++) {
         if (id_selected === options[i]) {
@@ -495,11 +494,11 @@ function changeStateReport(id_selected) {
 async function generatePDF() {
     // let report_btn = document.querySelector('#selected_report');
     let opt_report_btn = document.querySelector('#selected_report').children;
-    console.log(opt_report_btn);
+    // console.log(opt_report_btn);
 
     // DEVE VERIFICAR QUAL ESTÁ ATIVO NO FUTURO...
     report_type_id = 'day_report';
-    console.log('THIS ID CONTAINS THE ACTIVE CLASS REQUIRED ' + report_type_id);
+    // console.log('THIS ID CONTAINS THE ACTIVE CLASS REQUIRED ' + report_type_id);
     await createReportTable(report_type_id);
 
 }
