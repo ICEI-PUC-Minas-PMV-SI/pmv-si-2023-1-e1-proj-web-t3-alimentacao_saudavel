@@ -1,6 +1,5 @@
 
 async function handleCredentialResponse(response) {
-  console.log(response);
   var tokenParts = response.credential.split('.');
   var payload = tokenParts[1];
   var decodedPayload = JSON.parse(atob(payload));
