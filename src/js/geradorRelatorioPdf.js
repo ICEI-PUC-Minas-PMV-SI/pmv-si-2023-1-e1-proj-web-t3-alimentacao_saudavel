@@ -79,9 +79,11 @@ async function GerarRelatorioEmPDF(){
 }
 
 async function enviarEmailPdfRelatorio(base64pdf){
+    let dadosUsuario = obterDadosUsuarioLogadoSessao()
+
     Email.send({
         SecureToken : "dfbef122-8525-49bf-b1eb-1417137ad7cc",
-        To : `vinicius.coelho.1404638@sga.pucminas.br`,
+        To : dadosUsuario.email,
         From : "nutrischedule@gmail.com",
         Subject : "Relatorio Registro Alimentar - Nutrischedule",
         Attachments : [

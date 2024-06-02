@@ -71,8 +71,6 @@ async function registerUser(){
     .then(res => res.json())
     .then(() => location.reload());      
 
-    console.log(dadosUsuario)
-
     window.location.href = '../index.html';
 }
 
@@ -91,19 +89,21 @@ async function registerGoogleUser(tokenGoogle){
         status : true,
     })
    
-    await fetch(URL, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: dadosUsuario
-    })
-    .then(res => res.json())
-    .then(() => location.reload());      
+    try{
+        const response = await fetch(URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: dadosUsuario
+        });
+        const jsonData = await response.json();
+        window.location.href = "../index.html";
+    }
+    catch(error){
+        alert("Erro ao registrar usuário!");
+    }
 
-    console.log(dadosUsuario)
-
-    window.location.href = '../index.html';
 }
 //=================================================================================================
 
