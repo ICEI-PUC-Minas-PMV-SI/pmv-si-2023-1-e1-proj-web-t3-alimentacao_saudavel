@@ -75,7 +75,7 @@ async function GerarRelatorioEmPDF(){
     var pdf = doc.output("datauristring")
 
     var base64pdf = pdf.split('base64,')[1]
-    // await enviarEmailPdfRelatorio(base64pdf)
+    await enviarEmailPdfRelatorio(base64pdf)
 }
 
 async function enviarEmailPdfRelatorio(base64pdf){
