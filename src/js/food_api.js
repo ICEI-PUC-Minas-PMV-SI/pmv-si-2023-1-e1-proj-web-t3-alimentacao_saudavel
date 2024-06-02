@@ -38,7 +38,7 @@ async function fetchFood() {
 
 
 async function showFoodsFound(foods){
-    console.log(foods);
+    // console.log(foods);
 
     let ul = document.getElementById("mySearchFood");
     ul.innerHTML = "";
@@ -122,7 +122,7 @@ function addFoodSelected(foodId){
     
     let foodData = {
         // idUsuario: obterUsuarioLogadoId(),
-        idUsuario: 1,
+        idUsuario: parseInt(obterUsuarioLogadoId()),
         dataRegistro: currentDate,
         idRefeicao: currentRefeicao,
         foodName: foodName,
@@ -136,14 +136,19 @@ function addFoodSelected(foodId){
     tempFoodData.push(foodData);
 
     // add foodName to the page
+    let newTextFoodContent = `${foodAmount} ${labelMeasure} of ${foodName} \n`;
+
     let myListFood = document.querySelector('#' + checkRefeicaoID(currentRefeicao));
-    let textNode = document.createTextNode(foodName + ', ');
-    myListFood.appendChild(textNode);
+    let fullDescription = myListFood.innerText;
+    fullDescription += newTextFoodContent;
+    // let textNode = document.createTextNode(textFoodContent);
+    // myListFood.appendChild(textNode);
+    myListFood.innerText = fullDescription;
 }
 
 
 async function saveFoodDatabase(){
-    console.log(tempFoodData);
+    // console.log(tempFoodData);
     let urlAddFoodDB = urlBaseApi() + "registro_alimentar";
 
     // POST FOODS IN db.json
@@ -160,6 +165,15 @@ async function saveFoodDatabase(){
     tempFoodData = [];
 }
 
+function getRefeicaoName(idRefeicao) {
+    return {
+        1: "Café da manhã.", 
+        2: "Almoço.",
+        3: "Lanche.",
+        4: "Jantar.",
+        5: "Agua"
+      }[idRefeicao]
+}
 
 function checkRefeicaoID(id_refeicao) {
     switch (id_refeicao) {

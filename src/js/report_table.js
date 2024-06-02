@@ -1,11 +1,10 @@
-
 // GET - RETORNO DO QUE FOI CADASTRADO NO db.json
 async function getAllRegistersFromUser() {
-    // let id_usuario = obterUsuarioLogadoId();
-    let id_usuario = 1;
-    let params = `idUsuario=${id_usuario}`
+    let id_usuario = parseInt(obterUsuarioLogadoId());
+    // let id_usuario = 1;
+    let params = `idUsuario=${id_usuario}`;
 
-    let urlFoodDatabase = urlBaseApi() + "registro_alimentar";
+    let urlFoodDatabase = URLBase + "registro_alimentar";
     // console.log('URL DE BUSCA getAllRegistersFromUser '+' ' + `${urlFoodDatabase}?${params}`);
 
     var response = await fetch(`${urlFoodDatabase}?${params}`);
@@ -64,12 +63,16 @@ async function createReportTableV2(){
       // row with cells added
       row = createCellData(row, keys, item);
 
-      // Add edit and remove option
-      let optionCell = row.insertCell(-1);
-      let divButtonOptions = createButtonOnTable(idFood, data);
-      optionCell.appendChild(divButtonOptions);
+      if (row){
+        // Add edit and remove option
+        let optionCell = row.insertCell(-1);
+        let divButtonOptions = createButtonOnTable(idFood, data);
+        optionCell.appendChild(divButtonOptions);
 
-      table.appendChild(row);
+        table.appendChild(row);
+      }
+
+      
     });
     // console.log(table);
     // console.log(table.children)
@@ -84,6 +87,7 @@ async function createReportTableV2(){
     }
     container.appendChild(table);
     container.appendChild(totalAmountTable);
+    container.appendChild(createButtonPDF());
 }
 
 function convertDateIntoYYYYMMDD(dateStr){
@@ -98,89 +102,94 @@ function convertDateIntoDDMMYYYY(dateStr){
 
 
 function createCellData(row, keys, item){
-    keys.forEach(key =>  {
-        const cell = document.createElement("td");
-        cell.setAttribute("id", key);
-
-        if (key === "dataRegistro" ){
-            const dateInput = document.createElement("input");
-            dateInput.setAttribute("type", "date");
-            dateInput.classList.add("form-control");
-            dateInput.classList.add("form-control-sm");
-            // dateInput.setAttribute("readonly", true);
-            dateInput.disabled = true;
-            dateInput.value = convertDateIntoYYYYMMDD(item[key]);
-
-            cell.appendChild(dateInput);
-        } else if(key === "idRefeicao"){
-            const selectInput = document.createElement("select");
-            selectInput.classList.add("form-control");
-            selectInput.classList.add("form-control-sm");
-            selectInput.disabled = true;
-
-            const options = [
-                {value: 1, text: "Café da manhã."},
-                {value: 2, text: "Almoço."},
-                {value: 3, text: "Lanche."},
-                {value: 4, text: "Jantar."},
-            ];
+    // IGNORA idRefeicao == 5 -> AGUA
+    if (item.idRefeicao !== 5){
+        keys.forEach(key =>  {
+            const cell = document.createElement("td");
+            cell.setAttribute("id", key);
+    
+            if (key === "dataRegistro" ){
+                const dateInput = document.createElement("input");
+                dateInput.setAttribute("type", "date");
+                dateInput.classList.add("form-control");
+                dateInput.classList.add("form-control-sm");
+                // dateInput.setAttribute("readonly", true);
+                dateInput.disabled = true;
+                dateInput.value = convertDateIntoYYYYMMDD(item[key]);
+    
+                cell.appendChild(dateInput);
+            } else if(key === "idRefeicao"){
+                const selectInput = document.createElement("select");
+                selectInput.classList.add("form-control");
+                selectInput.classList.add("form-control-sm");
+                selectInput.disabled = true;
+    
+                const options = [
+                    {value: 1, text: "Café da manhã."},
+                    {value: 2, text: "Almoço."},
+                    {value: 3, text: "Lanche."},
+                    {value: 4, text: "Jantar."},
+                ];
+                
+                options.forEach(option => {
+                    const opt = document.createElement("option");
+                    opt.value = option.value;
+                    opt.text = option.text;
+                    selectInput.appendChild(opt);
+                });
+    
+                selectInput.value = item[key];
+    
+                cell.appendChild(selectInput);
+            } else if (key === "foodMeasure"){
+                const selectInput = document.createElement("select");
+                selectInput.classList.add("form-control");
+                selectInput.classList.add("form-control-sm");
+                selectInput.disabled = true;
+    
+                let options = [];
+                let measures = item.measures;
+                Object.keys(measures).forEach(label => {
+                    options.push({value: measures[label], text: label});
+                });
+    
+                options.forEach(option => {
+                    const opt = document.createElement("option");
+                    opt.value = option.value;
+                    opt.text = option.text;
+                    selectInput.appendChild(opt);
+                });
+                selectInput.label = item[key];
+    
+                cell.appendChild(selectInput);
+            } else if (key === "foodAmount"){
+                const amountInput = document.createElement("input");
+                amountInput.classList.add("form-control");
+                amountInput.classList.add("form-control-sm");
+                amountInput.disabled = true;
+    
+                amountInput.value = item[key];
+    
+                cell.appendChild(amountInput);
+            } else if (key === "kcalValue"){
+                cell.textContent = parseFloat(item[key]).toFixed(2);
+            }
             
-            options.forEach(option => {
-                const opt = document.createElement("option");
-                opt.value = option.value;
-                opt.text = option.text;
-                selectInput.appendChild(opt);
-            });
-
-            selectInput.value = item[key];
-
-            cell.appendChild(selectInput);
-        } else if (key === "foodMeasure"){
-            const selectInput = document.createElement("select");
-            selectInput.classList.add("form-control");
-            selectInput.classList.add("form-control-sm");
-            selectInput.disabled = true;
-
-            let options = [];
-            let measures = item.measures;
-            Object.keys(measures).forEach(label => {
-                options.push({value: measures[label], text: label});
-            });
-
-            options.forEach(option => {
-                const opt = document.createElement("option");
-                opt.value = option.value;
-                opt.text = option.text;
-                selectInput.appendChild(opt);
-            });
-            selectInput.label = item[key];
-
-            cell.appendChild(selectInput);
-        } else if (key === "foodAmount"){
-            const amountInput = document.createElement("input");
-            amountInput.classList.add("form-control");
-            amountInput.classList.add("form-control-sm");
-            amountInput.disabled = true;
-
-            amountInput.value = item[key];
-
-            cell.appendChild(amountInput);
-        } else if (key === "kcalValue"){
-            cell.textContent = parseFloat(item[key]).toFixed(2);
-        }
-        
-        else {
-            cell.textContent = item[key];
-        }
-
-        row.appendChild(cell);
-      });
-    return row;
+            else {
+                cell.textContent = item[key];
+            }
+    
+            row.appendChild(cell);
+          });
+        return row;
+    } else {
+        return false;
+    }
 }
 
 
 function sumkCAL(data){
-    console.log(data);
+    // console.log(data);
     const sums = {};
 
     data.forEach(item => {
@@ -194,7 +203,7 @@ function sumkCAL(data){
         sums[key] = (sums[key] || 0) + totalKcal;
 
     });
-    console.log(sums);
+    // console.log(sums);
     return sums;
 }
 
@@ -277,7 +286,7 @@ function createButtonOnTable(idFood, data){
 
 
 async function removeFood(idFood){
-    let urlDeleteFood = urlBaseApi() + "registro_alimentar" + `/${idFood}`;
+    let urlDeleteFood = URLBase + "registro_alimentar" + `/${idFood}`;
     // console.log(urlDeleteFood);
     let response = await fetch(urlDeleteFood, {
         method: "DELETE"
@@ -372,7 +381,7 @@ async function updateDataFood(idFood, data){
         foodWeight: newFoodWeight
     }
 
-    let urlPatchFood = urlBaseApi() + "registro_alimentar" + `/${idFood}`;
+    let urlPatchFood = URLBase + "registro_alimentar" + `/${idFood}`;
     let response = await fetch(urlPatchFood, {
         method: "PATCH",
         headers: {
@@ -406,12 +415,15 @@ async function updateTotalAmountTable(){
     container.appendChild(newTotalTable);
 }
 
+function createButtonPDF(){
+    // <button class="btn bg-white border-success btn-md text-success" type="button" onclick="GerarRelatorioEmPDF()">Gerar PDF</button>
 
-function getRefeicaoName(idRefeicao) {
-    return {
-        1:"Café da manhã.", 
-        2:"Almoço.",
-        3:"Lanche.",
-        4:"Jantar."
-      }[idRefeicao]
+    let buttonHtmlElementPDF = document.createElement("button");
+    buttonHtmlElementPDF.classList.add("btn", "bg-white", "btn-md", "border-success", "button-hover-success");
+    buttonHtmlElementPDF.setAttribute("type", "button");
+    buttonHtmlElementPDF.setAttribute("id", "pdf-button");
+    buttonHtmlElementPDF.setAttribute("onclick", "GerarRelatorioEmPDF()");
+    buttonHtmlElementPDF.textContent = "Gerar PDF"
+
+    return buttonHtmlElementPDF;
 }
