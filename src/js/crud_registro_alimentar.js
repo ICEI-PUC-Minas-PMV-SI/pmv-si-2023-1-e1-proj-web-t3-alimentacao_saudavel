@@ -29,7 +29,7 @@ async function getAlimentosRegistradosDB() {
 
     // UPDATE URL 
     URLBase = urlBaseApi() + "registro_alimentar";
-    console.log(' getAlimentosRegistradosDB URL DE BUSCA'+' ' + `${URLBase}?${params}`);
+    // console.log(' getAlimentosRegistradosDB URL DE BUSCA'+' ' + `${URLBase}?${params}`);
 
     var response = await fetch(`${URLBase}?${params}`);
     if (response.ok) {
@@ -40,13 +40,11 @@ async function getAlimentosRegistradosDB() {
     } else {
         throw new Error('Erro retorno db');
     }
-
 }
 
 
 
 function openModal(triggerInfo) {
-    // console.log('id_refeicao sent'+ ' ' + triggerInfo);
     currentRefeicao = triggerInfo;
 }
 
@@ -152,7 +150,7 @@ async function saveFoodDataBase(new_data_food) {
     } else {
         httpMethod = 'POST';
         URL_REG_ALIM = `${URLBase}`;
-        console.log('NOVO REGISTRO ALIMENTAR');
+        // console.log('NOVO REGISTRO ALIMENTAR');
     }
 
     // let params = `idUsuario=${id_usuario}&idRefeicao=${id_refeicao}`
@@ -169,7 +167,7 @@ async function saveFoodDataBase(new_data_food) {
     });
 }
 
-async function loadDataBaseInfo() {
+async function loadDataBaseInfo2() {
     // CHECK ID USUARIO
     // let idUsuario = obterUsuarioLogadoId();
     // CHECK DIA
@@ -186,9 +184,9 @@ async function loadDataBaseInfo() {
         let myListFood = document.querySelector('#' + checkRefeicaoID(currentRefeicao));
 
 
-        console.log('list_registros',list_registros);
+        // console.log('list_registros',list_registros);
         if (list_registros.length != 0) {
-            let descricao_bd = list_registros[0].descricao;
+            let descricao_bd = list_registros[0].foodName;
             // console.log(currentRefeicao, descricao_bd);
             myListFood.innerText = descricao_bd;
         } else {
@@ -505,7 +503,7 @@ async function generatePDF() {
 
 
 async function createReportTable(report_type_id) {
-    console.log('createReportTable  ' + report_type_id);
+    // console.log('createReportTable  ' + report_type_id);
 
     switch (report_type_id) {
         case 'day_report':
