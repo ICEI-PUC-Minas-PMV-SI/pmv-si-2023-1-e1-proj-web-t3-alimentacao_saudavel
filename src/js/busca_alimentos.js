@@ -25,8 +25,23 @@ async function searchFood() {
         if (data.hints && data.hints.length > 0) {
             data.hints.forEach(item => {
                 const food = item.food;
+                const nutrients = food.nutrients;
                 const listItem = document.createElement('li');
-                listItem.textContent = `${food.label} - ${food.category}`;
+                listItem.innerHTML = `
+                    <div class="food-item">
+                        ${food.image ? `<img src="${food.image}" alt="${food.label}">` : ''}
+                        <div>
+                            <strong>${food.label}</strong><br>
+                            Categoria: ${food.category}<br>
+                            Marca: ${food.brand || 'N/A'}<br>
+                            Energia: ${nutrients.ENERC_KCAL ? nutrients.ENERC_KCAL + ' kcal' : 'N/A'}<br>
+                            Proteína: ${nutrients.PROCNT ? nutrients.PROCNT + ' g' : 'N/A'}<br>
+                            Gordura: ${nutrients.FAT ? nutrients.FAT + ' g' : 'N/A'}<br>
+                            Carboidratos: ${nutrients.CHOCDF ? nutrients.CHOCDF + ' g' : 'N/A'}<br>
+                            Fibra: ${nutrients.FIBTG ? nutrients.FIBTG + ' g' : 'N/A'}
+                        </div>
+                    </div>
+                `;
                 resultsContainer.appendChild(listItem);
             });
         } else {
