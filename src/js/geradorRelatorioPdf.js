@@ -1,45 +1,74 @@
 
 window.jsPDF = window.jspdf.jsPDF;
 
+
+function checkKeyTablePDF(idRefeicao) {
+    return {
+        1:"cafe_da_manha", 
+        2:"almoco",
+        3:"lanche",
+        4:"jantar",
+        5:"agua"
+      }[idRefeicao]
+}
+
+
 async function GerarRelatorioEmPDF(){
     var doc = new jsPDF('p', 'mm', 'a4');
-    var registros = await getAllRegistersFromUser()
+
+    //title
+    doc.setFontSize(22);
+    doc.text("NutriSchedule - Alimentos Consumidos no Período", 105, 20, null, null, 'center');
+
+    var registros = await getAllRegistersFromUser();
+    registros.sort((a,b) => a['dataRegistro'].localeCompare(b['dataRegistro']));
+
+    console.log(registros);
     
     var colunas = [
         { title: "Data", dataKey: "data" },
-        { title: "Café da Manhã", dataKey: "café da manhã" },
-        { title: "Almoço", dataKey: "almoço" },
+        { title: "Café da Manhã", dataKey: "cafe_da_manha" },
+        { title: "Almoço", dataKey: "almoco" },
         { title: "Lanche", dataKey: "lanche" },
         { title: "Jantar", dataKey: "jantar" },
         { title: "Água Consumida", dataKey: "agua" }
     ];
 
-    var dadosPorData = {};
-
+    var mappedData = [];
     registros.forEach(registro => {
-        var data = registro.dataRegistro;
-        var nomeRefeicao = getRefeicaoName(registro.idRefeicao);
 
-        if (!dadosPorData[data]) {
-            dadosPorData[data] = {
-                data: data,
-                cafe: "",
-                almoco: "",
-                lanche: "",
-                jantar: "",
-                agua: ""
-            };
+        if (registro.idRefeicao === 5) {
+            description = parseInt(registro.foodAmount)*250 + "ml";
+        }
+        else {
+            description = `${registro.foodAmount} ${registro.foodMeasure} of ${registro.foodName}`;
         }
 
-        if(nomeRefeicao.toLowerCase() == "agua")
-            dadosPorData[data][nomeRefeicao.toLowerCase()] = registro.descricao*250 + "ml";
-        else
-            dadosPorData[data][nomeRefeicao.toLowerCase()] = registro.descricao;
+        //ADD A NEW LINE AFTER EACH DIFF DAY WITH THE TOTAL AMOUNT OF KCAL
+        
+        mappedData.push(
+            {
+                data: registro.dataRegistro,
+                [checkKeyTablePDF(registro.idRefeicao)]: description,
+            }
+        );
+
     });
+    console.log(mappedData);
 
-    var dados = Object.values(dadosPorData);
+    var dados = Object.values(mappedData);
 
-    doc.autoTable(colunas, dados);
+    // doc.autoTable(colunas, dados);
+    doc.autoTable({
+        columns: colunas,
+        body: dados,
+        startY: 30,
+        headStyles: {
+            fillColor: "28a745",
+            textColor: "#fff",
+            fontStyle: "bold"
+        }
+    })
 
     doc.save('relatorio-alimentar.pdf');
 

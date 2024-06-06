@@ -91,8 +91,6 @@
     border: 0;
 }
 
-
-
 #divButtonOptions {
     display: block;
 }
@@ -100,3 +98,15 @@
 #divButtonOptions button {
     margin-left: 2px;
 }
+
+.button-hover-success {
+    font-weight: bold;
+    color: black;
+}
+
+.button-hover-success:hover {
+    background-color: #28a745 !important;
+    color: white !important;
+}
+
+
