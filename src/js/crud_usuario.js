@@ -68,13 +68,13 @@ async function registerUser(){
         },
         body: dadosUsuario
     })
-    .then(res => res.json())
-    .then(() => location.reload());      
+    .then(res => res.json());    
 
     window.location.href = '../index.html';
 }
 
 async function registerGoogleUser(tokenGoogle){
+    event.preventDefault();
     //obtem dados informados
     var dadosUsuario = JSON.stringify({
         id : generateUUID(),

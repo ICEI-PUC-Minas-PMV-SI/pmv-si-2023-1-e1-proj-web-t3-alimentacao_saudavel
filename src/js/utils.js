@@ -52,8 +52,8 @@ function filterResponseDatabase(jsonData, paramsFilter) {
     let [idUsuario, idRefeicao, dataRegistro] = paramsFilter;
 
     // Validate types
-    if (idUsuario !== undefined && typeof idUsuario !== 'number') {
-        throw new Error('idUsuario must be a number');
+    if (idUsuario == null) {
+        throw new Error('idUsuario must not be none');
     }
     if (idRefeicao !== undefined && typeof idRefeicao !== 'number') {
         throw new Error('idRefeicao must be a number');

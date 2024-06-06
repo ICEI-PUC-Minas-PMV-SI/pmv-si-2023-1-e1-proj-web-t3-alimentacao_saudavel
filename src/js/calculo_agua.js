@@ -20,9 +20,8 @@ function obterUsuarioLogadoId() {
   }
 }
 
-// >>>>>>> main
 async function getDadosUser() {
-  let id_usuario = parseInt(obterUsuarioLogadoId());
+  let id_usuario = obterUsuarioLogadoId();
   let params = `id=${id_usuario}`;
   let newURLBase = URLBase + "usuarios";
   let urlUser = `${newURLBase}?${params}`;
@@ -94,7 +93,7 @@ async function checkWaterRegisters(paramsFilter, urlWaterData) {
 }
 
 async function adicionarInsercaoAguaNoBanco(){
-  let idUsuario = parseInt(obterUsuarioLogadoId());
+  let idUsuario = obterUsuarioLogadoId();
   let idRefeicao = 5;
 
   let params = `idUsuario=${idUsuario}&idRefeicao=${idRefeicao}&dataRegistro=${currentDate}`;
@@ -170,7 +169,7 @@ async function updateWater(id, foodAmount) {
 
 async function obterRegistroDeAgua(){
   console.log('obterRegistroDeAgua CURRENT DATE -> ', currentDate);
-  let id_usuario = parseInt(obterUsuarioLogadoId());
+  let id_usuario = obterUsuarioLogadoId();
   let idRefeicao = 5;
 
   let params = `idUsuario=${id_usuario}&idRefeicao=${idRefeicao}&dataRegistro=${currentDate}`;
