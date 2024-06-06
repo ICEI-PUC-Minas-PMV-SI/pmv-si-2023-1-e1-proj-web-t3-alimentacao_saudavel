@@ -20,9 +20,8 @@ function obterUsuarioLogadoId() {
   }
 }
 
-// >>>>>>> main
 async function getDadosUser() {
-  let id_usuario = parseInt(obterUsuarioLogadoId());
+  let id_usuario = obterUsuarioLogadoId();
   let params = `id=${id_usuario}`;
   let newURLBase = URLBase + "usuarios";
   let urlUser = `${newURLBase}?${params}`;
