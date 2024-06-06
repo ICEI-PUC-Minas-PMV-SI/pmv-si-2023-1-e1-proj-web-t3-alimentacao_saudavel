@@ -8,41 +8,46 @@ figcaption {
   text-shadow: 2px 2px 4px black;
 }
 
-.carousel-item img {
-  max-height: 600px;
+
+
+
+
+
+.img-rounded {
+  border-radius: 20px; /* Bordas mais arredondadas */
+  width: 100%; /* Largura fixa para 100% do contêiner */
+  height: 250px; /* Altura fixa */
+  object-fit: cover; /* Garante que a imagem cubra o espaço designado sem perder sua proporção */
+  transition: transform 0.3s ease-in-out; /* Transição suave para o efeito de zoom */
 }
 
-@media screen and (max-width: 1000px) {
-  .carousel-caption {
-    display: block !important;
-  }
-
-  .carousel-caption h4,
-  .carousel-caption p {
-    text-align: center;
-    font-size: 2vw;
-    width: 80%;
-    margin: 10px auto;
-  }
-
-  .carousel-caption .image-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  .carousel-caption .image-item img {
-    width: 5vw;
-    height: 5vw;
-    margin-right: 5px;
-  }
-
-  .carousel-caption .image-item figcaption {
-    font-size: 2vw;
-  }
+/* Efeito de zoom ao passar o mouse */
+.categoria:hover .img-rounded {
+  transform: scale(1.1); /* Aumenta a imagem em 10% */
 }
+
+/* Estilização para posicionar o texto sobre a imagem */
+.categoria {
+  position: relative;
+  text-align: center; /* Centraliza o texto */
+}
+
+.categoria span {
+  position: absolute;
+  top: 50%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajuste fino para centralização perfeita */
+  color: white; /* Cor do texto */
+  font-weight: bold; /* Texto em negrito */
+  font-size: 24px; /* Tamanho do texto */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Contorno preto */
+  z-index: 10; /* Garante que o texto fique sobre a imagem */
+}
+
+
+
+
+
 
 .texto p {
   font-family: 'Poppins', sans-serif;
